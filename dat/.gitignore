@@ -1,0 +1,13 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!cdc/
+!eurostat/
+!hmdhfd/
+!japan/
+!ons/
+!stmf/
+!wpp22/
+!wpp24/
+!wppjoint
