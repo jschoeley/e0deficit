@@ -15,7 +15,7 @@ paths <- list()
 paths$input <- list(
   tmpdir = './tmp',
   config = './cfg/config.yaml',
-  global = './src/00-global.R',
+  global = './src/_global_functions.R',
   region = './cfg/region_metadata.csv',
   projectioninput = './out/30-analysisinput.rds'
 )
@@ -181,7 +181,7 @@ e0sensitivity$summary <-
 # Export ----------------------------------------------------------
 
 ExportFigure(
-  e0sensitivity$fig, paths$output$fig, filename = '90-e0sensitivity',
+  figure = e0sensitivity$fig, , filename = './out/90-e0sensitivity',
   width = 170, height = 190, device = 'pdf', scale = 1.4
 )
 write.xlsx(

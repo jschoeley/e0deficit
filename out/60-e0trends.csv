@@ -1,244 +1,244 @@
 group,region_iso,year,year_int,e0_actual,e0_expected_avg,e0_expected_q050,e0_expected_q950,e0_deficit_avg,e0_deficit_q050,e0_deficit_q950,region_code_iso3166_2_alpha3,country_code_iso3166_1,country_code_iso3166_1_alpha3,region_code_stmf,calendar_stmf,region_code_hmd,region_code_wpp,region_code_coverage,region_name_en,region_name_de,region_name_short,region_level,country_name,hemisphere,continent
-A First wave peak,BE,2010,2010,80.24366,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2011,2011,80.693923,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2012,2012,80.733972,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2013,2013,80.941997,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2014,2014,81.573559,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2015,2015,81.276069,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2016,2016,81.697641,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2017,2017,81.748315,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2018,2018,81.858509,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2019,2019,82.25711,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2020,2020,81.174669,82.454431,82.178571,82.724948,-1.279762,-1.556193,-0.99835,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2021,2021,82.0525,82.639764,82.26581,83.088991,-0.587264,-1.024276,-0.207053,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2022,2022,82.05143,82.838357,82.32512,83.360714,-0.786928,-1.301146,-0.243127,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2023,2023,82.724008,83.04811,82.45666,83.603372,-0.324102,-0.894266,0.266883,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2024,2024,82.861943,83.245951,82.591659,83.873556,-0.384008,-1.021256,0.286551,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-A First wave peak,BE,2020-2024,NA,82.155178,82.845106,82.404185,83.273518,-0.689928,-1.137506,-0.237069,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
-B Second wave peak,BG,2010,2010,73.594092,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2011,2011,74.137756,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2012,2012,74.458623,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2013,2013,75.155692,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2014,2014,74.854809,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2015,2015,74.934136,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2016,2016,75.248224,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2017,2017,75.172931,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2018,2018,75.231644,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2019,2019,75.400063,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2020,2020,74.118017,75.608617,75.259599,75.923307,-1.4906,-1.814822,-1.129565,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2021,2021,71.654227,75.810058,75.360452,76.248915,-4.155832,-4.619037,-3.740147,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2022,2022,74.569626,75.979433,75.504388,76.497058,-1.409807,-1.955298,-0.92124,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2023,2023,76.21318,76.179262,75.590059,76.760906,0.033918,-0.557493,0.598181,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2024,2024,76.40102,76.361016,75.706378,77.044296,0.040004,-0.61559,0.718182,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-B Second wave peak,BG,2020-2024,NA,74.454653,75.982502,75.527236,76.440308,-1.527849,-1.992413,-1.083771,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
-A First wave peak,CH,2010,2010,82.787513,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2011,2011,83.03263,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2012,2012,83.094007,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2013,2013,83.239389,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2014,2014,83.638462,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2015,2015,83.335847,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2016,2016,83.972377,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2017,2017,83.947423,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2018,2018,84.082489,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2019,2019,84.217089,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2020,2020,83.56318,84.396529,84.121199,84.643995,-0.833348,-1.095458,-0.551841,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2021,2021,84.162278,84.573863,84.192863,84.933236,-0.411585,-0.766585,-0.038891,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2022,2022,84.053276,84.745145,84.351192,85.175703,-0.691868,-1.114557,-0.267298,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2023,2023,84.658132,84.935347,84.504923,85.364766,-0.277215,-0.708035,0.155452,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2024,2024,85.131361,85.096044,84.593673,85.6188,0.035317,-0.475943,0.544684,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-A First wave peak,CH,2020-2024,NA,84.309908,84.75252,84.397743,85.097476,-0.442612,-0.78713,-0.087508,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
-B Second wave peak,CZ,2010,2010,77.475644,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2011,2011,77.944708,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2012,2012,78.305959,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2013,2013,78.519798,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2014,2014,79.134107,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2015,2015,78.851751,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2016,2016,79.350819,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2017,2017,79.236818,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2018,2018,79.283017,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2019,2019,79.530405,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2020,2020,78.535007,79.802817,79.435888,80.121389,-1.26781,-1.596545,-0.933882,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2021,2021,77.560603,80.044779,79.565759,80.484526,-2.484176,-2.91808,-1.999104,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2022,2022,79.364251,80.237799,79.663431,80.749266,-0.873548,-1.373883,-0.270049,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2023,2023,80.213378,80.424644,79.763557,81.065908,-0.211267,-0.897392,0.472888,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2024,2024,80.527046,80.61157,79.905276,81.349545,-0.084524,-0.842555,0.607782,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-B Second wave peak,CZ,2020-2024,NA,79.19765,80.224703,79.747081,80.688784,-1.027053,-1.499288,-0.544208,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-C Late peak,DE,2010,2010,80.000413,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2011,2011,80.301161,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2012,2012,80.535738,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2013,2013,80.537204,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2014,2014,81.388152,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2015,2015,80.821161,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2016,2016,80.986344,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2017,2017,81.035507,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2018,2018,80.888417,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2019,2019,81.279225,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2020,2020,81.092535,81.475315,81.029338,81.880333,-0.38278,-0.784318,0.052419,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2021,2021,80.875892,81.645898,81.06874,82.204174,-0.770006,-1.332751,-0.192479,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2022,2022,80.794891,81.779496,81.171305,82.445756,-0.984605,-1.642772,-0.367819,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2023,2023,81.378684,81.960187,81.205217,82.711289,-0.581504,-1.330323,0.175677,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2024,2024,81.752704,82.120952,81.273411,82.998132,-0.368248,-1.244658,0.481985,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2020-2024,NA,81.177581,81.794954,81.203279,82.381637,-0.617373,-1.207585,-0.029054,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DK,2010,2010,79.200642,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2011,2011,79.844618,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2012,2012,80.24382,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2013,2013,80.359047,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2014,2014,80.844543,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2015,2015,81.067459,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2016,2016,81.086208,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2017,2017,81.131446,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2018,2018,81.116144,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2019,2019,81.46263,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2020,2020,81.624753,81.647091,81.384758,81.908179,-0.022338,-0.292952,0.245059,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2021,2021,81.601402,81.863277,81.549305,82.219569,-0.261875,-0.606023,0.090955,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2022,2022,81.369659,82.072864,81.672262,82.541472,-0.703205,-1.140075,-0.293484,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2023,2023,81.914078,82.285351,81.816101,82.762358,-0.371274,-0.830293,0.143936,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2024,2024,82.544831,82.481628,81.945068,83.052044,0.063203,-0.513492,0.583991,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-C Late peak,DK,2020-2024,NA,81.810805,82.071755,81.737363,82.440464,-0.260951,-0.637047,0.082872,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
-B Second wave peak,EE,2010,2010,75.788359,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2011,2011,76.279148,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2012,2012,76.501108,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2013,2013,77.272353,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2014,2014,77.030801,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2015,2015,77.691438,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2016,2016,77.928549,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2017,2017,78.443512,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2018,2018,78.500536,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2019,2019,79.209576,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2020,2020,79.109299,79.449946,79.068458,79.815812,-0.340647,-0.764648,0.098425,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2021,2021,77.626172,79.786083,79.192451,80.347669,-2.159911,-2.779658,-1.512078,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2022,2022,78.554535,80.078743,79.42091,80.735541,-1.524208,-2.212454,-0.851035,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2023,2023,79.545336,80.364777,79.605875,81.078991,-0.819441,-1.535597,-0.061823,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2024,2024,79.724066,80.682469,79.820334,81.431051,-0.958403,-1.798282,-0.036642,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-B Second wave peak,EE,2020-2024,NA,78.894432,80.071472,79.522746,80.605989,-1.177039,-1.725283,-0.607922,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
-A First wave peak,ES,2010,2010,82.221773,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2011,2011,82.417624,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2012,2012,82.452006,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2013,2013,82.976287,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2014,2014,83.161473,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2015,2015,82.849,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2016,2016,83.296439,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2017,2017,83.25637,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2018,2018,83.32374,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2019,2019,83.74428,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2020,2020,82.567276,83.994806,83.691997,84.272854,-1.42753,-1.707876,-1.126794,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2021,2021,83.258876,84.193321,83.753672,84.614137,-0.934446,-1.354484,-0.492766,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2022,2022,83.336044,84.388339,83.90528,84.866235,-1.052295,-1.542933,-0.557864,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2023,2023,84.020453,84.562232,83.962718,85.113855,-0.541779,-1.079319,0.045948,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2024,2024,84.248501,84.738173,84.116865,85.361214,-0.489673,-1.110479,0.132671,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-A First wave peak,ES,2020-2024,NA,83.47199,84.37525,83.931671,84.80651,-0.90326,-1.329873,-0.459592,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
-C Late peak,FI,2010,2010,80.274176,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2011,2011,80.709246,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2012,2012,80.864763,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2013,2013,81.199406,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2014,2014,81.270792,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2015,2015,81.691928,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2016,2016,81.645931,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2017,2017,81.916709,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2018,2018,82.073897,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2019,2019,82.329963,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2020,2020,82.291236,82.507304,82.31272,82.700498,-0.216068,-0.430099,0.001297,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2021,2021,82.134102,82.723154,82.488985,82.989545,-0.589052,-0.879526,-0.319223,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2022,2022,81.606986,82.939481,82.607342,83.271147,-1.332495,-1.659327,-1.015551,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2023,2023,81.995298,83.159154,82.799586,83.520014,-1.163856,-1.527402,-0.773206,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2024,2024,82.637022,83.363596,82.92794,83.808173,-0.726574,-1.182352,-0.281479,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-C Late peak,FI,2020-2024,NA,82.1241,82.940726,82.678708,83.216979,-0.816626,-1.09702,-0.55308,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
-A First wave peak,GB-EAW,2010,2010,80.927543,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2011,2011,81.313132,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2012,2012,81.172281,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2013,2013,81.249835,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2014,2014,81.789222,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2015,2015,81.379799,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2016,2016,81.202532,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2017,2017,81.553669,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2018,2018,81.634918,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2019,2019,81.846315,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2020,2020,80.956563,82.01895,81.703549,82.391162,-1.062387,-1.429749,-0.752745,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2021,2021,81.089642,82.116733,81.62834,82.684482,-1.027091,-1.602181,-0.548715,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2022,2022,81.499237,82.218648,81.575973,82.871664,-0.719412,-1.378129,-0.082064,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2023,2023,81.588216,82.292164,81.508191,83.000277,-0.703948,-1.41006,0.087654,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2024,2024,82.087535,82.370673,81.517727,83.195508,-0.283138,-1.083731,0.55879,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-A First wave peak,GB-EAW,2020-2024,NA,81.443733,82.20246,81.646439,82.750656,-0.758726,-1.300801,-0.198537,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
-B Second wave peak,HU,2010,2010,74.711037,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2011,2011,75.281357,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2012,2012,75.60309,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2013,2013,76.09678,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2014,2014,76.260561,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2015,2015,75.986586,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2016,2016,76.545349,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2017,2017,76.305291,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2018,2018,76.550373,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2019,2019,76.894769,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2020,2020,76.240588,77.087781,76.744624,77.382295,-0.847193,-1.161574,-0.518724,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2021,2021,74.771453,77.314793,76.870794,77.705154,-2.54334,-2.941393,-2.095588,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2022,2022,76.593439,77.497028,76.961901,77.97305,-0.903589,-1.411049,-0.367369,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2023,2023,77.567883,77.672054,77.070589,78.255717,-0.104171,-0.694091,0.503394,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2024,2024,77.814314,77.844906,77.212854,78.495716,-0.030592,-0.696972,0.603013,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-B Second wave peak,HU,2020-2024,NA,76.559821,77.481285,77.039881,77.896498,-0.921464,-1.326259,-0.478999,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
-C Late peak,IS,2010,2010,81.665573,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2011,2011,82.142494,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2012,2012,82.701101,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2013,2013,82.391314,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2014,2014,82.522911,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2015,2015,82.340988,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2016,2016,82.153091,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2017,2017,82.432632,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2018,2018,82.964742,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2019,2019,83.082153,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2020,2020,82.89479,83.105648,82.547777,83.648617,-0.210858,-0.898788,0.55767,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2021,2021,83.154086,83.255745,82.460153,84.009802,-0.10166,-0.957756,0.773427,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2022,2022,82.245139,83.421543,82.52692,84.339823,-1.176404,-2.058849,-0.224793,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2023,2023,82.861887,83.513211,82.317988,84.624021,-0.651324,-1.792394,0.507731,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2024,2024,83.037064,83.652979,82.494367,84.813961,-0.615916,-1.822047,0.548717,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
-C Late peak,IS,2020-2024,NA,82.820145,83.392624,82.551509,84.207169,-0.57248,-1.396115,0.300412,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+A First wave peak,BE,2010,2010,80.243836,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2011,2011,80.694089,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2012,2012,80.733768,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2013,2013,80.941405,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2014,2014,81.574191,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2015,2015,81.2759,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2016,2016,81.697286,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2017,2017,81.748781,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2018,2018,81.858112,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2019,2019,82.257649,NA,NA,NA,NA,NA,NA,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2020,2020,81.174973,82.454431,82.178571,82.724948,-1.279458,-1.558444,-1.012753,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2021,2021,82.0524,82.639764,82.26581,83.088991,-0.587364,-1.012415,-0.202965,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2022,2022,82.05158,82.838357,82.32512,83.360714,-0.786778,-1.298679,-0.280732,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2023,2023,82.724351,83.04811,82.45666,83.603372,-0.323759,-0.887715,0.234441,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2024,2024,82.842978,83.245951,82.591659,83.873556,-0.402973,-1.029128,0.279798,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+A First wave peak,BE,2020-2024,NA,82.151625,82.845106,82.404185,83.273518,-0.693481,-1.127228,-0.24471300000000001,BEL,BE,BEL,BEL,iso_week_date,BEL,56,Belgium,Belgium,Belgien,BEL,0,Belgium,n,Europe
+B Second wave peak,BG,2010,2010,73.593273,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2011,2011,74.138358,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2012,2012,74.459748,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2013,2013,75.155048,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2014,2014,74.855614,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2015,2015,74.934605,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2016,2016,75.249106,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2017,2017,75.173119,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2018,2018,75.230104,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2019,2019,75.399909,NA,NA,NA,NA,NA,NA,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2020,2020,74.116958,75.608617,75.259599,75.923307,-1.491659,-1.774526,-1.138716,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2021,2021,71.654491,75.810058,75.360452,76.248915,-4.155567,-4.618104,-3.723901,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2022,2022,74.570496,75.979433,75.504388,76.497058,-1.408938,-1.929964,-0.881874,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2023,2023,76.215534,76.179262,75.590059,76.760906,0.036272,-0.583225,0.628334,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2024,2024,76.343098,76.361016,75.706378,77.044296,-0.017918,-0.713373,0.693195,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+B Second wave peak,BG,2020-2024,NA,74.444966,75.982502,75.527236,76.440308,-1.537536,-1.993334,-1.085244,BGR,BG,BGR,BGR,iso_week_date,BGR,100,Bulgaria,Bulgaria,Bulgarien,BGR,0,Bulgaria,n,Europe
+A First wave peak,CH,2010,2010,82.785483,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2011,2011,83.031134,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2012,2012,83.094578,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2013,2013,83.238937,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2014,2014,83.639429,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2015,2015,83.33573,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2016,2016,83.974102,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2017,2017,83.948214,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2018,2018,84.078768,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2019,2019,84.218841,NA,NA,NA,NA,NA,NA,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2020,2020,83.565186,84.396529,84.121199,84.643995,-0.831343,-1.08277,-0.552049,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2021,2021,84.16161,84.573863,84.192863,84.933236,-0.412253,-0.778678,-0.027491,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2022,2022,84.055042,84.745145,84.351192,85.175703,-0.690102,-1.112969,-0.281681,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2023,2023,84.657901,84.935347,84.504923,85.364766,-0.277446,-0.720886,0.158241,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2024,2024,84.852519,85.096044,84.593673,85.6188,-0.243525,-0.76605,0.275173,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+A First wave peak,CH,2020-2024,NA,84.255763,84.75252,84.397743,85.097476,-0.496757,-0.832651,-0.131816,CHE,CH,CHE,CHE,iso_week_date,CHE,756,Switzerland,Switzerland,Schweiz,CHE,0,Switzerland,n,Europe
+B Second wave peak,CZ,2010,2010,77.47707,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2011,2011,77.943164,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2012,2012,78.305359,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2013,2013,78.518988,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2014,2014,79.136725,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2015,2015,78.850986,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2016,2016,79.350356,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2017,2017,79.240638,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2018,2018,79.283906,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2019,2019,79.530682,NA,NA,NA,NA,NA,NA,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2020,2020,78.536682,79.802817,79.435888,80.121389,-1.266135,-1.598978,-0.9034,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2021,2021,77.559218,80.044779,79.565759,80.484526,-2.48556,-2.926015,-1.997337,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2022,2022,79.362812,80.237799,79.663431,80.749266,-0.874987,-1.39622,-0.311084,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2023,2023,80.213594,80.424644,79.763557,81.065908,-0.21105,-0.865099,0.459747,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2024,2024,80.436824,80.61157,79.905276,81.349545,-0.174746,-0.88736,0.532212,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+B Second wave peak,CZ,2020-2024,NA,79.180501,80.224703,79.747081,80.688784,-1.044201,-1.508107,-0.560759,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
+C Late peak,DE,2010,2010,80.000659,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2011,2011,80.301278,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2012,2012,80.535013,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2013,2013,80.537334,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2014,2014,81.388615,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2015,2015,80.820958,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2016,2016,80.98601,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2017,2017,81.035298,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2018,2018,80.888665,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2019,2019,81.278888,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2020,2020,81.092834,81.475315,81.029338,81.880333,-0.382481,-0.792522,0.069195,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2021,2021,80.87595,81.645898,81.06874,82.204174,-0.769948,-1.328719,-0.200984,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2022,2022,80.794986,81.779496,81.171305,82.445756,-0.98451,-1.654437,-0.390639,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2023,2023,81.378494,81.960187,81.205217,82.711289,-0.581694,-1.337823,0.169926,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2024,2024,81.737021,82.120952,81.273411,82.998132,-0.383931,-1.246858,0.457622,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DE,2020-2024,NA,81.174678,81.794954,81.203279,82.381637,-0.620276,-1.207194,-0.031984,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+C Late peak,DK,2010,2010,79.203298,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2011,2011,79.844849,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2012,2012,80.249359,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2013,2013,80.362255,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2014,2014,80.843438,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2015,2015,81.07173,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2016,2016,81.08574,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2017,2017,81.130799,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2018,2018,81.114319,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2019,2019,81.46181,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2020,2020,81.624871,81.647091,81.384758,81.908179,-0.02222,-0.274213,0.259514,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2021,2021,81.595746,81.863277,81.549305,82.219569,-0.267531,-0.631057,0.092173,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2022,2022,81.372197,82.072864,81.672262,82.541472,-0.700668,-1.148029,-0.27894,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2023,2023,81.914436,82.285351,81.816101,82.762358,-0.370915,-0.882739,0.14637,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2024,2024,82.54296,82.481628,81.945068,83.052044,0.061331,-0.496234,0.594369,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+C Late peak,DK,2020-2024,NA,81.809933,82.071755,81.737363,82.440464,-0.261823,-0.631989,0.074644,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
+B Second wave peak,EE,2010,2010,75.795098,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2011,2011,76.282553,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2012,2012,76.504761,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2013,2013,77.275867,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2014,2014,77.028989,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2015,2015,77.689468,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2016,2016,77.927873,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2017,2017,78.442791,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2018,2018,78.501609,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2019,2019,79.20974,NA,NA,NA,NA,NA,NA,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2020,2020,79.110758,79.449946,79.068458,79.815812,-0.339189,-0.708646,0.087783,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2021,2021,77.627327,79.786083,79.192451,80.347669,-2.158756,-2.722819,-1.603203,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2022,2022,78.554245,80.078743,79.42091,80.735541,-1.524498,-2.219485,-0.919756,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2023,2023,79.551222,80.364777,79.605875,81.078991,-0.813555,-1.572492,-0.090575,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2024,2024,80.017431,80.682469,79.820334,81.431051,-0.665038,-1.39649,0.222258,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+B Second wave peak,EE,2020-2024,NA,78.952688,80.071472,79.522746,80.605989,-1.118783,-1.67613,-0.569568,EST,EE,EST,EST,iso_week_date,EST,233,Estonia,Estonia,Estland,EST,0,Estonia,n,Europe
+A First wave peak,ES,2010,2010,82.221393,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2011,2011,82.417401,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2012,2012,82.451855,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2013,2013,82.976138,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2014,2014,83.1614,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2015,2015,82.849792,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2016,2016,83.297087,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2017,2017,83.256462,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2018,2018,83.322973,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2019,2019,83.744288,NA,NA,NA,NA,NA,NA,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2020,2020,82.567963,83.994806,83.691997,84.272854,-1.426844,-1.706959,-1.129303,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2021,2021,83.257823,84.193321,83.753672,84.614137,-0.935498,-1.358769,-0.497388,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2022,2022,83.336487,84.388339,83.90528,84.866235,-1.051853,-1.532137,-0.55057,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2023,2023,84.021171,84.562232,83.962718,85.113855,-0.54106,-1.115538,0.063552,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2024,2024,84.22255,84.738173,84.116865,85.361214,-0.515623,-1.129635,0.116334,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+A First wave peak,ES,2020-2024,NA,83.466786,84.37525,83.931671,84.80651,-0.908464,-1.3429,-0.463243,ESP,ES,ESP,ESP,iso_week_date,ESP,724,Spain,Spain,Spanien,ESP,0,Spain,n,Europe
+C Late peak,FI,2010,2010,80.277174,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2011,2011,80.709082,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2012,2012,80.863878,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2013,2013,81.205234,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2014,2014,81.269882,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2015,2015,81.694171,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2016,2016,81.648164,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2017,2017,81.917626,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2018,2018,82.077132,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2019,2019,82.331211,NA,NA,NA,NA,NA,NA,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2020,2020,82.292488,82.507304,82.31272,82.700498,-0.214816,-0.421598,0.007727,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2021,2021,82.133085,82.723154,82.488985,82.989545,-0.59007,-0.880208,-0.326393,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2022,2022,81.60592,82.939481,82.607342,83.271147,-1.333561,-1.658446,-0.977074,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2023,2023,81.995422,83.159154,82.799586,83.520014,-1.163732,-1.547065,-0.816907,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2024,2024,82.590894,83.363596,82.92794,83.808173,-0.772702,-1.205779,-0.329679,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+C Late peak,FI,2020-2024,NA,82.114875,82.940726,82.678708,83.216979,-0.825851,-1.099758,-0.56674,FIN,FI,FIN,FIN,iso_week_date,FIN,246,Finland,Finland,Finnland,FIN,0,Finland,n,Europe
+A First wave peak,GB-EAW,2010,2010,80.927677,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2011,2011,81.312974,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2012,2012,81.171325,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2013,2013,81.249941,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2014,2014,81.788258,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2015,2015,81.379103,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2016,2016,81.203152,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2017,2017,81.554454,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2018,2018,81.634442,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2019,2019,81.847129,NA,NA,NA,NA,NA,NA,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2020,2020,80.956623,82.01895,81.703549,82.391162,-1.062327,-1.431094,-0.751745,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2021,2021,81.089708,82.116733,81.62834,82.684482,-1.027024,-1.593336,-0.520398,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2022,2022,81.499546,82.218648,81.575973,82.871664,-0.719102,-1.380534,-0.072755,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2023,2023,81.587687,82.292164,81.508191,83.000277,-0.704477,-1.410865,0.085496,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2024,2024,82.088066,82.370673,81.517727,83.195508,-0.282607,-1.126614,0.561952,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+A First wave peak,GB-EAW,2020-2024,NA,81.443813,82.20246,81.646439,82.750656,-0.758647,-1.305308,-0.200768,GBR-EAW,GB,GBR,GBRTENW,iso_week_date,GBRTENW,.,England and Wales,England and Wales,England und Wales,EAW,1,Great Britain,n,Europe
+B Second wave peak,HU,2010,2010,74.709894,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2011,2011,75.281638,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2012,2012,75.603655,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2013,2013,76.09585,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2014,2014,76.259773,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2015,2015,75.984501,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2016,2016,76.54529,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2017,2017,76.305461,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2018,2018,76.552044,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2019,2019,76.892537,NA,NA,NA,NA,NA,NA,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2020,2020,76.241414,77.087781,76.744624,77.382295,-0.846367,-1.139874,-0.50742,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2021,2021,74.771537,77.314793,76.870794,77.705154,-2.543257,-2.956948,-2.086212,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2022,2022,76.593377,77.497028,76.961901,77.97305,-0.903651,-1.414935,-0.380284,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2023,2023,77.566512,77.672054,77.070589,78.255717,-0.105542,-0.690788,0.507996,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2024,2024,77.813969,77.844906,77.212854,78.495716,-0.030937,-0.688682,0.616532,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+B Second wave peak,HU,2020-2024,NA,76.559679,77.481285,77.039881,77.896498,-0.921605,-1.346099,-0.466326,HUN,HU,HUN,HUN,iso_week_date,HUN,348,Hungary,Hungary,Ungarn,HUN,0,Hungary,n,Europe
+C Late peak,IS,2010,2010,81.661271,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2011,2011,82.153305,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2012,2012,82.699654,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2013,2013,82.383992,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2014,2014,82.506615,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2015,2015,82.339392,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2016,2016,82.161036,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2017,2017,82.439486,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2018,2018,82.954995,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2019,2019,83.080953,NA,NA,NA,NA,NA,NA,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2020,2020,82.896167,83.105648,82.547778,83.648617,-0.209481,-0.868117,0.435521,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2021,2021,83.147113,83.255745,82.460153,84.009802,-0.108633,-0.990471,0.759155,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2022,2022,82.245592,83.421543,82.52692,84.339823,-1.175951,-2.128786,-0.154533,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2023,2023,82.858702,83.513211,82.317989,84.624021,-0.654509,-1.756994,0.575044,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2024,2024,83.048319,83.652979,82.494367,84.813961,-0.604661,-1.883728,0.543756,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
+C Late peak,IS,2020-2024,NA,82.821763,83.392624,82.551509,84.207169,-0.570862,-1.437968,0.260593,ISL,IS,ISL,ISL,iso_week_date,ISL,352,Iceland,Iceland,Island,ISL,0,Iceland,n,Europe
 A First wave peak,IT,2010,2010,NA,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2011,2011,82.427265,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2012,2012,82.525896,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2013,2013,82.869534,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2014,2014,83.151201,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2015,2015,82.731916,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2016,2016,83.394867,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2017,2017,83.141196,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2018,2018,83.296267,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2019,2019,83.448638,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2020,2020,82.479942,83.532045,83.051479,83.95007,-1.052103,-1.475582,-0.581047,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2021,2021,83.044884,83.682123,83.052121,84.256249,-0.63724,-1.216004,-0.013039,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2022,2022,83.372866,83.774499,83.022725,84.438381,-0.401633,-1.076345,0.337471,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2023,2023,84.09947,83.865084,82.983899,84.708508,0.234386,-0.618842,1.13793,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2024,2024,84.516035,83.954163,83.027337,84.915187,0.561872,-0.407295,1.500035,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-A First wave peak,IT,2020-2024,NA,83.460275,83.755125,83.130945,84.357185,-0.29485,-0.900229,0.331604,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
-B Second wave peak,LT,2010,2010,73.320535,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2011,2011,73.785628,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2012,2012,74.20698,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2013,2013,74.21535,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2014,2014,74.703475,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2015,2015,74.489443,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2016,2016,74.98728,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2017,2017,75.900853,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2018,2018,76.171916,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2019,2019,76.706575,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2020,2020,75.568436,76.819582,76.219774,77.357168,-1.251146,-1.829737,-0.628465,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2021,2021,74.557092,76.982571,76.261508,77.695325,-2.425479,-3.180497,-1.663655,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2022,2022,76.264485,77.154714,76.244376,78.048925,-0.890229,-1.821089,0.045219,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2023,2023,77.43901,77.299018,76.232522,78.262514,0.139991,-0.826169,1.207937,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2024,2024,77.455759,77.461438,76.260035,78.594694,-0.005679,-1.10494,1.197395,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-B Second wave peak,LT,2020-2024,NA,76.208822,77.139117,76.431377,77.917994,-0.930294,-1.717439,-0.215105,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
-A First wave peak,LU,2010,2010,80.410033,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2011,2011,80.880422,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2012,2012,81.32283,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2013,2013,81.727562,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2014,2014,82.062257,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2015,2015,82.156278,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2016,2016,82.433871,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2017,2017,82.014401,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2018,2018,82.284514,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2019,2019,82.458751,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2020,2020,82.362327,82.788448,82.223147,83.435534,-0.426122,-1.064372,0.289438,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2021,2021,82.908567,83.018313,82.061136,83.882226,-0.109746,-1.01489,0.870239,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2022,2022,83.22925,83.223335,82.131423,84.275809,0.005915,-1.035275,1.119775,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2023,2023,83.68408,83.389496,82.031143,84.427834,0.294585,-0.801074,1.656142,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2024,2024,83.290741,83.604254,82.216013,84.815017,-0.313513,-1.500996,1.006562,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
-A First wave peak,LU,2020-2024,NA,83.089684,83.20658,82.21938,84.117044,-0.116896,-0.994701,0.811973,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,IT,2011,2011,82.427622,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2012,2012,82.524362,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2013,2013,82.8701,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2014,2014,83.151136,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2015,2015,82.731016,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2016,2016,83.393831,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2017,2017,83.142604,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2018,2018,83.296278,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2019,2019,83.448826,NA,NA,NA,NA,NA,NA,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2020,2020,82.480644,83.532045,83.051479,83.95007,-1.051401,-1.467466,-0.585527,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2021,2021,83.044682,83.682123,83.052121,84.256249,-0.637442,-1.204798,0.002019,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2022,2022,83.371743,83.774499,83.022725,84.438381,-0.402756,-1.078963,0.360635,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2023,2023,84.100239,83.865084,82.983899,84.708508,0.235155,-0.601806,1.121354,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2024,2024,84.430208,83.954163,83.027337,84.915187,0.476045,-0.472287,1.395254,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+A First wave peak,IT,2020-2024,NA,83.464512,83.758889,83.132466,84.364315,-0.294377,-0.898882,0.33119,ITA,IT,ITA,ITA,iso_week_date,ITA,380,Italy,Italy,Italien,ITA,0,Italy,n,Europe
+B Second wave peak,LT,2010,2010,73.323533,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2011,2011,73.787942,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2012,2012,74.209804,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2013,2013,74.218584,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2014,2014,74.707366,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2015,2015,74.485497,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2016,2016,74.984866,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2017,2017,75.900337,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2018,2018,76.172987,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2019,2019,76.707978,NA,NA,NA,NA,NA,NA,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2020,2020,75.564787,76.819582,76.219774,77.357168,-1.254795,-1.803135,-0.611194,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2021,2021,74.561676,76.982571,76.261508,77.695325,-2.420895,-3.181909,-1.681176,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2022,2022,76.268959,77.154714,76.244376,78.048925,-0.885755,-1.853942,-0.006671,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2023,2023,77.43853,77.299018,76.232522,78.262514,0.139512,-0.837255,1.261783,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2024,2024,77.459518,77.461438,76.260035,78.594694,-0.001921,-1.155531,1.18546,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+B Second wave peak,LT,2020-2024,NA,76.210455,77.139117,76.431377,77.917994,-0.928661,-1.727615,-0.20581,LTU,LT,LTU,LTU,iso_week_date,LTU,440,Lithuania,Lithuania,Litauen,LTU,0,Lithuania,n,Europe
+A First wave peak,LU,2010,2010,80.419422,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2011,2011,80.87758,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2012,2012,81.323887,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2013,2013,81.723722,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2014,2014,82.060473,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2015,2015,82.157587,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2016,2016,82.442082,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2017,2017,82.017616,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2018,2018,82.294629,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2019,2019,82.457695,NA,NA,NA,NA,NA,NA,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2020,2020,82.359795,82.788448,82.223147,83.435534,-0.428653,-1.079554,0.233651,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2021,2021,82.899094,83.018313,82.061136,83.882226,-0.119219,-1.075796,0.795277,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2022,2022,83.234891,83.223335,82.131423,84.275809,0.011556,-0.975936,1.198416,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2023,2023,83.689198,83.389496,82.031143,84.427834,0.299703,-0.85661,1.70008,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2024,2024,83.715967,83.604254,82.216013,84.815017,0.111714,-1.056657,1.433465,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
+A First wave peak,LU,2020-2024,NA,83.177224,83.20658,82.21938,84.117044,-0.029356,-0.920364,0.922652,LUX,LU,LUX,LUX,iso_week_date,LUX,442,Luxembourg,Luxembourg,Luxemburg,LUX,0,Luxembourg,n,Europe
 B Second wave peak,LV,2010,2010,73.263727,NA,NA,NA,NA,NA,NA,LVA,LV,LVA,LVA,iso_week_date,LVA,428,Latvia,Latvia,Lettland,LVA,0,Latvia,n,Europe
 B Second wave peak,LV,2011,2011,73.884081,NA,NA,NA,NA,NA,NA,LVA,LV,LVA,LVA,iso_week_date,LVA,428,Latvia,Latvia,Lettland,LVA,0,Latvia,n,Europe
 B Second wave peak,LV,2012,2012,74.151156,NA,NA,NA,NA,NA,NA,LVA,LV,LVA,LVA,iso_week_date,LVA,428,Latvia,Latvia,Lettland,LVA,0,Latvia,n,Europe
@@ -253,117 +253,117 @@ B Second wave peak,LV,2020,2020,75.933006,76.391161,75.872966,76.899541,-0.45815
 B Second wave peak,LV,2021,2021,73.469302,76.666102,75.96189,77.376413,-3.1968,-3.885048,-2.476914,LVA,LV,LVA,LVA,iso_week_date,LVA,428,Latvia,Latvia,Lettland,LVA,0,Latvia,n,Europe
 B Second wave peak,LV,2022,2022,74.754758,76.921823,76.070478,77.756179,-2.167065,-3.019679,-1.308275,LVA,LV,LVA,LVA,iso_week_date,LVA,428,Latvia,Latvia,Lettland,LVA,0,Latvia,n,Europe
 B Second wave peak,LV,2023,2023,75.991577,77.163591,76.170837,77.978672,-1.172013,-1.973087,-0.121516,LVA,LV,LVA,LVA,iso_week_date,LVA,428,Latvia,Latvia,Lettland,LVA,0,Latvia,n,Europe
-B Second wave peak,LV,2024,2024,77.052982,77.423071,76.336251,78.340802,-0.370088,-1.319605,0.755813,LVA,LV,LVA,LVA,iso_week_date,LVA,428,Latvia,Latvia,Lettland,LVA,0,Latvia,n,Europe
-B Second wave peak,LV,2020-2024,NA,75.382242,76.904393,76.217726,77.576359,-1.522151,-2.213736,-0.81036,LVA,LV,LVA,LVA,iso_week_date,LVA,428,Latvia,Latvia,Lettland,LVA,0,Latvia,n,Europe
-D Prolonged depression,NL,2010,2010,81.25934,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2011,2011,81.569972,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2012,2012,81.506529,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2013,2013,81.735845,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2014,2014,82.114308,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2015,2015,81.93439,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2016,2016,81.990918,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2017,2017,82.168152,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2018,2018,82.253229,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2019,2019,82.509429,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2020,2020,81.852624,82.70683,82.48785,82.914132,-0.854206,-1.063805,-0.621142,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2021,2021,81.822383,82.89441,82.614154,83.186326,-1.072027,-1.34335,-0.790543,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2022,2022,82.075235,83.092374,82.773019,83.421087,-1.017138,-1.35042,-0.686498,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2023,2023,82.323636,83.30275,82.907596,83.698235,-0.979114,-1.363905,-0.592701,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2024,2024,82.464378,83.490098,83.028742,83.918865,-1.02572,-1.47319,-0.556532,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-D Prolonged depression,NL,2020-2024,NA,82.107808,83.095538,82.809577,83.395507,-0.98773,-1.286166,-0.689078,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
-C Late peak,NO,2010,2010,81.011574,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2011,2011,81.300857,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2012,2012,81.601533,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2013,2013,81.661013,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2014,2014,81.959733,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2015,2015,82.23461,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2016,2016,82.390495,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2017,2017,82.751437,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2018,2018,82.797998,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2019,2019,82.994943,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2020,2020,83.234602,83.218988,82.979822,83.434433,0.015614,-0.20633,0.276,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2021,2021,83.2189,83.440089,83.133589,83.707235,-0.221189,-0.506357,0.108241,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2022,2022,82.762555,83.632753,83.266464,83.996465,-0.870197,-1.210529,-0.493871,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2023,2023,83.024625,83.823234,83.429324,84.249583,-0.798608,-1.221758,-0.384221,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2024,2024,83.230099,84.012537,83.578795,84.473187,-0.782438,-1.23535,-0.345937,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-C Late peak,NO,2020-2024,NA,83.090496,83.62886,83.304317,83.929956,-0.538363,-0.846179,-0.201375,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
-B Second wave peak,PL,2010,2010,76.914696,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2011,2011,77.368276,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2012,2012,77.356835,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2013,2013,77.457674,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2014,2014,77.986295,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2015,2015,77.734277,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2016,2016,78.159197,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2017,2017,78.028231,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2018,2018,77.995586,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2019,2019,78.296703,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2020,2020,76.906921,78.461658,78.167403,78.754407,-1.554737,-1.84977,-1.279769,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2021,2021,75.879897,78.682354,78.258081,79.101825,-2.802457,-3.197941,-2.376491,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2022,2022,77.759563,78.909936,78.427453,79.422325,-1.150373,-1.648944,-0.682944,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2023,2023,79.071159,79.092264,78.455686,79.718498,-0.021105,-0.661472,0.599677,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2024,2024,79.491571,79.294798,78.662486,79.949635,0.196773,-0.474831,0.848987,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-B Second wave peak,PL,2020-2024,NA,77.773233,78.889293,78.449986,79.343002,-1.11606,-1.567274,-0.681257,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
-D Prolonged depression,PT,2010,2010,80.251761,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2011,2011,80.869115,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2012,2012,80.834806,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2013,2013,81.190516,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2014,2014,81.652593,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2015,2015,81.554713,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2016,2016,81.688572,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2017,2017,81.914474,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2018,2018,81.880491,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2019,2019,82.227478,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2020,2020,81.512603,82.571321,82.2897,82.870522,-1.058718,-1.347636,-0.764928,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2021,2021,81.581621,82.797704,82.363051,83.237078,-1.216083,-1.649235,-0.777371,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2022,2022,81.79855,83.03877,82.560002,83.551978,-1.24022,-1.729758,-0.756486,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2023,2023,82.355263,83.302301,82.712848,83.94922,-0.947038,-1.595396,-0.3666,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2024,2024,82.659124,83.525183,82.830453,84.197953,-0.866059,-1.554185,-0.16179,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-D Prolonged depression,PT,2020-2024,NA,81.978376,83.046179,82.597695,83.492047,-1.067803,-1.526249,-0.63613,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
-A First wave peak,SE,2010,2010,81.856515,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2011,2011,82.076486,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2012,2012,82.098072,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2013,2013,82.252174,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2014,2014,82.564502,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2015,2015,82.513029,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2016,2016,82.617196,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2017,2017,82.734981,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2018,2018,82.869963,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2019,2019,83.376978,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2020,2020,82.743351,83.509541,83.331275,83.673564,-0.76619,-0.944695,-0.560008,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2021,2021,83.346745,83.670267,83.409974,83.920184,-0.323522,-0.570427,-0.084065,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2022,2022,83.3083,83.828574,83.541918,84.112941,-0.520274,-0.803006,-0.226563,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2023,2023,83.564721,83.97561,83.618289,84.305663,-0.410889,-0.738944,-0.017954,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2024,2024,84.112367,84.12476,83.75749,84.500257,-0.012393,-0.368952,0.380285,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SE,2020-2024,NA,83.412649,83.823832,83.558643,84.085333,-0.411184,-0.683862,-0.145642,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
-A First wave peak,SI,2010,2010,79.176481,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2011,2011,79.692838,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2012,2012,80.072407,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2013,2013,80.162341,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2014,2014,81.055943,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2015,2015,80.590116,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2016,2016,81.100271,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2017,2017,81.056201,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2018,2018,81.355975,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2019,2019,81.57032,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2020,2020,80.604714,81.81924,81.413511,82.183212,-1.214526,-1.588381,-0.828981,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2021,2021,80.887876,82.074837,81.544423,82.585305,-1.18696,-1.753626,-0.679605,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2022,2022,81.527284,82.337035,81.708424,82.951862,-0.80975,-1.433894,-0.14071,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2023,2023,82.153963,82.546783,81.782732,83.317488,-0.392821,-1.130367,0.333121,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2024,2024,82.585799,82.781578,82.010426,83.580638,-0.195779,-1.089984,0.558995,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-A First wave peak,SI,2020-2024,NA,81.527704,82.311409,81.738006,82.872895,-0.783705,-1.357162,-0.220619,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
-B Second wave peak,US,2010,2010,78.953831,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2011,2011,78.964865,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2012,2012,79.089039,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2013,2013,79.084647,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2014,2014,79.142729,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2015,2015,78.97341,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2016,2016,78.93809,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2017,2017,78.88044,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2018,2018,79.020482,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2019,2019,79.124458,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2020,2020,77.621004,79.339743,79.199631,79.474015,-1.718738,-1.855329,-1.565895,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2021,2021,77.05974,79.447132,79.274888,79.645791,-2.387392,-2.587523,-2.21641,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2022,2022,78.131832,79.556665,79.337291,79.78016,-1.424833,-1.654154,-1.206523,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2023,2023,79.142312,79.663691,79.432089,79.956794,-0.521379,-0.81637,-0.291896,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2024,2024,79.791005,79.770724,79.467126,80.118,0.020282,-0.324269,0.322804,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
-B Second wave peak,US,2020-2024,NA,78.333095,79.558428,79.385758,79.767409,-1.225334,-1.43612,-1.051116,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,LV,2024,2024,77.047765,77.423071,76.336251,78.340802,-0.375306,-1.313422,0.748578,LVA,LV,LVA,LVA,iso_week_date,LVA,428,Latvia,Latvia,Lettland,LVA,0,Latvia,n,Europe
+B Second wave peak,LV,2020-2024,NA,75.381311,76.904393,76.217726,77.576359,-1.523082,-2.21798,-0.810277,LVA,LV,LVA,LVA,iso_week_date,LVA,428,Latvia,Latvia,Lettland,LVA,0,Latvia,n,Europe
+D Prolonged depression,NL,2010,2010,81.259025,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2011,2011,81.570016,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2012,2012,81.505272,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2013,2013,81.735827,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2014,2014,82.113909,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2015,2015,81.934698,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2016,2016,81.990906,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2017,2017,82.167723,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2018,2018,82.253137,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2019,2019,82.508603,NA,NA,NA,NA,NA,NA,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2020,2020,81.851996,82.70683,82.48785,82.914132,-0.854834,-1.056635,-0.620222,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2021,2021,81.821743,82.89441,82.614154,83.186326,-1.072668,-1.3678,-0.803566,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2022,2022,82.075673,83.092374,82.773019,83.421087,-1.016701,-1.353835,-0.686852,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2023,2023,82.324277,83.30275,82.907596,83.698235,-0.978473,-1.385005,-0.582268,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2024,2024,82.436708,83.490098,83.028742,83.918865,-1.05339,-1.480949,-0.585186,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+D Prolonged depression,NL,2020-2024,NA,82.106418,83.100176,82.812218,83.401368,-0.993757,-1.300837,-0.70273,NLD,NL,NLD,NLD,iso_week_date,NLD,528,Netherlands,Netherlands,Niederlande,NLD,0,Netherlands,n,Europe
+C Late peak,NO,2010,2010,81.01353,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2011,2011,81.299689,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2012,2012,81.60101,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2013,2013,81.662049,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2014,2014,81.956861,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2015,2015,82.235064,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2016,2016,82.390898000000007,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2017,2017,82.745842,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2018,2018,82.774264,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2019,2019,82.963823,NA,NA,NA,NA,NA,NA,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2020,2020,83.235584,83.191848,82.951398,83.409184,0.043736,-0.206113,0.284591,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2021,2021,83.217848,83.41206,83.103887,83.681546,-0.194211,-0.506989,0.136876,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2022,2022,82.761283,83.603697,83.233983,83.970314,-0.842414,-1.214093,-0.468698,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2023,2023,83.020022,83.793126,83.396697,84.223007,-0.773104,-1.203676,-0.358989,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2024,2024,83.228511,83.981469,83.543544,84.444695,-0.752959,-1.219959,-0.303992,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+C Late peak,NO,2020-2024,NA,83.088965,83.59977,83.272117,83.904042,-0.510806,-0.814174,-0.18793,NOR,NO,NOR,NOR,iso_week_date,NOR,578,Norway,Norway,Norwegen,NOR,0,Norway,n,Europe
+B Second wave peak,PL,2010,2010,76.91483,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2011,2011,77.369255,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2012,2012,77.356055,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2013,2013,77.456708,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2014,2014,77.985702,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2015,2015,77.735408,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2016,2016,78.158982,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2017,2017,78.030087,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2018,2018,77.996188,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2019,2019,78.296569,NA,NA,NA,NA,NA,NA,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2020,2020,76.90717,78.461658,78.167403,78.754407,-1.554488,-1.846496,-1.252209,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2021,2021,75.879687,78.682354,78.258081,79.101825,-2.802668,-3.229996,-2.382848,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2022,2022,77.760009,78.909936,78.427453,79.422325,-1.149926,-1.665209,-0.649054,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2023,2023,79.072289,79.092264,78.455686,79.718498,-0.019975,-0.63841,0.607398,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2024,2024,79.452895,79.294798,78.662486,79.949635,0.158097,-0.499801,0.794164,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+B Second wave peak,PL,2020-2024,NA,77.766445,78.889293,78.449986,79.343002,-1.122848,-1.5766,-0.694654,POL,PL,POL,POL,iso_week_date,POL,616,Poland,Poland,Polen,POL,0,Poland,n,Europe
+D Prolonged depression,PT,2010,2010,80.250837,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2011,2011,80.867181,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2012,2012,80.833345,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2013,2013,81.189924,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2014,2014,81.650401,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2015,2015,81.552951,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2016,2016,81.686321,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2017,2017,81.913292,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2018,2018,81.880525,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2019,2019,82.225882,NA,NA,NA,NA,NA,NA,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2020,2020,81.513127,82.571321,82.2897,82.870522,-1.058194,-1.35595,-0.775609,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2021,2021,81.579784,82.797704,82.363051,83.237078,-1.21792,-1.653128,-0.785061,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2022,2022,81.7982,83.03877,82.560002,83.551978,-1.240569,-1.762926,-0.743844,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2023,2023,82.343886,83.302301,82.712848,83.94922,-0.958415,-1.604541,-0.361549,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2024,2024,82.653558,83.525183,82.830453,84.197953,-0.871626,-1.533819,-0.199567,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+D Prolonged depression,PT,2020-2024,NA,81.974758,83.046179,82.597695,83.492047,-1.071422,-1.51293,-0.625085,PRT,PT,PRT,PRT,iso_week_date,PRT,620,Portugal,Portugal,Portugal,PRT,0,Portugal,n,Europe
+A First wave peak,SE,2010,2010,81.857492,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2011,2011,82.075824,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2012,2012,82.098424,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2013,2013,82.25174,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2014,2014,82.564871,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2015,2015,82.51094,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2016,2016,82.618543,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2017,2017,82.734284,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2018,2018,82.868769,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2019,2019,83.374665,NA,NA,NA,NA,NA,NA,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2020,2020,82.745805,83.509541,83.331275,83.673564,-0.763736,-0.938247,-0.587487,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2021,2021,83.346293,83.670267,83.409974,83.920184,-0.323974,-0.558602,-0.067721,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2022,2022,83.30928,83.828574,83.541918,84.112941,-0.519293,-0.811334,-0.22072,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2023,2023,83.564383,83.97561,83.618289,84.305663,-0.411227,-0.764591,-0.072139,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2024,2024,84.098028,84.12476,83.75749,84.500257,-0.026731,-0.398525,0.356571,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SE,2020-2024,NA,83.410428,83.823832,83.558643,84.085333,-0.413405,-0.665723,-0.14806,SWE,SE,SWE,SWE,iso_week_date,SWE,752,Sweden,Sweden,Schweden,SWE,0,Sweden,n,Europe
+A First wave peak,SI,2010,2010,79.172405,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2011,2011,79.69719,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2012,2012,80.075942,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2013,2013,80.161222,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2014,2014,81.057418,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2015,2015,80.590033,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2016,2016,81.097992,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2017,2017,81.050084,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2018,2018,81.353961,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2019,2019,81.568699,NA,NA,NA,NA,NA,NA,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2020,2020,80.605229,81.81924,81.413511,82.183212,-1.214011,-1.568517,-0.838613,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2021,2021,80.892053,82.074837,81.544423,82.585305,-1.182783,-1.770861,-0.647342,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2022,2022,81.525893,82.337035,81.708424,82.951862,-0.811142,-1.464375,-0.14699,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2023,2023,82.153562,82.546783,81.782732,83.317488,-0.393222,-1.154528,0.381718,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2024,2024,82.531012,82.781578,82.010426,83.580638,-0.250566,-1.080895,0.514058,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+A First wave peak,SI,2020-2024,NA,81.517906,82.311409,81.738006,82.872895,-0.793504,-1.356505,-0.226314,SVN,SI,SVN,SVN,iso_week_date,SVN,705,Slovenia,Slovenia,Slowenien,SVN,0,Slovenia,n,Europe
+B Second wave peak,US,2010,2010,78.959421,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2011,2011,78.971423,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2012,2012,79.096204,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2013,2013,79.096254,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2014,2014,79.15706,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2015,2015,78.987614,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2016,2016,78.957124,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2017,2017,78.901547,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2018,2018,79.04488,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2019,2019,79.152634,NA,NA,NA,NA,NA,NA,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2020,2020,77.639103,79.369075,79.228415,79.503563,-1.729972,-1.867171,-1.583066,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2021,2021,77.084477,79.478111,79.305952,79.676816,-2.393634,-2.597049,-2.221428,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2022,2022,78.172947,79.589288,79.368471,79.813724,-1.416341,-1.645271,-1.194094,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2023,2023,79.210369,79.69813,79.465312,79.991629,-0.487761,-0.7905,-0.2524,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2024,2024,79.787077,79.806851,79.502265,80.156101,-0.019774,-0.372671,0.287092,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America
+B Second wave peak,US,2020-2024,NA,78.363587,79.591173,79.417813,79.801138,-1.227586,-1.439906,-1.054925,USA,US,USA,USA,iso_week_date,USA,840,USA,USA,USA,USA,0,USA,n,North America

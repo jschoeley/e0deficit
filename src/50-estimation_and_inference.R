@@ -7,6 +7,7 @@
 
 library(yaml)
 library(dplyr); library(tidyr); library(readr)
+library(qs)
 
 # Constants -------------------------------------------------------
 
@@ -25,10 +26,10 @@ paths$input <- list(
 paths$output <- list(
   lifetables.rds = './out/50-lifetables.rds',
   lifetables.csv = './out/50-lifetables.csv',
-  lifetables_sim.rds = './tmp/50-lifetables_sim.rds',
+  lifetables_sim.qs = './tmp/50-lifetables_sim.qs',
   deficits_and_excesses.rds = './out/50-deficits_and_excesses.rds',
   deficits_and_excesses.csv = './out/50-deficits_and_excesses.csv',
-  deficits_and_excesses_sim.rds = './tmp/50-deficits_and_excesses_sim.rds',
+  deficits_and_excesses_sim.qs = './tmp/50-deficits_and_excesses_sim.qs',
   pval.rds = './out/50-pval.rds',
   pval.csv = './out/50-pval.csv'
 )
@@ -40,7 +41,7 @@ config <- read_yaml(paths$input$config.yaml)
 cnst <- list(); cnst <- within(cnst, {
   regions_for_analysis = config$regions_for_all_cause_analysis
   # number of Poisson life-table replicates
-  n_sim = 250
+  n_sim = config$nsim
   # quantiles for CI's
   quantiles = c(0.025, 0.05, 0.1, 0.5, 0.9, 0.95, 0.975)
   forecast_period = seq(
@@ -621,14 +622,14 @@ cbind(
 
 # Export ----------------------------------------------------------
 
-saveRDS(lifetables$simulation, paths$output$lifetables_sim.rds)
+qsave(lifetables$simulation, paths$output$lifetables_sim.qs)
 
 saveRDS(lifetables$ci_df, paths$output$lifetables.rds)
 lifetables$ci_df |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$lifetables.csv)
 
-saveRDS(deficits_and_excesses$simulation, paths$output$deficits_and_excesses_sim.rds)
+qsave(deficits_and_excesses$simulation, paths$output$deficits_and_excesses_sim.qs)
 
 saveRDS(deficits_and_excesses$ci_df, paths$output$deficits_and_excesses.rds)
 deficits_and_excesses$ci_df |>

@@ -15,7 +15,7 @@ paths <- list()
 paths$input <- list(
   tmpdir = './tmp',
   config = './cfg/config.yaml',
-  global = './src/00-global.R',
+  global = './src/_global_functions.R',
   region = './cfg/region_metadata.csv',
   analysisinput = './out/30-analysisinput.rds',
   lifetables = './out/50-lifetables.rds'
@@ -54,7 +54,7 @@ e0benchmark <- list()
 e0benchmark$data <-
   left_join(
     select(dat$analysisinput, region, sex, year, age = age_start, e0_hmd = lifeexpectancy_hmd, e0_eurostat = lifeexpectancy_eurostat),
-    select(filter(dat$lifetables, scenario == 'actual'), region = region_iso, sex, year, age, e0_js = ex_q0.5)
+    select(filter(dat$lifetables, scenario == 'actual'), region = region_iso, sex, year = year_int, age, e0_js = ex_q0.5)
   ) |>
   filter(age == 0) |>
   left_join(cnst$region, by = c('region' = 'region_code_iso3166_2')) |>
@@ -117,7 +117,7 @@ e0benchmark$data |>
 # Export ----------------------------------------------------------
 
 ExportFigure(
-  e0benchmark$fig, paths$output$fig, filename = '91-e0benchmark',
+  e0benchmark$fig, filename = './out/91-e0benchmark',
   width = 170, height = 250, dpi = 300, device = 'pdf'
 )
 

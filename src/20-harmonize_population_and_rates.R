@@ -359,7 +359,7 @@ dat$hmdhfd$estimates <-
 # start at last available HMD midyear population and project through 2024
 dat$hmdhfd$projection <-
   dat$hmdhfd$estimates |>
-  filter(fertility_available, mortality_available) |>
+  filter(fertility_available, mortality_available, h > 0) |>
   group_by(region_code_hmd) |>
   group_modify(~{
 
