@@ -126,10 +126,10 @@ e0trends$data$deficitsummary_global <-
   group_by(group) |>
   summarise(
     n = n(),
-    peak_deficit_avg = mean(peak_deficit),
-    peak_deficit_sd = sd(peak_deficit),
-    fiveyear_deficit_avg = mean(fiveyear_deficit),
-    fiveyear_deficit_sd = sd(fiveyear_deficit)
+    peak_deficit_avg = mean(peak_deficit, na.rm = TRUE),
+    peak_deficit_sd = sd(peak_deficit, na.rm = TRUE),
+    fiveyear_deficit_avg = mean(fiveyear_deficit, na.rm = TRUE),
+    fiveyear_deficit_sd = sd(fiveyear_deficit, na.rm = TRUE)
   ) |>
   ungroup()
 
@@ -216,7 +216,7 @@ for (i in 1:length(groups)) {
       title = group_name
     ) +
     facet_wrap(
-      ~region_name_en, ncol = 4, scales = 'free_y',
+      ~region_name_en, ncol = 5, scales = 'free_y',
       labeller = facet_labeller
     )
 }
@@ -225,8 +225,8 @@ e0trends$fig <-
   e0trends$subfig$`A First wave peak` /
   e0trends$subfig$`B Second wave peak` /
   e0trends$subfig$`C Late peak` /
-  (e0trends$subfig$`D Prolonged depression` | plot_spacer()) +
-  plot_layout(heights = c(2/7, 2/7, 2/7, 1/7))
+  (e0trends$subfig$`D Prolonged depression`) +
+  plot_layout(heights = c(2/9, 3/9, 2/9, 2/9))
 
 e0trends$fig
 

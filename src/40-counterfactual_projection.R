@@ -23,7 +23,7 @@ paths$input <- list(
   config.yaml = './cfg/config.yaml',
   global_functions.R = './src/_global_functions.R',
   region_metadata.csv = './cfg/region_metadata.csv',
-  analysisinput.rds = './out/30-analysisinput.rds',
+  analysisinput_bias_corrected.rds = './out/31-analysisinput_bias_corrected.rds',
   harmonized_skeleton.rds = './tmp/10-harmonized_skeleton.rds'
 )
 paths$output <- list(
@@ -189,7 +189,7 @@ ProjectPopulation <- function (
 # Load population data --------------------------------------------
 
 skeleton <- readRDS(paths$input$harmonized_skeleton.rds)
-analysisinput <- readRDS(paths$input$analysisinput.rds)
+analysisinput <- readRDS(paths$input$analysisinput_bias_corrected.rds)
 
 # Patch data ------------------------------------------------------
 

@@ -1,116 +1,171 @@
 group,region_iso,year,e0_deficit_avg
-A First wave peak,BE,2020,-1.279458
-A First wave peak,BE,2021,-0.587364
-A First wave peak,BE,2022,-0.786778
-A First wave peak,BE,2023,-0.323759
-A First wave peak,BE,2024,-0.402973
-B Second wave peak,BG,2020,-1.491659
-B Second wave peak,BG,2021,-4.155567
-B Second wave peak,BG,2022,-1.408938
-B Second wave peak,BG,2023,0.036272
-B Second wave peak,BG,2024,-0.017918
-A First wave peak,CH,2020,-0.831343
-A First wave peak,CH,2021,-0.412253
-A First wave peak,CH,2022,-0.690102
-A First wave peak,CH,2023,-0.277446
-A First wave peak,CH,2024,-0.243525
-B Second wave peak,CZ,2020,-1.266135
-B Second wave peak,CZ,2021,-2.48556
-B Second wave peak,CZ,2022,-0.874987
-B Second wave peak,CZ,2023,-0.21105
-B Second wave peak,CZ,2024,-0.174746
-C Late peak,DE,2020,-0.382481
-C Late peak,DE,2021,-0.769948
-C Late peak,DE,2022,-0.98451
-C Late peak,DE,2023,-0.581694
-C Late peak,DE,2024,-0.383931
-C Late peak,DK,2020,-0.02222
-C Late peak,DK,2021,-0.267531
-C Late peak,DK,2022,-0.700668
-C Late peak,DK,2023,-0.370915
-C Late peak,DK,2024,0.061331
-B Second wave peak,EE,2020,-0.339189
-B Second wave peak,EE,2021,-2.158756
-B Second wave peak,EE,2022,-1.524498
-B Second wave peak,EE,2023,-0.813555
-B Second wave peak,EE,2024,-0.665038
-A First wave peak,ES,2020,-1.426844
-A First wave peak,ES,2021,-0.935498
-A First wave peak,ES,2022,-1.051853
-A First wave peak,ES,2023,-0.54106
-A First wave peak,ES,2024,-0.515623
-C Late peak,FI,2020,-0.214816
-C Late peak,FI,2021,-0.59007
-C Late peak,FI,2022,-1.333561
-C Late peak,FI,2023,-1.163732
-C Late peak,FI,2024,-0.772702
-A First wave peak,GB-EAW,2020,-1.062327
-A First wave peak,GB-EAW,2021,-1.027024
-A First wave peak,GB-EAW,2022,-0.719102
-A First wave peak,GB-EAW,2023,-0.704477
-A First wave peak,GB-EAW,2024,-0.282607
-B Second wave peak,HU,2020,-0.846367
-B Second wave peak,HU,2021,-2.543257
-B Second wave peak,HU,2022,-0.903651
-B Second wave peak,HU,2023,-0.105542
-B Second wave peak,HU,2024,-0.030937
-C Late peak,IS,2020,-0.209481
-C Late peak,IS,2021,-0.108633
-C Late peak,IS,2022,-1.175951
-C Late peak,IS,2023,-0.654509
-C Late peak,IS,2024,-0.604661
-A First wave peak,IT,2020,-1.051401
-A First wave peak,IT,2021,-0.637442
-A First wave peak,IT,2022,-0.402756
-A First wave peak,IT,2023,0.235155
-A First wave peak,IT,2024,0.476045
-B Second wave peak,LT,2020,-1.254795
-B Second wave peak,LT,2021,-2.420895
-B Second wave peak,LT,2022,-0.885755
-B Second wave peak,LT,2023,0.139512
-B Second wave peak,LT,2024,-0.001921
-A First wave peak,LU,2020,-0.428653
-A First wave peak,LU,2021,-0.119219
-A First wave peak,LU,2022,0.011556
-A First wave peak,LU,2023,0.299703
-A First wave peak,LU,2024,0.111714
-B Second wave peak,LV,2020,-0.458155
-B Second wave peak,LV,2021,-3.1968
-B Second wave peak,LV,2022,-2.167065
-B Second wave peak,LV,2023,-1.172013
-B Second wave peak,LV,2024,-0.375306
-D Prolonged depression,NL,2020,-0.854834
-D Prolonged depression,NL,2021,-1.072668
-D Prolonged depression,NL,2022,-1.016701
-D Prolonged depression,NL,2023,-0.978473
-D Prolonged depression,NL,2024,-1.05339
-C Late peak,NO,2020,0.043736
-C Late peak,NO,2021,-0.194211
-C Late peak,NO,2022,-0.842414
-C Late peak,NO,2023,-0.773104
-C Late peak,NO,2024,-0.752959
-B Second wave peak,PL,2020,-1.554488
-B Second wave peak,PL,2021,-2.802668
-B Second wave peak,PL,2022,-1.149926
-B Second wave peak,PL,2023,-0.019975
-B Second wave peak,PL,2024,0.158097
-D Prolonged depression,PT,2020,-1.058194
-D Prolonged depression,PT,2021,-1.21792
-D Prolonged depression,PT,2022,-1.240569
-D Prolonged depression,PT,2023,-0.958415
-D Prolonged depression,PT,2024,-0.871626
-A First wave peak,SE,2020,-0.763736
-A First wave peak,SE,2021,-0.323974
-A First wave peak,SE,2022,-0.519293
-A First wave peak,SE,2023,-0.411227
-A First wave peak,SE,2024,-0.026731
-A First wave peak,SI,2020,-1.214011
-A First wave peak,SI,2021,-1.182783
-A First wave peak,SI,2022,-0.811142
-A First wave peak,SI,2023,-0.393222
-A First wave peak,SI,2024,-0.250566
-B Second wave peak,US,2020,-1.729972
-B Second wave peak,US,2021,-2.393634
-B Second wave peak,US,2022,-1.416341
-B Second wave peak,US,2023,-0.487761
-B Second wave peak,US,2024,-0.019774
+D Prolonged depression,AT,2020,-0.71096
+D Prolonged depression,AT,2021,-0.941474
+D Prolonged depression,AT,2022,-1.072566
+D Prolonged depression,AT,2023,-0.72707599999999994
+D Prolonged depression,AT,2024,-0.549105
+A First wave peak,BE,2020,-1.255593
+A First wave peak,BE,2021,-0.580361
+A First wave peak,BE,2022,-0.794323
+A First wave peak,BE,2023,-0.353655
+A First wave peak,BE,2024,-0.481802
+B Second wave peak,BG,2020,-1.462366
+B Second wave peak,BG,2021,-4.040779
+B Second wave peak,BG,2022,-1.251208
+B Second wave peak,BG,2023,0.230073
+B Second wave peak,BG,2024,0.248319
+A First wave peak,CH,2020,-0.843127
+A First wave peak,CH,2021,-0.434064
+A First wave peak,CH,2022,-0.741459
+A First wave peak,CH,2023,-0.339198
+A First wave peak,CH,2024,-0.350623
+B Second wave peak,CL,2020,-1.369407
+B Second wave peak,CL,2021,-2.256191
+B Second wave peak,CL,2022,-2.074254
+B Second wave peak,CL,2023,-1.007981
+B Second wave peak,CL,2024,-1.221071
+B Second wave peak,CZ,2020,-1.245758
+B Second wave peak,CZ,2021,-2.480571
+B Second wave peak,CZ,2022,-0.885276
+B Second wave peak,CZ,2023,-0.252567
+B Second wave peak,CZ,2024,-0.233967
+C Late peak,DE,2020,-0.41337
+C Late peak,DE,2021,-0.841917
+C Late peak,DE,2022,-1.110445
+C Late peak,DE,2023,-0.761648
+C Late peak,DE,2024,-0.633627
+C Late peak,DK,2020,-0.032918
+C Late peak,DK,2021,-0.322255
+C Late peak,DK,2022,-0.821114
+C Late peak,DK,2023,-0.591001
+C Late peak,DK,2024,-0.385427
+B Second wave peak,EE,2020,-0.392611
+B Second wave peak,EE,2021,-2.271663
+B Second wave peak,EE,2022,-1.727608
+B Second wave peak,EE,2023,-1.105926
+B Second wave peak,EE,2024,-1.01845
+A First wave peak,ES,2020,-1.434198
+A First wave peak,ES,2021,-0.927509
+A First wave peak,ES,2022,-1.065575
+A First wave peak,ES,2023,-0.562272
+A First wave peak,ES,2024,-0.564988
+C Late peak,FI,2020,-0.226811
+C Late peak,FI,2021,-0.552542
+C Late peak,FI,2022,-1.304654
+C Late peak,FI,2023,-1.093352
+C Late peak,FI,2024,-0.669999
+D Prolonged depression,FR,2020,-0.743348
+D Prolonged depression,FR,2021,-0.878845
+D Prolonged depression,FR,2022,-1.091627
+D Prolonged depression,FR,2023,-0.652999
+D Prolonged depression,FR,2024,-0.647442
+A First wave peak,GB-EAW,2020,-1.198067
+A First wave peak,GB-EAW,2021,-1.169968
+A First wave peak,GB-EAW,2022,-0.859535
+A First wave peak,GB-EAW,2023,-0.846324
+A First wave peak,GB-EAW,2024,-0.420256
+D Prolonged depression,GB-NIR,2020,-1.15566
+D Prolonged depression,GB-NIR,2021,-1.446326
+D Prolonged depression,GB-NIR,2022,-1.045388
+D Prolonged depression,GB-NIR,2023,-0.969721
+D Prolonged depression,GB-NIR,2024,-1.694833
+A First wave peak,GB-SCT,2020,-1.078963
+A First wave peak,GB-SCT,2021,-1.109186
+A First wave peak,GB-SCT,2022,-0.538551
+A First wave peak,GB-SCT,2023,-0.482712
+A First wave peak,GB-SCT,2024,0.097563
+B Second wave peak,GR,2020,-0.356962
+B Second wave peak,GR,2021,-1.600954
+B Second wave peak,GR,2022,-1.12824
+B Second wave peak,GR,2023,-0.522219
+B Second wave peak,GR,2024,-0.637862
+B Second wave peak,HR,2020,-0.965168
+B Second wave peak,HR,2021,-2.048796
+B Second wave peak,HR,2022,-1.035015
+B Second wave peak,HR,2023,-0.276717
+B Second wave peak,HR,2024,-0.198948
+B Second wave peak,HU,2020,-0.91647
+B Second wave peak,HU,2021,-2.724682
+B Second wave peak,HU,2022,-1.129649
+B Second wave peak,HU,2023,-0.416221
+B Second wave peak,HU,2024,-0.420981
+D Prolonged depression,IL,2020,-0.427701
+D Prolonged depression,IL,2021,-0.907439
+D Prolonged depression,IL,2022,-1.027027
+D Prolonged depression,IL,2023,-0.825047
+D Prolonged depression,IL,2024,-1.224834
+C Late peak,IS,2020,-0.216317
+C Late peak,IS,2021,-0.095296
+C Late peak,IS,2022,-1.202413
+C Late peak,IS,2023,-0.678483
+C Late peak,IS,2024,-0.611537
+A First wave peak,IT,2020,-1.253483
+A First wave peak,IT,2021,-1.046994
+A First wave peak,IT,2022,-0.992641
+A First wave peak,IT,2023,-0.572065
+A First wave peak,IT,2024,-0.535021
+C Late peak,JP,2020,0.345396
+C Late peak,JP,2021,-0.031508
+C Late peak,JP,2022,-0.77841
+C Late peak,JP,2023,-0.773395
+C Late peak,JP,2024,NA
+B Second wave peak,LT,2020,-1.296473
+B Second wave peak,LT,2021,-2.431752
+B Second wave peak,LT,2022,-0.906084
+B Second wave peak,LT,2023,0.236022
+B Second wave peak,LT,2024,0.225825
+A First wave peak,LU,2020,-0.306406
+A First wave peak,LU,2021,-0.060048
+A First wave peak,LU,2022,-0.009573
+A First wave peak,LU,2023,0.237231
+A First wave peak,LU,2024,0.014357
+B Second wave peak,LV,2020,-0.375002
+B Second wave peak,LV,2021,-3.11725
+B Second wave peak,LV,2022,-2.046344
+B Second wave peak,LV,2023,-1.100885
+B Second wave peak,LV,2024,-0.288209
+D Prolonged depression,NL,2020,-0.896398
+D Prolonged depression,NL,2021,-1.10442
+D Prolonged depression,NL,2022,-1.032244
+D Prolonged depression,NL,2023,-0.99789
+D Prolonged depression,NL,2024,-1.070534
+C Late peak,NO,2020,0.045841
+C Late peak,NO,2021,-0.215329
+C Late peak,NO,2022,-0.823631
+C Late peak,NO,2023,-0.75908
+C Late peak,NO,2024,-0.763739
+B Second wave peak,PL,2020,-1.527457
+B Second wave peak,PL,2021,-2.795784
+B Second wave peak,PL,2022,-1.276257
+B Second wave peak,PL,2023,-0.380575
+B Second wave peak,PL,2024,-0.466889
+D Prolonged depression,PT,2020,-1.013076
+D Prolonged depression,PT,2021,-1.122572
+D Prolonged depression,PT,2022,-1.135957
+D Prolonged depression,PT,2023,-0.803719
+D Prolonged depression,PT,2024,-0.701696
+A First wave peak,SE,2020,-0.777582
+A First wave peak,SE,2021,-0.328503
+A First wave peak,SE,2022,-0.523105
+A First wave peak,SE,2023,-0.420458
+A First wave peak,SE,2024,-0.006219
+A First wave peak,SI,2020,-1.157028
+A First wave peak,SI,2021,-1.134891
+A First wave peak,SI,2022,-0.676798
+A First wave peak,SI,2023,-0.257931
+A First wave peak,SI,2024,-0.061748
+B Second wave peak,SK,2020,-1.09452
+B Second wave peak,SK,2021,-3.687306
+B Second wave peak,SK,2022,-1.564817
+B Second wave peak,SK,2023,-0.544711
+B Second wave peak,SK,2024,-0.482237
+C Late peak,TW,2020,0.351179
+C Late peak,TW,2021,-0.23877
+C Late peak,TW,2022,-1.440411
+C Late peak,TW,2023,-1.25129
+C Late peak,TW,2024,-0.837593
+B Second wave peak,US,2020,-2.096537
+B Second wave peak,US,2021,-2.793551
+B Second wave peak,US,2022,-1.799836
+B Second wave peak,US,2023,-0.867105
+B Second wave peak,US,2024,-0.388008

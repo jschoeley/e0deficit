@@ -46,10 +46,10 @@ skeleton:
     ]
 groups:
   {
-    'A First wave peak': ['BE', 'GB-EAW', 'IT', 'SI', 'ES', 'SE', 'CH', 'LU'],
+    'A First wave peak': ['BE', 'GB-EAW', 'IT', 'SI', 'ES', 'SE', 'CH', 'LU', 'GB-SCT'],
     'B Second wave peak': ['BG', 'HR', 'CZ', 'EE', 'GR', 'HU', 'LV', 'LT', 'PL', 'SK', 'US', 'CL'],
     'C Late peak': ['DK', 'FI', 'IS', 'DE', 'NO', 'TW', 'JP'],
-    'D Prolonged depression': ['AT', 'FR', 'IL', 'NL', 'GB-NIR', 'PT', 'GB-SCT']
+    'D Prolonged depression': ['AT', 'FR', 'IL', 'NL', 'GB-NIR', 'PT']
   }
 # select exposures to use by default for each country
 exposureselection:
@@ -58,9 +58,76 @@ exposureselection:
     'wpp24': ['BE', 'BG', 'CH', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GR', 'HU', 'IL', 'IS', 'IT', 'LT', 'LU', 'LV', 'NL', 'NO', 'PL', 'PT', 'SE', 'SI', 'SK'],
     'wpp22': []
   }
+# select countries for which to use rate bias correction model
+ratebiascorrection:
+  {
+    # for cases where correction makes estimates worse
+    'nocorrection': ['IS'],
+    # the default bias correction model
+    'smoothlyvaryingbias': [
+      'AT', 'BE', 'BG', 'CH', 'CZ', 'DE', 'DK',
+      'EE', 'ES', 'FI', 'GB-SCT', 'HU', 'HR', 'IT', 'JP', 'LT',
+      'LU', 'NL', 'NO', 'PL', 'PT', 'SE', 'SI', 'SK', 'TW',
+    ],
+    # a country lands if if there's not enough data for more than
+    # a simple average, or if the smoothing model identifies a trend
+    # in bias that would substantially grow the bias correction over the
+    # extrapolation period for which we have no benchmark
+    'simpleaveragebias': [
+      'CL',
+      'GB-NIR',
+      'GR',
+      'IL', # data only up to 2017; thus avoid extrapolating a trended bias
+      'LV'  # data only up to 2020; thus avoid extrapolating a trended bias
+    ],
+    # this is a model we use if there is a clear breakpoint in bias in
+    # a given year
+    'breakpoint2020': ['GB-EAW', 'US'],
+    'breakpoint2021': ['FR'],
+  }
 showinoutput: [
-  'SI', 'SE', 'PT', 'PL', 'NO', 'NL', 'LV', 'LU', 'LT', 'IT', 'IS', 'HU',
-  'GB-EAW', 'FI', 'ES', 'EE', 'DK', 'DE', 'CZ', 'CH', 'BG', 'BE', 'US'
+      'AT',
+      #'AU', only 5 age groups
+      'BE',
+      'BG',
+      #'CA', only 4 age groups
+      'CH',
+      'CL', #biased e0 estimates
+      'CZ',
+      'DE',
+      'DK',
+      'EE',
+      'ES',
+      'FI',
+      'FR',
+      'GB-EAW',
+      'GB-NIR',# biased e0 estimates
+      'GB-SCT',
+      'GR',# biased e0 estimates
+      'HR',
+      'HU',
+      'IL', # only 8 age groups; biased e0 estiamtes
+      'IS', #biased e0 estimates
+      'IT',
+      'JP',
+      #'KR',# only 5 age groups
+      'LT',
+      'LU',
+      'LV',
+      'NL',
+      'NO',
+      #'NZ',# only 3 age groups
+      'PL',
+      'PT',
+      #'RU',
+      'SE',
+      'SI',
+      'SK',
+      'TW',
+      'US',
+]
+excludefromagedecomposition: [
+  'GB-SCT' # unreliable youth mortality
 ]
 # forecast specs
 forecast:

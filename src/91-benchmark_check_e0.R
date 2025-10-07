@@ -1,4 +1,4 @@
-# Compare our e0 estimates against HMD and Eurostat
+# Compare our adjusted e0 estimates against HMD and Eurostat
 
 # Init ------------------------------------------------------------
 
@@ -17,7 +17,7 @@ paths$input <- list(
   config = './cfg/config.yaml',
   global = './src/_global_functions.R',
   region = './cfg/region_metadata.csv',
-  analysisinput = './out/30-analysisinput.rds',
+  analysisinput_bias_corrected.rds = './out/31-analysisinput_bias_corrected.rds',
   lifetables = './out/50-lifetables.rds'
 )
 paths$output <- list(
@@ -44,7 +44,7 @@ dat <- list()
 
 # Load data -------------------------------------------------------
 
-dat$analysisinput <- readRDS(paths$input$analysisinput)
+dat$analysisinput <- readRDS(paths$input$analysisinput_bias_corrected.rds)
 dat$lifetables <- readRDS(paths$input$lifetables)
 
 # Calculate and plot e0 -------------------------------------------
@@ -103,21 +103,21 @@ e0benchmark$fig <-
 
 e0benchmark$fig
 
-e0benchmark$data |>
-  mutate(delta = e0_js - e0_hmd) |>
-  group_by(sex, region) |>
-  summarise(
-    delta_pre = mean(delta[year < 2020], na.rm = TRUE),
-    delta_post = mean(delta[year >= 2020], na.rm = TRUE)
-  ) |>
-  arrange(-delta_pre) |>
-  ungroup() |>
-  View()
+# e0benchmark$data |>
+#   mutate(delta = e0_js - e0_hmd) |>
+#   group_by(sex, region) |>
+#   summarise(
+#     delta_pre = mean(delta[year < 2020], na.rm = TRUE),
+#     delta_post = mean(delta[year >= 2020], na.rm = TRUE)
+#   ) |>
+#   arrange(-delta_pre) |>
+#   ungroup() |>
+#   View()
 
 # Export ----------------------------------------------------------
 
 ExportFigure(
-  e0benchmark$fig, filename = './out/91-e0benchmark',
+  e0benchmark$fig, filename = './out/91-e0benchmark.pdf',
   width = 170, height = 250, dpi = 300, device = 'pdf'
 )
 

@@ -19,7 +19,7 @@ setwd('.')
 paths <- list()
 paths$input <- list(
   config.yaml = './cfg/config.yaml',
-  analysisinput.rds = './out/30-analysisinput.rds',
+  analysisinput_bias_corrected.rds = './out/31-analysisinput_bias_corrected.rds',
   leecarter_forecast_sim.rds = './tmp/40-leecarter_forecasts_sim.rds',
   global_functions = './src/_global_functions.R'
 )
@@ -85,7 +85,7 @@ lt_input <- list()
 
 # input data for life-table calculation
 # harmonized death counts and population exposures with open age group 100+
-lt_input$openage_100 <- readRDS(paths$input$analysisinput.rds)
+lt_input$openage_100 <- readRDS(paths$input$analysisinput_bias_corrected.rds)
 
 # harmonized counterfactual Lee-Carter forecasts
 lt_input$leecarter <- readRDS(paths$input$leecarter_forecast_sim.rds)

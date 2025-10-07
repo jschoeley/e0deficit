@@ -1,4 +1,4 @@
-# Plot life expectancy
+# Sensitivity checks of e0 estimates against different exposure measures
 
 # Init ------------------------------------------------------------
 

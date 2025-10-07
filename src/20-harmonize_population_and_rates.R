@@ -276,6 +276,41 @@ dat$wpp$clean |>
   select(region, iso_year, age, sex, popmidyear_wpp22, popmidyear_wpp24) |>
   mutate(ratio = popmidyear_wpp24/popmidyear_wpp22)
 
+# Harmonize HMD death rates ---------------------------------------
+
+dat$hmdhfd$deathrate <-
+  # skeleton
+  expand_grid(
+    year = config$skeleton$year$start:config$skeleton$year$end,
+    region_code_hmd = cnst$region_lookup_hmd$region_code_hmd,
+    sex = c('Female', 'Male'),
+    age_start = 0:110
+  ) |>
+  # death rates
+  left_join(
+    dat$hmdhfd$input$hmd_mort |>
+      pivot_longer(
+        c(Female, Male),
+        names_to = 'sex', values_to = 'death_rate'
+      ) |>
+      select(region_code_hmd, year = Year, age_start = Age, sex, death_rate)
+  ) |>
+  # ensure proper names of factor variables
+  mutate(
+    sex =
+      factor(sex, levels = names(cnst$code_sex_hmdhfd),
+             labels = cnst$code_sex_hmdhfd) |>
+      as.character(),
+    region_iso = factor(
+      region_code_hmd,
+      levels = cnst$region_lookup_hmd$region_code_hmd,
+      labels = cnst$region_lookup_hmd$region_code_iso3166_2
+    ) |> as.character()
+  ) |>
+  # add row id
+  mutate(id = GenerateRowID(region_iso, sex, year, age_start)) |>
+  select(id, deathrate_hmd = death_rate)
+
 # Harmonize HMD population ----------------------------------------
 
 # for years not yet in the data we get population estimates via a
@@ -494,6 +529,9 @@ dat$pop_joined <-
       population_source_hmd = population_source
     ),
     by = 'id'
+  ) |>
+  left_join(
+    dat$hmdhfd$deathrate, by = 'id'
   )
 
 # Choose default sources ------------------------------------------
@@ -540,6 +578,7 @@ dat$export <-
     population_midyear, population_midyear_source,
     population_jan1st, population_jan1st_source,
     fertility_rate = fertility_rate_wpp24,
+    deathrate_hmd,
     population_midyear_wpp22, population_midyear_wpp24, population_midyear_hmd,
     population_jan1st_wpp22, population_jan1st_wpp24, population_jan1st_hmd
   )

@@ -213,58 +213,6 @@ e0deficitbyyear$fig$Female
 e0deficitbyyear$fig$Male
 e0deficitbyyear$fig$Total
 
-# e0 deficit by year rank -----------------------------------------
-
-e0deficitrank <- list()
-
-e0deficitrank$data <-
-  dat$e0deficits |>
-  filter(age == 0) |>
-  select(
-    region = region_iso, sex, year,
-    e0deficit_Q05 = ex_actual_minus_expected_q0.05,
-    e0deficit_Q50 = ex_actual_minus_expected_q0.5,
-    e0deficit_Q95 = ex_actual_minus_expected_q0.95,
-    e0expected_Q50 = ex_expected_q0.5,
-    e0observed = ex_actual_q0.5
-  ) |>
-  mutate(
-    year = factor(year, levels = c('2020', '2021', '2022', '2023', '2024', '2020-2024'))
-  )
-
-e0deficitrank$fig <-
-  e0deficitbyyear$data |>
-  filter(sex == 'Total') |>
-  group_by(year) |>
-  mutate(
-    region_ggflag = tolower(region),
-    region_rank = rank(-e0deficit_Q50)
-  ) |>
-  ungroup() |>
-  left_join(cnst$region, by = c('region' = 'region_code_iso3166_2')) |>
-  ggplot(aes(y = region_rank, group = region, x = year)) +
-  geom_path(size = 1, color = 'grey70', alpha = 0.5) +
-  # country label
-  # geom_text(
-  #   aes(
-  #     x = e0deficit_Q50,
-  #     label = region_name_en
-  #   ),
-  #   position = position_nudge(y = 0, x = -0.07), hjust = 1,
-  #   size = 1.7, color = 'grey50'
-  # ) +
-  geom_point(aes(x = year), size = 5.5) +
-  geom_flag(
-    aes(x = year, country = region_ggflag), size = 5
-  ) +
-  MyGGplotTheme(grid = 'x', axis = 'x') +
-  labs(
-    y = NULL,
-    x = 'LE deficit ranking'
-  )
-
-e0deficitrank$fig
-
 # e0 deficit by sex -----------------------------------------------
 
 e0deficitbysex <- list()
@@ -341,6 +289,8 @@ e0deficitbysex$fig <-
     x = 'Life expectancy deficit 2020-2024'
   ) +
   guides(fill = 'none', color = 'none')
+
+e0deficitbysex$fig
 
 # Export ----------------------------------------------------------
 
