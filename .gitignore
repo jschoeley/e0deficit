@@ -5,6 +5,9 @@ doc
 
 # R specific -----------------------------------------------------------
 
+# renv
+renv
+
 # History files
 .Rhistory
 .Rapp.history

@@ -34,7 +34,13 @@ paths$output <- list(
   e0deficitbyyear_male.pdf = './out/61-e0deficitbyyear_male.pdf',
   e0deficitbyyear_male.csv = './out/61-e0deficitbyyear_male.csv',
   e0deficitbysex.pdf = './out/61-e0deficitbysex.pdf',
-  e0deficitbysex.csv = './out/61-e0deficitbysex.csv'
+  e0deficitbysex.csv = './out/61-e0deficitbysex.csv',
+  e0deficit24_total.pdf = './out/61-e0deficit24_total.pdf',
+  e0deficit24_total.csv = './out/61-e0deficit24_total.csv',
+  e0deficit24_female.pdf = './out/61-e0deficit24_female.pdf',
+  e0deficit24_female.csv = './out/61-e0deficit24_female.csv',
+  e0deficit24_male.pdf = './out/61-e0deficit24_male.pdf',
+  e0deficit24_male.csv = './out/61-e0deficit24_male.csv'
 )
 
 # global configuration
@@ -292,6 +298,54 @@ e0deficitbysex$fig <-
 
 e0deficitbysex$fig
 
+# e0 deficit 2024 -------------------------------------------------
+
+e0deficit24 <- list()
+
+for (s in cnst$sex_strata) {
+  e0deficit24$data[[s]] <-
+    dat$e0deficits |>
+    filter(age == 0, sex == s, year == '2024') |>
+    select(
+      region = region_iso, sex, year,
+      e0deficit_Q05 = ex_actual_minus_expected_q0.05,
+      e0deficit_Q50 = ex_actual_minus_expected_q0.5,
+      e0deficit_Q95 = ex_actual_minus_expected_q0.95,
+      e0expected_Q50 = ex_expected_q0.5,
+      e0observed = ex_actual_q0.5
+    ) |>
+    left_join(select(pval, region_iso, sex, year, e0_deficit_pval),
+              by = c('region' = 'region_iso', 'sex', 'year'))
+
+  e0deficit24$fig[[s]] <-
+    e0deficit24$data[[s]] |>
+    mutate(
+      region_ggflag = tolower(region),
+      region_rank = rank(-e0deficit_Q50)
+    ) |>
+    left_join(cnst$region, by = c('region' = 'region_code_iso3166_2')) |>
+    ggplot(aes(y = e0_deficit_pval)) +
+    geom_vline(aes(xintercept = 0), size = 0.5, color = 'grey80') +
+    geom_hline(aes(yintercept = 0.1), size = 0.5, color = 'grey80') +
+    geom_point(aes(x = e0deficit_Q50), size = 5.5) +
+    geom_flag(
+      aes(x = e0deficit_Q50, country = region_ggflag), size = 5
+    ) +
+    scale_x_continuous(breaks = seq(-2.5, 0, 0.5)) +
+    scale_y_continuous(breaks = c(0.001, 0.01, 0.05, 0.1, 0.2, 0.5, 1), trans = 'sqrt') +
+    coord_cartesian(xlim = c(NA, 0.2), ylim = c(0,1)) +
+    MyGGplotTheme(grid = 'xy', axis = 'xy', background_color = 'white',
+                  ar = 1) +
+    labs(
+      y = 'p-value of e0 deficit',
+      x = 'Life expectancy deficit 2024'
+    )
+}
+
+e0deficit24$fig$Female
+e0deficit24$fig$Male
+e0deficit24$fig$Total
+
 # Export ----------------------------------------------------------
 
 # e0deficit
@@ -354,3 +408,29 @@ ggsave(
 e0deficitbysex$data |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$e0deficitbysex.csv)
+
+# e0deficit24
+ggsave(
+  paths$output$e0deficit24_total.pdf, e0deficit24$fig$Total,
+  units = 'mm', width = 170, height = 170, device = 'pdf',
+  scale = 0.8
+)
+e0deficit24$data$Total |>
+  mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
+  write_csv(paths$output$e0deficit24_total.csv)
+ggsave(
+  paths$output$e0deficit24_female.pdf, e0deficit24$fig$Female,
+  units = 'mm', width = 170, height = 170, device = 'pdf',
+  scale = 0.8
+)
+e0deficit24$data$Female |>
+  mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
+  write_csv(paths$output$e0deficit24_female.csv)
+ggsave(
+  paths$output$e0deficit24_male.pdf, e0deficit24$fig$Male,
+  units = 'mm', width = 170, height = 170, device = 'pdf',
+  scale = 0.8
+)
+e0deficit24$data$Male |>
+  mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
+  write_csv(paths$output$e0deficit24_male.csv)
