@@ -8,16 +8,16 @@
 #      death counts.
 # (2): The UK's Office for National Statistics (ONS) annual death counts
 #      by age and sex for England & Wales. We use this data for years
-#      2015 to 2019 for England & Wales because the age grouping in the
-#      STMF data for these years is too coarse.
+#      2010 through 2019 for England & Wales because the age grouping in
+#      the STMF data for these years is too coarse.
 # (3): The US CDC for annual death counts by age and sex for the United
-#      States. We use this data for years 2015 to 2019 for the US,
+#      States. We use this data for years 2000 through 2019 for the US,
 #      lacking any STMF data for these years.
 # (4): The Japanese official annual death counts by age and sex. We use
-#      this data for years 2000 to 2024 lacking any STMF data for these
-#      years.
+#      this data for years 2000 through 2023 lacking any STMF data for
+#      these years.
 #
-# In a first step we harmonize the labels of all three data sources, and
+# In a first step we harmonize the labels of all four data sources, and
 # select the preferred data source for each region and year.
 # We then perform a model based ungrouping (doi:10.1093/aje/kwv020)
 # of deaths into single ages for each region-year-sex stratum. During

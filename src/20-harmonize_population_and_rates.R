@@ -8,7 +8,7 @@
 #     - for recent years where HMD midyear estimates are not
 #       available, we perform a stable population projection if midyear
 #       population based on the most recent HMD population data and 5
-#       year average (2025-19) age specific mortality and fertility
+#       year average (2015-19) age specific mortality and fertility
 #       rates.
 # (3) The default population estimates to use for further analysis and
 #     life expectancy calculation are selected on a country by country
