@@ -22,8 +22,8 @@ paths$input <- list(
 )
 paths$output <- list(
   tmpdir = paths$input$tmpdir,
-  fig = './out/',
-  xlsx_e0 = './out/91-e0benchmark.xlsx'
+  xlsx_e0 = './out/91-e0benchmark.xlsx',
+  e0benchmark.svg = './out/91-e0benchmark.svg'
 )
 
 # global configuration
@@ -58,12 +58,12 @@ e0benchmark$data <-
   ) |>
   filter(age == 0) |>
   left_join(cnst$region, by = c('region' = 'region_code_iso3166_2')) |>
-  filter(year %in% 2010:2023)
+  filter(year %in% 2010:2024)
 
 
 e0benchmark$padding <-
   e0benchmark$data |>
-  group_by(region) |>
+  group_by(region, region_name_en) |>
   summarise(
     ymin = min(c(e0_hmd, e0_eurostat, e0_js), na.rm = TRUE),
     ymax = max(c(e0_hmd, e0_eurostat, e0_js), na.rm = TRUE),
@@ -87,19 +87,20 @@ e0benchmark$fig <-
     data = e0benchmark$padding, inherit.aes = FALSE
   ) +
   scale_x_continuous(
-    breaks = seq(2010, 2023, 1),
-    labels = c('2010', rep('', 12), '2023'),
-    limits = c(2010, 2023),
+    breaks = seq(2010, 2024, 1),
+    labels = c('2010', rep('', 13), '2024'),
+    limits = c(2010, 2024),
   ) +
   scale_y_continuous(breaks = seq(70, 90, 2)) +
   scale_color_manual(values = unlist(config$figspec$colors$sex)) +
   scale_fill_manual(values = unlist(config$figspec$colors$sex)) +
-  MyGGplotTheme(grid = 'y', axis = 'x', panel_border = FALSE) +
+  MyGGplotTheme(grid = 'y', axis = 'x', panel_border = FALSE,
+                show_legend = FALSE) +
   labs(
     y = 'Period life expectancy', x = NULL, color = NULL, fill = NULL,
-    title = 'Life expectancy estimates versus HMD (angled cross) and Eurostat estimates (upright cross)'
+    #title = 'Life expectancy estimates versus HMD (angled cross) and Eurostat estimates (upright cross)'
   ) +
-  facet_wrap(~region, scales = 'free_y', ncol = 4)
+  facet_wrap(~region_name_en, scales = 'free_y', ncol = 5)
 
 e0benchmark$fig
 
@@ -116,9 +117,9 @@ e0benchmark$fig
 
 # Export ----------------------------------------------------------
 
-ExportFigure(
-  e0benchmark$fig, filename = './out/91-e0benchmark.pdf',
-  width = 170, height = 250, dpi = 300, device = 'pdf'
+ExportSVG(
+  e0benchmark$fig, filename = paths$output$e0benchmark.svg,
+  width = 170, height = 220, dpi = 300
 )
 
 write.xlsx(
