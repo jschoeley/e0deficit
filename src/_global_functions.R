@@ -157,6 +157,27 @@ ExportFigure <-
     do.call(ggsave, arguments)
   }
 
+ExportSVG <- function (
+    figure,
+    filename,
+    width = 170,
+    height = 100,
+    scale = 1,
+    dpi = 300
+) {
+  ggsave(
+    filename = filename,
+    figure,
+    device = svglite::svglite,
+    fix_text_size = FALSE,
+    width = width,
+    height = height,
+    units = 'mm',
+    scale = scale,
+    dpi = dpi
+  )
+}
+
 # Helper functions ------------------------------------------------
 
 #' Create Unique Row ID
