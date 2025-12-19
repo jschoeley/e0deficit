@@ -31,7 +31,8 @@ paths$output <- list(
   deficits_and_excesses.csv = './out/50-deficits_and_excesses.csv',
   deficits_and_excesses_sim.qs = './tmp/50-deficits_and_excesses_sim.qs',
   pval.rds = './out/50-pval.rds',
-  pval.csv = './out/50-pval.csv'
+  pval.csv = './out/50-pval.csv',
+  pval.pdf = './out/50-pval.pdf'
 )
 
 # global configuration
@@ -146,7 +147,7 @@ lifetables$simulation <-
       year = lifetables$cnst$nyears,
       sex = 3,
       region_iso = lifetables$cnst$nregions,
-      sim_id = cnst$n_sim+1, # first dimension is mean
+      sim_id = cnst$n_sim+1, # first index is mean
       var_id = 20,
       scenario = 2
     ),
@@ -499,8 +500,8 @@ pval <- list()
 
 # simulations of actual and expected e0 by region, sex, and year
 # sim position 1 reserved for means over simulations
-pval$sim <-
-  deficits_and_excesses$simulation['0',c(as.character(2020:2024), '2020-2024'),,,,c('ex_actual', 'ex_expected')]
+pval$sim <- deficits_and_excesses$simulation[
+  '0',c(as.character(2020:2024),'2020-2024'),,,,c('ex_actual', 'ex_expected')]
 # actual and expected mean
 pval$mean <- apply(pval$sim[,,,-1,], c(1:3, 5), mean)
 
@@ -510,13 +511,15 @@ pval$test <- pval$sim[,,,,'ex_expected']
 for (sim in 2:(cnst$n_sim+1)) {
   pval$test[,,,sim] <-
     abs(pmin(
-      0, pval$sim[,,,sim,'ex_expected'] - pval$mean[,,,'ex_expected']
+      0,
+      pval$sim[,,,sim,'ex_expected'] - pval$mean[,,,'ex_expected']
     ))
 }
 # add observed test statistic
-pval$test[,,,1] <- abs(pmin(0,
-                            pval$mean[,,,'ex_actual'] - pval$mean[,,,'ex_expected']
-))
+pval$test[,,,1] <-
+  abs(pmin(0,
+           pval$mean[,,,'ex_actual'] - pval$mean[,,,'ex_expected']
+  ))
 
 # calculate probability of having at least the observed effect under H0
 pval$p <- apply(pval$test, 1:3, function (x) {
@@ -536,7 +539,71 @@ pval$df <-
   mutate(year_int = as.integer(year)) |>
   select(region_iso, sex, year, year_int, everything())
 #pval$df$year <- as.integer(pval$df$year)
-ecdf(pval$test['2020-2024','Total','LU',]) |> plot(verticals = TRUE)
+ecdf(pval$test['2024','Total','DE',]) |> plot(verticals = TRUE)
+
+# library(ggplot2)
+#
+# pval$demo <- list()
+# pval$demo$x <- pval$test['2024','Total','DE',]
+# pval$demo$test <- pval$demo$x[1]
+# pval$demo$x <- pval$demo$x[-1]
+# pval$demo$m <- mean(pval$demo$x)
+# pval$demo$sd <- sd(pval$demo$x)
+# pval$demo$p <- pval$p['2024','Total','DE']
+#
+# pval$plot <-
+#   pval$demo$x |>
+#   as_tibble() |>
+#   #filter(value >0) |>
+#   ggplot() +
+#   aes(x = -value) +
+#   # geom_histogram(
+#   #   aes(y = after_stat(density)),
+#   #   bins = 15,
+#   #   fill = 'grey70'
+#   # ) +
+#   stat_function(
+#     fun = dnorm,
+#     geom = 'area',
+#     args = list(mean = pval$demo$m, sd = pval$demo$sd),
+#     xlim = -c(min(pval$demo$x)*1.2, pval$demo$test),
+#     fill = 'red', linewidth = 1, alpha = 0.3
+#   ) +
+#   geom_function(
+#     fun = dnorm,
+#     args = list(mean = pval$demo$m, sd = pval$demo$sd),
+#     xlim = range(-1.5, 1.5),
+#     color = 'red', linewidth = 1
+#   ) +
+#   annotate(
+#     'point', fill = 'red', color = 'black', size = 3, shape = 21,
+#     x = -pval$demo$test,
+#     y = dnorm(pval$demo$test, mean = pval$demo$m, pval$demo$sd)
+#   ) +
+#   annotate(
+#     'text',
+#     x = -pval$demo$test+0.05,
+#     y = dnorm(pval$demo$test, mean = pval$demo$m, pval$demo$sd),
+#     label = paste0('Estimated LE deficit: ',
+#                    formatC(-pval$demo$test, digits = 2, format = 'f'),
+#                    ' years'),
+#     hjust = 0, color = 'red', size = 3
+#   ) +
+#   annotate(
+#     'text',
+#     x = -pval$demo$test+0.05,
+#     y = 0.23*dnorm(pval$demo$test, mean = pval$demo$m, pval$demo$sd),
+#     label = paste0('p=',
+#                    formatC(pval$demo$p, digits = 3, format = 'f')),
+#     hjust = 0, color = 'red', size = 3
+#   ) +
+#   scale_x_continuous(breaks = seq(-1.5, 1.5, 0.5)) +
+#   scale_y_continuous(expand = c(0,0), limits = c(0,1)) +
+#   MyGGplotTheme() +
+#   labs(
+#     x = 'Distribution of life expectancy deficit under expected mortality',
+#     y = NULL
+#   )
 
 # Calculates CI over simulations ----------------------------------
 
@@ -640,3 +707,8 @@ saveRDS(pval$df, paths$output$pval.rds)
 pval$df |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$pval.csv)
+
+# ExportFigure(
+#   pval$plot, filename = paths$output$pval.pdf,
+#   scale = 1
+# )
