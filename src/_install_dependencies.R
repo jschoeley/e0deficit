@@ -46,3 +46,4 @@ packages <- c(
 
 # install required packages
 renv::install(packages, dependencies = "strong")
+renv::snapshot(type = 'all')
