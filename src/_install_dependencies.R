@@ -1,5 +1,8 @@
 # Install required packages to local renv repository
 
+# if installing V8 on Linux
+Sys.setenv(DOWNLOAD_STATIC_LIBV8 = 1)
+
 # set remote repository
 options(
   repos = c(
@@ -13,6 +16,8 @@ renv::settings$ppm.enabled(value = TRUE)
 # list required packages
 # dput(unique(renv::dependencies()$Package))
 packages <- c(
+  "svglite",
+  "renv",
   "qs",
   "ggplot2",
   "ISOweek",
@@ -36,8 +41,7 @@ packages <- c(
   "StMoMo",
   "gt",
   "patchwork",
-  "jschoeley/ggflagsplus@d799ac56a4365540b627e5fb6b0fa40a7eacf83e",
-  "cowplot"
+  "jschoeley/ggflagsplus@d799ac56a4365540b627e5fb6b0fa40a7eacf83e"
 )
 
 # install required packages
