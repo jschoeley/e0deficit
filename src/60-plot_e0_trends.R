@@ -81,11 +81,11 @@ dat$e0expected <-
   select(
     group, region_iso, year, year_int,
     e0_expected_avg = ex_expected_mean,
-    e0_expected_q050 = ex_expected_q0.05,
-    e0_expected_q950 = ex_expected_q0.95,
+    e0_expected_q025 = ex_expected_q0.025,
+    e0_expected_q975 = ex_expected_q0.975,
     e0_deficit_avg = ex_actual_minus_expected_mean,
-    e0_deficit_q050 = ex_actual_minus_expected_q0.05,
-    e0_deficit_q950 = ex_actual_minus_expected_q0.95
+    e0_deficit_q025 = ex_actual_minus_expected_q0.025,
+    e0_deficit_q975 = ex_actual_minus_expected_q0.975
   )
 
 # Calculate and plot e0 -------------------------------------------
@@ -102,8 +102,8 @@ e0trends$data$padding <-
   filter(year != '2020-2024') |>
   group_by(group, region_iso, region_name_en) |>
   summarise(
-    ymin = min(c(e0_actual, e0_expected_q050), na.rm = TRUE),
-    ymax = max(c(e0_actual, e0_expected_q950), na.rm = TRUE),
+    ymin = min(c(e0_actual, e0_expected_q025), na.rm = TRUE),
+    ymax = max(c(e0_actual, e0_expected_q975), na.rm = TRUE),
     yrange = ymax-ymin,
     ypadding = (5.65-yrange)/2,
     ymin_padded = ymin-ypadding,
@@ -176,7 +176,7 @@ for (i in 1:length(groups)) {
     ggplot(aes(x = year_int)) +
     geom_vline(xintercept = 2019.5, color = 'grey60') +
     geom_ribbon(
-      aes(x = year_int, ymin = e0_expected_q050, ymax = e0_expected_q950),
+      aes(x = year_int, ymin = e0_expected_q025, ymax = e0_expected_q975),
       color = NA, fill = 'grey70'
     ) +
     geom_line(
@@ -286,6 +286,10 @@ e0deficittypology$fig <-
   geom_flag(
     aes(x = 2020+(n-1)/3, y = 0.5, country = region_ggflag),
     size = 5, data = e0deficittypology$data$flag_positions
+  ) +
+  geom_text(
+    aes(x = 2020+(n-1)/3, y = 0.2, label = region_iso),
+    size = 3, color = 'grey30', data = e0deficittypology$data$flag_positions
   ) +
   facet_wrap(~group, labeller = e0deficittypology$facet_labeller) +
   labs(x = 'Year', y = 'Life expectancy deficit') +
