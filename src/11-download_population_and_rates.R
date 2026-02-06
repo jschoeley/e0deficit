@@ -217,7 +217,7 @@ hmdhfd$hmd_mort <-
 # download hfd fertility rates
 hmdhfd$hfd_fert <-
   map(cnst$region_codes_hmd, ~{
-    cat('Download HMD fertility rates for', .x, '\n')
+    cat('Download HFD fertility rates for', .x, '\n')
     readHFDweb(
       CNTRY = .x, item = 'asfrRR',
       username = config$credentials$hfd_usr, password = config$credentials$hfd_pwd,
