@@ -6,8 +6,8 @@ Sys.setenv(DOWNLOAD_STATIC_LIBV8 = 1)
 # set remote repository
 options(
   repos = c(
-    # install packages from CRAN as it was on Sept 1st 2025
-    "CRAN" = "https://packagemanager.posit.co/cran/2025-09-01"
+    # install packages from CRAN as it was on November 1st 2025
+    "CRAN" = "https://packagemanager.posit.co/cran/2025-11-01"
   )
 )
 # tell renv to use the posit package manager
