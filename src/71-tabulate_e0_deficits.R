@@ -72,11 +72,11 @@ e0deficits$data$e0expected <-
   select(
     region = region_iso, sex, year,
     e0_expected_avg = ex_expected_mean,
-    e0_expected_q050 = ex_expected_q0.05,
-    e0_expected_q950 = ex_expected_q0.95,
+    e0_expected_q025 = ex_expected_q0.025,
+    e0_expected_q975 = ex_expected_q0.975,
     e0_deficit_avg = ex_actual_minus_expected_mean,
-    e0_deficit_q050 = ex_actual_minus_expected_q0.05,
-    e0_deficit_q950 = ex_actual_minus_expected_q0.95
+    e0_deficit_q025 = ex_actual_minus_expected_q0.025,
+    e0_deficit_q975 = ex_actual_minus_expected_q0.975
   )
 
 e0deficits$data$combine <-
@@ -110,8 +110,8 @@ for (s in c('Female', 'Male', 'Total')) {
       cell = paste0(
         formatC(e0_deficit_avg, format = 'f', digits = 2),
         ' (',
-        formatC(e0_deficit_q050, format = 'f', digits = 2), '; ',
-        formatC(e0_deficit_q950, format = 'f', digits = 2), ')', '\n',
+        formatC(e0_deficit_q025, format = 'f', digits = 2), '; ',
+        formatC(e0_deficit_q975, format = 'f', digits = 2), ')', '\n',
         pval
       ),
       cell = ifelse(grepl(pattern = 'NA|NaN', cell), '.', cell)

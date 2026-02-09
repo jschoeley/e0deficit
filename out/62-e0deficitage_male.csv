@@ -1,0 +1,1153 @@
+group,region_iso,region_name_en,year,age_group,e0_cntrb_t_mean,region_ggflag
+A First wave peak,BE,Belgium,2020,0,0.041687,be
+A First wave peak,BE,Belgium,2020,20,-0.03922,be
+A First wave peak,BE,Belgium,2020,40,-0.110989,be
+A First wave peak,BE,Belgium,2020,60,-0.646554,be
+A First wave peak,BE,Belgium,2020,80,-0.513501,be
+A First wave peak,BE,Belgium,2020,100,-8.57e-4,be
+A First wave peak,BE,Belgium,2020-2024,0,-0.002252,be
+A First wave peak,BE,Belgium,2020-2024,20,-0.049365,be
+A First wave peak,BE,Belgium,2020-2024,40,-0.10552,be
+A First wave peak,BE,Belgium,2020-2024,60,-0.396145,be
+A First wave peak,BE,Belgium,2020-2024,80,-0.227241,be
+A First wave peak,BE,Belgium,2020-2024,100,-8.23e-4,be
+A First wave peak,BE,Belgium,2021,0,-0.019815,be
+A First wave peak,BE,Belgium,2021,20,-0.04113,be
+A First wave peak,BE,Belgium,2021,40,-0.119233,be
+A First wave peak,BE,Belgium,2021,60,-0.453552,be
+A First wave peak,BE,Belgium,2021,80,-0.160086,be
+A First wave peak,BE,Belgium,2021,100,-0.001595,be
+A First wave peak,BE,Belgium,2022,0,0.011087,be
+A First wave peak,BE,Belgium,2022,20,-0.050423,be
+A First wave peak,BE,Belgium,2022,40,-0.109191,be
+A First wave peak,BE,Belgium,2022,60,-0.355435,be
+A First wave peak,BE,Belgium,2022,80,-0.204331,be
+A First wave peak,BE,Belgium,2022,100,-0.002071,be
+A First wave peak,BE,Belgium,2023,0,-0.006225,be
+A First wave peak,BE,Belgium,2023,20,-0.045923,be
+A First wave peak,BE,Belgium,2023,40,-0.117896,be
+A First wave peak,BE,Belgium,2023,60,-0.255119,be
+A First wave peak,BE,Belgium,2023,80,-0.062932,be
+A First wave peak,BE,Belgium,2023,100,0.005475,be
+A First wave peak,BE,Belgium,2024,0,-0.041137,be
+A First wave peak,BE,Belgium,2024,20,-0.07087,be
+A First wave peak,BE,Belgium,2024,40,-0.069794,be
+A First wave peak,BE,Belgium,2024,60,-0.268249,be
+A First wave peak,BE,Belgium,2024,80,-0.111296,be
+A First wave peak,BE,Belgium,2024,100,-8.62e-4,be
+A First wave peak,CH,Switzerland,2020,0,-0.090815,ch
+A First wave peak,CH,Switzerland,2020,20,-0.0816,ch
+A First wave peak,CH,Switzerland,2020,40,-0.03287,ch
+A First wave peak,CH,Switzerland,2020,60,-0.425911,ch
+A First wave peak,CH,Switzerland,2020,80,-0.472441,ch
+A First wave peak,CH,Switzerland,2020,100,-9.32e-4,ch
+A First wave peak,CH,Switzerland,2020-2024,0,-0.065237,ch
+A First wave peak,CH,Switzerland,2020-2024,20,-0.11765,ch
+A First wave peak,CH,Switzerland,2020-2024,40,-0.066204,ch
+A First wave peak,CH,Switzerland,2020-2024,60,-0.354545,ch
+A First wave peak,CH,Switzerland,2020-2024,80,-0.177863,ch
+A First wave peak,CH,Switzerland,2020-2024,100,3.36e-4,ch
+A First wave peak,CH,Switzerland,2021,0,-0.038409,ch
+A First wave peak,CH,Switzerland,2021,20,-0.115144,ch
+A First wave peak,CH,Switzerland,2021,40,-0.068247,ch
+A First wave peak,CH,Switzerland,2021,60,-0.445351,ch
+A First wave peak,CH,Switzerland,2021,80,-0.060561,ch
+A First wave peak,CH,Switzerland,2021,100,0.001228,ch
+A First wave peak,CH,Switzerland,2022,0,-0.089296,ch
+A First wave peak,CH,Switzerland,2022,20,-0.118483,ch
+A First wave peak,CH,Switzerland,2022,40,-0.09305,ch
+A First wave peak,CH,Switzerland,2022,60,-0.380811,ch
+A First wave peak,CH,Switzerland,2022,80,-0.247498,ch
+A First wave peak,CH,Switzerland,2022,100,-1.79e-4,ch
+A First wave peak,CH,Switzerland,2023,0,-0.068414,ch
+A First wave peak,CH,Switzerland,2023,20,-0.120144,ch
+A First wave peak,CH,Switzerland,2023,40,-0.052393,ch
+A First wave peak,CH,Switzerland,2023,60,-0.236267,ch
+A First wave peak,CH,Switzerland,2023,80,-0.078982,ch
+A First wave peak,CH,Switzerland,2023,100,0.003249,ch
+A First wave peak,CH,Switzerland,2024,0,-0.038774,ch
+A First wave peak,CH,Switzerland,2024,20,-0.152834,ch
+A First wave peak,CH,Switzerland,2024,40,-0.081631,ch
+A First wave peak,CH,Switzerland,2024,60,-0.283656,ch
+A First wave peak,CH,Switzerland,2024,80,0.007412,ch
+A First wave peak,CH,Switzerland,2024,100,5.74e-4,ch
+A First wave peak,ES,Spain,2020,0,-0.018265,es
+A First wave peak,ES,Spain,2020,20,-0.139795,es
+A First wave peak,ES,Spain,2020,40,-0.100051,es
+A First wave peak,ES,Spain,2020,60,-0.765194,es
+A First wave peak,ES,Spain,2020,80,-0.492355,es
+A First wave peak,ES,Spain,2020,100,-0.001336,es
+A First wave peak,ES,Spain,2020-2024,0,-0.074513,es
+A First wave peak,ES,Spain,2020-2024,20,-0.180179,es
+A First wave peak,ES,Spain,2020-2024,40,-0.046636,es
+A First wave peak,ES,Spain,2020-2024,60,-0.48965,es
+A First wave peak,ES,Spain,2020-2024,80,-0.177492,es
+A First wave peak,ES,Spain,2020-2024,100,2.5e-4,es
+A First wave peak,ES,Spain,2021,0,-0.053329,es
+A First wave peak,ES,Spain,2021,20,-0.162278,es
+A First wave peak,ES,Spain,2021,40,-0.077308,es
+A First wave peak,ES,Spain,2021,60,-0.60117,es
+A First wave peak,ES,Spain,2021,80,-0.172771,es
+A First wave peak,ES,Spain,2021,100,-4.86e-4,es
+A First wave peak,ES,Spain,2022,0,-0.109503,es
+A First wave peak,ES,Spain,2022,20,-0.182842,es
+A First wave peak,ES,Spain,2022,40,-0.06114,es
+A First wave peak,ES,Spain,2022,60,-0.531181,es
+A First wave peak,ES,Spain,2022,80,-0.216968,es
+A First wave peak,ES,Spain,2022,100,-2.13e-4,es
+A First wave peak,ES,Spain,2023,0,-0.071962,es
+A First wave peak,ES,Spain,2023,20,-0.198815,es
+A First wave peak,ES,Spain,2023,40,0.002299,es
+A First wave peak,ES,Spain,2023,60,-0.317058,es
+A First wave peak,ES,Spain,2023,80,0.022111,es
+A First wave peak,ES,Spain,2023,100,0.002027,es
+A First wave peak,ES,Spain,2024,0,-0.126019,es
+A First wave peak,ES,Spain,2024,20,-0.222328,es
+A First wave peak,ES,Spain,2024,40,0.001455,es
+A First wave peak,ES,Spain,2024,60,-0.223379,es
+A First wave peak,ES,Spain,2024,80,0.045077,es
+A First wave peak,ES,Spain,2024,100,0.003645,es
+A First wave peak,GB-EAW,England and Wales,2020,0,0.005245,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2020,20,-0.014463,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2020,40,-0.284562,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2020,60,-0.624147,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2020,80,-0.423918,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2020,100,6.52e-4,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2020-2024,0,-0.047656,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2020-2024,20,-0.04709,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2020-2024,40,-0.275204,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2020-2024,60,-0.417674,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2020-2024,80,-0.202941,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2020-2024,100,0.001293,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2021,0,-0.048747,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2021,20,-0.076372,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2021,40,-0.380447,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2021,60,-0.577787,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2021,80,-0.212482,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2021,100,0.001123,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2022,0,-0.063424,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2022,20,-0.044622,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2022,40,-0.220711,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2022,60,-0.34664,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2022,80,-0.192712,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2022,100,5.95e-4,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2023,0,-0.072263,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2023,20,-0.063518,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2023,40,-0.27444,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2023,60,-0.359073,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2023,80,-0.156721,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2023,100,0.001323,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2024,0,-0.061654,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2024,20,-0.03713,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2024,40,-0.20859,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2024,60,-0.187204,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2024,80,-0.006755,gb-eaw
+A First wave peak,GB-EAW,England and Wales,2024,100,0.0035,gb-eaw
+A First wave peak,IT,Italy,2020,0,0.03305,it
+A First wave peak,IT,Italy,2020,20,-0.013929,it
+A First wave peak,IT,Italy,2020,40,-0.153622,it
+A First wave peak,IT,Italy,2020,60,-0.785779,it
+A First wave peak,IT,Italy,2020,80,-0.488187,it
+A First wave peak,IT,Italy,2020,100,-5.17e-4,it
+A First wave peak,IT,Italy,2020-2024,0,-0.006473,it
+A First wave peak,IT,Italy,2020-2024,20,-0.053021,it
+A First wave peak,IT,Italy,2020-2024,40,-0.119167,it
+A First wave peak,IT,Italy,2020-2024,60,-0.411364,it
+A First wave peak,IT,Italy,2020-2024,80,-0.285365,it
+A First wave peak,IT,Italy,2020-2024,100,0.001921,it
+A First wave peak,IT,Italy,2021,0,0.004347,it
+A First wave peak,IT,Italy,2021,20,-0.064481,it
+A First wave peak,IT,Italy,2021,40,-0.180194,it
+A First wave peak,IT,Italy,2021,60,-0.633421,it
+A First wave peak,IT,Italy,2021,80,-0.298493,it
+A First wave peak,IT,Italy,2021,100,0.001496,it
+A First wave peak,IT,Italy,2022,0,-0.008459,it
+A First wave peak,IT,Italy,2022,20,-0.063523,it
+A First wave peak,IT,Italy,2022,40,-0.128614,it
+A First wave peak,IT,Italy,2022,60,-0.444178,it
+A First wave peak,IT,Italy,2022,80,-0.400564,it
+A First wave peak,IT,Italy,2022,100,0.001008,it
+A First wave peak,IT,Italy,2023,0,-0.025817,it
+A First wave peak,IT,Italy,2023,20,-0.059026,it
+A First wave peak,IT,Italy,2023,40,-0.075745,it
+A First wave peak,IT,Italy,2023,60,-0.141818,it
+A First wave peak,IT,Italy,2023,80,-0.140378,it
+A First wave peak,IT,Italy,2023,100,0.004381,it
+A First wave peak,IT,Italy,2024,0,-0.039867,it
+A First wave peak,IT,Italy,2024,20,-0.066133,it
+A First wave peak,IT,Italy,2024,40,-0.052619,it
+A First wave peak,IT,Italy,2024,60,-0.021664,it
+A First wave peak,IT,Italy,2024,80,-0.058999,it
+A First wave peak,IT,Italy,2024,100,0.005465,it
+A First wave peak,LU,Luxembourg,2020,0,-0.08695,lu
+A First wave peak,LU,Luxembourg,2020,20,0.026142,lu
+A First wave peak,LU,Luxembourg,2020,40,-0.077008,lu
+A First wave peak,LU,Luxembourg,2020,60,-0.327762,lu
+A First wave peak,LU,Luxembourg,2020,80,-0.352476,lu
+A First wave peak,LU,Luxembourg,2020,100,0.0075,lu
+A First wave peak,LU,Luxembourg,2020-2024,0,-0.191529,lu
+A First wave peak,LU,Luxembourg,2020-2024,20,-0.019517,lu
+A First wave peak,LU,Luxembourg,2020-2024,40,-0.016246,lu
+A First wave peak,LU,Luxembourg,2020-2024,60,-0.157387,lu
+A First wave peak,LU,Luxembourg,2020-2024,80,-0.145603,lu
+A First wave peak,LU,Luxembourg,2020-2024,100,0.007728,lu
+A First wave peak,LU,Luxembourg,2021,0,0.05097,lu
+A First wave peak,LU,Luxembourg,2021,20,0.067972,lu
+A First wave peak,LU,Luxembourg,2021,40,-0.07495,lu
+A First wave peak,LU,Luxembourg,2021,60,-0.325638,lu
+A First wave peak,LU,Luxembourg,2021,80,-0.133101,lu
+A First wave peak,LU,Luxembourg,2021,100,0.019948,lu
+A First wave peak,LU,Luxembourg,2022,0,-0.298224,lu
+A First wave peak,LU,Luxembourg,2022,20,-0.095098,lu
+A First wave peak,LU,Luxembourg,2022,40,0.042412,lu
+A First wave peak,LU,Luxembourg,2022,60,-0.077297,lu
+A First wave peak,LU,Luxembourg,2022,80,-0.125544,lu
+A First wave peak,LU,Luxembourg,2022,100,0.017746,lu
+A First wave peak,LU,Luxembourg,2023,0,-0.015758,lu
+A First wave peak,LU,Luxembourg,2023,20,-0.036578,lu
+A First wave peak,LU,Luxembourg,2023,40,0.065319,lu
+A First wave peak,LU,Luxembourg,2023,60,0.016768,lu
+A First wave peak,LU,Luxembourg,2023,80,0.164251,lu
+A First wave peak,LU,Luxembourg,2023,100,0.040254,lu
+A First wave peak,LU,Luxembourg,2024,0,-0.591688,lu
+A First wave peak,LU,Luxembourg,2024,20,-0.057244,lu
+A First wave peak,LU,Luxembourg,2024,40,-0.033395,lu
+A First wave peak,LU,Luxembourg,2024,60,-0.080858,lu
+A First wave peak,LU,Luxembourg,2024,80,-0.213489,lu
+A First wave peak,LU,Luxembourg,2024,100,0.015412,lu
+A First wave peak,SE,Sweden,2020,0,-0.087787,se
+A First wave peak,SE,Sweden,2020,20,0.043968,se
+A First wave peak,SE,Sweden,2020,40,-0.072953,se
+A First wave peak,SE,Sweden,2020,60,-0.41601,se
+A First wave peak,SE,Sweden,2020,80,-0.358639,se
+A First wave peak,SE,Sweden,2020,100,-7.6e-5,se
+A First wave peak,SE,Sweden,2020-2024,0,-0.05543,se
+A First wave peak,SE,Sweden,2020-2024,20,0.055833,se
+A First wave peak,SE,Sweden,2020-2024,40,-0.053138,se
+A First wave peak,SE,Sweden,2020-2024,60,-0.300607,se
+A First wave peak,SE,Sweden,2020-2024,80,-0.116708,se
+A First wave peak,SE,Sweden,2020-2024,100,7e-4,se
+A First wave peak,SE,Sweden,2021,0,-0.029725,se
+A First wave peak,SE,Sweden,2021,20,0.041325,se
+A First wave peak,SE,Sweden,2021,40,-0.085639,se
+A First wave peak,SE,Sweden,2021,60,-0.350736,se
+A First wave peak,SE,Sweden,2021,80,-0.052095,se
+A First wave peak,SE,Sweden,2021,100,0.001,se
+A First wave peak,SE,Sweden,2022,0,-0.04449,se
+A First wave peak,SE,Sweden,2022,20,0.029971,se
+A First wave peak,SE,Sweden,2022,40,-0.037644,se
+A First wave peak,SE,Sweden,2022,60,-0.309392,se
+A First wave peak,SE,Sweden,2022,80,-0.148676,se
+A First wave peak,SE,Sweden,2022,100,-0.001307,se
+A First wave peak,SE,Sweden,2023,0,-0.064374,se
+A First wave peak,SE,Sweden,2023,20,0.039819,se
+A First wave peak,SE,Sweden,2023,40,-0.054187,se
+A First wave peak,SE,Sweden,2023,60,-0.309038,se
+A First wave peak,SE,Sweden,2023,80,-0.099979,se
+A First wave peak,SE,Sweden,2023,100,0.001242,se
+A First wave peak,SE,Sweden,2024,0,-0.051557,se
+A First wave peak,SE,Sweden,2024,20,0.128213,se
+A First wave peak,SE,Sweden,2024,40,-0.015969,se
+A First wave peak,SE,Sweden,2024,60,-0.1127,se
+A First wave peak,SE,Sweden,2024,80,0.089537,se
+A First wave peak,SE,Sweden,2024,100,0.004753,se
+A First wave peak,SI,Slovenia,2020,0,-0.074274,si
+A First wave peak,SI,Slovenia,2020,20,0.024303,si
+A First wave peak,SI,Slovenia,2020,40,-0.061269,si
+A First wave peak,SI,Slovenia,2020,60,-0.537977,si
+A First wave peak,SI,Slovenia,2020,80,-0.424051,si
+A First wave peak,SI,Slovenia,2020,100,0.001364,si
+A First wave peak,SI,Slovenia,2020-2024,0,-0.102035,si
+A First wave peak,SI,Slovenia,2020-2024,20,-0.017807,si
+A First wave peak,SI,Slovenia,2020-2024,40,-0.064665,si
+A First wave peak,SI,Slovenia,2020-2024,60,-0.446897,si
+A First wave peak,SI,Slovenia,2020-2024,80,-0.158277,si
+A First wave peak,SI,Slovenia,2020-2024,100,0.007473,si
+A First wave peak,SI,Slovenia,2021,0,-0.18455,si
+A First wave peak,SI,Slovenia,2021,20,0.003593,si
+A First wave peak,SI,Slovenia,2021,40,-0.225844,si
+A First wave peak,SI,Slovenia,2021,60,-0.802206,si
+A First wave peak,SI,Slovenia,2021,80,-0.232563,si
+A First wave peak,SI,Slovenia,2021,100,0.009633,si
+A First wave peak,SI,Slovenia,2022,0,-0.162687,si
+A First wave peak,SI,Slovenia,2022,20,-0.077086,si
+A First wave peak,SI,Slovenia,2022,40,0.022254,si
+A First wave peak,SI,Slovenia,2022,60,-0.404098,si
+A First wave peak,SI,Slovenia,2022,80,-0.05991,si
+A First wave peak,SI,Slovenia,2022,100,0.018153,si
+A First wave peak,SI,Slovenia,2023,0,-0.054917,si
+A First wave peak,SI,Slovenia,2023,20,-0.003481,si
+A First wave peak,SI,Slovenia,2023,40,-0.10193,si
+A First wave peak,SI,Slovenia,2023,60,-0.302932,si
+A First wave peak,SI,Slovenia,2023,80,-0.019648,si
+A First wave peak,SI,Slovenia,2023,100,0.012015,si
+A First wave peak,SI,Slovenia,2024,0,-0.017519,si
+A First wave peak,SI,Slovenia,2024,20,-0.041548,si
+A First wave peak,SI,Slovenia,2024,40,0.053758,si
+A First wave peak,SI,Slovenia,2024,60,-0.161974,si
+A First wave peak,SI,Slovenia,2024,80,0.017769,si
+A First wave peak,SI,Slovenia,2024,100,0.011623,si
+B Second wave peak,BG,Bulgaria,2020,0,0.165934,bg
+B Second wave peak,BG,Bulgaria,2020,20,-0.081279,bg
+B Second wave peak,BG,Bulgaria,2020,40,-0.562375,bg
+B Second wave peak,BG,Bulgaria,2020,60,-1.062433,bg
+B Second wave peak,BG,Bulgaria,2020,80,-0.193803,bg
+B Second wave peak,BG,Bulgaria,2020,100,-1.77e-4,bg
+B Second wave peak,BG,Bulgaria,2020-2024,0,0.10763,bg
+B Second wave peak,BG,Bulgaria,2020-2024,20,-0.100007,bg
+B Second wave peak,BG,Bulgaria,2020-2024,40,-0.360046,bg
+B Second wave peak,BG,Bulgaria,2020-2024,60,-0.897997,bg
+B Second wave peak,BG,Bulgaria,2020-2024,80,-0.171408,bg
+B Second wave peak,BG,Bulgaria,2020-2024,100,-5.2e-5,bg
+B Second wave peak,BG,Bulgaria,2021,0,0.069699,bg
+B Second wave peak,BG,Bulgaria,2021,20,-0.342388,bg
+B Second wave peak,BG,Bulgaria,2021,40,-1.076387,bg
+B Second wave peak,BG,Bulgaria,2021,60,-2.010241,bg
+B Second wave peak,BG,Bulgaria,2021,80,-0.443818,bg
+B Second wave peak,BG,Bulgaria,2021,100,-7.5e-5,bg
+B Second wave peak,BG,Bulgaria,2022,0,0.09121,bg
+B Second wave peak,BG,Bulgaria,2022,20,-0.039176,bg
+B Second wave peak,BG,Bulgaria,2022,40,-0.215886,bg
+B Second wave peak,BG,Bulgaria,2022,60,-0.832725,bg
+B Second wave peak,BG,Bulgaria,2022,80,-0.242796,bg
+B Second wave peak,BG,Bulgaria,2022,100,-7.6e-5,bg
+B Second wave peak,BG,Bulgaria,2023,0,0.097515,bg
+B Second wave peak,BG,Bulgaria,2023,20,-0.019551,bg
+B Second wave peak,BG,Bulgaria,2023,40,0.119671,bg
+B Second wave peak,BG,Bulgaria,2023,60,-0.107495,bg
+B Second wave peak,BG,Bulgaria,2023,80,0.095186,bg
+B Second wave peak,BG,Bulgaria,2023,100,0.001117,bg
+B Second wave peak,BG,Bulgaria,2024,0,0.114334,bg
+B Second wave peak,BG,Bulgaria,2024,20,0.007334,bg
+B Second wave peak,BG,Bulgaria,2024,40,0.087447,bg
+B Second wave peak,BG,Bulgaria,2024,60,-0.069038,bg
+B Second wave peak,BG,Bulgaria,2024,80,0.133022,bg
+B Second wave peak,BG,Bulgaria,2024,100,0.001832,bg
+B Second wave peak,CZ,Czech Republic,2020,0,0.01392,cz
+B Second wave peak,CZ,Czech Republic,2020,20,-0.049141,cz
+B Second wave peak,CZ,Czech Republic,2020,40,-0.205261,cz
+B Second wave peak,CZ,Czech Republic,2020,60,-0.658129,cz
+B Second wave peak,CZ,Czech Republic,2020,80,-0.389918,cz
+B Second wave peak,CZ,Czech Republic,2020,100,-3.29e-4,cz
+B Second wave peak,CZ,Czech Republic,2020-2024,0,0.004602,cz
+B Second wave peak,CZ,Czech Republic,2020-2024,20,-0.097348,cz
+B Second wave peak,CZ,Czech Republic,2020-2024,40,-0.30565,cz
+B Second wave peak,CZ,Czech Republic,2020-2024,60,-0.473064,cz
+B Second wave peak,CZ,Czech Republic,2020-2024,80,-0.222045,cz
+B Second wave peak,CZ,Czech Republic,2020-2024,100,-4.36e-4,cz
+B Second wave peak,CZ,Czech Republic,2021,0,-0.007752,cz
+B Second wave peak,CZ,Czech Republic,2021,20,-0.093565,cz
+B Second wave peak,CZ,Czech Republic,2021,40,-0.613881,cz
+B Second wave peak,CZ,Czech Republic,2021,60,-1.459898,cz
+B Second wave peak,CZ,Czech Republic,2021,80,-0.456101,cz
+B Second wave peak,CZ,Czech Republic,2021,100,-2.57e-4,cz
+B Second wave peak,CZ,Czech Republic,2022,0,0.005225,cz
+B Second wave peak,CZ,Czech Republic,2022,20,-0.122331,cz
+B Second wave peak,CZ,Czech Republic,2022,40,-0.23456,cz
+B Second wave peak,CZ,Czech Republic,2022,60,-0.282927,cz
+B Second wave peak,CZ,Czech Republic,2022,80,-0.204038,cz
+B Second wave peak,CZ,Czech Republic,2022,100,-1.86e-4,cz
+B Second wave peak,CZ,Czech Republic,2023,0,0.027707,cz
+B Second wave peak,CZ,Czech Republic,2023,20,-0.099866,cz
+B Second wave peak,CZ,Czech Republic,2023,40,-0.206805,cz
+B Second wave peak,CZ,Czech Republic,2023,60,0.092072,cz
+B Second wave peak,CZ,Czech Republic,2023,80,-0.023616,cz
+B Second wave peak,CZ,Czech Republic,2023,100,1.26e-4,cz
+B Second wave peak,CZ,Czech Republic,2024,0,-0.010731,cz
+B Second wave peak,CZ,Czech Republic,2024,20,-0.125464,cz
+B Second wave peak,CZ,Czech Republic,2024,40,-0.262416,cz
+B Second wave peak,CZ,Czech Republic,2024,60,0.139954,cz
+B Second wave peak,CZ,Czech Republic,2024,80,0.051868,cz
+B Second wave peak,CZ,Czech Republic,2024,100,-6.75e-4,cz
+B Second wave peak,EE,Estonia,2020,0,0.050621,ee
+B Second wave peak,EE,Estonia,2020,20,0.174162,ee
+B Second wave peak,EE,Estonia,2020,40,-0.352812,ee
+B Second wave peak,EE,Estonia,2020,60,-0.207739,ee
+B Second wave peak,EE,Estonia,2020,80,0.03002,ee
+B Second wave peak,EE,Estonia,2020,100,0.002779,ee
+B Second wave peak,EE,Estonia,2020-2024,0,-0.091352,ee
+B Second wave peak,EE,Estonia,2020-2024,20,0.013972,ee
+B Second wave peak,EE,Estonia,2020-2024,40,-0.58559,ee
+B Second wave peak,EE,Estonia,2020-2024,60,-0.524479,ee
+B Second wave peak,EE,Estonia,2020-2024,80,-0.176101,ee
+B Second wave peak,EE,Estonia,2020-2024,100,2.62e-4,ee
+B Second wave peak,EE,Estonia,2021,0,-0.186989,ee
+B Second wave peak,EE,Estonia,2021,20,-0.018079,ee
+B Second wave peak,EE,Estonia,2021,40,-0.684028,ee
+B Second wave peak,EE,Estonia,2021,60,-1.129448,ee
+B Second wave peak,EE,Estonia,2021,80,-0.389027,ee
+B Second wave peak,EE,Estonia,2021,100,6.88e-4,ee
+B Second wave peak,EE,Estonia,2022,0,-0.106382,ee
+B Second wave peak,EE,Estonia,2022,20,-0.018048,ee
+B Second wave peak,EE,Estonia,2022,40,-0.715088,ee
+B Second wave peak,EE,Estonia,2022,60,-0.665544,ee
+B Second wave peak,EE,Estonia,2022,80,-0.27037,ee
+B Second wave peak,EE,Estonia,2022,100,5.51e-4,ee
+B Second wave peak,EE,Estonia,2023,0,-0.132121,ee
+B Second wave peak,EE,Estonia,2023,20,-0.057165,ee
+B Second wave peak,EE,Estonia,2023,40,-0.604049,ee
+B Second wave peak,EE,Estonia,2023,60,-0.249532,ee
+B Second wave peak,EE,Estonia,2023,80,-0.171788,ee
+B Second wave peak,EE,Estonia,2023,100,0.002312,ee
+B Second wave peak,EE,Estonia,2024,0,-0.064619,ee
+B Second wave peak,EE,Estonia,2024,20,-0.012376,ee
+B Second wave peak,EE,Estonia,2024,40,-0.557301,ee
+B Second wave peak,EE,Estonia,2024,60,-0.313535,ee
+B Second wave peak,EE,Estonia,2024,80,-0.014037000000000001,ee
+B Second wave peak,EE,Estonia,2024,100,0.005294,ee
+B Second wave peak,GR,Greece,2020,0,0.027298,gr
+B Second wave peak,GR,Greece,2020,20,0.056565,gr
+B Second wave peak,GR,Greece,2020,40,0.071895,gr
+B Second wave peak,GR,Greece,2020,60,-0.456514,gr
+B Second wave peak,GR,Greece,2020,80,-0.03533,gr
+B Second wave peak,GR,Greece,2020,100,0.00531,gr
+B Second wave peak,GR,Greece,2020-2024,0,-0.055927,gr
+B Second wave peak,GR,Greece,2020-2024,20,-0.047945,gr
+B Second wave peak,GR,Greece,2020-2024,40,-0.033492,gr
+B Second wave peak,GR,Greece,2020-2024,60,-0.728938,gr
+B Second wave peak,GR,Greece,2020-2024,80,-0.125487,gr
+B Second wave peak,GR,Greece,2020-2024,100,0.002545,gr
+B Second wave peak,GR,Greece,2021,0,-0.033319,gr
+B Second wave peak,GR,Greece,2021,20,-0.10235,gr
+B Second wave peak,GR,Greece,2021,40,-0.312357,gr
+B Second wave peak,GR,Greece,2021,60,-1.111381,gr
+B Second wave peak,GR,Greece,2021,80,-0.288095,gr
+B Second wave peak,GR,Greece,2021,100,8.34e-4,gr
+B Second wave peak,GR,Greece,2022,0,-0.007952,gr
+B Second wave peak,GR,Greece,2022,20,-0.077671,gr
+B Second wave peak,GR,Greece,2022,40,-0.075724,gr
+B Second wave peak,GR,Greece,2022,60,-0.81133,gr
+B Second wave peak,GR,Greece,2022,80,-0.301535,gr
+B Second wave peak,GR,Greece,2022,100,2.42e-4,gr
+B Second wave peak,GR,Greece,2023,0,-0.059763,gr
+B Second wave peak,GR,Greece,2023,20,-0.06961,gr
+B Second wave peak,GR,Greece,2023,40,0.070823,gr
+B Second wave peak,GR,Greece,2023,60,-0.584923,gr
+B Second wave peak,GR,Greece,2023,80,0.002696,gr
+B Second wave peak,GR,Greece,2023,100,0.005394,gr
+B Second wave peak,GR,Greece,2024,0,-0.231546,gr
+B Second wave peak,GR,Greece,2024,20,-0.052095,gr
+B Second wave peak,GR,Greece,2024,40,0.08963,gr
+B Second wave peak,GR,Greece,2024,60,-0.65794299999999994,gr
+B Second wave peak,GR,Greece,2024,80,0.030682,gr
+B Second wave peak,GR,Greece,2024,100,0.003482,gr
+B Second wave peak,HR,Croatia,2020,0,-0.052202,hr
+B Second wave peak,HR,Croatia,2020,20,-0.075293,hr
+B Second wave peak,HR,Croatia,2020,40,-0.097984,hr
+B Second wave peak,HR,Croatia,2020,60,-0.635323,hr
+B Second wave peak,HR,Croatia,2020,80,-0.13481,hr
+B Second wave peak,HR,Croatia,2020,100,0.001353,hr
+B Second wave peak,HR,Croatia,2020-2024,0,-0.005286,hr
+B Second wave peak,HR,Croatia,2020-2024,20,-0.084542,hr
+B Second wave peak,HR,Croatia,2020-2024,40,-0.191448,hr
+B Second wave peak,HR,Croatia,2020-2024,60,-0.541634,hr
+B Second wave peak,HR,Croatia,2020-2024,80,-0.005275,hr
+B Second wave peak,HR,Croatia,2020-2024,100,0.005498,hr
+B Second wave peak,HR,Croatia,2021,0,0.008731,hr
+B Second wave peak,HR,Croatia,2021,20,-0.095122,hr
+B Second wave peak,HR,Croatia,2021,40,-0.479667,hr
+B Second wave peak,HR,Croatia,2021,60,-1.151318,hr
+B Second wave peak,HR,Croatia,2021,80,-0.260628,hr
+B Second wave peak,HR,Croatia,2021,100,0.002792,hr
+B Second wave peak,HR,Croatia,2022,0,-0.048567,hr
+B Second wave peak,HR,Croatia,2022,20,-0.109071,hr
+B Second wave peak,HR,Croatia,2022,40,-0.169709,hr
+B Second wave peak,HR,Croatia,2022,60,-0.51848,hr
+B Second wave peak,HR,Croatia,2022,80,-0.049718,hr
+B Second wave peak,HR,Croatia,2022,100,0.003896,hr
+B Second wave peak,HR,Croatia,2023,0,-0.008585,hr
+B Second wave peak,HR,Croatia,2023,20,-0.076788,hr
+B Second wave peak,HR,Croatia,2023,40,-0.120473,hr
+B Second wave peak,HR,Croatia,2023,60,-0.215826,hr
+B Second wave peak,HR,Croatia,2023,80,0.320082,hr
+B Second wave peak,HR,Croatia,2023,100,0.018667,hr
+B Second wave peak,HR,Croatia,2024,0,0.080773,hr
+B Second wave peak,HR,Croatia,2024,20,-0.063646,hr
+B Second wave peak,HR,Croatia,2024,40,-0.063109,hr
+B Second wave peak,HR,Croatia,2024,60,-0.088406,hr
+B Second wave peak,HR,Croatia,2024,80,0.226701,hr
+B Second wave peak,HR,Croatia,2024,100,0.014917,hr
+B Second wave peak,HU,Hungary,2020,0,-0.010377,hu
+B Second wave peak,HU,Hungary,2020,20,-0.147218,hu
+B Second wave peak,HU,Hungary,2020,40,-0.07716,hu
+B Second wave peak,HU,Hungary,2020,60,-0.61722,hu
+B Second wave peak,HU,Hungary,2020,80,-0.132582,hu
+B Second wave peak,HU,Hungary,2020,100,0.00346,hu
+B Second wave peak,HU,Hungary,2020-2024,0,-0.031543,hu
+B Second wave peak,HU,Hungary,2020-2024,20,-0.20169,hu
+B Second wave peak,HU,Hungary,2020-2024,40,-0.110825,hu
+B Second wave peak,HU,Hungary,2020-2024,60,-0.657221,hu
+B Second wave peak,HU,Hungary,2020-2024,80,-0.05378,hu
+B Second wave peak,HU,Hungary,2020-2024,100,0.005644,hu
+B Second wave peak,HU,Hungary,2021,0,-0.033512,hu
+B Second wave peak,HU,Hungary,2021,20,-0.29616,hu
+B Second wave peak,HU,Hungary,2021,40,-0.738051,hu
+B Second wave peak,HU,Hungary,2021,60,-1.479775,hu
+B Second wave peak,HU,Hungary,2021,80,-0.235272,hu
+B Second wave peak,HU,Hungary,2021,100,0.002965,hu
+B Second wave peak,HU,Hungary,2022,0,-0.051018,hu
+B Second wave peak,HU,Hungary,2022,20,-0.191665,hu
+B Second wave peak,HU,Hungary,2022,40,-0.116162,hu
+B Second wave peak,HU,Hungary,2022,60,-0.596606,hu
+B Second wave peak,HU,Hungary,2022,80,-0.081843,hu
+B Second wave peak,HU,Hungary,2022,100,0.004828,hu
+B Second wave peak,HU,Hungary,2023,0,-0.017826,hu
+B Second wave peak,HU,Hungary,2023,20,-0.167661,hu
+B Second wave peak,HU,Hungary,2023,40,0.218812,hu
+B Second wave peak,HU,Hungary,2023,60,-0.320582,hu
+B Second wave peak,HU,Hungary,2023,80,0.104123,hu
+B Second wave peak,HU,Hungary,2023,100,0.010507,hu
+B Second wave peak,HU,Hungary,2024,0,-0.046309,hu
+B Second wave peak,HU,Hungary,2024,20,-0.202603,hu
+B Second wave peak,HU,Hungary,2024,40,0.193149,hu
+B Second wave peak,HU,Hungary,2024,60,-0.111602,hu
+B Second wave peak,HU,Hungary,2024,80,0.130433,hu
+B Second wave peak,HU,Hungary,2024,100,0.011432,hu
+B Second wave peak,LT,Lithuania,2020,0,-0.008753,lt
+B Second wave peak,LT,Lithuania,2020,20,0.077407,lt
+B Second wave peak,LT,Lithuania,2020,40,-0.745574,lt
+B Second wave peak,LT,Lithuania,2020,60,-0.691804,lt
+B Second wave peak,LT,Lithuania,2020,80,-0.159871,lt
+B Second wave peak,LT,Lithuania,2020,100,2.04e-4,lt
+B Second wave peak,LT,Lithuania,2020-2024,0,0.009382,lt
+B Second wave peak,LT,Lithuania,2020-2024,20,0.163885,lt
+B Second wave peak,LT,Lithuania,2020-2024,40,-0.501948,lt
+B Second wave peak,LT,Lithuania,2020-2024,60,-0.347144,lt
+B Second wave peak,LT,Lithuania,2020-2024,80,-0.108247,lt
+B Second wave peak,LT,Lithuania,2020-2024,100,5.87e-4,lt
+B Second wave peak,LT,Lithuania,2021,0,-0.043762,lt
+B Second wave peak,LT,Lithuania,2021,20,-0.073824,lt
+B Second wave peak,LT,Lithuania,2021,40,-0.968628,lt
+B Second wave peak,LT,Lithuania,2021,60,-0.955893,lt
+B Second wave peak,LT,Lithuania,2021,80,-0.335914,lt
+B Second wave peak,LT,Lithuania,2021,100,7.98e-4,lt
+B Second wave peak,LT,Lithuania,2022,0,0.055689,lt
+B Second wave peak,LT,Lithuania,2022,20,0.13311,lt
+B Second wave peak,LT,Lithuania,2022,40,-0.398367,lt
+B Second wave peak,LT,Lithuania,2022,60,-0.432053,lt
+B Second wave peak,LT,Lithuania,2022,80,-0.176642,lt
+B Second wave peak,LT,Lithuania,2022,100,2.4e-4,lt
+B Second wave peak,LT,Lithuania,2023,0,9.12e-4,lt
+B Second wave peak,LT,Lithuania,2023,20,0.364861,lt
+B Second wave peak,LT,Lithuania,2023,40,-0.187803,lt
+B Second wave peak,LT,Lithuania,2023,60,0.280405,lt
+B Second wave peak,LT,Lithuania,2023,80,0.089756,lt
+B Second wave peak,LT,Lithuania,2023,100,0.002161,lt
+B Second wave peak,LT,Lithuania,2024,0,0.048378,lt
+B Second wave peak,LT,Lithuania,2024,20,0.311239,lt
+B Second wave peak,LT,Lithuania,2024,40,-0.160086,lt
+B Second wave peak,LT,Lithuania,2024,60,0.150722,lt
+B Second wave peak,LT,Lithuania,2024,80,0.138318,lt
+B Second wave peak,LT,Lithuania,2024,100,0.001578,lt
+B Second wave peak,LV,Latvia,2020,0,-0.054398,lv
+B Second wave peak,LV,Latvia,2020,20,0.051228,lv
+B Second wave peak,LV,Latvia,2020,40,-0.285791,lv
+B Second wave peak,LV,Latvia,2020,60,-0.262479,lv
+B Second wave peak,LV,Latvia,2020,80,-0.047729,lv
+B Second wave peak,LV,Latvia,2020,100,0.003775,lv
+B Second wave peak,LV,Latvia,2020-2024,0,-0.004572,lv
+B Second wave peak,LV,Latvia,2020-2024,20,-0.212467,lv
+B Second wave peak,LV,Latvia,2020-2024,40,-0.908918,lv
+B Second wave peak,LV,Latvia,2020-2024,60,-0.518391,lv
+B Second wave peak,LV,Latvia,2020-2024,80,-0.127057,lv
+B Second wave peak,LV,Latvia,2020-2024,100,4.37e-4,lv
+B Second wave peak,LV,Latvia,2021,0,0.00137,lv
+B Second wave peak,LV,Latvia,2021,20,-0.263109,lv
+B Second wave peak,LV,Latvia,2021,40,-1.399512,lv
+B Second wave peak,LV,Latvia,2021,60,-1.267816,lv
+B Second wave peak,LV,Latvia,2021,80,-0.308884,lv
+B Second wave peak,LV,Latvia,2021,100,-1.7e-5,lv
+B Second wave peak,LV,Latvia,2022,0,0.036805,lv
+B Second wave peak,LV,Latvia,2022,20,-0.323554,lv
+B Second wave peak,LV,Latvia,2022,40,-1.117658,lv
+B Second wave peak,LV,Latvia,2022,60,-0.695326,lv
+B Second wave peak,LV,Latvia,2022,80,-0.176856,lv
+B Second wave peak,LV,Latvia,2022,100,2.1e-4,lv
+B Second wave peak,LV,Latvia,2023,0,-0.003518,lv
+B Second wave peak,LV,Latvia,2023,20,-0.306337,lv
+B Second wave peak,LV,Latvia,2023,40,-0.918373,lv
+B Second wave peak,LV,Latvia,2023,60,-0.306432,lv
+B Second wave peak,LV,Latvia,2023,80,-0.040405,lv
+B Second wave peak,LV,Latvia,2023,100,0.002881,lv
+B Second wave peak,LV,Latvia,2024,0,0.016036,lv
+B Second wave peak,LV,Latvia,2024,20,-0.220893,lv
+B Second wave peak,LV,Latvia,2024,40,-0.772967,lv
+B Second wave peak,LV,Latvia,2024,60,0.039843,lv
+B Second wave peak,LV,Latvia,2024,80,-0.001855,lv
+B Second wave peak,LV,Latvia,2024,100,0.002065,lv
+B Second wave peak,PL,Poland,2020,0,0.019083,pl
+B Second wave peak,PL,Poland,2020,20,-0.147399,pl
+B Second wave peak,PL,Poland,2020,40,-0.246807,pl
+B Second wave peak,PL,Poland,2020,60,-1.012575,pl
+B Second wave peak,PL,Poland,2020,80,-0.313508,pl
+B Second wave peak,PL,Poland,2020,100,-0.0017,pl
+B Second wave peak,PL,Poland,2020-2024,0,-0.04017,pl
+B Second wave peak,PL,Poland,2020-2024,20,-0.156082,pl
+B Second wave peak,PL,Poland,2020-2024,40,-0.129641,pl
+B Second wave peak,PL,Poland,2020-2024,60,-0.67522,pl
+B Second wave peak,PL,Poland,2020-2024,80,-0.227623,pl
+B Second wave peak,PL,Poland,2020-2024,100,-0.00217,pl
+B Second wave peak,PL,Poland,2021,0,-0.050658,pl
+B Second wave peak,PL,Poland,2021,20,-0.220056,pl
+B Second wave peak,PL,Poland,2021,40,-0.540944,pl
+B Second wave peak,PL,Poland,2021,60,-1.470968,pl
+B Second wave peak,PL,Poland,2021,80,-0.472867,pl
+B Second wave peak,PL,Poland,2021,100,-0.001002,pl
+B Second wave peak,PL,Poland,2022,0,-0.065975,pl
+B Second wave peak,PL,Poland,2022,20,-0.19497,pl
+B Second wave peak,PL,Poland,2022,40,-0.1301,pl
+B Second wave peak,PL,Poland,2022,60,-0.605694,pl
+B Second wave peak,PL,Poland,2022,80,-0.229121,pl
+B Second wave peak,PL,Poland,2022,100,-0.002273,pl
+B Second wave peak,PL,Poland,2023,0,-0.060429,pl
+B Second wave peak,PL,Poland,2023,20,-0.110271,pl
+B Second wave peak,PL,Poland,2023,40,0.145945,pl
+B Second wave peak,PL,Poland,2023,60,-0.139359,pl
+B Second wave peak,PL,Poland,2023,80,-0.01762,pl
+B Second wave peak,PL,Poland,2023,100,-0.002746,pl
+B Second wave peak,PL,Poland,2024,0,-0.048811,pl
+B Second wave peak,PL,Poland,2024,20,-0.096029,pl
+B Second wave peak,PL,Poland,2024,40,0.162544,pl
+B Second wave peak,PL,Poland,2024,60,-0.052944,pl
+B Second wave peak,PL,Poland,2024,80,0.018624,pl
+B Second wave peak,PL,Poland,2024,100,-0.003212,pl
+B Second wave peak,SK,Slovakia,2020,0,-0.057977,sk
+B Second wave peak,SK,Slovakia,2020,20,-0.088934,sk
+B Second wave peak,SK,Slovakia,2020,40,-0.121396,sk
+B Second wave peak,SK,Slovakia,2020,60,-0.527966,sk
+B Second wave peak,SK,Slovakia,2020,80,-0.165585,sk
+B Second wave peak,SK,Slovakia,2020,100,-4.7e-5,sk
+B Second wave peak,SK,Slovakia,2020-2024,0,-0.069484,sk
+B Second wave peak,SK,Slovakia,2020-2024,20,-0.189095,sk
+B Second wave peak,SK,Slovakia,2020-2024,40,-0.30993,sk
+B Second wave peak,SK,Slovakia,2020-2024,60,-0.657999,sk
+B Second wave peak,SK,Slovakia,2020-2024,80,-0.125235,sk
+B Second wave peak,SK,Slovakia,2020-2024,100,-1.25e-4,sk
+B Second wave peak,SK,Slovakia,2021,0,-0.015588,sk
+B Second wave peak,SK,Slovakia,2021,20,-0.245512,sk
+B Second wave peak,SK,Slovakia,2021,40,-0.865523,sk
+B Second wave peak,SK,Slovakia,2021,60,-1.832072,sk
+B Second wave peak,SK,Slovakia,2021,80,-0.445866,sk
+B Second wave peak,SK,Slovakia,2021,100,3.5e-5,sk
+B Second wave peak,SK,Slovakia,2022,0,-0.079114,sk
+B Second wave peak,SK,Slovakia,2022,20,-0.215737,sk
+B Second wave peak,SK,Slovakia,2022,40,-0.313387,sk
+B Second wave peak,SK,Slovakia,2022,60,-0.577237,sk
+B Second wave peak,SK,Slovakia,2022,80,-0.164873,sk
+B Second wave peak,SK,Slovakia,2022,100,-1.58e-4,sk
+B Second wave peak,SK,Slovakia,2023,0,-0.101443,sk
+B Second wave peak,SK,Slovakia,2023,20,-0.165692,sk
+B Second wave peak,SK,Slovakia,2023,40,-0.111562,sk
+B Second wave peak,SK,Slovakia,2023,60,-0.101919,sk
+B Second wave peak,SK,Slovakia,2023,80,0.091066,sk
+B Second wave peak,SK,Slovakia,2023,100,6.66e-4,sk
+B Second wave peak,SK,Slovakia,2024,0,-0.109779,sk
+B Second wave peak,SK,Slovakia,2024,20,-0.231789,sk
+B Second wave peak,SK,Slovakia,2024,40,-0.067688,sk
+B Second wave peak,SK,Slovakia,2024,60,-0.03694,sk
+B Second wave peak,SK,Slovakia,2024,80,0.18722,sk
+B Second wave peak,SK,Slovakia,2024,100,0.001017,sk
+B Second wave peak,US,USA,2020,0,-0.006605,us
+B Second wave peak,US,USA,2020,20,-0.484822,us
+B Second wave peak,US,USA,2020,40,-0.635342,us
+B Second wave peak,US,USA,2020,60,-0.94626,us
+B Second wave peak,US,USA,2020,80,-0.36893,us
+B Second wave peak,US,USA,2020,100,-0.002542,us
+B Second wave peak,US,USA,2020-2024,0,-0.057247,us
+B Second wave peak,US,USA,2020-2024,20,-0.411025,us
+B Second wave peak,US,USA,2020-2024,40,-0.568052,us
+B Second wave peak,US,USA,2020-2024,60,-0.711919,us
+B Second wave peak,US,USA,2020-2024,80,-0.214904,us
+B Second wave peak,US,USA,2020-2024,100,-0.001686,us
+B Second wave peak,US,USA,2021,0,-0.059022,us
+B Second wave peak,US,USA,2021,20,-0.689302,us
+B Second wave peak,US,USA,2021,40,-1.044002,us
+B Second wave peak,US,USA,2021,60,-1.162859,us
+B Second wave peak,US,USA,2021,80,-0.324143,us
+B Second wave peak,US,USA,2021,100,-0.001556,us
+B Second wave peak,US,USA,2022,0,-0.084533,us
+B Second wave peak,US,USA,2022,20,-0.480322,us
+B Second wave peak,US,USA,2022,40,-0.593566,us
+B Second wave peak,US,USA,2022,60,-0.741767,us
+B Second wave peak,US,USA,2022,80,-0.256175,us
+B Second wave peak,US,USA,2022,100,-0.00208,us
+B Second wave peak,US,USA,2023,0,-0.085841,us
+B Second wave peak,US,USA,2023,20,-0.312286,us
+B Second wave peak,US,USA,2023,40,-0.353779,us
+B Second wave peak,US,USA,2023,60,-0.395364,us
+B Second wave peak,US,USA,2023,80,-0.074492,us
+B Second wave peak,US,USA,2023,100,3.4e-5,us
+B Second wave peak,US,USA,2024,0,-0.052921,us
+B Second wave peak,US,USA,2024,20,-0.062468,us
+B Second wave peak,US,USA,2024,40,-0.160756,us
+B Second wave peak,US,USA,2024,60,-0.297051,us
+B Second wave peak,US,USA,2024,80,-0.021366,us
+B Second wave peak,US,USA,2024,100,3.08e-4,us
+C Late peak,DE,Germany,2020,0,0.009343,de
+C Late peak,DE,Germany,2020,20,-0.035613,de
+C Late peak,DE,Germany,2020,40,-0.01638,de
+C Late peak,DE,Germany,2020,60,-0.370752,de
+C Late peak,DE,Germany,2020,80,-0.067679,de
+C Late peak,DE,Germany,2020,100,-7.72e-4,de
+C Late peak,DE,Germany,2020-2024,0,-0.035818,de
+C Late peak,DE,Germany,2020-2024,20,-0.070705,de
+C Late peak,DE,Germany,2020-2024,40,-0.071978,de
+C Late peak,DE,Germany,2020-2024,60,-0.540764,de
+C Late peak,DE,Germany,2020-2024,80,-0.032501,de
+C Late peak,DE,Germany,2020-2024,100,3.61e-4,de
+C Late peak,DE,Germany,2021,0,-0.040688,de
+C Late peak,DE,Germany,2021,20,-0.056115,de
+C Late peak,DE,Germany,2021,40,-0.15366,de
+C Late peak,DE,Germany,2021,60,-0.674904,de
+C Late peak,DE,Germany,2021,80,-0.060429,de
+C Late peak,DE,Germany,2021,100,-1.32e-4,de
+C Late peak,DE,Germany,2022,0,-0.020893,de
+C Late peak,DE,Germany,2022,20,-0.094218,de
+C Late peak,DE,Germany,2022,40,-0.118105,de
+C Late peak,DE,Germany,2022,60,-0.731462,de
+C Late peak,DE,Germany,2022,80,-0.164185,de
+C Late peak,DE,Germany,2022,100,-6.32e-4,de
+C Late peak,DE,Germany,2023,0,-0.035394,de
+C Late peak,DE,Germany,2023,20,-0.082899,de
+C Late peak,DE,Germany,2023,40,-0.054783,de
+C Late peak,DE,Germany,2023,60,-0.523929,de
+C Late peak,DE,Germany,2023,80,0.018621,de
+C Late peak,DE,Germany,2023,100,0.001959,de
+C Late peak,DE,Germany,2024,0,-0.095619,de
+C Late peak,DE,Germany,2024,20,-0.087626,de
+C Late peak,DE,Germany,2024,40,-0.014916,de
+C Late peak,DE,Germany,2024,60,-0.404129,de
+C Late peak,DE,Germany,2024,80,0.122117,de
+C Late peak,DE,Germany,2024,100,0.00336,de
+C Late peak,DK,Denmark,2020,0,-0.033314,dk
+C Late peak,DK,Denmark,2020,20,-0.061949,dk
+C Late peak,DK,Denmark,2020,40,0.164761,dk
+C Late peak,DK,Denmark,2020,60,-0.101067,dk
+C Late peak,DK,Denmark,2020,80,-0.023213,dk
+C Late peak,DK,Denmark,2020,100,-7.24e-4,dk
+C Late peak,DK,Denmark,2020-2024,0,-0.044889,dk
+C Late peak,DK,Denmark,2020-2024,20,-0.054585,dk
+C Late peak,DK,Denmark,2020-2024,40,0.11028,dk
+C Late peak,DK,Denmark,2020-2024,60,-0.30606,dk
+C Late peak,DK,Denmark,2020-2024,80,-0.101783,dk
+C Late peak,DK,Denmark,2020-2024,100,-9.39e-4,dk
+C Late peak,DK,Denmark,2021,0,-0.010615,dk
+C Late peak,DK,Denmark,2021,20,-0.012347,dk
+C Late peak,DK,Denmark,2021,40,0.147188,dk
+C Late peak,DK,Denmark,2021,60,-0.323761,dk
+C Late peak,DK,Denmark,2021,80,-0.103836,dk
+C Late peak,DK,Denmark,2021,100,-0.001207,dk
+C Late peak,DK,Denmark,2022,0,-5.64e-4,dk
+C Late peak,DK,Denmark,2022,20,-0.059837,dk
+C Late peak,DK,Denmark,2022,40,0.048267,dk
+C Late peak,DK,Denmark,2022,60,-0.430895,dk
+C Late peak,DK,Denmark,2022,80,-0.215954,dk
+C Late peak,DK,Denmark,2022,100,-0.002257,dk
+C Late peak,DK,Denmark,2023,0,-0.028847,dk
+C Late peak,DK,Denmark,2023,20,-0.072744,dk
+C Late peak,DK,Denmark,2023,40,0.076386,dk
+C Late peak,DK,Denmark,2023,60,-0.449393,dk
+C Late peak,DK,Denmark,2023,80,-0.124736,dk
+C Late peak,DK,Denmark,2023,100,0.001562,dk
+C Late peak,DK,Denmark,2024,0,-0.158677,dk
+C Late peak,DK,Denmark,2024,20,-0.063343,dk
+C Late peak,DK,Denmark,2024,40,0.110514,dk
+C Late peak,DK,Denmark,2024,60,-0.219928,dk
+C Late peak,DK,Denmark,2024,80,-0.034152,dk
+C Late peak,DK,Denmark,2024,100,-2.79e-4,dk
+C Late peak,FI,Finland,2020,0,-0.082469,fi
+C Late peak,FI,Finland,2020,20,-0.076859,fi
+C Late peak,FI,Finland,2020,40,-0.102444,fi
+C Late peak,FI,Finland,2020,60,-0.094638,fi
+C Late peak,FI,Finland,2020,80,-0.031,fi
+C Late peak,FI,Finland,2020,100,-8.11e-4,fi
+C Late peak,FI,Finland,2020-2024,0,-0.078052,fi
+C Late peak,FI,Finland,2020-2024,20,-0.048578,fi
+C Late peak,FI,Finland,2020-2024,40,-0.096228,fi
+C Late peak,FI,Finland,2020-2024,60,-0.357848,fi
+C Late peak,FI,Finland,2020-2024,80,-0.227908,fi
+C Late peak,FI,Finland,2020-2024,100,-0.001296,fi
+C Late peak,FI,Finland,2021,0,-0.053972,fi
+C Late peak,FI,Finland,2021,20,0.017628,fi
+C Late peak,FI,Finland,2021,40,-0.045303,fi
+C Late peak,FI,Finland,2021,60,-0.313136,fi
+C Late peak,FI,Finland,2021,80,-0.124862,fi
+C Late peak,FI,Finland,2021,100,0.003218,fi
+C Late peak,FI,Finland,2022,0,-0.082287,fi
+C Late peak,FI,Finland,2022,20,-0.040078,fi
+C Late peak,FI,Finland,2022,40,-0.119733,fi
+C Late peak,FI,Finland,2022,60,-0.564146,fi
+C Late peak,FI,Finland,2022,80,-0.43724,fi
+C Late peak,FI,Finland,2022,100,-0.002445,fi
+C Late peak,FI,Finland,2023,0,-0.098696999999999993,fi
+C Late peak,FI,Finland,2023,20,-0.103522,fi
+C Late peak,FI,Finland,2023,40,-0.131414,fi
+C Late peak,FI,Finland,2023,60,-0.455163,fi
+C Late peak,FI,Finland,2023,80,-0.371471,fi
+C Late peak,FI,Finland,2023,100,-4.22e-4,fi
+C Late peak,FI,Finland,2024,0,-0.074566,fi
+C Late peak,FI,Finland,2024,20,-0.0404,fi
+C Late peak,FI,Finland,2024,40,-0.080715,fi
+C Late peak,FI,Finland,2024,60,-0.332818,fi
+C Late peak,FI,Finland,2024,80,-0.139749,fi
+C Late peak,FI,Finland,2024,100,-0.00388,fi
+C Late peak,IS,Iceland,2020,0,-0.333416,is
+C Late peak,IS,Iceland,2020,20,0.05943,is
+C Late peak,IS,Iceland,2020,40,-0.098335,is
+C Late peak,IS,Iceland,2020,60,-0.165934,is
+C Late peak,IS,Iceland,2020,80,0.26729,is
+C Late peak,IS,Iceland,2020,100,0.007871,is
+C Late peak,IS,Iceland,2020-2024,0,-0.19973,is
+C Late peak,IS,Iceland,2020-2024,20,-0.031592,is
+C Late peak,IS,Iceland,2020-2024,40,-0.164688,is
+C Late peak,IS,Iceland,2020-2024,60,-0.340509,is
+C Late peak,IS,Iceland,2020-2024,80,0.050202,is
+C Late peak,IS,Iceland,2020-2024,100,0.005037,is
+C Late peak,IS,Iceland,2021,0,-0.240339,is
+C Late peak,IS,Iceland,2021,20,-0.158236,is
+C Late peak,IS,Iceland,2021,40,-0.071389,is
+C Late peak,IS,Iceland,2021,60,-0.069581,is
+C Late peak,IS,Iceland,2021,80,0.455337,is
+C Late peak,IS,Iceland,2021,100,0.039431,is
+C Late peak,IS,Iceland,2022,0,0.045481,is
+C Late peak,IS,Iceland,2022,20,0.010555,is
+C Late peak,IS,Iceland,2022,40,-0.21753,is
+C Late peak,IS,Iceland,2022,60,-0.655448,is
+C Late peak,IS,Iceland,2022,80,-0.157328,is
+C Late peak,IS,Iceland,2022,100,0.015531,is
+C Late peak,IS,Iceland,2023,0,-0.242962,is
+C Late peak,IS,Iceland,2023,20,0.003963,is
+C Late peak,IS,Iceland,2023,40,-0.37522,is
+C Late peak,IS,Iceland,2023,60,-0.345648,is
+C Late peak,IS,Iceland,2023,80,-0.18933,is
+C Late peak,IS,Iceland,2023,100,0.01217,is
+C Late peak,IS,Iceland,2024,0,-0.227349,is
+C Late peak,IS,Iceland,2024,20,-0.073914,is
+C Late peak,IS,Iceland,2024,40,-0.052355,is
+C Late peak,IS,Iceland,2024,60,-0.431241,is
+C Late peak,IS,Iceland,2024,80,-0.01423,is
+C Late peak,IS,Iceland,2024,100,0.011392,is
+C Late peak,JP,Japan,2020,0,-0.00576,jp
+C Late peak,JP,Japan,2020,20,-0.005363,jp
+C Late peak,JP,Japan,2020,40,-0.024599,jp
+C Late peak,JP,Japan,2020,60,-0.075406,jp
+C Late peak,JP,Japan,2020,80,0.183708,jp
+C Late peak,JP,Japan,2020,100,0.004929,jp
+C Late peak,JP,Japan,2020-2024,0,-0.029031,jp
+C Late peak,JP,Japan,2020-2024,20,-0.027805,jp
+C Late peak,JP,Japan,2020-2024,40,-0.110375,jp
+C Late peak,JP,Japan,2020-2024,60,-0.36101,jp
+C Late peak,JP,Japan,2020-2024,80,-0.068418,jp
+C Late peak,JP,Japan,2020-2024,100,0.001175,jp
+C Late peak,JP,Japan,2021,0,-0.016091,jp
+C Late peak,JP,Japan,2021,20,-0.012375,jp
+C Late peak,JP,Japan,2021,40,-0.059225,jp
+C Late peak,JP,Japan,2021,60,-0.181643,jp
+C Late peak,JP,Japan,2021,80,0.079909,jp
+C Late peak,JP,Japan,2021,100,0.002253,jp
+C Late peak,JP,Japan,2022,0,-0.025223,jp
+C Late peak,JP,Japan,2022,20,-0.018338,jp
+C Late peak,JP,Japan,2022,40,-0.123571,jp
+C Late peak,JP,Japan,2022,60,-0.443187,jp
+C Late peak,JP,Japan,2022,80,-0.181873,jp
+C Late peak,JP,Japan,2022,100,-0.001279,jp
+C Late peak,JP,Japan,2023,0,-0.047569,jp
+C Late peak,JP,Japan,2023,20,-0.056916,jp
+C Late peak,JP,Japan,2023,40,-0.164322,jp
+C Late peak,JP,Japan,2023,60,-0.493738,jp
+C Late peak,JP,Japan,2023,80,-0.165986,jp
+C Late peak,JP,Japan,2023,100,8.55e-4,jp
+C Late peak,JP,Japan,2024,0,-0.05429,jp
+C Late peak,JP,Japan,2024,20,-0.048037,jp
+C Late peak,JP,Japan,2024,40,-0.17616,jp
+C Late peak,JP,Japan,2024,60,-0.593947,jp
+C Late peak,JP,Japan,2024,80,-0.215225,jp
+C Late peak,JP,Japan,2024,100,0.001242,jp
+C Late peak,NO,Norway,2020,0,-0.030663,no
+C Late peak,NO,Norway,2020,20,-0.045679,no
+C Late peak,NO,Norway,2020,40,0.006715,no
+C Late peak,NO,Norway,2020,60,0.020295,no
+C Late peak,NO,Norway,2020,80,0.029062,no
+C Late peak,NO,Norway,2020,100,0.005474,no
+C Late peak,NO,Norway,2020-2024,0,-0.07498,no
+C Late peak,NO,Norway,2020-2024,20,-0.075615,no
+C Late peak,NO,Norway,2020-2024,40,-0.075643,no
+C Late peak,NO,Norway,2020-2024,60,-0.237805,no
+C Late peak,NO,Norway,2020-2024,80,-0.13714199999999999,no
+C Late peak,NO,Norway,2020-2024,100,0.002047,no
+C Late peak,NO,Norway,2021,0,-0.038782,no
+C Late peak,NO,Norway,2021,20,0.009349,no
+C Late peak,NO,Norway,2021,40,0.007323,no
+C Late peak,NO,Norway,2021,60,-0.117306,no
+C Late peak,NO,Norway,2021,80,-0.024017,no
+C Late peak,NO,Norway,2021,100,0.001698,no
+C Late peak,NO,Norway,2022,0,-0.069372,no
+C Late peak,NO,Norway,2022,20,-0.058052,no
+C Late peak,NO,Norway,2022,40,-0.151082,no
+C Late peak,NO,Norway,2022,60,-0.421825,no
+C Late peak,NO,Norway,2022,80,-0.368477,no
+C Late peak,NO,Norway,2022,100,0.001011,no
+C Late peak,NO,Norway,2023,0,-0.134567,no
+C Late peak,NO,Norway,2023,20,-0.151669,no
+C Late peak,NO,Norway,2023,40,-0.098701,no
+C Late peak,NO,Norway,2023,60,-0.299148,no
+C Late peak,NO,Norway,2023,80,-0.132215,no
+C Late peak,NO,Norway,2023,100,1.1e-4,no
+C Late peak,NO,Norway,2024,0,-0.101678,no
+C Late peak,NO,Norway,2024,20,-0.129895,no
+C Late peak,NO,Norway,2024,40,-0.138761,no
+C Late peak,NO,Norway,2024,60,-0.3418,no
+C Late peak,NO,Norway,2024,80,-0.161692,no
+C Late peak,NO,Norway,2024,100,0.004704,no
+C Late peak,TW,Taiwan,2020,0,-0.004464,tw
+C Late peak,TW,Taiwan,2020,20,0.090922,tw
+C Late peak,TW,Taiwan,2020,40,0.155877,tw
+C Late peak,TW,Taiwan,2020,60,0.153494,tw
+C Late peak,TW,Taiwan,2020,80,0.058922,tw
+C Late peak,TW,Taiwan,2020,100,0.002937,tw
+C Late peak,TW,Taiwan,2020-2024,0,-0.118439,tw
+C Late peak,TW,Taiwan,2020-2024,20,0.004565,tw
+C Late peak,TW,Taiwan,2020-2024,40,-0.01363,tw
+C Late peak,TW,Taiwan,2020-2024,60,-0.312394,tw
+C Late peak,TW,Taiwan,2020-2024,80,-0.233042,tw
+C Late peak,TW,Taiwan,2020-2024,100,-9.4e-5,tw
+C Late peak,TW,Taiwan,2021,0,-0.076076,tw
+C Late peak,TW,Taiwan,2021,20,0.032046,tw
+C Late peak,TW,Taiwan,2021,40,0.04782,tw
+C Late peak,TW,Taiwan,2021,60,-0.10328,tw
+C Late peak,TW,Taiwan,2021,80,-0.085479,tw
+C Late peak,TW,Taiwan,2021,100,0.005714,tw
+C Late peak,TW,Taiwan,2022,0,-0.119245,tw
+C Late peak,TW,Taiwan,2022,20,-0.039081,tw
+C Late peak,TW,Taiwan,2022,40,-0.093816,tw
+C Late peak,TW,Taiwan,2022,60,-0.550766,tw
+C Late peak,TW,Taiwan,2022,80,-0.48919,tw
+C Late peak,TW,Taiwan,2022,100,-6.14e-4,tw
+C Late peak,TW,Taiwan,2023,0,-0.164268,tw
+C Late peak,TW,Taiwan,2023,20,-0.031623,tw
+C Late peak,TW,Taiwan,2023,40,-0.112381,tw
+C Late peak,TW,Taiwan,2023,60,-0.551985,tw
+C Late peak,TW,Taiwan,2023,80,-0.379302,tw
+C Late peak,TW,Taiwan,2023,100,-0.001995,tw
+C Late peak,TW,Taiwan,2024,0,-0.260594,tw
+C Late peak,TW,Taiwan,2024,20,-0.036265,tw
+C Late peak,TW,Taiwan,2024,40,-0.065737,tw
+C Late peak,TW,Taiwan,2024,60,-0.425025,tw
+C Late peak,TW,Taiwan,2024,80,-0.212936,tw
+C Late peak,TW,Taiwan,2024,100,-0.002055,tw
+D Prolonged depression,AT,Austria,2020,0,-0.037629,at
+D Prolonged depression,AT,Austria,2020,20,0.004599,at
+D Prolonged depression,AT,Austria,2020,40,-0.063824,at
+D Prolonged depression,AT,Austria,2020,60,-0.43233,at
+D Prolonged depression,AT,Austria,2020,80,-0.293658,at
+D Prolonged depression,AT,Austria,2020,100,0.001381,at
+D Prolonged depression,AT,Austria,2020-2024,0,-0.043039,at
+D Prolonged depression,AT,Austria,2020-2024,20,-0.100361,at
+D Prolonged depression,AT,Austria,2020-2024,40,-0.126803,at
+D Prolonged depression,AT,Austria,2020-2024,60,-0.422432,at
+D Prolonged depression,AT,Austria,2020-2024,80,-0.267183,at
+D Prolonged depression,AT,Austria,2020-2024,100,0.002846,at
+D Prolonged depression,AT,Austria,2021,0,-0.010707,at
+D Prolonged depression,AT,Austria,2021,20,-0.124836,at
+D Prolonged depression,AT,Austria,2021,40,-0.176609,at
+D Prolonged depression,AT,Austria,2021,60,-0.592129,at
+D Prolonged depression,AT,Austria,2021,80,-0.256146,at
+D Prolonged depression,AT,Austria,2021,100,0.005465,at
+D Prolonged depression,AT,Austria,2022,0,-9.1e-5,at
+D Prolonged depression,AT,Austria,2022,20,-0.111529,at
+D Prolonged depression,AT,Austria,2022,40,-0.145934,at
+D Prolonged depression,AT,Austria,2022,60,-0.503569,at
+D Prolonged depression,AT,Austria,2022,80,-0.366322,at
+D Prolonged depression,AT,Austria,2022,100,0.003705,at
+D Prolonged depression,AT,Austria,2023,0,-0.096039,at
+D Prolonged depression,AT,Austria,2023,20,-0.104898,at
+D Prolonged depression,AT,Austria,2023,40,-0.132096,at
+D Prolonged depression,AT,Austria,2023,60,-0.364891,at
+D Prolonged depression,AT,Austria,2023,80,-0.256217,at
+D Prolonged depression,AT,Austria,2023,100,0.002397,at
+D Prolonged depression,AT,Austria,2024,0,-0.074686,at
+D Prolonged depression,AT,Austria,2024,20,-0.171262,at
+D Prolonged depression,AT,Austria,2024,40,-0.118181,at
+D Prolonged depression,AT,Austria,2024,60,-0.22408,at
+D Prolonged depression,AT,Austria,2024,80,-0.15329,at
+D Prolonged depression,AT,Austria,2024,100,0.002249,at
+D Prolonged depression,FR,France,2020,0,-0.018376,fr
+D Prolonged depression,FR,France,2020,20,-0.033604,fr
+D Prolonged depression,FR,France,2020,40,0.005219,fr
+D Prolonged depression,FR,France,2020,60,-0.45943,fr
+D Prolonged depression,FR,France,2020,80,-0.305667,fr
+D Prolonged depression,FR,France,2020,100,-0.002005,fr
+D Prolonged depression,FR,France,2020-2024,0,-0.077633,fr
+D Prolonged depression,FR,France,2020-2024,20,-0.098784,fr
+D Prolonged depression,FR,France,2020-2024,40,-0.011517,fr
+D Prolonged depression,FR,France,2020-2024,60,-0.49375,fr
+D Prolonged depression,FR,France,2020-2024,80,-0.143987,fr
+D Prolonged depression,FR,France,2020-2024,100,-0.004908,fr
+D Prolonged depression,FR,France,2021,0,-0.053763,fr
+D Prolonged depression,FR,France,2021,20,-0.085541,fr
+D Prolonged depression,FR,France,2021,40,-0.023337,fr
+D Prolonged depression,FR,France,2021,60,-0.618941,fr
+D Prolonged depression,FR,France,2021,80,-0.166567,fr
+D Prolonged depression,FR,France,2021,100,-0.004639,fr
+D Prolonged depression,FR,France,2022,0,-0.090677,fr
+D Prolonged depression,FR,France,2022,20,-0.119771,fr
+D Prolonged depression,FR,France,2022,40,-0.048724,fr
+D Prolonged depression,FR,France,2022,60,-0.589511,fr
+D Prolonged depression,FR,France,2022,80,-0.209186,fr
+D Prolonged depression,FR,France,2022,100,-0.004827,fr
+D Prolonged depression,FR,France,2023,0,-0.089658,fr
+D Prolonged depression,FR,France,2023,20,-0.122637,fr
+D Prolonged depression,FR,France,2023,40,0.020761,fr
+D Prolonged depression,FR,France,2023,60,-0.429214,fr
+D Prolonged depression,FR,France,2023,80,-0.011989,fr
+D Prolonged depression,FR,France,2023,100,-0.006002,fr
+D Prolonged depression,FR,France,2024,0,-0.139307,fr
+D Prolonged depression,FR,France,2024,20,-0.134367,fr
+D Prolonged depression,FR,France,2024,40,-0.011481,fr
+D Prolonged depression,FR,France,2024,60,-0.376511,fr
+D Prolonged depression,FR,France,2024,80,0.006624,fr
+D Prolonged depression,FR,France,2024,100,-0.006985,fr
+D Prolonged depression,GB-NIR,Northern Ireland,2020,0,-0.019684,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2020,20,-0.070333,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2020,40,-0.070276,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2020,60,-0.568286,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2020,80,-0.370565,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2020,100,-9.95e-4,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2020-2024,0,-0.017885,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2020-2024,20,0.014426,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2020-2024,40,-0.243027,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2020-2024,60,-0.611942,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2020-2024,80,-0.298592,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2020-2024,100,-0.001564,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2021,0,-0.006029,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2021,20,-0.126377,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2021,40,-0.310829,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2021,60,-0.614427,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2021,80,-0.323691,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2021,100,7.19e-4,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2022,0,-0.047204,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2022,20,0.191138,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2022,40,-0.239531,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2022,60,-0.550085,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2022,80,-0.225878,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2022,100,-0.001226,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2023,0,-0.004795,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2023,20,0.206445,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2023,40,-0.108032,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2023,60,-0.462528,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2023,80,-0.277662,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2023,100,-3.65e-4,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2024,0,-0.011737,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2024,20,-0.119051,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2024,40,-0.486416,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2024,60,-0.860669,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2024,80,-0.289563,gb
+D Prolonged depression,GB-NIR,Northern Ireland,2024,100,-0.001701,gb
+D Prolonged depression,IL,Israel,2020,0,0.120906,il
+D Prolonged depression,IL,Israel,2020,20,-0.080137,il
+D Prolonged depression,IL,Israel,2020,40,-0.021094,il
+D Prolonged depression,IL,Israel,2020,60,-0.370108,il
+D Prolonged depression,IL,Israel,2020,80,-0.297782,il
+D Prolonged depression,IL,Israel,2020,100,-0.004835,il
+D Prolonged depression,IL,Israel,2020-2024,0,0.062268,il
+D Prolonged depression,IL,Israel,2020-2024,20,-0.299401,il
+D Prolonged depression,IL,Israel,2020-2024,40,-0.019885,il
+D Prolonged depression,IL,Israel,2020-2024,60,-0.348192,il
+D Prolonged depression,IL,Israel,2020-2024,80,-0.465347,il
+D Prolonged depression,IL,Israel,2020-2024,100,-0.004852,il
+D Prolonged depression,IL,Israel,2021,0,0.027814,il
+D Prolonged depression,IL,Israel,2021,20,-0.165816,il
+D Prolonged depression,IL,Israel,2021,40,-0.078688,il
+D Prolonged depression,IL,Israel,2021,60,-0.465668,il
+D Prolonged depression,IL,Israel,2021,80,-0.395717,il
+D Prolonged depression,IL,Israel,2021,100,-0.004948,il
+D Prolonged depression,IL,Israel,2022,0,0.051437,il
+D Prolonged depression,IL,Israel,2022,20,-0.143638,il
+D Prolonged depression,IL,Israel,2022,40,0.017204,il
+D Prolonged depression,IL,Israel,2022,60,-0.436034,il
+D Prolonged depression,IL,Israel,2022,80,-0.613561,il
+D Prolonged depression,IL,Israel,2022,100,-0.004083,il
+D Prolonged depression,IL,Israel,2023,0,0.070756,il
+D Prolonged depression,IL,Israel,2023,20,-0.65655,il
+D Prolonged depression,IL,Israel,2023,40,-0.028673,il
+D Prolonged depression,IL,Israel,2023,60,-0.084662,il
+D Prolonged depression,IL,Israel,2023,80,-0.392453,il
+D Prolonged depression,IL,Israel,2023,100,-0.004629,il
+D Prolonged depression,IL,Israel,2024,0,0.046112,il
+D Prolonged depression,IL,Israel,2024,20,-0.434555,il
+D Prolonged depression,IL,Israel,2024,40,0.008979,il
+D Prolonged depression,IL,Israel,2024,60,-0.383873,il
+D Prolonged depression,IL,Israel,2024,80,-0.598669,il
+D Prolonged depression,IL,Israel,2024,100,-0.004713,il
+D Prolonged depression,NL,Netherlands,2020,0,-0.056069,nl
+D Prolonged depression,NL,Netherlands,2020,20,-0.048935,nl
+D Prolonged depression,NL,Netherlands,2020,40,-0.10215,nl
+D Prolonged depression,NL,Netherlands,2020,60,-0.477221,nl
+D Prolonged depression,NL,Netherlands,2020,80,-0.373747,nl
+D Prolonged depression,NL,Netherlands,2020,100,-7.88e-4,nl
+D Prolonged depression,NL,Netherlands,2020-2024,0,-0.066745,nl
+D Prolonged depression,NL,Netherlands,2020-2024,20,-0.078564,nl
+D Prolonged depression,NL,Netherlands,2020-2024,40,-0.180092,nl
+D Prolonged depression,NL,Netherlands,2020-2024,60,-0.49857,nl
+D Prolonged depression,NL,Netherlands,2020-2024,80,-0.316263,nl
+D Prolonged depression,NL,Netherlands,2020-2024,100,-0.001057,nl
+D Prolonged depression,NL,Netherlands,2021,0,-0.033404,nl
+D Prolonged depression,NL,Netherlands,2021,20,-0.068196,nl
+D Prolonged depression,NL,Netherlands,2021,40,-0.205607,nl
+D Prolonged depression,NL,Netherlands,2021,60,-0.608069,nl
+D Prolonged depression,NL,Netherlands,2021,80,-0.353485,nl
+D Prolonged depression,NL,Netherlands,2021,100,-1.9e-4,nl
+D Prolonged depression,NL,Netherlands,2022,0,-0.066086,nl
+D Prolonged depression,NL,Netherlands,2022,20,-0.069897,nl
+D Prolonged depression,NL,Netherlands,2022,40,-0.210572,nl
+D Prolonged depression,NL,Netherlands,2022,60,-0.469619,nl
+D Prolonged depression,NL,Netherlands,2022,80,-0.269165,nl
+D Prolonged depression,NL,Netherlands,2022,100,-0.001179,nl
+D Prolonged depression,NL,Netherlands,2023,0,-0.110005,nl
+D Prolonged depression,NL,Netherlands,2023,20,-0.102061,nl
+D Prolonged depression,NL,Netherlands,2023,40,-0.18363,nl
+D Prolonged depression,NL,Netherlands,2023,60,-0.467162,nl
+D Prolonged depression,NL,Netherlands,2023,80,-0.279887,nl
+D Prolonged depression,NL,Netherlands,2023,100,-0.001321,nl
+D Prolonged depression,NL,Netherlands,2024,0,-0.07053,nl
+D Prolonged depression,NL,Netherlands,2024,20,-0.102178,nl
+D Prolonged depression,NL,Netherlands,2024,40,-0.198773,nl
+D Prolonged depression,NL,Netherlands,2024,60,-0.477448,nl
+D Prolonged depression,NL,Netherlands,2024,80,-0.29914,nl
+D Prolonged depression,NL,Netherlands,2024,100,-0.001517,nl
+D Prolonged depression,PT,Portugal,2020,0,0.00292,pt
+D Prolonged depression,PT,Portugal,2020,20,-0.17512,pt
+D Prolonged depression,PT,Portugal,2020,40,-0.021422,pt
+D Prolonged depression,PT,Portugal,2020,60,-0.465639,pt
+D Prolonged depression,PT,Portugal,2020,80,-0.22569,pt
+D Prolonged depression,PT,Portugal,2020,100,-1.92e-4,pt
+D Prolonged depression,PT,Portugal,2020-2024,0,-0.077611,pt
+D Prolonged depression,PT,Portugal,2020-2024,20,-0.212054,pt
+D Prolonged depression,PT,Portugal,2020-2024,40,0.05088,pt
+D Prolonged depression,PT,Portugal,2020-2024,60,-0.424268,pt
+D Prolonged depression,PT,Portugal,2020-2024,80,-0.171745,pt
+D Prolonged depression,PT,Portugal,2020-2024,100,2.53e-4,pt
+D Prolonged depression,PT,Portugal,2021,0,-0.052729,pt
+D Prolonged depression,PT,Portugal,2021,20,-0.150718,pt
+D Prolonged depression,PT,Portugal,2021,40,-0.04315,pt
+D Prolonged depression,PT,Portugal,2021,60,-0.601636,pt
+D Prolonged depression,PT,Portugal,2021,80,-0.260745,pt
+D Prolonged depression,PT,Portugal,2021,100,0.001007,pt
+D Prolonged depression,PT,Portugal,2022,0,-0.096067,pt
+D Prolonged depression,PT,Portugal,2022,20,-0.208884,pt
+D Prolonged depression,PT,Portugal,2022,40,0.020908,pt
+D Prolonged depression,PT,Portugal,2022,60,-0.43003,pt
+D Prolonged depression,PT,Portugal,2022,80,-0.237684,pt
+D Prolonged depression,PT,Portugal,2022,100,-7.77e-4,pt
+D Prolonged depression,PT,Portugal,2023,0,-0.142811,pt
+D Prolonged depression,PT,Portugal,2023,20,-0.242206,pt
+D Prolonged depression,PT,Portugal,2023,40,0.104086,pt
+D Prolonged depression,PT,Portugal,2023,60,-0.323227,pt
+D Prolonged depression,PT,Portugal,2023,80,-0.06194,pt
+D Prolonged depression,PT,Portugal,2023,100,-1.48e-4,pt
+D Prolonged depression,PT,Portugal,2024,0,-0.100245,pt
+D Prolonged depression,PT,Portugal,2024,20,-0.28302,pt
+D Prolonged depression,PT,Portugal,2024,40,0.195689,pt
+D Prolonged depression,PT,Portugal,2024,60,-0.304004,pt
+D Prolonged depression,PT,Portugal,2024,80,-0.057342,pt
+D Prolonged depression,PT,Portugal,2024,100,0.002247,pt

@@ -18,7 +18,7 @@ paths$input <- list(
   deficits_and_excesses.rds = './out/50-deficits_and_excesses.rds'
 )
 paths$output <- list(
-  excessmeasures20_24.pdf = './out/92-excessmeasures20_24.pdf',
+  excessmeasures20_24.svg = './out/92-excessmeasures20_24.svg',
   excessmeasures20_24.csv = './out/92-excessmeasures20_24.csv'
 )
 
@@ -62,6 +62,11 @@ excessmeasures20_24$data <-
     rank_pscore = rank(-pscore),
     rank_e0deficit = rank(e0deficit),
     rank_mul = rank(-mul)
+  ) |>
+  mutate(
+    ggflag_region = tolower(region_iso),
+    # use uk flag for NIR as this is the most widely agreed upon flag
+    ggflag_region = if_else(ggflag_region == 'gb-nir', 'gb', ggflag_region)
   )
 
 excessmeasures20_24$cnst <- within(list(), {
@@ -93,7 +98,7 @@ excessmeasures20_24$fig$led_vs_mul <-
   ) +
   geom_point(size = 5.5) +
   geom_flag(
-    aes(country = tolower(region_iso)), size = 5
+    aes(country = ggflag_region), size = 5
   ) +
   coord_equal(xlim = c(0, NA), ylim = c(0, NA)) +
   scale_x_reverse() +
@@ -173,8 +178,8 @@ excessmeasures20_24$fig$comparison
 excessmeasures20_24$data |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$excessmeasures20_24.csv)
-ggsave(
-  paths$output$excessmeasures20_24.pdf, excessmeasures20_24$fig$comparison,
-  units = 'mm', width = 170, height = 130, device = 'pdf',
-  scale = 1.2,
+ExportSVG(
+  excessmeasures20_24$fig$comparison, paths$output$excessmeasures20_24.svg,
+  width = 170, height = 130,
+  scale = 1.2
 )

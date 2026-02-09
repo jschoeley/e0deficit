@@ -206,6 +206,9 @@ analysisinput <- readRDS(paths$input$analysisinput_bias_corrected.rds)
 #   mutate(death = ifelse(region == 'SE', death2, death),
 #          age_width = ifelse(is.na(age_width), Inf, age_width))
 
+# patch 0 fertility and migration for regions with no data
+# this is no problem as long as this assumption is made both in the
+# actual and in the counterfactual scenario
 analysisinput <-
   analysisinput |>
   mutate(
@@ -235,13 +238,12 @@ for (country in config$skeleton$regions) {
 
     fitting_period <- cnst$lee_carter_fitting_period
     # adjust fitting periods based on data availability
-    if (country == 'CL') {fitting_period <- 2016:2019}
     if (country == 'CZ') {fitting_period <- 2005:2019}
-    if (country == 'DK') {fitting_period <- 2007:2019}
+    if (country == 'DK') {fitting_period <- 2000:2019}
     if (country == 'IT') {fitting_period <- 2011:2019}
-    if (country == 'GR') {fitting_period <- 2015:2019}
+    #if (country == 'GR') {fitting_period <- 2015:2019}
     if (country == 'GB-EAW') {fitting_period <- 2010:2019}
-    if (country == 'GB-NIR') {fitting_period <- 2015:2019}
+    #if (country == 'GB-NIR') {fitting_period <- 2015:2019}
     if (country == 'GB-SCT') {fitting_period <- 2010:2019}
     if (country == 'HR') {fitting_period <- 2001:2019}
 

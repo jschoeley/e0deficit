@@ -16,6 +16,7 @@ renv::settings$ppm.enabled(value = TRUE)
 # list required packages
 # dput(unique(renv::dependencies()$Package))
 packages <- c(
+  "ragg",
   "svglite",
   "renv",
   "qs",
@@ -46,4 +47,4 @@ packages <- c(
 
 # install required packages
 renv::install(packages, dependencies = "strong")
-renv::snapshot(type = 'all')
+renv::snapshot()

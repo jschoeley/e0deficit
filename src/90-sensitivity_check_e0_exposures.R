@@ -23,7 +23,8 @@ paths$output <- list(
   tmpdir = paths$input$tmpdir,
   fig = './out/',
   xlsx_e0sensitivity = './out/90-e0sensitivity.xlsx',
-  xlsx_e0sensitivitysummary = './out/90-e0sensitivitysummary.xlsx'
+  xlsx_e0sensitivitysummary = './out/90-e0sensitivitysummary.xlsx',
+  e0sensitivity.pdf = './out/90-e0sensitivity.pdf'
 )
 
 # global configuration
@@ -181,7 +182,7 @@ e0sensitivity$summary <-
 # Export ----------------------------------------------------------
 
 ExportFigure(
-  figure = e0sensitivity$fig, , filename = './out/90-e0sensitivity',
+  figure = e0sensitivity$fig, , filename = paths$output$e0sensitivity.pdf,
   width = 170, height = 190, device = 'pdf', scale = 1.4
 )
 write.xlsx(

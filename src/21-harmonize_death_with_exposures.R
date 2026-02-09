@@ -6,32 +6,35 @@
 #      and sex for numerous countries. This is our main source. The data
 #      is updated weekly and includes the most recent information on
 #      death counts.
-# (2): The UK's Office for National Statistics (ONS) annual death counts
+# (2): The HMD main data base for annual deaths by age and sex for countries
+#      for which complete data series are available up to 2024.
+# (3): The UK's Office for National Statistics (ONS) annual death counts
 #      by age and sex for England & Wales. We use this data for years
 #      2010 through 2019 for England & Wales because the age grouping in
 #      the STMF data for these years is too coarse.
-# (3): The US CDC for annual death counts by age and sex for the United
+# (4): The US CDC for annual death counts by age and sex for the United
 #      States. We use this data for years 2000 through 2019 for the US,
 #      lacking any STMF data for these years.
-# (4): The Japanese official annual death counts by age and sex. We use
-#      this data for years 2000 through 2023 lacking any STMF data for
-#      these years.
 #
 # In a first step we harmonize the labels of all four data sources, and
 # select the preferred data source for each region and year.
 # We then perform a model based ungrouping (doi:10.1093/aje/kwv020)
-# of deaths into single ages for each region-year-sex stratum. During
-# this ungrouping we also derive person-weeks of exposure from the
+# of deaths into single ages for each region-year-sex stratum. This ungrouping
+# also acts as smoothing, yielding an estimate of central death rates.
+# During this ungrouping we also derive person-weeks of exposure from the
 # mid-year population counts for each age within a stratum.
 #
 # Exposures are adjusted for the length of the observation period within
 # a year, taking into weeks missing from the input data and leap-weeks.
 #
-# Because the age grouping scheme may vary within a year, the
-# ungrouping is separately applied to each
-# region x sex x year x age pattern combination in the input data.
-# The ungrouped STMF deaths and exposures are then aggregated into
-# annual death counts by age.
+# Because the age grouping scheme may vary within a year, the ungrouping is
+# separately applied to each region x sex x year x age pattern combination in
+# the input data. The ungrouped STMF deaths and exposures are then aggregated
+# into annual death counts by age.
+#
+# Finally, pre-existing annual counts are patched into the data. We use HMD
+# annuals for those countries which have data in 2024 latest, going back to
+# at least 2010.
 
 # Init ------------------------------------------------------------
 
@@ -69,6 +72,8 @@ paths$input <- list(
   cdc.txt = './dat/cdc/Underlying Cause of Death, 1999-2020.txt',
   # path to raw Japan annual death data
   japan.csv = './dat/japan/japan_death_data.csv',
+  # path to HMD annual death counts
+  hmd_annual_deaths.rds = './dat/hmdhfd/12-hmd_annual_deaths.rds',
 
   # path to harmonized population
   harmonized_population.rds = './tmp/20-harmonized_population.rds'
@@ -111,6 +116,8 @@ cnst <- within(list(), {
   code_sex_cdc =
     c(M = config$skeleton$sex$Male, F = config$skeleton$sex$Female)
   code_sex_japan =
+    c(Male = config$skeleton$sex$Male, Female = config$skeleton$sex$Female)
+  code_sex_hmd =
     c(Male = config$skeleton$sex$Male, Female = config$skeleton$sex$Female)
 
   # pclm life-table closeout age
@@ -179,6 +186,9 @@ dat$ons <- readRDS(paths$input$ons.rds)
 dat$cdc <- read_tsv(paths$input$cdc.txt)
 # japan death counts
 dat$japan <- read_csv(paths$input$japan.csv)
+
+# hmd annual death counts
+dat$hmd <- readRDS(paths$input$hmd_annual_deaths.rds)
 
 # STMF prepare for ungroup ----------------------------------------
 
@@ -293,6 +303,67 @@ dat$stmf_ready_for_ungroup <-
     deaths, nweeksobserved, nweeksyear, source = 'stmf'
   )
 
+# HMD prepare for ungroup -----------------------------------------
+
+dat$hmd_ready_for_ungroup <-
+  dat$hmd |>
+  select(
+    region_code_hmd,
+    year = Year,
+    age_start = Age,
+    Female,
+    Male
+  ) |>
+  # pivot to long format for sex
+  pivot_longer(
+    cols = c(Female, Male),
+    names_to = 'sex',
+    values_to = 'deaths'
+  ) |>
+  mutate(
+    # harmonize sex to common format
+    sex = as.character(factor(
+      sex, levels = names(cnst$code_sex_hmd),
+      labels = cnst$code_sex_hmd)
+    ),
+    # add iso region codes
+    region = as.character(factor(
+      region_code_hmd,
+      levels = region_meta$region_code_hmd,
+      labels = region_meta$region_code_iso3166_2
+    ))
+  ) |>
+  # harmonize age, i.e. make 100+ the open age group
+  mutate(
+    age_start = ifelse(age_start >= 100, 100, age_start)
+  ) |>
+  group_by(region, sex, year, age_start) |>
+  summarise(deaths = sum(deaths)) |>
+  ungroup() |>
+  # add data quality indicators
+  mutate(
+    agegroup_pattern = MakeAgeGroupPattern(age_start),
+    # we know that the data is complete
+    nweeksobserved = 52,
+    # the data is reported over a Gregorian year
+    nweeksyear = 52
+  ) |>
+  ConstructReadyForUngroup(
+    region, sex, year, agegroup_pattern, age_start,
+    deaths, nweeksobserved, nweeksyear, source = 'hmd'
+  )
+
+dat$hmd_countries_with_complete_series <-
+  dat$hmd_ready_for_ungroup |>
+  group_by(region) |>
+  summarise(
+    availability_2010 = any(year == 2010),
+    availability_2024 = any(year == 2024)
+  ) |>
+  ungroup() |>
+  filter(availability_2024, availability_2010) |>
+  pull(region)
+
 # ONS prepare for ungroup -----------------------------------------
 
 dat$ons_ready_for_ungroup <-
@@ -389,36 +460,36 @@ dat$cdc_ready_for_ungroup <-
 
 # Japan prepare for ungroup ---------------------------------------
 
-dat$japan_ready_for_ungroup <-
-  dat$japan |>
-  mutate(
-    region = 'JP',
-    sex = as.character(factor(
-      Sex, levels = names(cnst$code_sex_japan),
-      labels = cnst$code_sex_japan)
-    ),
-    year = as.numeric(Year)
-  ) |>
-  # harmonize age, i.e. make 100+ the open age group
-  mutate(
-    age_start = ifelse(Age %in% c('100+', '110+'), '105', Age) |> as.numeric(),
-    age_start = ifelse(age_start >= 100, 100, age_start)
-  ) |>
-  group_by(region, sex, year, age_start) |>
-  summarise(deaths = sum(Death)) |>
-  ungroup() |>
-  # add data quality indicators
-  mutate(
-    agegroup_pattern = MakeAgeGroupPattern(age_start),
-    # we know that the data is complete
-    nweeksobserved = 52,
-    # the data is reported over a Gregorian year
-    nweeksyear = 52
-  ) |>
-  ConstructReadyForUngroup(
-    region, sex, year, agegroup_pattern, age_start,
-    deaths, nweeksobserved, nweeksyear, source = 'japan'
-  )
+# dat$japan_ready_for_ungroup <-
+#   dat$japan |>
+#   mutate(
+#     region = 'JP',
+#     sex = as.character(factor(
+#       Sex, levels = names(cnst$code_sex_japan),
+#       labels = cnst$code_sex_japan)
+#     ),
+#     year = as.numeric(Year)
+#   ) |>
+#   # harmonize age, i.e. make 100+ the open age group
+#   mutate(
+#     age_start = ifelse(Age %in% c('100+', '110+'), '105', Age) |> as.numeric(),
+#     age_start = ifelse(age_start >= 100, 100, age_start)
+#   ) |>
+#   group_by(region, sex, year, age_start) |>
+#   summarise(deaths = sum(Death)) |>
+#   ungroup() |>
+#   # add data quality indicators
+#   mutate(
+#     agegroup_pattern = MakeAgeGroupPattern(age_start),
+#     # we know that the data is complete
+#     nweeksobserved = 52,
+#     # the data is reported over a Gregorian year
+#     nweeksyear = 52
+#   ) |>
+#   ConstructReadyForUngroup(
+#     region, sex, year, agegroup_pattern, age_start,
+#     deaths, nweeksobserved, nweeksyear, source = 'japan'
+#   )
 
 # Choose which sources to use -------------------------------------
 
@@ -431,13 +502,16 @@ dat$all_ready_for_ungroup <-
   left_join(dat$stmf_ready_for_ungroup) |>
   left_join(dat$ons_ready_for_ungroup) |>
   left_join(dat$cdc_ready_for_ungroup) |>
-  left_join(dat$japan_ready_for_ungroup) |>
+  left_join(dat$hmd_ready_for_ungroup) |>
   mutate(
     deaths =
       case_when(
+        region %in% dat$hmd_countries_with_complete_series ~ deaths_hmd,
         region %in% 'GB-EAW' & year < 2020 ~ deaths_ons,
         region %in% 'US' & year < 2020 ~ deaths_cdc,
-        region %in% 'JP' ~ deaths_japan,
+        region %in% 'CL' & year < 2016 ~ deaths_hmd,
+        region %in% 'GR' & year < 2015 ~ deaths_hmd,
+        region %in% 'GB-NIR' & year < 2022 ~ deaths_hmd,
         TRUE ~ deaths_stmf
       )
   ) |>
@@ -710,6 +784,124 @@ fig$hazard_pclm <-
   ) +
   scale_y_log10()
 fig$hazard_pclm
+
+# Harmonize HMD annuals ---------------------------------------------------
+
+# dat$hmd_harmonized <-
+#   dat$hmd |>
+#   select(
+#     region_code_hmd,
+#     year = Year,
+#     age_start = Age,
+#     Female,
+#     Male
+#   ) |>
+#   # pivot to long format for sex
+#   pivot_longer(
+#     cols = c(Female, Male),
+#     names_to = 'sex',
+#     values_to = 'deaths'
+#   ) |>
+#   mutate(
+#     # harmonize sex to common format
+#     sex = as.character(factor(
+#       sex, levels = names(cnst$code_sex_hmd),
+#       labels = cnst$code_sex_hmd)
+#     ),
+#     # add iso region codes
+#     region = as.character(factor(
+#       region_code_hmd,
+#       levels = region_meta$region_code_hmd,
+#       labels = region_meta$region_code_iso3166_2
+#     ))
+#   ) |>
+#   # harmonize age, i.e. make 100+ the open age group
+#   mutate(
+#     age_start = ifelse(age_start >= 100, 100, age_start)
+#   ) |>
+#   group_by(region, sex, year, age_start) |>
+#   summarise(deaths = sum(deaths)) |>
+#   ungroup() |>
+#   # add data quality indicators
+#   mutate(
+#     # we know the data is complete
+#     death_nweeksmiss = 0,
+#     death_minnageraw = 111,
+#     death_maxnageraw = 111,
+#     death_minopenageraw = 110,
+#     death_maxopenageraw = 110,
+#     death_source = 'hmd'
+#   ) |>
+#   mutate(
+#     id = GenerateRowID(region, sex, year, age_start)
+#   ) |>
+#   left_join(dat$population, by = 'id') |>
+#   # add person years
+#   # as this data is coming from hmd over annual Gregorian years,
+#   # we simply approximate person years via the hmd midyear population
+#   mutate(
+#     # hmd midyears for hmd deaths
+#     population_py = population_midyear_hmd,
+#     population_py_wpp22 = population_midyear_wpp22,
+#     population_py_wpp24 = population_midyear_wpp24,
+#     population_py_hmd = population_midyear_hmd
+#   ) |>
+#   select(
+#     id, death = deaths,
+#     population_py,
+#     population_py_wpp22,
+#     population_py_wpp24,
+#     population_py_hmd,
+#     death_nweeksmiss,
+#     death_minnageraw,
+#     death_maxnageraw,
+#     death_minopenageraw,
+#     death_maxopenageraw,
+#     death_source
+#   )
+
+# Patch in HMD annuals where available ----------------------------
+
+# # select countries to patch
+# # use HMD for those countries which have data in 2024 latest, going back to
+# # at least 2010
+# dat$patched_region_iso_codes <-
+#   left_join(dat$skeleton, dat$hmd_harmonized, by = 'id') |>
+#   group_by(region) |>
+#   summarise(
+#     availability_2024 = all(!is.na(death[year==2024])),
+#     availability_2010 = all(!is.na(death[year==2010]))
+#   ) |>
+#   ungroup() |>
+#   filter(availability_2024, availability_2010) |>
+#   pull(region)
+#
+# # create new harmonized deaths data with patched data
+# dat$non_patched_deaths <-
+#   left_join(dat$skeleton, dat$death) |>
+#   filter(!(region %in% dat$patched_region_iso_codes)) |>
+#   select(-region, -sex, -year, -age_start, -age_width)
+# dat$patched_deaths <-
+#   left_join(dat$skeleton, dat$hmd_harmonized) |>
+#   filter(region %in% dat$patched_region_iso_codes) |>
+#   select(-region, -sex, -year, -age_start, -age_width)
+#
+# dat$deaths_patched <-
+#   dat$skeleton |>
+#   left_join(bind_rows(dat$patched_deaths, dat$non_patched_deaths), by = 'id') |>
+#   select(
+#     id, death,
+#     population_py,
+#     population_py_wpp22,
+#     population_py_wpp24,
+#     population_py_hmd,
+#     death_nweeksmiss,
+#     death_minnageraw,
+#     death_maxnageraw,
+#     death_minopenageraw,
+#     death_maxopenageraw,
+#     death_source
+#   )
 
 # Export ----------------------------------------------------------
 

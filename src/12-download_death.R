@@ -4,12 +4,13 @@
 #     STMF input file
 # (2) Download annual death counts for E&W pre 2020 from ONS
 # (3) Download annual death counts for US pre 2020 from CDC
+# (4) Download annual death counts from HMD
 
 # Init ------------------------------------------------------------
 
 library(yaml)
-library(httr)
-library(purrr); library(dplyr); library(readr)
+library(httr); library(HMDHFDplus)
+library(purrr); library(dplyr); library(tidyr); library(readr)
 library(readxl)
 
 # Constants -------------------------------------------------------
@@ -24,21 +25,38 @@ paths$input <- list(
   url_stmf = 'https://www.mortality.org/File/GetDocument/Public/STMF/Inputs/STMFinput.zip',
   # ONS annual death counts pre 2020 for England and Wales
   url_ons = 'https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/deathsregisteredinenglandandwalesseriesdrreferencetables/2019/finalreftables2019.xlsx',
-  ons_raw = './dat/ons/12-ons_annual_deaths.xlsx'
+  ons_raw = './dat/ons/12-ons_annual_deaths.xlsx',
+  region_metadata.csv = './cfg/region_metadata.csv'
 )
 paths$output <- list(
   stmf.rds = './dat/stmf/12-stmf.rds',
   stmf.zip = './dat/stmf/12-stmf.zip',
   ons_annual_deaths.xlsx = './dat/ons/12-ons_annual_deaths.xlsx',
-  ons_annual_deaths.rds = './dat/ons/12-ons_annual_deaths.rds'
+  ons_annual_deaths.rds = './dat/ons/12-ons_annual_deaths.rds',
+  hmd_annual_deaths.rds = './dat/hmdhfd/12-hmd_annual_deaths.rds'
 )
 
 # global configuration
 config <- read_yaml(paths$input$config.yaml)
 
+# meta data on regions
+region_meta <- read_csv(paths$input$region_metadata.csv, na = '.')
+
+# constants specific to this analysis
+cnst <- within(list(), {
+  region_lookup_hmd =
+    region_meta |>
+    filter(region_code_iso3166_2 %in% config$skeleton$region) |>
+    select(region_code_iso3166_2, region_code_hmd) |>
+    drop_na()
+  # first year in harmonized data set
+  skeleton_first_year = config$skeleton$year$start
+})
+
 # list containers for analysis artifacts
 stmf <- list()
 ons <- list()
+hmd <- list()
 
 # Download STMF data ----------------------------------------------
 
@@ -84,6 +102,21 @@ writeBin(
 # - Calculate Rates Per: 100,000
 # - Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)
 
+# Download HMD data -----------------------------------------------
+
+# download hmd death counts
+hmd$hmd_deaths <-
+  map(cnst$region_lookup_hmd$region_code_hmd, ~{
+    cat('Download HMD death counts for', .x, '\n')
+    readHMDweb(
+      CNTRY = .x, item = 'Deaths_1x1',
+      username = config$credentials$hmd_usr,
+      password = config$credentials$hmd_pwd,
+      fixup = TRUE
+    )
+  })
+names(hmd$hmd_deaths) <- cnst$region_lookup_hmd$region_code_hmd
+
 # Preliminary format STMF data ------------------------------------
 
 # list all files in archive
@@ -124,7 +157,19 @@ ons$export <-
     .id = 'sex'
   )
 
+# Preliminary format HMD data -------------------------------------
+
+hmd$export <-
+  hmd$hmd_deaths |>
+  map(~{
+    .x |>
+      select(Year, Age, Female, Male) |>
+      filter(Year >= cnst$skeleton_first_year)
+  }) |>
+  bind_rows(.id = 'region_code_hmd')
+
 # Export ----------------------------------------------------------
 
 saveRDS(stmf$export, file = paths$output$stmf.rds)
 saveRDS(ons$export, file = paths$output$ons_annual_deaths.rds)
+saveRDS(hmd$export, file = paths$output$hmd_annual_deaths.rds)

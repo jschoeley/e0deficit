@@ -20,9 +20,9 @@ paths$input <- list(
 )
 paths$output <- list(
   tmpdir = paths$input$tmpdir,
-  e0trends.pdf = './out/60-e0trends.pdf',
+  e0trends.svg = './out/60-e0trends.svg',
   e0trends.csv = './out/60-e0trends.csv',
-  e0deficittypology.pdf = './out/60-e0deficittypology.pdf',
+  e0deficittypology.svg = './out/60-e0deficittypology.svg',
   e0deficittypology.csv = './out/60-e0deficittypology.csv'
 )
 
@@ -151,7 +151,11 @@ for (i in 1:length(groups)) {
     summarise(
       ymax_padded = ymax_padded[1]
     ) |>
-    mutate(region_ggflag = tolower(region_iso)) |>
+    mutate(
+      region_ggflag = tolower(region_iso),
+      # use uk flag for NIR as this is the most widely agreed upon flag
+      region_ggflag = if_else(region_ggflag == 'gb-nir', 'gb', region_ggflag)
+    ) |>
     ungroup()
 
   country_summaries <-
@@ -160,7 +164,7 @@ for (i in 1:length(groups)) {
 
   facet_labels <- paste0(
     country_summaries$region_name_en, '\n',
-    'e0 deficit: ',
+    'LE deficit: ',
     formatC(country_summaries$peak_deficit, format = 'f', digits = 1),
     ' (peak), ',
     formatC(country_summaries$fiveyear_deficit, format = 'f', digits = 1),
@@ -212,7 +216,7 @@ for (i in 1:length(groups)) {
     coord_cartesian(clip = 'off') +
     MyGGplotTheme(grid = 'y', axis = 'x', panel_border = FALSE) +
     labs(
-      y = 'Period life expectancy', x = NULL, fill = '',
+      y = 'Period life expectancy in years', x = NULL, fill = '',
       title = group_name
     ) +
     facet_wrap(
@@ -250,7 +254,12 @@ e0deficittypology$data$flag_positions <-
   group_by(group) |>
   reframe(region_iso = unique(region_iso)) |>
   group_by(group) |>
-  mutate(n = 1:n(), region_ggflag = tolower(region_iso))
+  mutate(
+    n = 1:n(),
+    region_ggflag = tolower(region_iso),
+    # use uk flag for NIR as this is the most widely agreed upon flag
+    region_ggflag = if_else(region_ggflag == 'gb-nir', 'gb', region_ggflag)
+  )
 
 e0deficittypology$facet_labels <- paste0(
   names(groups), '\n',
@@ -277,8 +286,12 @@ e0deficittypology$fig <-
   aes(x = year, y = e0_deficit_avg) +
   geom_hline(yintercept = 0, color = 'grey80', linewidth = 2) +
   geom_line(alpha = 0.3, aes(group = region_iso)) +
-  geom_point(aes(x = year, y = e0_deficit_avg), data = e0deficittypology$data$groupmeans) +
-  geom_line(aes(x = year, y = e0_deficit_avg), data = e0deficittypology$data$groupmeans) +
+  geom_line(aes(x = year, y = e0_deficit_avg),
+            data = e0deficittypology$data$groupmeans) +
+  geom_point(aes(x = year, y = e0_deficit_avg),
+             color = 'white', fill = 'black',
+             shape = 21, size = 2,
+             data = e0deficittypology$data$groupmeans) +
   geom_point(
     aes(x = 2020+(n-1)/3, y = 0.5), size = 5.5,
     data = e0deficittypology$data$flag_positions
@@ -288,35 +301,29 @@ e0deficittypology$fig <-
     size = 5, data = e0deficittypology$data$flag_positions
   ) +
   geom_text(
-    aes(x = 2020+(n-1)/3, y = 0.2, label = region_iso),
-    size = 3, color = 'grey30', data = e0deficittypology$data$flag_positions
+    aes(x = 2020+(n-1)/3, y = 0.18, label = region_iso),
+    size = 1.5, color = 'grey30', data = e0deficittypology$data$flag_positions
   ) +
   facet_wrap(~group, labeller = e0deficittypology$facet_labeller) +
-  labs(x = 'Year', y = 'Life expectancy deficit') +
+  labs(x = 'Year', y = 'Life expectancy deficit in years') +
   MyGGplotTheme()
 
 e0deficittypology$fig
 
 # Export ----------------------------------------------------------
 
-ggsave(
-  paths$output$e0trends.pdf, e0trends$fig,
-  units = 'mm',
-  width = 170, height = 190,
-  device = 'pdf', scale = 1.4
+ExportSVG(
+  e0trends$fig, paths$output$e0trends.svg,
+  width = 170, height = 190, scale = 1.4
 )
-
 e0trends$data$observedexpected |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$e0trends.csv)
 
-ggsave(
-  paths$output$e0deficittypology.pdf, e0deficittypology$fig,
-  units = 'mm',
-  width = 170, height = 140,
-  device = 'pdf'
+ExportSVG(
+  e0deficittypology$fig, paths$output$e0deficittypology.svg,
+  width = 170, height = 140
 )
-
 e0deficittypology$data$bycountry |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$e0deficittypology.csv)

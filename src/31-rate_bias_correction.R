@@ -42,8 +42,8 @@ analysisinput_noncorrected <-
     deathrate_uncorrected = # avoid infinities
       if_else(population_py == 0, NA, deathrate_uncorrected),
     deathrate_benchmark = deathrate_hmd,
-    death_uncorrected = floor(death), # floor is mode of poisson
-    death_benchmark = floor(deathrate_benchmark*population_py),
+    death_uncorrected = round(death, 0),
+    death_benchmark = round(deathrate_benchmark*population_py, 0),
     population_py
   )
 
@@ -61,6 +61,19 @@ correction$correctionfactors <-
 
     cat('Fit correction model for', .y$region, .y$sex, '\n')
 
+    # interval with benchmark data
+    # this is used for a least value carry forward correction factor
+    # where the correction factor for the last available year
+    # with benchmark data gets used subsequently
+    locf_year_factor <-
+      .x |> group_by(year) |>
+      summarise(available = any(is.na(death_benchmark))) |>
+      mutate(
+        year_fac = ifelse(available, NA, year),
+        year_fac = zoo::na.locf(year_fac, na.rm = FALSE),
+        year_fac = as.factor(year_fac)
+      ) |> select(year, year_fac)
+
     # prepare data for regression
     regression_input <-
       .x |>
@@ -74,10 +87,9 @@ correction$correctionfactors <-
         #   1, 0),
         # age 100 is not benchmarked because it is 100+ in our data and
         # 100 in HMD benchmark
-        weights = weights*ifelse(age_start == 100, 0, 1),
-        break2020 = as.factor(year >= 2020),
-        break2021 = as.factor(year >= 2021)
+        weights = weights*ifelse(age_start == 100, 0, 1)
       ) |>
+      left_join(locf_year_factor, by = 'year') |>
       mutate(empirical_correction = death_benchmark/death_uncorrected)
 
     # desired output
@@ -99,17 +111,11 @@ correction$correctionfactors <-
             offset(log(death_uncorrected))
         )
       }
-      if (.y$region %in% config$ratebiascorrection$breakpoint2020) {
+      if (.y$region %in% config$ratebiascorrection$factorsmoothlocf) {
         model_spec <- formula(
           death_benchmark ~
-            break2020 + s(log1p(age_start), m = 2, by = break2020) +
-            offset(log(death_uncorrected))
-        )
-      }
-      if (.y$region %in% config$ratebiascorrection$breakpoint2021) {
-        model_spec <- formula(
-          death_benchmark ~
-            break2021 + s(log1p(age_start), m = 2, by = break2021) +
+            year_fac + s(log1p(age_start), year_fac, bs = "fs") +
+            #s(log1p(age_start), m = 2, by = year_fac) +
             offset(log(death_uncorrected))
         )
       }
@@ -131,10 +137,7 @@ correction$correctionfactors <-
           year = config$skeleton$year$start:config$skeleton$year$end,
           death_uncorrected = 1
         ) |>
-        mutate(
-          break2020 = as.factor(year >= 2020),
-          break2021 = as.factor(year >= 2021)
-        )
+        left_join(locf_year_factor, by = 'year')
       ageeffect$deathrate_correctionfactor <-
         exp(c(predict.gam(fit, newdata = ageeffect, type = 'link')))
 

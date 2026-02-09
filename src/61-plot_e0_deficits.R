@@ -21,25 +21,25 @@ paths$input <- list(
   pval.rds = './out/50-pval.rds'
 )
 paths$output <- list(
-  e0deficit_total.pdf = './out/61-e0deficit_total.pdf',
-  e0deficit_male.pdf = './out/61-e0deficit_male.pdf',
-  e0deficit_female.pdf = './out/61-e0deficit_female.pdf',
+  e0deficit_total.svg = './out/61-e0deficit_total.svg',
+  e0deficit_male.svg = './out/61-e0deficit_male.svg',
+  e0deficit_female.svg = './out/61-e0deficit_female.svg',
   e0deficit_total.csv = './out/61-e0deficit_total.csv',
   e0deficit_male.csv = './out/61-e0deficit_male.csv',
   e0deficit_female.csv = './out/61-e0deficit_female.csv',
-  e0deficitbyyear_total.pdf = './out/61-e0deficitbyyear_total.pdf',
+  e0deficitbyyear_total.svg = './out/61-e0deficitbyyear_total.svg',
   e0deficitbyyear_total.csv = './out/61-e0deficitbyyear_total.csv',
-  e0deficitbyyear_female.pdf = './out/61-e0deficitbyyear_female.pdf',
+  e0deficitbyyear_female.svg = './out/61-e0deficitbyyear_female.svg',
   e0deficitbyyear_female.csv = './out/61-e0deficitbyyear_female.csv',
-  e0deficitbyyear_male.pdf = './out/61-e0deficitbyyear_male.pdf',
+  e0deficitbyyear_male.svg = './out/61-e0deficitbyyear_male.svg',
   e0deficitbyyear_male.csv = './out/61-e0deficitbyyear_male.csv',
-  e0deficitbysex.pdf = './out/61-e0deficitbysex.pdf',
+  e0deficitbysex.svg = './out/61-e0deficitbysex.svg',
   e0deficitbysex.csv = './out/61-e0deficitbysex.csv',
-  e0deficit24_total.pdf = './out/61-e0deficit24_total.pdf',
+  e0deficit24_total.svg = './out/61-e0deficit24_total.svg',
   e0deficit24_total.csv = './out/61-e0deficit24_total.csv',
-  e0deficit24_female.pdf = './out/61-e0deficit24_female.pdf',
+  e0deficit24_female.svg = './out/61-e0deficit24_female.svg',
   e0deficit24_female.csv = './out/61-e0deficit24_female.csv',
-  e0deficit24_male.pdf = './out/61-e0deficit24_male.pdf',
+  e0deficit24_male.svg = './out/61-e0deficit24_male.svg',
   e0deficit24_male.csv = './out/61-e0deficit24_male.csv'
 )
 
@@ -77,9 +77,9 @@ for (s in cnst$sex_strata) {
     filter(age == 0, sex == s, year == '2020-2024') |>
     select(
       region = region_iso, sex, year,
-      e0deficit_Q05 = ex_actual_minus_expected_q0.05,
+      e0deficit_Q025 = ex_actual_minus_expected_q0.025,
       e0deficit_Q50 = ex_actual_minus_expected_q0.5,
-      e0deficit_Q95 = ex_actual_minus_expected_q0.95,
+      e0deficit_Q975 = ex_actual_minus_expected_q0.975,
       e0expected_Q50 = ex_expected_q0.5,
       e0observed = ex_actual_q0.5
     )
@@ -88,12 +88,14 @@ for (s in cnst$sex_strata) {
     e0deficit$data[[s]] |>
     mutate(
       region_ggflag = tolower(region),
+      # use uk flag for NIR as this is the most widely agreed upon flag
+      region_ggflag = if_else(region_ggflag == 'gb-nir', 'gb', region_ggflag),
       region_rank = rank(-e0deficit_Q50)
     ) |>
     left_join(cnst$region, by = c('region' = 'region_code_iso3166_2')) |>
     ggplot(aes(y = region_rank, yend = region_rank)) +
     geom_vline(aes(xintercept = 0), size = 0.5, color = 'grey80') +
-    geom_segment(aes(x = e0deficit_Q05, xend = e0deficit_Q95),
+    geom_segment(aes(x = e0deficit_Q025, xend = e0deficit_Q975),
                  linewidth = 1, color = 'grey70') +
     # country label
     geom_text(
@@ -111,9 +113,9 @@ for (s in cnst$sex_strata) {
         label = paste0(
           formatC(e0deficit_Q50, digits = 2, format = 'f'),
           ' (',
-          formatC(e0deficit_Q05, digits = 2, format = 'f'),
+          formatC(e0deficit_Q025, digits = 2, format = 'f'),
           '; ',
-          formatC(e0deficit_Q95, digits = 2, format = 'f'),
+          formatC(e0deficit_Q975, digits = 2, format = 'f'),
           ')'
         )
       ),
@@ -142,7 +144,7 @@ for (s in cnst$sex_strata) {
     MyGGplotTheme(grid = 'x', axis = 'x', background_color = 'white') +
     labs(
       y = NULL,
-      x = 'Life expectancy deficit 2020-2024'
+      x = 'Life expectancy deficit in years 2020-2024'
     )
 }
 
@@ -160,9 +162,9 @@ for (s in cnst$sex_strata) {
     filter(age == 0, sex == s) |>
     select(
       region = region_iso, sex, year,
-      e0deficit_Q05 = ex_actual_minus_expected_q0.05,
+      e0deficit_Q025 = ex_actual_minus_expected_q0.025,
       e0deficit_Q50 = ex_actual_minus_expected_q0.5,
-      e0deficit_Q95 = ex_actual_minus_expected_q0.95,
+      e0deficit_Q975 = ex_actual_minus_expected_q0.975,
       e0expected_Q50 = ex_expected_q0.5,
       e0observed = ex_actual_q0.5
     ) |>
@@ -180,6 +182,8 @@ for (s in cnst$sex_strata) {
     group_by(year) |>
     mutate(
       region_ggflag = tolower(region),
+      # use uk flag for NIR as this is the most widely agreed upon flag
+      region_ggflag = if_else(region_ggflag == 'gb-nir', 'gb', region_ggflag),
       region_rank = rank(-e0deficit_Q50)
     ) |>
     ungroup() |>
@@ -202,7 +206,7 @@ for (s in cnst$sex_strata) {
     ) +
     scale_x_continuous(
       breaks = seq(-5.5, 0.5, 0.5),
-      labels = c('', '', '', '-4 years', '', '-3', '', '-2', '', '-1', '', '0', '')
+      labels = c('', '', '', '-4', '', '-3', '', '-2', '', '-1', '', '0', '')
     ) +
     scale_y_continuous(breaks = NULL, expand = expansion(add = c(1, 1))) +
     scale_color_manual(values = c('sig' = 'grey50', 'ns' = 'grey80')) +
@@ -211,7 +215,7 @@ for (s in cnst$sex_strata) {
     MyGGplotTheme(grid = 'x', axis = 'x', show_legend = FALSE) +
     labs(
       y = NULL,
-      x = 'Life expectancy deficit'
+      x = 'Life expectancy deficit in years'
     )
 }
 
@@ -228,9 +232,9 @@ e0deficitbysex$data <-
   filter(age == 0, sex != 'Total') |>
   select(
     region = region_iso, sex, year,
-    e0deficit_Q05 = ex_actual_minus_expected_q0.05,
+    e0deficit_Q025 = ex_actual_minus_expected_q0.025,
     e0deficit_Q50 = ex_actual_minus_expected_q0.5,
-    e0deficit_Q95 = ex_actual_minus_expected_q0.95,
+    e0deficit_Q975 = ex_actual_minus_expected_q0.975,
     e0expected_Q50 = ex_expected_q0.5,
     e0observed = ex_actual_q0.5
   ) |>
@@ -250,6 +254,8 @@ e0deficitbysex$fig <-
   left_join(cnst$region, by = c('region' = 'region_code_iso3166_2')) |>
   mutate(
     region_ggflag = tolower(region),
+    # use uk flag for NIR as this is the most widely agreed upon flag
+    region_ggflag = if_else(region_ggflag == 'gb-nir', 'gb', region_ggflag),
     region_rank = rank(-e0deficit_Q50_Male),
     region_name_en = reorder(region_name_en, region_rank)
   ) |>
@@ -292,7 +298,7 @@ e0deficitbysex$fig <-
   MyGGplotTheme(grid = 'x', axis = 'x', background_color = 'white') +
   labs(
     y = NULL,
-    x = 'Life expectancy deficit 2020-2024'
+    x = 'Life expectancy deficit 2020-2024 in years'
   ) +
   guides(fill = 'none', color = 'none')
 
@@ -308,9 +314,9 @@ for (s in cnst$sex_strata) {
     filter(age == 0, sex == s, year == '2024') |>
     select(
       region = region_iso, sex, year,
-      e0deficit_Q05 = ex_actual_minus_expected_q0.05,
+      e0deficit_Q025 = ex_actual_minus_expected_q0.025,
       e0deficit_Q50 = ex_actual_minus_expected_q0.5,
-      e0deficit_Q95 = ex_actual_minus_expected_q0.95,
+      e0deficit_Q975 = ex_actual_minus_expected_q0.975,
       e0expected_Q50 = ex_expected_q0.5,
       e0observed = ex_actual_q0.5
     ) |>
@@ -321,6 +327,8 @@ for (s in cnst$sex_strata) {
     e0deficit24$data[[s]] |>
     mutate(
       region_ggflag = tolower(region),
+      # use uk flag for NIR as this is the most widely agreed upon flag
+      region_ggflag = if_else(region_ggflag == 'gb-nir', 'gb', region_ggflag),
       region_rank = rank(-e0deficit_Q50)
     ) |>
     left_join(cnst$region, by = c('region' = 'region_code_iso3166_2')) |>
@@ -337,8 +345,8 @@ for (s in cnst$sex_strata) {
     MyGGplotTheme(grid = 'xy', axis = 'xy', background_color = 'white',
                   ar = 1) +
     labs(
-      y = 'p-value of e0 deficit',
-      x = 'Life expectancy deficit 2024'
+      y = 'p-value of life expectancy deficit',
+      x = 'Life expectancy deficit 2024 in years'
     )
 }
 
@@ -350,25 +358,25 @@ e0deficit24$fig$Total
 
 # e0deficit
 ## total
-ggsave(
-  paths$output$e0deficit_total.pdf, e0deficit$fig$Total,
-  units = 'mm', width = 170, height = 170, device = 'pdf'
+ExportSVG(
+  e0deficit$fig$Total, paths$output$e0deficit_total.svg,
+  width = 170, height = 170
 )
 e0deficit$data$Total |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$e0deficit_total.csv)
 ## male
-ggsave(
-  paths$output$e0deficit_male.pdf, e0deficit$fig$Male,
-  units = 'mm', width = 170, height = 170, device = 'pdf'
+ExportSVG(
+  e0deficit$fig$Male, paths$output$e0deficit_male.svg,
+  width = 170, height = 170
 )
 e0deficit$data$Male |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$e0deficit_male.csv)
 ## female
-ggsave(
-  paths$output$e0deficit_female.pdf, e0deficit$fig$Female,
-  units = 'mm', width = 170, height = 170, device = 'pdf'
+ExportSVG(
+  e0deficit$fig$Female, paths$output$e0deficit_female.svg,
+  width = 170, height = 170
 )
 e0deficit$data$Female |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
@@ -376,59 +384,59 @@ e0deficit$data$Female |>
 
 # e0deficitbyyear
 ## total
-ggsave(
-  paths$output$e0deficitbyyear_total.pdf, e0deficitbyyear$fig$Total,
-  units = 'mm', width = 170, height = 170, device = 'pdf'
+ExportSVG(
+  e0deficitbyyear$fig$Total, paths$output$e0deficitbyyear_total.svg,
+  width = 170, height = 170
 )
 e0deficitbyyear$data$Total |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$e0deficitbyyear_total.csv)
 ## male
-ggsave(
-  paths$output$e0deficitbyyear_male.pdf, e0deficitbyyear$fig$Male,
-  units = 'mm', width = 170, height = 170, device = 'pdf'
+ExportSVG(
+  e0deficitbyyear$fig$Male, paths$output$e0deficitbyyear_male.svg,
+  width = 170, height = 170
 )
 e0deficitbyyear$data$Male |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$e0deficitbyyear_male.csv)
 ## female
-ggsave(
-  paths$output$e0deficitbyyear_female.pdf, e0deficitbyyear$fig$Female,
-  units = 'mm', width = 170, height = 170, device = 'pdf'
+ExportSVG(
+  e0deficitbyyear$fig$Female, paths$output$e0deficitbyyear_female.svg,
+  width = 170, height = 170
 )
 e0deficitbyyear$data$Female |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$e0deficitbyyear_female.csv)
 
 # e0deficitsex
-ggsave(
-  paths$output$e0deficitbysex.pdf, e0deficitbysex$fig,
-  units = 'mm', width = 170, height = 170, device = 'pdf'
+ExportSVG(
+  e0deficitbysex$fig, paths$output$e0deficitbysex.svg,
+  width = 170, height = 170
 )
 e0deficitbysex$data |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$e0deficitbysex.csv)
 
 # e0deficit24
-ggsave(
-  paths$output$e0deficit24_total.pdf, e0deficit24$fig$Total,
-  units = 'mm', width = 170, height = 170, device = 'pdf',
+ExportSVG(
+  e0deficit24$fig$Total, paths$output$e0deficit24_total.svg,
+  width = 170, height = 170,
   scale = 0.8
 )
 e0deficit24$data$Total |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$e0deficit24_total.csv)
-ggsave(
-  paths$output$e0deficit24_female.pdf, e0deficit24$fig$Female,
-  units = 'mm', width = 170, height = 170, device = 'pdf',
+ExportSVG(
+  e0deficit24$fig$Female, paths$output$e0deficit24_female.svg,
+  width = 170, height = 170,
   scale = 0.8
 )
 e0deficit24$data$Female |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$e0deficit24_female.csv)
-ggsave(
-  paths$output$e0deficit24_male.pdf, e0deficit24$fig$Male,
-  units = 'mm', width = 170, height = 170, device = 'pdf',
+ExportSVG(
+  e0deficit24$fig$Male, paths$output$e0deficit24_male.svg,
+  width = 170, height = 170,
   scale = 0.8
 )
 e0deficit24$data$Male |>

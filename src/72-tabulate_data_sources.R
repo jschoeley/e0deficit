@@ -79,6 +79,7 @@ datasources$data <-
       death_source == 'ons' ~ 'ONS',
       death_source == 'japan' ~ 'SBJ',
       death_source == 'cdc' ~ 'CDC',
+      death_source == 'hmd' ~ 'HMD',
       is.na(death_source) ~ '-'
     ),
     population_jan1st_source = case_when(

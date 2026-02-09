@@ -23,7 +23,8 @@ paths$input <- list(
 paths$output <- list(
   tmpdir = paths$input$tmpdir,
   xlsx_e0 = './out/91-e0benchmark.xlsx',
-  e0benchmark.svg = './out/91-e0benchmark.svg'
+  e0benchmark.svg = './out/91-e0benchmark.svg',
+  e0benchmark.pdf = './out/91-e0benchmark.pdf'
 )
 
 # global configuration
@@ -53,8 +54,10 @@ e0benchmark <- list()
 
 e0benchmark$data <-
   left_join(
-    select(dat$analysisinput, region, sex, year, age = age_start, e0_hmd = lifeexpectancy_hmd, e0_eurostat = lifeexpectancy_eurostat),
-    select(filter(dat$lifetables, scenario == 'actual'), region = region_iso, sex, year = year_int, age, e0_js = ex_q0.5)
+    select(dat$analysisinput, region, sex, year, age = age_start,
+           e0_hmd = lifeexpectancy_hmd, e0_eurostat = lifeexpectancy_eurostat),
+    select(filter(dat$lifetables, scenario == 'actual'),
+           region = region_iso, sex, year = year_int, age, e0_js = ex_q0.5)
   ) |>
   filter(age == 0) |>
   left_join(cnst$region, by = c('region' = 'region_code_iso3166_2')) |>
@@ -121,7 +124,10 @@ ExportSVG(
   e0benchmark$fig, filename = paths$output$e0benchmark.svg,
   width = 170, height = 220, dpi = 300
 )
-
+ExportFigure(
+  figure = e0benchmark$fig, filename = paths$output$e0benchmark.pdf,
+  width = 170, height = 220, device = 'pdf'
+)
 write.xlsx(
   e0benchmark$data, file = paths$output$xlsx_e0,
   keepNA = TRUE, na.string = '.',

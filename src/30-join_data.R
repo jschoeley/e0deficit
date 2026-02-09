@@ -43,11 +43,16 @@ dat$lifeexpectancy <- readRDS(paths$input$harmonized_lifeexpectancy.rds)
 
 dat$analysisinput <-
   dat$skeleton |>
-  mutate(nweeks_year = ifelse(YearHasIsoWeek53(year), 53L, 52L)) |>
   left_join(dat$death, by = 'id') |>
   left_join(dat$population, by = 'id') |>
   left_join(dat$netmigration, by = 'id') |>
-  left_join(dat$lifeexpectancy, by = 'id')
+  left_join(dat$lifeexpectancy, by = 'id') |>
+  mutate(nweeks_year = case_when(
+    YearHasIsoWeek53(year) ~ 53L,
+    death_source == 'hmd' ~ 52L,
+    TRUE ~ 52L
+  ))
+
 
 # Export ----------------------------------------------------------
 
