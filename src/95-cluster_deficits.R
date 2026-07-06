@@ -8,8 +8,7 @@ library(tidyr)
 paths <- list(
   input = list(
     config = "cfg/config.yaml",
-    deficit_sim_qs = "tmp/50-deficits_and_excesses_sim.qs",
-    deficit_by_year = "out/61-e0deficitbyyear_total.csv"
+    deficit_sim_qs = "tmp/50-deficits_and_excesses_sim.qs"
   ),
   output = list(
     clusters = "out/95-cluster_deficits.csv"
@@ -19,14 +18,10 @@ paths <- list(
 years_for_clustering <- as.character(2020:2024)
 
 params <- list(
-  # A clear peak must be separated from the second-worst year by this many
-  # years of life expectancy. Smaller peak separation is treated as cluster D
-  # when the whole trajectory range is also modest.
-  peak_prominence_threshold = 0.22,
-  range_threshold = 0.75,
-  # If 2021 is the formal minimum but 2020 is essentially tied, preserve the
-  # visual "first wave" interpretation.
-  first_wave_tie = 0.07
+  nthreads = 1,
+  n_clusters = 4,
+  seed = 1,
+  nstart = 100
 )
 
 read_visual_groups <- function(config) {
@@ -35,55 +30,58 @@ read_visual_groups <- function(config) {
   }))
 }
 
-classify_trajectory <- function(e0_deficit, years, params) {
-  stopifnot(length(e0_deficit) == length(years))
-
-  peak_index <- which.min(e0_deficit)
-  peak_year <- years[[peak_index]]
+peak_prominence <- function(e0_deficit) {
   sorted_deficits <- sort(e0_deficit)
-  peak_prominence <- sorted_deficits[[2]] - sorted_deficits[[1]]
-  trajectory_range <- max(e0_deficit) - min(e0_deficit)
-
-  is_prolonged_depression <-
-    peak_prominence < params$peak_prominence_threshold &&
-    trajectory_range < params$range_threshold
-
-  if (is_prolonged_depression) {
-    formal_group <- "D Prolonged depression"
-  } else if (
-    identical(peak_year, "2021") &&
-    e0_deficit[[1]] - e0_deficit[[2]] <= params$first_wave_tie
-  ) {
-    formal_group <- "A First wave peak"
-  } else if (identical(peak_year, "2020")) {
-    formal_group <- "A First wave peak"
-  } else if (identical(peak_year, "2021")) {
-    formal_group <- "B Second wave peak"
-  } else {
-    formal_group <- "C Late peak"
-  }
-
-  tibble(
-    formal_group = formal_group,
-    peak_year = peak_year,
-    peak_prominence = peak_prominence,
-    trajectory_range = trajectory_range,
-    is_prolonged_depression = is_prolonged_depression
-  )
+  sorted_deficits[[2]] - sorted_deficits[[1]]
 }
 
-max_or_na <- function(x) {
-  if (all(is.na(x))) {
-    NA_real_
-  } else {
-    max(x, na.rm = TRUE)
-  }
+trajectory_range <- function(e0_deficit) {
+  max(e0_deficit) - min(e0_deficit)
 }
 
-summarize_draws <- function(draw_array, regions, years) {
+linear_slope <- function(e0_deficit) {
+  unname(coef(lm(e0_deficit ~ seq_along(e0_deficit)))[[2]])
+}
+
+peak_group <- function(
+    peak_year,
+    peak_probability_2020,
+    peak_probability_2022,
+    peak_probability_2023,
+    peak_probability_2024
+) {
+  if (identical(peak_year, "2020")) {
+    return("A First wave peak")
+  }
+
+  if (identical(peak_year, "2021")) {
+    late_peak_probability <- max(
+      peak_probability_2022,
+      peak_probability_2023,
+      peak_probability_2024
+    )
+
+    if (
+      peak_probability_2020 > 0 &&
+      peak_probability_2020 > late_peak_probability
+    ) {
+      return("A First wave peak")
+    }
+
+    return("B Second wave peak")
+  }
+
+  "C Late peak"
+}
+
+summarize_draws <- function(draw_array, regions, years, visual_groups) {
   # draw_array dimensions:
   # age, year, sex, region_iso, sim_id, var_id
   # sim_id 1 is the mean slot; stochastic draws start at sim_id 2.
+  if (is.null(names(dimnames(draw_array)))) {
+    names(dimnames(draw_array)) <- names(dim(draw_array))
+  }
+
   sim_ids <- setdiff(dimnames(draw_array)$sim_id, "1")
 
   bind_rows(lapply(regions, function(region) {
@@ -96,86 +94,119 @@ summarize_draws <- function(draw_array, regions, years) {
       draws <- matrix(draws, nrow = length(years), dimnames = list(years, sim_ids))
     }
 
+    e0_deficit <- apply(draws, 1, median, na.rm = TRUE)
+    null_draws <- sweep(draws, 1, e0_deficit, "-") + mean(e0_deficit)
     peak_year_by_draw <- years[max.col(-t(draws), ties.method = "first")]
     peak_prob <- prop.table(table(factor(peak_year_by_draw, levels = years)))
+    observed_peak_prominence <- peak_prominence(e0_deficit)
+    observed_trajectory_range <- trajectory_range(e0_deficit)
+    observed_linear_slope <- linear_slope(e0_deficit)
 
     tibble(
       region_iso = region,
-      year = years,
-      e0_deficit = apply(draws, 1, median, na.rm = TRUE),
-      peak_probability = as.numeric(peak_prob)
-    )
+      peak_year = years[[which.min(e0_deficit)]],
+      peak_prominence = observed_peak_prominence,
+      trajectory_range = observed_trajectory_range,
+      linear_slope = observed_linear_slope,
+      p_peak = mean(apply(null_draws, 2, peak_prominence) >= observed_peak_prominence),
+      p_range = mean(apply(null_draws, 2, trajectory_range) >= observed_trajectory_range),
+      p_trend = mean(abs(apply(null_draws, 2, linear_slope)) >= abs(observed_linear_slope)),
+      peak_probability_2020 = as.numeric(peak_prob[["2020"]]),
+      peak_probability_2021 = as.numeric(peak_prob[["2021"]]),
+      peak_probability_2022 = as.numeric(peak_prob[["2022"]]),
+      peak_probability_2023 = as.numeric(peak_prob[["2023"]]),
+      peak_probability_2024 = as.numeric(peak_prob[["2024"]]),
+      e0_2020 = e0_deficit[[1]],
+      e0_2021 = e0_deficit[[2]],
+      e0_2022 = e0_deficit[[3]],
+      e0_2023 = e0_deficit[[4]],
+      e0_2024 = e0_deficit[[5]]
+    ) |>
+      left_join(visual_groups, by = "region_iso")
   }))
 }
 
-read_deficit_series <- function(paths, regions, years) {
-  if (
-    file.exists(paths$input$deficit_sim_qs) &&
-    requireNamespace("qs", quietly = TRUE)
-  ) {
-    message("Reading simulation draws from ", paths$input$deficit_sim_qs)
-    draw_array <- qs::qread(paths$input$deficit_sim_qs)
-    return(list(
-      source = paths$input$deficit_sim_qs,
-      data = summarize_draws(draw_array, regions, years)
-    ))
+read_deficit_series <- function(paths, regions, years, visual_groups, params) {
+  if (!file.exists(paths$input$deficit_sim_qs)) {
+    stop("Simulation draw file not found: ", paths$input$deficit_sim_qs)
   }
 
-  message(
-    "Package 'qs' is unavailable; using ",
-    paths$input$deficit_by_year,
-    " as a deterministic summary fallback."
+  if (!requireNamespace("qs", quietly = TRUE)) {
+    stop("Package 'qs' is required to read ", paths$input$deficit_sim_qs)
+  }
+
+  message("Reading simulation draws from ", paths$input$deficit_sim_qs)
+  draw_array <- qs::qread(paths$input$deficit_sim_qs, nthreads = params$nthreads)
+  list(
+    source = paths$input$deficit_sim_qs,
+    data = summarize_draws(draw_array, regions, years, visual_groups)
   )
-
-  summary_data <-
-    read_csv(paths$input$deficit_by_year, show_col_types = FALSE) |>
-    mutate(year = as.character(year)) |>
-    filter(region %in% regions, sex == "Total", year %in% years) |>
-    transmute(
-      region_iso = region,
-      year,
-      e0_deficit = e0deficit_Q50,
-      peak_probability = NA_real_
-    )
-
-  list(source = paths$input$deficit_by_year, data = summary_data)
 }
 
 config <- read_yaml(paths$input$config)
 visual_groups <- read_visual_groups(config)
 regions <- visual_groups$region_iso
 
-deficit_series <- read_deficit_series(paths, regions, years_for_clustering)
+deficit_series <- read_deficit_series(
+  paths, regions, years_for_clustering, visual_groups, params
+)
+
+cluster_features <-
+  deficit_series$data
+
+clustering_input <-
+  cluster_features |>
+  select(p_peak, p_range, p_trend) |>
+  as.matrix() |>
+  scale()
+
+set.seed(params$seed)
+unsupervised_fit <-
+  kmeans(
+    clustering_input,
+    centers = params$n_clusters,
+    nstart = params$nstart
+  )
+
+d_evidence_score <-
+  rowMeans(select(cluster_features, p_peak, p_range, p_trend))
+
+cluster_d_evidence <-
+  tapply(d_evidence_score, unsupervised_fit$cluster, mean)
+
+d_cluster <-
+  as.integer(names(which.max(cluster_d_evidence)))
 
 clusters <-
-  deficit_series$data |>
-  arrange(region_iso, match(year, years_for_clustering)) |>
-  group_by(region_iso) |>
-  group_modify(\(.x, .y) {
-    classification <- classify_trajectory(.x$e0_deficit, .x$year, params)
-    bind_cols(
-      classification,
-      tibble(
-        e0_2020 = .x$e0_deficit[.x$year == "2020"],
-        e0_2021 = .x$e0_deficit[.x$year == "2021"],
-        e0_2022 = .x$e0_deficit[.x$year == "2022"],
-        e0_2023 = .x$e0_deficit[.x$year == "2023"],
-        e0_2024 = .x$e0_deficit[.x$year == "2024"],
-        max_peak_probability = max_or_na(.x$peak_probability)
-      )
-    )
-  }) |>
-  ungroup() |>
-  left_join(visual_groups, by = "region_iso") |>
+  cluster_features |>
   mutate(
+    unsupervised_cluster = unsupervised_fit$cluster,
+    d_evidence_score = d_evidence_score,
+    is_prolonged_depression = unsupervised_cluster == d_cluster,
+    peak_group = mapply(
+      peak_group,
+      peak_year,
+      peak_probability_2020,
+      peak_probability_2022,
+      peak_probability_2023,
+      peak_probability_2024
+    ),
+    formal_group = if_else(
+      is_prolonged_depression,
+      "D Prolonged depression",
+      peak_group
+    ),
     match_visual = formal_group == visual_group,
     data_source = deficit_series$source
   ) |>
   select(
     region_iso, formal_group, visual_group, match_visual,
     peak_year, peak_prominence, trajectory_range, is_prolonged_depression,
+    unsupervised_cluster, d_evidence_score, p_peak, p_range, p_trend,
+    peak_probability_2020, peak_probability_2021, peak_probability_2022,
+    peak_probability_2023, peak_probability_2024,
     e0_2020, e0_2021, e0_2022, e0_2023, e0_2024,
-    max_peak_probability, data_source
+    data_source
   )
 
 write_csv(clusters, paths$output$clusters)
