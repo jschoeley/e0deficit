@@ -13,8 +13,20 @@ indicate larger deficits.
 
 ## Implementation
 
-The implementation is in `src/95-cluster_deficits.R` and writes
-`out/95-cluster_deficits.csv`.
+The implementation is in `src/95-cluster_deficits.R`. It defines:
+
+```r
+AssignE0DeficitClusters(deficit_sim_qs, method = ...)
+```
+
+The function takes the path to `50-deficits_and_excesses_sim.qs` and returns one
+row per country with the assigned `formal_group` plus diagnostic features.
+
+When `src/95-cluster_deficits.R` is run as a script, it writes the default
+`method = "kmeans_pvalues"` output to `out/95-cluster_deficits.csv` and exports
+a scatterplot matrix of the k-means features to
+`out/95-kmeans_scatterplot_matrix.pdf`. It also exports a country-by-method
+assignment comparison to `out/95-cluster_method_comparison.pdf`.
 
 Input draws are read from `tmp/50-deficits_and_excesses_sim.qs`:
 
@@ -48,21 +60,40 @@ Large values mean weak evidence against a no-shape/prolonged-depression
 trajectory. Small values mean the simulations support a structured peak, range,
 or trend.
 
-## Unsupervised D Classification
+## Available Methods
 
-Countries are clustered with k-means on the standardized vector:
+`AssignE0DeficitClusters()` supports three methods:
 
-```r
-c(p_peak, p_range, p_trend)
-```
+1. `method = "fixed_thresholds"`
 
-The number of clusters is set to four because the target typology has four
-classes, but the visual labels are not used in fitting. The D cluster is
-identified after fitting as the cluster with the largest average
-`mean(p_peak, p_range, p_trend)`, i.e. the cluster with weakest simulation-based
-evidence for a structured trajectory.
+   Assigns D when both the peak prominence and trajectory range are below fixed
+   cutoffs. Defaults reproduce the first formalization:
 
-The visual labels are joined only after clustering to report concordance.
+   ```r
+   peak_prominence < 0.22 && trajectory_range < 0.75
+   ```
+
+2. `method = "kmeans_pvalues"`
+
+   Clusters countries with k-means on the standardized vector:
+
+   ```r
+   c(p_peak, p_range, p_trend)
+   ```
+
+   The number of clusters defaults to four because the target typology has four
+   classes, but the visual labels are not used in fitting. The D cluster is
+   identified after fitting as the cluster with the largest average
+   `mean(p_peak, p_range, p_trend)`, i.e. the cluster with weakest
+   simulation-based evidence for a structured trajectory.
+
+3. `method = "alpha_rule"`
+
+   Assigns D when both peak and trend features are not significant:
+
+   ```r
+   p_trend > alpha && p_peak > alpha
+   ```
 
 ## A/B/C Classification
 
@@ -80,7 +111,7 @@ the simulation draws and avoids a numeric tie threshold.
 
 ## Result
 
-Current concordance with the visual clusters:
+Current default `method = "kmeans_pvalues"` concordance with the visual clusters:
 
 ```text
 91.2% (31/34 countries)
