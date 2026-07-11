@@ -1,4 +1,4 @@
-# Compare our adjusted e0 estimates against HMD and Eurostat
+# Count Countries By Type
 
 # Init ------------------------------------------------------------
 
@@ -19,7 +19,8 @@ paths$input <- list(
   lifetables = './out/50-lifetables.rds',
   e0trends.csv = './out/60-e0trends.csv',
   pval.rds = './out/50-pval.rds',
-  deficits_and_excesses.csv = './out/50-deficits_and_excesses.csv'
+  deficits_and_excesses.csv = './out/50-deficits_and_excesses.csv',
+  deficit_clusters.csv = './out/51-deficit_clusters.csv'
 )
 paths$output <- list(
   tmpdir = paths$input$tmpdir
@@ -45,6 +46,10 @@ e0trends <- read_csv(paths$input$e0trends.csv)
 analysisinput <- readRDS(paths$input$analysisinput_bias_corrected.rds)
 pval <- readRDS(paths$input$pval.rds)
 deficits <- read_csv(paths$input$deficits_and_excesses.csv)
+
+groups <- read_csv(paths$input$deficit_clusters.csv)
+groups <- split(groups$region_iso, groups[[config$clustermethod]])
+names(groups) <- config$clusternames[names(groups)]
 
 # Functions ---------------------------------------------------------------
 
@@ -129,7 +134,7 @@ regioncount$regions_without_sign_e0_deficits_in_2020_2024
 pval |>
   left_join(cnst$region, by = c('region_iso' = 'region_code_iso3166_2')) |>
   filter(
-    region_iso %in% config$groups$`C Late peak`,
+    region_iso %in% groups$`C Late peak`,
     year %in% c('2024'), sex == 'Total', e0_deficit_pval > 0.05
   ) |>
   pull(region_name_en)
@@ -137,11 +142,10 @@ pval |>
 pval |>
   left_join(cnst$region, by = c('region_iso' = 'region_code_iso3166_2')) |>
   filter(
-    region_iso %in% config$groups$`C Late peak`,
+    region_iso %in% groups$`C Late peak`,
     year %in% c('2024'), sex == 'Total', e0_deficit_pval <= 0.05
   ) |>
   pull(region_name_en)
-
 
 # countries with full data series in HMD
 regioncount$regions_with_full_hmd_deaths <-
