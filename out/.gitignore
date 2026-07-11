@@ -4,6 +4,8 @@
 !.gitignore
 !31-analysisinput_bias_corrected.rds
 !50-pval.csv
+!51-cluster_concordance_with_visual.csv
+!51-cluster_concordance_with_dtw.csv
 !60-e0deficittypology.csv
 !60-e0deficittypology.svg
 !60-e0deficittypology.svg

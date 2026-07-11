@@ -23,7 +23,8 @@ paths$input <- list(
 )
 paths$output <- list(
   deficit_clusters.csv = './out/51-deficit_clusters.csv',
-  cluster_concordance_with_visual.csv = './out/51-cluster_concordance_with_visual.csv'
+  cluster_concordance_with_visual.csv = './out/51-cluster_concordance_with_visual.csv',
+  cluster_concordance_with_dtw.csv = './out/51-cluster_concordance_with_dtw.csv'
 )
 
 # global configuration
@@ -39,6 +40,7 @@ cnst <- within(list(), {
   years = as.character(config$forecast$jumpoff-1+1:config$forecast$h)
   sex = 'Total'
   age = '0'
+  seed = 1987
 })
 
 # Functions ---------------------------------------------------------------
@@ -193,7 +195,7 @@ AssignExDeficitClustersFromFeatures <- function(
       },
       distance = 'L2',
       control = hierarchical_control(method = "ward.D2"),
-      seed = 1987
+      seed = cnst$seed
     )
   # assign cluster labels based on features of cluster average series
   dtw_features <- do.call('rbind',
@@ -272,6 +274,16 @@ cluster_concordance_with_visual <-
     concordance = mean(match)
   )
 
+cluster_concordance_with_dtw <-
+  cluster_assignment |>
+  select(region_iso, starts_with('cluster')) |>
+  pivot_longer(cols = c('cluster_fixed', 'cluster_alpha', 'cluster_visual')) |>
+  mutate(match = cluster_dtw == value) |>
+  group_by(name) |>
+  summarise(
+    concordance = mean(match)
+  )
+
 # Tabulate cluster assignment ---------------------------------------------
 
 deficit_clusters <-
@@ -283,3 +295,5 @@ deficit_clusters <-
 write_csv(deficit_clusters, paths$output$deficit_clusters.csv)
 write_csv(cluster_concordance_with_visual,
           paths$output$cluster_concordance_with_visual.csv)
+write_csv(cluster_concordance_with_dtw,
+          paths$output$cluster_concordance_with_dtw.csv)
