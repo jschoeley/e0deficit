@@ -95,22 +95,22 @@ B Second wave peak,CZ,2022,2022,79.032643,79.882946,79.360971,80.352512,-0.85030
 B Second wave peak,CZ,2023,2023,79.878033,80.070712,79.48836,80.633922,-0.192679,-0.766086,0.384659,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
 B Second wave peak,CZ,2024,2024,80.103923,80.257513,79.564477,80.910387,-0.15359,-0.784994,0.521473,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
 B Second wave peak,CZ,2020-2024,NA,78.856104,79.872636,79.436475,80.280066,-1.016532,-1.425701,-0.576728,CZE,CZ,CZE,CZE,iso_week_date,CZE,203,Czechia,Czech Republic,Tschechien,CZE,0,Czech Republic,n,Europe
-C Late peak,DE,2010,2010,80.082728,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2011,2011,80.352946,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2012,2012,80.490929,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2013,2013,80.450055,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2014,2014,80.936289,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2015,2015,80.576666,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2016,2016,80.846245,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2017,2017,80.945309,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2018,2018,80.884164,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2019,2019,81.208137,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2020,2020,81.018687,81.420878,81.093027,81.705708,-0.40219,-0.69023,-0.078662,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2021,2021,80.807689,81.593113,81.189794,81.973605,-0.785424,-1.169577,-0.383147,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2022,2022,80.725015,81.742488,81.312426,82.249557,-1.017473,-1.516538,-0.587392,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2023,2023,81.301285,81.919408,81.387799,82.47252,-0.618123,-1.153638,-0.102041,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2024,2024,81.622482,82.083425,81.501396,82.663093,-0.460942,-1.041627,0.118707,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
-C Late peak,DE,2020-2024,NA,81.094777,81.750701,81.342011,82.174899,-0.655925,-1.079932,-0.251637,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2010,2010,80.082728,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2011,2011,80.352946,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2012,2012,80.490929,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2013,2013,80.450055,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2014,2014,80.936289,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2015,2015,80.576666,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2016,2016,80.846245,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2017,2017,80.945309,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2018,2018,80.884164,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2019,2019,81.208137,NA,NA,NA,NA,NA,NA,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2020,2020,81.018687,81.420878,81.093027,81.705708,-0.40219,-0.69023,-0.078662,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2021,2021,80.807689,81.593113,81.189794,81.973605,-0.785424,-1.169577,-0.383147,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2022,2022,80.725015,81.742488,81.312426,82.249557,-1.017473,-1.516538,-0.587392,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2023,2023,81.301285,81.919408,81.387799,82.47252,-0.618123,-1.153638,-0.102041,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2024,2024,81.622482,82.083425,81.501396,82.663093,-0.460942,-1.041627,0.118707,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
+D Prolonged depression,DE,2020-2024,NA,81.094777,81.750701,81.342011,82.174899,-0.655925,-1.079932,-0.251637,DEU,DE,DEU,DEUTNP,iso_week_date,DEUTNP,276,Germany,Germany,Deutschland,DEU,0,Germany,n,Europe
 C Late peak,DK,2010,2010,79.256226,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
 C Late peak,DK,2011,2011,79.800676,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe
 C Late peak,DK,2012,2012,80.085201,NA,NA,NA,NA,NA,NA,DNK,DK,DNK,DNK,iso_week_date,DNK,208,Denmark,Denmark,Dänemark,DNK,0,Denmark,n,Europe

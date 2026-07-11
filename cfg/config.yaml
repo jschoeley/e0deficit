@@ -51,7 +51,7 @@ visualclusters:
     'C Late peak': ['DK', 'FI', 'IS', 'DE', 'NO', 'TW', 'JP'],
     'D Prolonged depression': ['AT', 'FR', 'IL', 'NL', 'GB-NIR', 'PT']
   }
-clustermethod: 'cluster_fixed'
+clustermethod: 'cluster_dtw'
 clusternames:
   A: 'A First wave peak'
   B: 'B Second wave peak'
