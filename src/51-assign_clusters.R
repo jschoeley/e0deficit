@@ -182,8 +182,17 @@ AssignExDeficitClustersFromFeatures <- function(
   dtw_fit <-
     tsclust(
       dtw_data, k = 4,
-      distance = "gak",
-      centroid = 'dba',
+      type = 'hierarchical',
+      preproc = function(series) {
+        tslist(lapply(series, function(x) {
+          trajectory_range <- diff(range(x))
+          normalized <- x - mean(x)
+          normalized <- normalized / trajectory_range
+          c(normalized, diff(normalized), trajectory_range)
+        }))
+      },
+      distance = 'L2',
+      control = hierarchical_control(method = "ward.D2"),
       seed = 1987
     )
   # assign cluster labels based on features of cluster average series
