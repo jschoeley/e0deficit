@@ -1,17 +1,14 @@
 # Install required packages to local renv repository
 
+# initialize project specific repository
+renv::scaffold(
+  # set remote repository
+  repos = "https://packagemanager.posit.co/cran/2026-07-01"
+)
+renv::activate()
+
 # if installing V8 on Linux
 Sys.setenv(DOWNLOAD_STATIC_LIBV8 = 1)
-
-# set remote repository
-options(
-  repos = c(
-    # install packages from CRAN as it was on November 1st 2025
-    "CRAN" = "https://packagemanager.posit.co/cran/2025-11-01"
-  )
-)
-# tell renv to use the posit package manager
-renv::settings$ppm.enabled(value = TRUE)
 
 # list required packages
 # dput(unique(renv::dependencies()$Package))
@@ -19,7 +16,7 @@ packages <- c(
   "ragg",
   "svglite",
   "renv",
-  "qs",
+  "qs2",
   "ggplot2",
   "ISOweek",
   "purrr",
