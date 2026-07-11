@@ -1,4 +1,4 @@
-# Cluster analysis of e0 deficit trajectories
+# Clustering of e0 deficit trajectories
 
 # Init --------------------------------------------------------------------
 
@@ -7,6 +7,8 @@ library(readr)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
+library(qs2)
+library(dtwclust)
 
 # Constants ---------------------------------------------------------------
 
@@ -14,13 +16,14 @@ library(ggplot2)
 setwd('.')
 paths <- list()
 paths$input <- list(
-  config = 'cfg/config.yaml',
+  config = './cfg/config.yaml',
   global = './src/_global_functions.R',
   region = './cfg/region_metadata.csv',
-  deficits_and_excesses_sim.qs = 'tmp/50-deficits_and_excesses_sim.qs'
+  deficits_and_excesses_sim.qs = './tmp/50-deficits_and_excesses_sim.qs'
 )
 paths$output <- list(
-  deficit_clusters.csv = 'out/95-deficit_clusters.csv'
+  deficit_clusters.csv = './out/51-deficit_clusters.csv',
+  cluster_concordance_with_visual.csv = './out/51-cluster_concordance_with_visual.csv'
 )
 
 # global configuration
@@ -31,6 +34,7 @@ global <- source(paths$input$global)
 
 # constants specific to this analysis
 cnst <- within(list(), {
+  # region, years, sex, and age to cluster ex deficits over
   region = config$showinoutput
   years = as.character(config$forecast$jumpoff-1+1:config$forecast$h)
   sex = 'Total'
@@ -55,8 +59,14 @@ GetClusterFeatures <- function(
 ) {
 
   peak_prominence <- function(ex_deficit) {
-    sorted_deficits <- sort(ex_deficit)
-    sorted_deficits[[2]] - sorted_deficits[[1]]
+    n <- length(ex_deficit)
+    # position of peak deficit
+    pos_peak_deficit <- which.min(ex_deficit)
+    # position of neighbours of peak deficit
+    pos_neighbours_peak_deficit <- c(pos_peak_deficit-1, pos_peak_deficit+1)
+    if (pos_peak_deficit == 1) pos_neighbours_peak_deficit <- 2
+    if (pos_peak_deficit == n) pos_neighbours_peak_deficit <- n-1
+    abs(ex_deficit[pos_peak_deficit] - mean(ex_deficit[pos_neighbours_peak_deficit]))
   }
   trajectory_range <- function(ex_deficit) {
     max(ex_deficit) - min(ex_deficit)
@@ -96,6 +106,7 @@ GetClusterFeatures <- function(
     peak_prob <- prop.table(table(factor(peak_deficit_year_by_draw, levels = years)))
     # the difference between peak deficit and second largest deficit in years
     observed_peak_prominence <- peak_prominence(mean_ex_deficit)
+    # the probability
     # the range of life expectancy deficits
     observed_trajectory_range <- trajectory_range(mean_ex_deficit)
     # the linear slope of life expectancy deficits
@@ -116,7 +127,13 @@ GetClusterFeatures <- function(
       e0_2021 = mean_ex_deficit[[2]],
       e0_2022 = mean_ex_deficit[[3]],
       e0_2023 = mean_ex_deficit[[4]],
-      e0_2024 = mean_ex_deficit[[5]]
+      e0_2024 = mean_ex_deficit[[5]],
+      # peak probability by year
+      p_peak_2020 = peak_prob[[1]],
+      p_peak_2021 = peak_prob[[2]],
+      p_peak_2022 = peak_prob[[3]],
+      p_peak_2023 = peak_prob[[4]],
+      p_peak_2024 = peak_prob[[5]]
     )
   }))
 }
@@ -145,41 +162,58 @@ AssignExDeficitClustersFromFeatures <- function(
 
   # fixed alpha
   cluster_alpha <- cluster_features |>
-    mutate(cluster = case_when(
-      # group D decision (no peak, flat trajectory)
-      p_trend > alpha & p_peak > alpha ~ 'D',
-      # group A, B, C decision
-      peak_year == 2020 ~ 'A',
-      peak_year == 2021 ~ 'B',
-      peak_year >= 2022 ~ 'C'
-    )) |>
+    mutate(
+      significant_peak_or_trend = p_peak < alpha | p_trend < alpha,
+      cluster = case_when(
+        significant_peak_or_trend & p_peak_2021 >= (1 - alpha) ~ 'B',
+        significant_peak_or_trend & peak_year >= 2022 ~ 'C',
+        significant_peak_or_trend & peak_year < 2022 ~ 'A',
+        .default = 'D'
+      )) |>
     select(region_iso, cluster_alpha = cluster)
 
-  # kmeans pvalues
-  kmeans_input <-
+  # dtw
+  dtw_data <- tslist(
     cluster_features |>
-    mutate(p_structure = log(p_peak*p_range*p_trend+1e-6)) |>
-    select(p_structure) |>
-    as.matrix() |>
-    scale()
-  kmeans_fit <- kmeans(kmeans_input, centers = 2, nstart = 100)
-  cluster_features$k_means_cluster <- kmeans_fit$cluster
-  cluster_kmeans <- cluster_features |>
-    mutate(cluster = case_when(
-      # group D decision (no peak, flat trajectory)
-      k_means_cluster == which.max(kmeans_fit$centers) ~ 'D',
-      # group A, B, C decision
-      peak_year == 2020 ~ 'A',
-      peak_year == 2021 ~ 'B',
-      peak_year >= 2022 ~ 'C'
+    select(starts_with('e0_')) |>
+    as.matrix()
+  ); names(dtw_data) <- cluster_features$region_iso
+  # cluster the time series
+  dtw_fit <-
+    tsclust(
+      dtw_data, k = 4,
+      distance = "gak",
+      centroid = 'dba',
+      seed = 1987
+    )
+  # assign cluster labels based on features of cluster average series
+  dtw_features <- do.call('rbind',
+    lapply(split(cluster_features, dtw_fit@cluster), function (l) {
+      data.frame(
+        randomness = mean(l$p_peak*l$p_range*l$p_trend),
+        p_peak_2021 = mean(l$p_peak_2021),
+        p_peak_22plus = mean(l$p_peak_2022+l$p_peak_2023+l$p_peak_2024)
+      )
+    }))
+  dtw_D <- which.max(dtw_features$randomness); dtw_features[dtw_D,] <- NA
+  dtw_B <- which.max(dtw_features$p_peak_2021); dtw_features[dtw_B,] <- NA
+  dtw_C <- which.max(dtw_features$p_peak_22plus)
+  dtw_A <- setdiff(1:4, c(dtw_D, dtw_B, dtw_C))
+  dtw_lookup <- c(A = dtw_A, B = dtw_B, C = dtw_C, D = dtw_D)
+
+  cluster_dtw <-
+    cluster_features |>
+    mutate(cluster = as.character(factor(
+      dtw_fit@cluster,
+      levels = dtw_lookup, labels = names(dtw_lookup))
     )) |>
-    select(region_iso, cluster_kmeans = cluster)
+    select(region_iso, cluster_dtw = cluster)
 
   clusters <-
     cluster_features |>
     left_join(cluster_fixed) |>
     left_join(cluster_alpha) |>
-    left_join(cluster_kmeans)
+    left_join(cluster_dtw)
 
   return(clusters)
 
@@ -189,15 +223,15 @@ AssignExDeficitClustersFromFeatures <- function(
 
 # the manually choosen "visual" clustering
 visual_clusters <-
-  lapply(names(config$groups), function(group) {
+  lapply(names(config$visualclusters), function(cluster) {
     tibble(
-      region_iso = unlist(config$groups[[group]]),
-      cluster_visual = substr(group, 1, 1))
+      region_iso = unlist(config$visualclusters[[cluster]]),
+      cluster_visual = substr(cluster, 1, 1))
   }) |>
   bind_rows()
 
 # ex deficit simulation draws by strata
-deficits_and_excesses_sim <- qs::qread(paths$input$deficits_and_excesses_sim.qs)
+deficits_and_excesses_sim <- qs_read(paths$input$deficits_and_excesses_sim.qs)
 
 # Assign clusters ---------------------------------------------------------
 
@@ -215,14 +249,14 @@ cluster_features <-
 cluster_assignment <-
   AssignExDeficitClustersFromFeatures(cluster_features) |>
   left_join(visual_clusters, by = "region_iso") |>
-  relocate(cluster_visual, .after = cluster_kmeans)
+  relocate(cluster_visual, .after = cluster_dtw)
 
-# Analyze concordance in cluster assignment -------------------------------
+# Analyse concordance in cluster assignment -------------------------------
 
-cluster_concordance <-
+cluster_concordance_with_visual <-
   cluster_assignment |>
   select(region_iso, starts_with('cluster')) |>
-  pivot_longer(cols = c('cluster_fixed', 'cluster_alpha', 'cluster_kmeans')) |>
+  pivot_longer(cols = c('cluster_fixed', 'cluster_alpha', 'cluster_dtw')) |>
   mutate(match = cluster_visual == value) |>
   group_by(name) |>
   summarise(
@@ -231,10 +265,12 @@ cluster_concordance <-
 
 # Tabulate cluster assignment ---------------------------------------------
 
-clusters <-
+deficit_clusters <-
   cluster_assignment |>
   select(region_iso, starts_with('cluster'))
 
 # Export ------------------------------------------------------------------
 
-write_csv(clusters, paths$output$deficit_clusters.csv)
+write_csv(deficit_clusters, paths$output$deficit_clusters.csv)
+write_csv(cluster_concordance_with_visual,
+          paths$output$cluster_concordance_with_visual.csv)

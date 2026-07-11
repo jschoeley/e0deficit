@@ -39,7 +39,8 @@ packages <- c(
   "StMoMo",
   "gt",
   "patchwork",
-  "jschoeley/ggflagsplus@d799ac56a4365540b627e5fb6b0fa40a7eacf83e"
+  "jschoeley/ggflagsplus@d799ac56a4365540b627e5fb6b0fa40a7eacf83e",
+  "dtwclust"
 )
 
 # install required packages

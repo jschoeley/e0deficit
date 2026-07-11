@@ -44,7 +44,7 @@ skeleton:
       'TW',
       'US',
     ]
-groups:
+visualclusters:
   {
     'A First wave peak': ['BE', 'GB-EAW', 'IT', 'SI', 'ES', 'SE', 'CH', 'LU', 'GB-SCT'],
     'B Second wave peak': ['BG', 'HR', 'CZ', 'EE', 'GR', 'HU', 'LV', 'LT', 'PL', 'SK', 'US', 'CL'],
