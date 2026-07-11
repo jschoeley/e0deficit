@@ -7,7 +7,7 @@
 
 library(yaml)
 library(dplyr); library(tidyr); library(readr)
-library(qs)
+library(qs2)
 
 # Constants -------------------------------------------------------
 
@@ -689,14 +689,14 @@ cbind(
 
 # Export ----------------------------------------------------------
 
-qsave(lifetables$simulation, paths$output$lifetables_sim.qs)
+qs_save(lifetables$simulation, paths$output$lifetables_sim.qs)
 
 saveRDS(lifetables$ci_df, paths$output$lifetables.rds)
 lifetables$ci_df |>
   mutate(across(.cols = where(is.numeric), .fns = ~round(.x,6))) |>
   write_csv(paths$output$lifetables.csv)
 
-qsave(deficits_and_excesses$simulation, paths$output$deficits_and_excesses_sim.qs)
+qs_save(deficits_and_excesses$simulation, paths$output$deficits_and_excesses_sim.qs)
 
 saveRDS(deficits_and_excesses$ci_df, paths$output$deficits_and_excesses.rds)
 deficits_and_excesses$ci_df |>
