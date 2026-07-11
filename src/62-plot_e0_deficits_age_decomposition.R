@@ -15,7 +15,8 @@ paths$input <- list(
   config.yaml = './cfg/config.yaml',
   global_functions.R = './src/_global_functions.R',
   region_metadata.csv = './cfg/region_metadata.csv',
-  deficits_and_excesses.rds = './out/50-deficits_and_excesses.rds'
+  deficits_and_excesses.rds = './out/50-deficits_and_excesses.rds',
+  deficit_clusters.csv = './out/51-deficit_clusters.csv'
 )
 paths$output <- list(
   e0deficitage_total.svg = './out/62-e0deficitage_total.svg',
@@ -49,7 +50,9 @@ dat$lt <-
   readRDS(paths$input$deficits_and_excesses.rds) |>
   filter(region_iso %in% config$showinoutput, !region_iso %in% config$excludefromagedecomposition)
 
-groups <- config$groups
+groups <- read_csv(paths$input$deficit_clusters.csv)
+groups <- split(groups$region_iso, groups[[config$clustermethod]])
+names(groups) <- config$clusternames[names(groups)]
 
 # Plot e0 deficits by age -----------------------------------------
 
