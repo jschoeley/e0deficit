@@ -44,7 +44,7 @@ cnst <- within(list(), {
     read_csv(paths$input$region_metadata.csv),
     region_code_iso3166_2 %in% config$skeleton$regions
   )
-  lee_carter_fitting_period = 2000:2019
+  lee_carter_fitting_period = 2010:2019
   # forecast population at Dec 31 of given year, based on Jan 1st jumpoff
   forecast_horizon =
     (config$forecast$jumpoff):(config$forecast$jumpoff + config$forecast$h-1)
@@ -238,14 +238,14 @@ for (country in config$skeleton$regions) {
 
     fitting_period <- cnst$lee_carter_fitting_period
     # adjust fitting periods based on data availability
-    if (country == 'CZ') {fitting_period <- 2005:2019}
-    if (country == 'DK') {fitting_period <- 2000:2019}
+    if (country == 'CZ') {fitting_period <- 2010:2019}
+    if (country == 'DK') {fitting_period <- 2010:2019}
     if (country == 'IT') {fitting_period <- 2011:2019}
     #if (country == 'GR') {fitting_period <- 2015:2019}
     if (country == 'GB-EAW') {fitting_period <- 2010:2019}
     #if (country == 'GB-NIR') {fitting_period <- 2015:2019}
     if (country == 'GB-SCT') {fitting_period <- 2010:2019}
-    if (country == 'HR') {fitting_period <- 2001:2019}
+    if (country == 'HR') {fitting_period <- 2010:2019}
 
     # subset to single population by period and age
     analysisinput_sub <- analysisinput[
