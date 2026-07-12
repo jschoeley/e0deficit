@@ -30,6 +30,7 @@ We join the harmonized data to a single input file for analysis.
 ## Chapter 5. Perform life table estimation and inference
 
 - `50-estimation_and_inference.R` Estimate life tables, e0 deficits, decompositions and associated statistics with PIs. Create aggregates populations like boths sexes combined and 2020-2024 combined. This is where all the estimates are derived statistical inferences made, all implemented in a hughe array. Running this script requires ~70GB of available memory. Produces the central files `50-lifetables.rds` and `50-deficits_and_excesses.rds`.
+- `51-assign_clusters` Assign regions to clusters based on their trajectories of life expectancy deficits. Produces file `51-deficit_clusters.csv` as reference table for cluster assignment.
 
 ## Chapter 6. Plot results
 
