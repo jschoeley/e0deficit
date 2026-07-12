@@ -17,7 +17,8 @@ paths$input <- list(
   region_metadata.csv = './cfg/region_metadata.csv',
   lifetables.rds = './out/50-lifetables.rds',
   deficits_and_excesses.rds = './out/50-deficits_and_excesses.rds',
-  pval.rds = './out/50-pval.rds'
+  pval.rds = './out/50-pval.rds',
+  deficit_clusters.csv = './out/51-deficit_clusters.csv'
 )
 paths$output <- list(
   e0deficits_total.html = './out/71-e0deficits_total.html',
@@ -55,7 +56,9 @@ dat$pval <- readRDS(paths$input$pval.rds)
 #dat$e0expected_sims <- readRDS(paths$input$e0expected_sims)
 #dat$e0expected_sims <- dat$e0expected_sims[,,,config$showinoutput,,]
 
-groups <- config$groups
+groups <- read_csv(paths$input$deficit_clusters.csv)
+groups <- split(groups$region_iso, groups[[config$clustermethod]])
+names(groups) <- config$clusternames[names(groups)]
 
 # Create Table ----------------------------------------------------
 

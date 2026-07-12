@@ -16,7 +16,8 @@ paths$input <- list(
   global_functions.R = './src/_global_functions.R',
   region_metadata.R = './cfg/region_metadata.csv',
   lifetables.rds = './out/50-lifetables.rds',
-  deficits_and_excesses.rds = './out/50-deficits_and_excesses.rds'
+  deficits_and_excesses.rds = './out/50-deficits_and_excesses.rds',
+  deficit_clusters.csv = './out/51-deficit_clusters.csv'
 )
 paths$output <- list(
   tmpdir = paths$input$tmpdir,
@@ -34,9 +35,7 @@ source(paths$input$global_functions.R)
 
 # constants specific to this analysis
 cnst <- within(list(), {
-  region = filter(
-    read_csv(paths$input$region_metadata.R)
-  )
+  region = read_csv(paths$input$region_metadata.R)
 })
 
 dat <- list()
@@ -46,7 +45,9 @@ dat <- list()
 dat$e0observed <- readRDS(paths$input$lifetables.rds)
 dat$e0expected <- readRDS(paths$input$deficits_and_excesses.rds)
 
-groups <- config$groups
+groups <- read_csv(paths$input$deficit_clusters.csv)
+groups <- split(groups$region_iso, groups[[config$clustermethod]])
+names(groups) <- config$clusternames[names(groups)]
 
 # Basic formatting ------------------------------------------------
 

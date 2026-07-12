@@ -4,8 +4,14 @@
 !.gitignore
 !31-analysisinput_bias_corrected.rds
 !50-pval.csv
+!51-cluster_concordance_with_visual.csv
+!51-cluster_concordance_with_dtw.csv
 !60-e0deficittypology.csv
 !60-e0deficittypology.svg
+!60-e0deficittypology.svg
+!60-e0deficittypology_alpha.svg
+!60-e0deficittypology_dtw.svg
+!60-e0deficittypology_fixed.svg
 !60-e0trends.csv
 !60-e0trends.svg
 !61-e0deficit_total.csv
@@ -40,3 +46,4 @@
 !91-e0benchmark.xlsx
 !92-excessmeasures20_24.csv
 !92-excessmeasures20_24.svg
+!95-deficit_clusters.csv
