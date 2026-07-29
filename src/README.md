@@ -45,6 +45,7 @@ Results are plotted with pdfs being written to '~/out' with associated `.csv`.
 Results are tabulated.
 
 - `71-tabulate_e0_deficits.R`
+- `72-tabulate_data_sources.R`
 
 ## Chapter 9. Sensitivity analyses
 
@@ -52,3 +53,6 @@ A range of stress tests.
 
 - `90-sensitivity_check_e0_exposures.R`
 - `91-benchmark_check_e0.R`
+- `92-sensitivity_check_excess_measures.R`
+- `94-count_countries_by_type.R`
+- `95-sensitivity_check_model_choice.R`
