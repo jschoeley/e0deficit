@@ -1,0 +1,2551 @@
+region_iso,sex,year,e0_actual,model,e0_expected,e0_deficit
+AT,Total,2000,78.251884,Lee-Carter,NA,NA
+AT,Total,2000,78.251884,LE random walk with drift,NA,NA
+AT,Total,2000,78.251884,ASDR random walk with drift,NA,NA
+AT,Total,2001,78.739008,Lee-Carter,NA,NA
+AT,Total,2001,78.739008,LE random walk with drift,NA,NA
+AT,Total,2001,78.739008,ASDR random walk with drift,NA,NA
+AT,Total,2002,78.853595,Lee-Carter,NA,NA
+AT,Total,2002,78.853595,LE random walk with drift,NA,NA
+AT,Total,2002,78.853595,ASDR random walk with drift,NA,NA
+AT,Total,2003,78.857686,Lee-Carter,NA,NA
+AT,Total,2003,78.857686,LE random walk with drift,NA,NA
+AT,Total,2003,78.857686,ASDR random walk with drift,NA,NA
+AT,Total,2004,79.370762,Lee-Carter,NA,NA
+AT,Total,2004,79.370762,LE random walk with drift,NA,NA
+AT,Total,2004,79.370762,ASDR random walk with drift,NA,NA
+AT,Total,2005,79.536074,Lee-Carter,NA,NA
+AT,Total,2005,79.536074,LE random walk with drift,NA,NA
+AT,Total,2005,79.536074,ASDR random walk with drift,NA,NA
+AT,Total,2006,79.977326,Lee-Carter,NA,NA
+AT,Total,2006,79.977326,LE random walk with drift,NA,NA
+AT,Total,2006,79.977326,ASDR random walk with drift,NA,NA
+AT,Total,2007,80.152216,Lee-Carter,NA,NA
+AT,Total,2007,80.152216,LE random walk with drift,NA,NA
+AT,Total,2007,80.152216,ASDR random walk with drift,NA,NA
+AT,Total,2008,80.369568,Lee-Carter,NA,NA
+AT,Total,2008,80.369568,LE random walk with drift,NA,NA
+AT,Total,2008,80.369568,ASDR random walk with drift,NA,NA
+AT,Total,2009,80.207842,Lee-Carter,NA,NA
+AT,Total,2009,80.207842,LE random walk with drift,NA,NA
+AT,Total,2009,80.207842,ASDR random walk with drift,NA,NA
+AT,Total,2010,80.461777,Lee-Carter,NA,NA
+AT,Total,2010,80.461777,LE random walk with drift,NA,NA
+AT,Total,2010,80.461777,ASDR random walk with drift,NA,NA
+AT,Total,2011,80.834137,Lee-Carter,NA,NA
+AT,Total,2011,80.834137,LE random walk with drift,NA,NA
+AT,Total,2011,80.834137,ASDR random walk with drift,NA,NA
+AT,Total,2012,80.857654,Lee-Carter,NA,NA
+AT,Total,2012,80.857654,LE random walk with drift,NA,NA
+AT,Total,2012,80.857654,ASDR random walk with drift,NA,NA
+AT,Total,2013,81.090183,Lee-Carter,NA,NA
+AT,Total,2013,81.090183,LE random walk with drift,NA,NA
+AT,Total,2013,81.090183,ASDR random walk with drift,NA,NA
+AT,Total,2014,81.414997,Lee-Carter,NA,NA
+AT,Total,2014,81.414997,LE random walk with drift,NA,NA
+AT,Total,2014,81.414997,ASDR random walk with drift,NA,NA
+AT,Total,2015,81.188113,Lee-Carter,NA,NA
+AT,Total,2015,81.188113,LE random walk with drift,NA,NA
+AT,Total,2015,81.188113,ASDR random walk with drift,NA,NA
+AT,Total,2016,81.598901,Lee-Carter,NA,NA
+AT,Total,2016,81.598901,LE random walk with drift,NA,NA
+AT,Total,2016,81.598901,ASDR random walk with drift,NA,NA
+AT,Total,2017,81.641975,Lee-Carter,NA,NA
+AT,Total,2017,81.641975,LE random walk with drift,NA,NA
+AT,Total,2017,81.641975,ASDR random walk with drift,NA,NA
+AT,Total,2018,81.70107,Lee-Carter,NA,NA
+AT,Total,2018,81.70107,LE random walk with drift,NA,NA
+AT,Total,2018,81.70107,ASDR random walk with drift,NA,NA
+AT,Total,2019,81.950755,Lee-Carter,NA,NA
+AT,Total,2019,81.950755,LE random walk with drift,NA,NA
+AT,Total,2019,81.950755,ASDR random walk with drift,NA,NA
+AT,Total,2020,81.377077,Lee-Carter,82.064847,-0.68777
+AT,Total,2020,81.377077,LE random walk with drift,82.145433,-0.768356
+AT,Total,2020,81.377077,ASDR random walk with drift,82.127817,-0.75074
+AT,Total,2021,81.296849,Lee-Carter,82.199613,-0.902765
+AT,Total,2021,81.296849,LE random walk with drift,82.34011,-1.043262
+AT,Total,2021,81.296849,ASDR random walk with drift,82.303555,-1.006707
+AT,Total,2022,81.449812,Lee-Carter,82.350072,-0.90026
+AT,Total,2022,81.449812,LE random walk with drift,82.534788,-1.084975
+AT,Total,2022,81.449812,ASDR random walk with drift,82.47771,-1.027898
+AT,Total,2023,81.874584,Lee-Carter,82.479308,-0.604724
+AT,Total,2023,81.874584,LE random walk with drift,82.729465,-0.854881
+AT,Total,2023,81.874584,ASDR random walk with drift,82.650299,-0.775715
+AT,Total,2024,82.120401,Lee-Carter,82.624287,-0.503887
+AT,Total,2024,82.120401,LE random walk with drift,82.924143,-0.803742
+AT,Total,2024,82.120401,ASDR random walk with drift,82.821338,-0.700937
+BE,Total,2000,77.77535,Lee-Carter,NA,NA
+BE,Total,2000,77.77535,LE random walk with drift,NA,NA
+BE,Total,2000,77.77535,ASDR random walk with drift,NA,NA
+BE,Total,2001,78.090837,Lee-Carter,NA,NA
+BE,Total,2001,78.090837,LE random walk with drift,NA,NA
+BE,Total,2001,78.090837,ASDR random walk with drift,NA,NA
+BE,Total,2002,78.183455,Lee-Carter,NA,NA
+BE,Total,2002,78.183455,LE random walk with drift,NA,NA
+BE,Total,2002,78.183455,ASDR random walk with drift,NA,NA
+BE,Total,2003,78.327386,Lee-Carter,NA,NA
+BE,Total,2003,78.327386,LE random walk with drift,NA,NA
+BE,Total,2003,78.327386,ASDR random walk with drift,NA,NA
+BE,Total,2004,78.964406,Lee-Carter,NA,NA
+BE,Total,2004,78.964406,LE random walk with drift,NA,NA
+BE,Total,2004,78.964406,ASDR random walk with drift,NA,NA
+BE,Total,2005,79.052789,Lee-Carter,NA,NA
+BE,Total,2005,79.052789,LE random walk with drift,NA,NA
+BE,Total,2005,79.052789,ASDR random walk with drift,NA,NA
+BE,Total,2006,79.388037,Lee-Carter,NA,NA
+BE,Total,2006,79.388037,LE random walk with drift,NA,NA
+BE,Total,2006,79.388037,ASDR random walk with drift,NA,NA
+BE,Total,2007,79.534425,Lee-Carter,NA,NA
+BE,Total,2007,79.534425,LE random walk with drift,NA,NA
+BE,Total,2007,79.534425,ASDR random walk with drift,NA,NA
+BE,Total,2008,79.587109,Lee-Carter,NA,NA
+BE,Total,2008,79.587109,LE random walk with drift,NA,NA
+BE,Total,2008,79.587109,ASDR random walk with drift,NA,NA
+BE,Total,2009,79.844275,Lee-Carter,NA,NA
+BE,Total,2009,79.844275,LE random walk with drift,NA,NA
+BE,Total,2009,79.844275,ASDR random walk with drift,NA,NA
+BE,Total,2010,80.044032,Lee-Carter,NA,NA
+BE,Total,2010,80.044032,LE random walk with drift,NA,NA
+BE,Total,2010,80.044032,ASDR random walk with drift,NA,NA
+BE,Total,2011,80.354786,Lee-Carter,NA,NA
+BE,Total,2011,80.354786,LE random walk with drift,NA,NA
+BE,Total,2011,80.354786,ASDR random walk with drift,NA,NA
+BE,Total,2012,80.247365,Lee-Carter,NA,NA
+BE,Total,2012,80.247365,LE random walk with drift,NA,NA
+BE,Total,2012,80.247365,ASDR random walk with drift,NA,NA
+BE,Total,2013,80.456527,Lee-Carter,NA,NA
+BE,Total,2013,80.456527,LE random walk with drift,NA,NA
+BE,Total,2013,80.456527,ASDR random walk with drift,NA,NA
+BE,Total,2014,81.06574,Lee-Carter,NA,NA
+BE,Total,2014,81.06574,LE random walk with drift,NA,NA
+BE,Total,2014,81.06574,ASDR random walk with drift,NA,NA
+BE,Total,2015,80.874752,Lee-Carter,NA,NA
+BE,Total,2015,80.874752,LE random walk with drift,NA,NA
+BE,Total,2015,80.874752,ASDR random walk with drift,NA,NA
+BE,Total,2016,81.241042,Lee-Carter,NA,NA
+BE,Total,2016,81.241042,LE random walk with drift,NA,NA
+BE,Total,2016,81.241042,ASDR random walk with drift,NA,NA
+BE,Total,2017,81.33658,Lee-Carter,NA,NA
+BE,Total,2017,81.33658,LE random walk with drift,NA,NA
+BE,Total,2017,81.33658,ASDR random walk with drift,NA,NA
+BE,Total,2018,81.459001,Lee-Carter,NA,NA
+BE,Total,2018,81.459001,LE random walk with drift,NA,NA
+BE,Total,2018,81.459001,ASDR random walk with drift,NA,NA
+BE,Total,2019,81.81215,Lee-Carter,NA,NA
+BE,Total,2019,81.81215,LE random walk with drift,NA,NA
+BE,Total,2019,81.81215,ASDR random walk with drift,NA,NA
+BE,Total,2020,80.772108,Lee-Carter,82.013079,-1.240971
+BE,Total,2020,80.772108,LE random walk with drift,82.024613,-1.252505
+BE,Total,2020,80.772108,ASDR random walk with drift,82.005435,-1.233327
+BE,Total,2021,81.626694,Lee-Carter,82.182684,-0.555989
+BE,Total,2021,81.626694,LE random walk with drift,82.237077,-0.610382
+BE,Total,2021,81.626694,ASDR random walk with drift,82.197115,-0.570421
+BE,Total,2022,81.678527,Lee-Carter,82.364049,-0.685523
+BE,Total,2022,81.678527,LE random walk with drift,82.44954,-0.771013
+BE,Total,2022,81.678527,ASDR random walk with drift,82.387017,-0.70849
+BE,Total,2023,82.081437,Lee-Carter,82.558353,-0.476916
+BE,Total,2023,82.081437,LE random walk with drift,82.662003,-0.580566
+BE,Total,2023,82.081437,ASDR random walk with drift,82.575153,-0.493716
+BE,Total,2024,82.286528,Lee-Carter,82.738216,-0.451688
+BE,Total,2024,82.286528,LE random walk with drift,82.874466,-0.587938
+BE,Total,2024,82.286528,ASDR random walk with drift,82.761535,-0.475007
+BG,Total,2000,71.558281,Lee-Carter,NA,NA
+BG,Total,2000,71.558281,LE random walk with drift,NA,NA
+BG,Total,2000,71.558281,ASDR random walk with drift,NA,NA
+BG,Total,2001,71.866294,Lee-Carter,NA,NA
+BG,Total,2001,71.866294,LE random walk with drift,NA,NA
+BG,Total,2001,71.866294,ASDR random walk with drift,NA,NA
+BG,Total,2002,72.126259,Lee-Carter,NA,NA
+BG,Total,2002,72.126259,LE random walk with drift,NA,NA
+BG,Total,2002,72.126259,ASDR random walk with drift,NA,NA
+BG,Total,2003,72.356733,Lee-Carter,NA,NA
+BG,Total,2003,72.356733,LE random walk with drift,NA,NA
+BG,Total,2003,72.356733,ASDR random walk with drift,NA,NA
+BG,Total,2004,72.563798,Lee-Carter,NA,NA
+BG,Total,2004,72.563798,LE random walk with drift,NA,NA
+BG,Total,2004,72.563798,ASDR random walk with drift,NA,NA
+BG,Total,2005,72.553765,Lee-Carter,NA,NA
+BG,Total,2005,72.553765,LE random walk with drift,NA,NA
+BG,Total,2005,72.553765,ASDR random walk with drift,NA,NA
+BG,Total,2006,72.692534,Lee-Carter,NA,NA
+BG,Total,2006,72.692534,LE random walk with drift,NA,NA
+BG,Total,2006,72.692534,ASDR random walk with drift,NA,NA
+BG,Total,2007,72.992467,Lee-Carter,NA,NA
+BG,Total,2007,72.992467,LE random walk with drift,NA,NA
+BG,Total,2007,72.992467,ASDR random walk with drift,NA,NA
+BG,Total,2008,73.323338,Lee-Carter,NA,NA
+BG,Total,2008,73.323338,LE random walk with drift,NA,NA
+BG,Total,2008,73.323338,ASDR random walk with drift,NA,NA
+BG,Total,2009,73.686553,Lee-Carter,NA,NA
+BG,Total,2009,73.686553,LE random walk with drift,NA,NA
+BG,Total,2009,73.686553,ASDR random walk with drift,NA,NA
+BG,Total,2010,73.797923,Lee-Carter,NA,NA
+BG,Total,2010,73.797923,LE random walk with drift,NA,NA
+BG,Total,2010,73.797923,ASDR random walk with drift,NA,NA
+BG,Total,2011,74.160918,Lee-Carter,NA,NA
+BG,Total,2011,74.160918,LE random walk with drift,NA,NA
+BG,Total,2011,74.160918,ASDR random walk with drift,NA,NA
+BG,Total,2012,74.332776,Lee-Carter,NA,NA
+BG,Total,2012,74.332776,LE random walk with drift,NA,NA
+BG,Total,2012,74.332776,ASDR random walk with drift,NA,NA
+BG,Total,2013,74.828035,Lee-Carter,NA,NA
+BG,Total,2013,74.828035,LE random walk with drift,NA,NA
+BG,Total,2013,74.828035,ASDR random walk with drift,NA,NA
+BG,Total,2014,74.46528,Lee-Carter,NA,NA
+BG,Total,2014,74.46528,LE random walk with drift,NA,NA
+BG,Total,2014,74.46528,ASDR random walk with drift,NA,NA
+BG,Total,2015,74.628864,Lee-Carter,NA,NA
+BG,Total,2015,74.628864,LE random walk with drift,NA,NA
+BG,Total,2015,74.628864,ASDR random walk with drift,NA,NA
+BG,Total,2016,74.8265,Lee-Carter,NA,NA
+BG,Total,2016,74.8265,LE random walk with drift,NA,NA
+BG,Total,2016,74.8265,ASDR random walk with drift,NA,NA
+BG,Total,2017,74.80193,Lee-Carter,NA,NA
+BG,Total,2017,74.80193,LE random walk with drift,NA,NA
+BG,Total,2017,74.80193,ASDR random walk with drift,NA,NA
+BG,Total,2018,74.930595,Lee-Carter,NA,NA
+BG,Total,2018,74.930595,LE random walk with drift,NA,NA
+BG,Total,2018,74.930595,ASDR random walk with drift,NA,NA
+BG,Total,2019,75.084742,Lee-Carter,NA,NA
+BG,Total,2019,75.084742,LE random walk with drift,NA,NA
+BG,Total,2019,75.084742,ASDR random walk with drift,NA,NA
+BG,Total,2020,73.598922,Lee-Carter,75.175179,-1.576257
+BG,Total,2020,73.598922,LE random walk with drift,75.270345,-1.671423
+BG,Total,2020,73.598922,ASDR random walk with drift,75.254645,-1.655723
+BG,Total,2021,71.40488,Lee-Carter,75.314973,-3.910093
+BG,Total,2021,71.40488,LE random walk with drift,75.455948,-4.051068
+BG,Total,2021,71.40488,ASDR random walk with drift,75.423599,-4.018719
+BG,Total,2022,74.306815,Lee-Carter,75.428228,-1.121413
+BG,Total,2022,74.306815,LE random walk with drift,75.641551,-1.334736
+BG,Total,2022,74.306815,ASDR random walk with drift,75.591391,-1.284577
+BG,Total,2023,75.922121,Lee-Carter,75.565506,0.356615
+BG,Total,2023,75.922121,LE random walk with drift,75.827154,0.094966
+BG,Total,2023,75.922121,ASDR random walk with drift,75.758055,0.164065
+BG,Total,2024,76.078399,Lee-Carter,75.686148,0.392251
+BG,Total,2024,76.078399,LE random walk with drift,76.012758,0.065641
+BG,Total,2024,76.078399,ASDR random walk with drift,75.923623,0.154776
+CH,Total,2000,79.841795,Lee-Carter,NA,NA
+CH,Total,2000,79.841795,LE random walk with drift,NA,NA
+CH,Total,2000,79.841795,ASDR random walk with drift,NA,NA
+CH,Total,2001,80.269444,Lee-Carter,NA,NA
+CH,Total,2001,80.269444,LE random walk with drift,NA,NA
+CH,Total,2001,80.269444,ASDR random walk with drift,NA,NA
+CH,Total,2002,80.448406,Lee-Carter,NA,NA
+CH,Total,2002,80.448406,LE random walk with drift,NA,NA
+CH,Total,2002,80.448406,ASDR random walk with drift,NA,NA
+CH,Total,2003,80.536986,Lee-Carter,NA,NA
+CH,Total,2003,80.536986,LE random walk with drift,NA,NA
+CH,Total,2003,80.536986,ASDR random walk with drift,NA,NA
+CH,Total,2004,81.069774,Lee-Carter,NA,NA
+CH,Total,2004,81.069774,LE random walk with drift,NA,NA
+CH,Total,2004,81.069774,ASDR random walk with drift,NA,NA
+CH,Total,2005,81.241936,Lee-Carter,NA,NA
+CH,Total,2005,81.241936,LE random walk with drift,NA,NA
+CH,Total,2005,81.241936,ASDR random walk with drift,NA,NA
+CH,Total,2006,81.568955,Lee-Carter,NA,NA
+CH,Total,2006,81.568955,LE random walk with drift,NA,NA
+CH,Total,2006,81.568955,ASDR random walk with drift,NA,NA
+CH,Total,2007,81.71094,Lee-Carter,NA,NA
+CH,Total,2007,81.71094,LE random walk with drift,NA,NA
+CH,Total,2007,81.71094,ASDR random walk with drift,NA,NA
+CH,Total,2008,81.98804,Lee-Carter,NA,NA
+CH,Total,2008,81.98804,LE random walk with drift,NA,NA
+CH,Total,2008,81.98804,ASDR random walk with drift,NA,NA
+CH,Total,2009,82.007385,Lee-Carter,NA,NA
+CH,Total,2009,82.007385,LE random walk with drift,NA,NA
+CH,Total,2009,82.007385,ASDR random walk with drift,NA,NA
+CH,Total,2010,82.298436,Lee-Carter,NA,NA
+CH,Total,2010,82.298436,LE random walk with drift,NA,NA
+CH,Total,2010,82.298436,ASDR random walk with drift,NA,NA
+CH,Total,2011,82.598296,Lee-Carter,NA,NA
+CH,Total,2011,82.598296,LE random walk with drift,NA,NA
+CH,Total,2011,82.598296,ASDR random walk with drift,NA,NA
+CH,Total,2012,82.62386,Lee-Carter,NA,NA
+CH,Total,2012,82.62386,LE random walk with drift,NA,NA
+CH,Total,2012,82.62386,ASDR random walk with drift,NA,NA
+CH,Total,2013,82.711342,Lee-Carter,NA,NA
+CH,Total,2013,82.711342,LE random walk with drift,NA,NA
+CH,Total,2013,82.711342,ASDR random walk with drift,NA,NA
+CH,Total,2014,83.099861,Lee-Carter,NA,NA
+CH,Total,2014,83.099861,LE random walk with drift,NA,NA
+CH,Total,2014,83.099861,ASDR random walk with drift,NA,NA
+CH,Total,2015,82.856491,Lee-Carter,NA,NA
+CH,Total,2015,82.856491,LE random walk with drift,NA,NA
+CH,Total,2015,82.856491,ASDR random walk with drift,NA,NA
+CH,Total,2016,83.469948,Lee-Carter,NA,NA
+CH,Total,2016,83.469948,LE random walk with drift,NA,NA
+CH,Total,2016,83.469948,ASDR random walk with drift,NA,NA
+CH,Total,2017,83.428042,Lee-Carter,NA,NA
+CH,Total,2017,83.428042,LE random walk with drift,NA,NA
+CH,Total,2017,83.428042,ASDR random walk with drift,NA,NA
+CH,Total,2018,83.592224,Lee-Carter,NA,NA
+CH,Total,2018,83.592224,LE random walk with drift,NA,NA
+CH,Total,2018,83.592224,ASDR random walk with drift,NA,NA
+CH,Total,2019,83.802533,Lee-Carter,NA,NA
+CH,Total,2019,83.802533,LE random walk with drift,NA,NA
+CH,Total,2019,83.802533,ASDR random walk with drift,NA,NA
+CH,Total,2020,83.082462,Lee-Carter,83.964277,-0.881815
+CH,Total,2020,83.082462,LE random walk with drift,84.010993,-0.928531
+CH,Total,2020,83.082462,ASDR random walk with drift,83.987255,-0.904793
+CH,Total,2021,83.666577,Lee-Carter,84.122526,-0.455949
+CH,Total,2021,83.666577,LE random walk with drift,84.219453,-0.552876
+CH,Total,2021,83.666577,ASDR random walk with drift,84.170115,-0.503538
+CH,Total,2022,83.546425,Lee-Carter,84.274429,-0.728004
+CH,Total,2022,83.546425,LE random walk with drift,84.427913,-0.881488
+CH,Total,2022,83.546425,ASDR random walk with drift,84.35087,-0.804445
+CH,Total,2023,84.084352,Lee-Carter,84.451675,-0.367323
+CH,Total,2023,84.084352,LE random walk with drift,84.636373,-0.552021
+CH,Total,2023,84.084352,ASDR random walk with drift,84.529546,-0.445194
+CH,Total,2024,84.238367,Lee-Carter,84.594584,-0.356218
+CH,Total,2024,84.238367,LE random walk with drift,84.844833,-0.606466
+CH,Total,2024,84.238367,ASDR random walk with drift,84.706169,-0.467802
+CL,Total,2000,76.795659,Lee-Carter,NA,NA
+CL,Total,2000,76.795659,LE random walk with drift,NA,NA
+CL,Total,2000,76.795659,ASDR random walk with drift,NA,NA
+CL,Total,2001,76.647221,Lee-Carter,NA,NA
+CL,Total,2001,76.647221,LE random walk with drift,NA,NA
+CL,Total,2001,76.647221,ASDR random walk with drift,NA,NA
+CL,Total,2002,77.159173,Lee-Carter,NA,NA
+CL,Total,2002,77.159173,LE random walk with drift,NA,NA
+CL,Total,2002,77.159173,ASDR random walk with drift,NA,NA
+CL,Total,2003,77.218066,Lee-Carter,NA,NA
+CL,Total,2003,77.218066,LE random walk with drift,NA,NA
+CL,Total,2003,77.218066,ASDR random walk with drift,NA,NA
+CL,Total,2004,77.259905,Lee-Carter,NA,NA
+CL,Total,2004,77.259905,LE random walk with drift,NA,NA
+CL,Total,2004,77.259905,ASDR random walk with drift,NA,NA
+CL,Total,2005,77.642517,Lee-Carter,NA,NA
+CL,Total,2005,77.642517,LE random walk with drift,NA,NA
+CL,Total,2005,77.642517,ASDR random walk with drift,NA,NA
+CL,Total,2006,78.025745,Lee-Carter,NA,NA
+CL,Total,2006,78.025745,LE random walk with drift,NA,NA
+CL,Total,2006,78.025745,ASDR random walk with drift,NA,NA
+CL,Total,2007,77.490859,Lee-Carter,NA,NA
+CL,Total,2007,77.490859,LE random walk with drift,NA,NA
+CL,Total,2007,77.490859,ASDR random walk with drift,NA,NA
+CL,Total,2008,78.066988,Lee-Carter,NA,NA
+CL,Total,2008,78.066988,LE random walk with drift,NA,NA
+CL,Total,2008,78.066988,ASDR random walk with drift,NA,NA
+CL,Total,2009,78.220184,Lee-Carter,NA,NA
+CL,Total,2009,78.220184,LE random walk with drift,NA,NA
+CL,Total,2009,78.220184,ASDR random walk with drift,NA,NA
+CL,Total,2010,77.973987,Lee-Carter,NA,NA
+CL,Total,2010,77.973987,LE random walk with drift,NA,NA
+CL,Total,2010,77.973987,ASDR random walk with drift,NA,NA
+CL,Total,2011,78.603451,Lee-Carter,NA,NA
+CL,Total,2011,78.603451,LE random walk with drift,NA,NA
+CL,Total,2011,78.603451,ASDR random walk with drift,NA,NA
+CL,Total,2012,78.622092,Lee-Carter,NA,NA
+CL,Total,2012,78.622092,LE random walk with drift,NA,NA
+CL,Total,2012,78.622092,ASDR random walk with drift,NA,NA
+CL,Total,2013,78.829173,Lee-Carter,NA,NA
+CL,Total,2013,78.829173,LE random walk with drift,NA,NA
+CL,Total,2013,78.829173,ASDR random walk with drift,NA,NA
+CL,Total,2014,78.954838,Lee-Carter,NA,NA
+CL,Total,2014,78.954838,LE random walk with drift,NA,NA
+CL,Total,2014,78.954838,ASDR random walk with drift,NA,NA
+CL,Total,2015,79.175823,Lee-Carter,NA,NA
+CL,Total,2015,79.175823,LE random walk with drift,NA,NA
+CL,Total,2015,79.175823,ASDR random walk with drift,NA,NA
+CL,Total,2016,79.462636,Lee-Carter,NA,NA
+CL,Total,2016,79.462636,LE random walk with drift,NA,NA
+CL,Total,2016,79.462636,ASDR random walk with drift,NA,NA
+CL,Total,2017,79.63208,Lee-Carter,NA,NA
+CL,Total,2017,79.63208,LE random walk with drift,NA,NA
+CL,Total,2017,79.63208,ASDR random walk with drift,NA,NA
+CL,Total,2018,79.887019,Lee-Carter,NA,NA
+CL,Total,2018,79.887019,LE random walk with drift,NA,NA
+CL,Total,2018,79.887019,ASDR random walk with drift,NA,NA
+CL,Total,2019,79.916724,Lee-Carter,NA,NA
+CL,Total,2019,79.916724,LE random walk with drift,NA,NA
+CL,Total,2019,79.916724,ASDR random walk with drift,NA,NA
+CL,Total,2020,78.829051,Lee-Carter,80.107478,-1.278427
+CL,Total,2020,78.829051,LE random walk with drift,80.080991,-1.251939
+CL,Total,2020,78.829051,ASDR random walk with drift,80.062698,-1.233647
+CL,Total,2021,78.160238,Lee-Carter,80.282097,-2.121858
+CL,Total,2021,78.160238,LE random walk with drift,80.245257,-2.085019
+CL,Total,2021,78.160238,ASDR random walk with drift,80.207257,-2.047019
+CL,Total,2022,78.623562,Lee-Carter,80.447219,-1.823657
+CL,Total,2022,78.623562,LE random walk with drift,80.409524,-1.785962
+CL,Total,2022,78.623562,ASDR random walk with drift,80.350315,-1.726753
+CL,Total,2023,80.118792,Lee-Carter,80.607059,-0.488268
+CL,Total,2023,80.118792,LE random walk with drift,80.573791,-0.454999
+CL,Total,2023,80.118792,ASDR random walk with drift,80.49192,-0.373129
+CL,Total,2024,80.107142,Lee-Carter,80.756994,-0.649852
+CL,Total,2024,80.107142,LE random walk with drift,80.738057,-0.630915
+CL,Total,2024,80.107142,ASDR random walk with drift,80.632121,-0.524979
+CZ,Total,2000,NA,Lee-Carter,NA,NA
+CZ,Total,2000,NA,LE random walk with drift,NA,NA
+CZ,Total,2000,NA,ASDR random walk with drift,NA,NA
+CZ,Total,2001,NA,Lee-Carter,NA,NA
+CZ,Total,2001,NA,LE random walk with drift,NA,NA
+CZ,Total,2001,NA,ASDR random walk with drift,NA,NA
+CZ,Total,2002,NA,Lee-Carter,NA,NA
+CZ,Total,2002,NA,LE random walk with drift,NA,NA
+CZ,Total,2002,NA,ASDR random walk with drift,NA,NA
+CZ,Total,2003,NA,Lee-Carter,NA,NA
+CZ,Total,2003,NA,LE random walk with drift,NA,NA
+CZ,Total,2003,NA,ASDR random walk with drift,NA,NA
+CZ,Total,2004,NA,Lee-Carter,NA,NA
+CZ,Total,2004,NA,LE random walk with drift,NA,NA
+CZ,Total,2004,NA,ASDR random walk with drift,NA,NA
+CZ,Total,2005,76.161043,Lee-Carter,NA,NA
+CZ,Total,2005,76.161043,LE random walk with drift,NA,NA
+CZ,Total,2005,76.161043,ASDR random walk with drift,NA,NA
+CZ,Total,2006,76.714205,Lee-Carter,NA,NA
+CZ,Total,2006,76.714205,LE random walk with drift,NA,NA
+CZ,Total,2006,76.714205,ASDR random walk with drift,NA,NA
+CZ,Total,2007,76.921313,Lee-Carter,NA,NA
+CZ,Total,2007,76.921313,LE random walk with drift,NA,NA
+CZ,Total,2007,76.921313,ASDR random walk with drift,NA,NA
+CZ,Total,2008,77.162046,Lee-Carter,NA,NA
+CZ,Total,2008,77.162046,LE random walk with drift,NA,NA
+CZ,Total,2008,77.162046,ASDR random walk with drift,NA,NA
+CZ,Total,2009,77.268489,Lee-Carter,NA,NA
+CZ,Total,2009,77.268489,LE random walk with drift,NA,NA
+CZ,Total,2009,77.268489,ASDR random walk with drift,NA,NA
+CZ,Total,2010,77.555714,Lee-Carter,NA,NA
+CZ,Total,2010,77.555714,LE random walk with drift,NA,NA
+CZ,Total,2010,77.555714,ASDR random walk with drift,NA,NA
+CZ,Total,2011,77.824258,Lee-Carter,NA,NA
+CZ,Total,2011,77.824258,LE random walk with drift,NA,NA
+CZ,Total,2011,77.824258,ASDR random walk with drift,NA,NA
+CZ,Total,2012,78.001846,Lee-Carter,NA,NA
+CZ,Total,2012,78.001846,LE random walk with drift,NA,NA
+CZ,Total,2012,78.001846,ASDR random walk with drift,NA,NA
+CZ,Total,2013,78.181819,Lee-Carter,NA,NA
+CZ,Total,2013,78.181819,LE random walk with drift,NA,NA
+CZ,Total,2013,78.181819,ASDR random walk with drift,NA,NA
+CZ,Total,2014,78.755104,Lee-Carter,NA,NA
+CZ,Total,2014,78.755104,LE random walk with drift,NA,NA
+CZ,Total,2014,78.755104,ASDR random walk with drift,NA,NA
+CZ,Total,2015,78.567417,Lee-Carter,NA,NA
+CZ,Total,2015,78.567417,LE random walk with drift,NA,NA
+CZ,Total,2015,78.567417,ASDR random walk with drift,NA,NA
+CZ,Total,2016,78.983645,Lee-Carter,NA,NA
+CZ,Total,2016,78.983645,LE random walk with drift,NA,NA
+CZ,Total,2016,78.983645,ASDR random walk with drift,NA,NA
+CZ,Total,2017,78.928381,Lee-Carter,NA,NA
+CZ,Total,2017,78.928381,LE random walk with drift,NA,NA
+CZ,Total,2017,78.928381,ASDR random walk with drift,NA,NA
+CZ,Total,2018,78.963437,Lee-Carter,NA,NA
+CZ,Total,2018,78.963437,LE random walk with drift,NA,NA
+CZ,Total,2018,78.963437,ASDR random walk with drift,NA,NA
+CZ,Total,2019,79.188004,Lee-Carter,NA,NA
+CZ,Total,2019,79.188004,LE random walk with drift,NA,NA
+CZ,Total,2019,79.188004,ASDR random walk with drift,NA,NA
+CZ,Total,2020,78.235856,Lee-Carter,79.406411,-1.170555
+CZ,Total,2020,78.235856,LE random walk with drift,79.404216,-1.16836
+CZ,Total,2020,78.235856,ASDR random walk with drift,79.395666,-1.15981
+CZ,Total,2021,77.234356,Lee-Carter,79.604385,-2.370029
+CZ,Total,2021,77.234356,LE random walk with drift,79.620428,-2.386071
+CZ,Total,2021,77.234356,ASDR random walk with drift,79.602484,-2.368128
+CZ,Total,2022,79.032643,Lee-Carter,79.761049,-0.728406
+CZ,Total,2022,79.032643,LE random walk with drift,79.836639,-0.803996
+CZ,Total,2022,79.032643,ASDR random walk with drift,79.80818,-0.775536
+CZ,Total,2023,79.878033,Lee-Carter,79.912735,-0.034701
+CZ,Total,2023,79.878033,LE random walk with drift,80.052851,-0.174817
+CZ,Total,2023,79.878033,ASDR random walk with drift,80.012751,-0.134718
+CZ,Total,2024,80.103923,Lee-Carter,80.062732,0.041191
+CZ,Total,2024,80.103923,LE random walk with drift,80.269062,-0.165139
+CZ,Total,2024,80.103923,ASDR random walk with drift,80.216196,-0.112273
+DE,Total,2000,78.066947,Lee-Carter,NA,NA
+DE,Total,2000,78.066947,LE random walk with drift,NA,NA
+DE,Total,2000,78.066947,ASDR random walk with drift,NA,NA
+DE,Total,2001,78.407592,Lee-Carter,NA,NA
+DE,Total,2001,78.407592,LE random walk with drift,NA,NA
+DE,Total,2001,78.407592,ASDR random walk with drift,NA,NA
+DE,Total,2002,78.463369,Lee-Carter,NA,NA
+DE,Total,2002,78.463369,LE random walk with drift,NA,NA
+DE,Total,2002,78.463369,ASDR random walk with drift,NA,NA
+DE,Total,2003,78.518251,Lee-Carter,NA,NA
+DE,Total,2003,78.518251,LE random walk with drift,NA,NA
+DE,Total,2003,78.518251,ASDR random walk with drift,NA,NA
+DE,Total,2004,79.12471,Lee-Carter,NA,NA
+DE,Total,2004,79.12471,LE random walk with drift,NA,NA
+DE,Total,2004,79.12471,ASDR random walk with drift,NA,NA
+DE,Total,2005,79.264748,Lee-Carter,NA,NA
+DE,Total,2005,79.264748,LE random walk with drift,NA,NA
+DE,Total,2005,79.264748,ASDR random walk with drift,NA,NA
+DE,Total,2006,79.591963,Lee-Carter,NA,NA
+DE,Total,2006,79.591963,LE random walk with drift,NA,NA
+DE,Total,2006,79.591963,ASDR random walk with drift,NA,NA
+DE,Total,2007,79.731218,Lee-Carter,NA,NA
+DE,Total,2007,79.731218,LE random walk with drift,NA,NA
+DE,Total,2007,79.731218,ASDR random walk with drift,NA,NA
+DE,Total,2008,79.810749,Lee-Carter,NA,NA
+DE,Total,2008,79.810749,LE random walk with drift,NA,NA
+DE,Total,2008,79.810749,ASDR random walk with drift,NA,NA
+DE,Total,2009,79.92357,Lee-Carter,NA,NA
+DE,Total,2009,79.92357,LE random walk with drift,NA,NA
+DE,Total,2009,79.92357,ASDR random walk with drift,NA,NA
+DE,Total,2010,80.082728,Lee-Carter,NA,NA
+DE,Total,2010,80.082728,LE random walk with drift,NA,NA
+DE,Total,2010,80.082728,ASDR random walk with drift,NA,NA
+DE,Total,2011,80.352946,Lee-Carter,NA,NA
+DE,Total,2011,80.352946,LE random walk with drift,NA,NA
+DE,Total,2011,80.352946,ASDR random walk with drift,NA,NA
+DE,Total,2012,80.490929,Lee-Carter,NA,NA
+DE,Total,2012,80.490929,LE random walk with drift,NA,NA
+DE,Total,2012,80.490929,ASDR random walk with drift,NA,NA
+DE,Total,2013,80.450055,Lee-Carter,NA,NA
+DE,Total,2013,80.450055,LE random walk with drift,NA,NA
+DE,Total,2013,80.450055,ASDR random walk with drift,NA,NA
+DE,Total,2014,80.936289,Lee-Carter,NA,NA
+DE,Total,2014,80.936289,LE random walk with drift,NA,NA
+DE,Total,2014,80.936289,ASDR random walk with drift,NA,NA
+DE,Total,2015,80.576666,Lee-Carter,NA,NA
+DE,Total,2015,80.576666,LE random walk with drift,NA,NA
+DE,Total,2015,80.576666,ASDR random walk with drift,NA,NA
+DE,Total,2016,80.846245,Lee-Carter,NA,NA
+DE,Total,2016,80.846245,LE random walk with drift,NA,NA
+DE,Total,2016,80.846245,ASDR random walk with drift,NA,NA
+DE,Total,2017,80.945309,Lee-Carter,NA,NA
+DE,Total,2017,80.945309,LE random walk with drift,NA,NA
+DE,Total,2017,80.945309,ASDR random walk with drift,NA,NA
+DE,Total,2018,80.884164,Lee-Carter,NA,NA
+DE,Total,2018,80.884164,LE random walk with drift,NA,NA
+DE,Total,2018,80.884164,ASDR random walk with drift,NA,NA
+DE,Total,2019,81.208137,Lee-Carter,NA,NA
+DE,Total,2019,81.208137,LE random walk with drift,NA,NA
+DE,Total,2019,81.208137,ASDR random walk with drift,NA,NA
+DE,Total,2020,81.018687,Lee-Carter,81.308787,-0.2901
+DE,Total,2020,81.018687,LE random walk with drift,81.373463,-0.354775
+DE,Total,2020,81.018687,ASDR random walk with drift,81.360057,-0.34137
+DE,Total,2021,80.807689,Lee-Carter,81.442345,-0.634656
+DE,Total,2021,80.807689,LE random walk with drift,81.538788,-0.731099
+DE,Total,2021,80.807689,ASDR random walk with drift,81.510745,-0.703056
+DE,Total,2022,80.725015,Lee-Carter,81.553687,-0.828672
+DE,Total,2022,80.725015,LE random walk with drift,81.704114,-0.979099
+DE,Total,2022,80.725015,ASDR random walk with drift,81.660192,-0.935177
+DE,Total,2023,81.301285,Lee-Carter,81.692562,-0.391277
+DE,Total,2023,81.301285,LE random walk with drift,81.86944,-0.568155
+DE,Total,2023,81.301285,ASDR random walk with drift,81.808409,-0.507124
+DE,Total,2024,81.622482,Lee-Carter,81.818452,-0.195969
+DE,Total,2024,81.622482,LE random walk with drift,82.034766,-0.412283
+DE,Total,2024,81.622482,ASDR random walk with drift,81.955405,-0.332923
+DK,Total,2000,76.823404,Lee-Carter,NA,NA
+DK,Total,2000,76.823404,LE random walk with drift,NA,NA
+DK,Total,2000,76.823404,ASDR random walk with drift,NA,NA
+DK,Total,2001,76.982728,Lee-Carter,NA,NA
+DK,Total,2001,76.982728,LE random walk with drift,NA,NA
+DK,Total,2001,76.982728,ASDR random walk with drift,NA,NA
+DK,Total,2002,77.105343,Lee-Carter,NA,NA
+DK,Total,2002,77.105343,LE random walk with drift,NA,NA
+DK,Total,2002,77.105343,ASDR random walk with drift,NA,NA
+DK,Total,2003,77.405455,Lee-Carter,NA,NA
+DK,Total,2003,77.405455,LE random walk with drift,NA,NA
+DK,Total,2003,77.405455,ASDR random walk with drift,NA,NA
+DK,Total,2004,77.785165,Lee-Carter,NA,NA
+DK,Total,2004,77.785165,LE random walk with drift,NA,NA
+DK,Total,2004,77.785165,ASDR random walk with drift,NA,NA
+DK,Total,2005,78.222351,Lee-Carter,NA,NA
+DK,Total,2005,78.222351,LE random walk with drift,NA,NA
+DK,Total,2005,78.222351,ASDR random walk with drift,NA,NA
+DK,Total,2006,78.231779,Lee-Carter,NA,NA
+DK,Total,2006,78.231779,LE random walk with drift,NA,NA
+DK,Total,2006,78.231779,ASDR random walk with drift,NA,NA
+DK,Total,2007,78.352093,Lee-Carter,NA,NA
+DK,Total,2007,78.352093,LE random walk with drift,NA,NA
+DK,Total,2007,78.352093,ASDR random walk with drift,NA,NA
+DK,Total,2008,78.732937,Lee-Carter,NA,NA
+DK,Total,2008,78.732937,LE random walk with drift,NA,NA
+DK,Total,2008,78.732937,ASDR random walk with drift,NA,NA
+DK,Total,2009,78.967558,Lee-Carter,NA,NA
+DK,Total,2009,78.967558,LE random walk with drift,NA,NA
+DK,Total,2009,78.967558,ASDR random walk with drift,NA,NA
+DK,Total,2010,79.256226,Lee-Carter,NA,NA
+DK,Total,2010,79.256226,LE random walk with drift,NA,NA
+DK,Total,2010,79.256226,ASDR random walk with drift,NA,NA
+DK,Total,2011,79.800676,Lee-Carter,NA,NA
+DK,Total,2011,79.800676,LE random walk with drift,NA,NA
+DK,Total,2011,79.800676,ASDR random walk with drift,NA,NA
+DK,Total,2012,80.085201,Lee-Carter,NA,NA
+DK,Total,2012,80.085201,LE random walk with drift,NA,NA
+DK,Total,2012,80.085201,ASDR random walk with drift,NA,NA
+DK,Total,2013,80.314763,Lee-Carter,NA,NA
+DK,Total,2013,80.314763,LE random walk with drift,NA,NA
+DK,Total,2013,80.314763,ASDR random walk with drift,NA,NA
+DK,Total,2014,80.652693,Lee-Carter,NA,NA
+DK,Total,2014,80.652693,LE random walk with drift,NA,NA
+DK,Total,2014,80.652693,ASDR random walk with drift,NA,NA
+DK,Total,2015,80.752778,Lee-Carter,NA,NA
+DK,Total,2015,80.752778,LE random walk with drift,NA,NA
+DK,Total,2015,80.752778,ASDR random walk with drift,NA,NA
+DK,Total,2016,80.889153,Lee-Carter,NA,NA
+DK,Total,2016,80.889153,LE random walk with drift,NA,NA
+DK,Total,2016,80.889153,ASDR random walk with drift,NA,NA
+DK,Total,2017,81.117348,Lee-Carter,NA,NA
+DK,Total,2017,81.117348,LE random walk with drift,NA,NA
+DK,Total,2017,81.117348,ASDR random walk with drift,NA,NA
+DK,Total,2018,80.999338,Lee-Carter,NA,NA
+DK,Total,2018,80.999338,LE random walk with drift,NA,NA
+DK,Total,2018,80.999338,ASDR random walk with drift,NA,NA
+DK,Total,2019,81.443917,Lee-Carter,NA,NA
+DK,Total,2019,81.443917,LE random walk with drift,NA,NA
+DK,Total,2019,81.443917,ASDR random walk with drift,NA,NA
+DK,Total,2020,81.560227,Lee-Carter,81.623629,-0.063402
+DK,Total,2020,81.560227,LE random walk with drift,81.687102,-0.126875
+DK,Total,2020,81.560227,ASDR random walk with drift,81.656091,-0.095865
+DK,Total,2021,81.439855,Lee-Carter,81.842901,-0.403046
+DK,Total,2021,81.439855,LE random walk with drift,81.930287,-0.490431
+DK,Total,2021,81.439855,ASDR random walk with drift,81.865698,-0.425843
+DK,Total,2022,81.307504,Lee-Carter,82.056538,-0.749034
+DK,Total,2022,81.307504,LE random walk with drift,82.173472,-0.865967
+DK,Total,2022,81.307504,ASDR random walk with drift,82.072467,-0.764962
+DK,Total,2023,81.675922,Lee-Carter,82.269896,-0.593974
+DK,Total,2023,81.675922,LE random walk with drift,82.416656,-0.740734
+DK,Total,2023,81.675922,ASDR random walk with drift,82.276427,-0.600505
+DK,Total,2024,82.04492,Lee-Carter,82.469832,-0.424912
+DK,Total,2024,82.04492,LE random walk with drift,82.659841,-0.614921
+DK,Total,2024,82.04492,ASDR random walk with drift,82.47761,-0.43269
+EE,Total,2000,70.889776,Lee-Carter,NA,NA
+EE,Total,2000,70.889776,LE random walk with drift,NA,NA
+EE,Total,2000,70.889776,ASDR random walk with drift,NA,NA
+EE,Total,2001,70.711982,Lee-Carter,NA,NA
+EE,Total,2001,70.711982,LE random walk with drift,NA,NA
+EE,Total,2001,70.711982,ASDR random walk with drift,NA,NA
+EE,Total,2002,71.260593,Lee-Carter,NA,NA
+EE,Total,2002,71.260593,LE random walk with drift,NA,NA
+EE,Total,2002,71.260593,ASDR random walk with drift,NA,NA
+EE,Total,2003,71.808674,Lee-Carter,NA,NA
+EE,Total,2003,71.808674,LE random walk with drift,NA,NA
+EE,Total,2003,71.808674,ASDR random walk with drift,NA,NA
+EE,Total,2004,72.293908,Lee-Carter,NA,NA
+EE,Total,2004,72.293908,LE random walk with drift,NA,NA
+EE,Total,2004,72.293908,ASDR random walk with drift,NA,NA
+EE,Total,2005,72.891953,Lee-Carter,NA,NA
+EE,Total,2005,72.891953,LE random walk with drift,NA,NA
+EE,Total,2005,72.891953,ASDR random walk with drift,NA,NA
+EE,Total,2006,73.10399,Lee-Carter,NA,NA
+EE,Total,2006,73.10399,LE random walk with drift,NA,NA
+EE,Total,2006,73.10399,ASDR random walk with drift,NA,NA
+EE,Total,2007,73.031538,Lee-Carter,NA,NA
+EE,Total,2007,73.031538,LE random walk with drift,NA,NA
+EE,Total,2007,73.031538,ASDR random walk with drift,NA,NA
+EE,Total,2008,74.156956,Lee-Carter,NA,NA
+EE,Total,2008,74.156956,LE random walk with drift,NA,NA
+EE,Total,2008,74.156956,ASDR random walk with drift,NA,NA
+EE,Total,2009,75.108647,Lee-Carter,NA,NA
+EE,Total,2009,75.108647,LE random walk with drift,NA,NA
+EE,Total,2009,75.108647,ASDR random walk with drift,NA,NA
+EE,Total,2010,75.814852,Lee-Carter,NA,NA
+EE,Total,2010,75.814852,LE random walk with drift,NA,NA
+EE,Total,2010,75.814852,ASDR random walk with drift,NA,NA
+EE,Total,2011,76.336827,Lee-Carter,NA,NA
+EE,Total,2011,76.336827,LE random walk with drift,NA,NA
+EE,Total,2011,76.336827,ASDR random walk with drift,NA,NA
+EE,Total,2012,76.373767,Lee-Carter,NA,NA
+EE,Total,2012,76.373767,LE random walk with drift,NA,NA
+EE,Total,2012,76.373767,ASDR random walk with drift,NA,NA
+EE,Total,2013,77.240154,Lee-Carter,NA,NA
+EE,Total,2013,77.240154,LE random walk with drift,NA,NA
+EE,Total,2013,77.240154,ASDR random walk with drift,NA,NA
+EE,Total,2014,77.095573,Lee-Carter,NA,NA
+EE,Total,2014,77.095573,LE random walk with drift,NA,NA
+EE,Total,2014,77.095573,ASDR random walk with drift,NA,NA
+EE,Total,2015,77.645268,Lee-Carter,NA,NA
+EE,Total,2015,77.645268,LE random walk with drift,NA,NA
+EE,Total,2015,77.645268,ASDR random walk with drift,NA,NA
+EE,Total,2016,77.745146,Lee-Carter,NA,NA
+EE,Total,2016,77.745146,LE random walk with drift,NA,NA
+EE,Total,2016,77.745146,ASDR random walk with drift,NA,NA
+EE,Total,2017,78.178862,Lee-Carter,NA,NA
+EE,Total,2017,78.178862,LE random walk with drift,NA,NA
+EE,Total,2017,78.178862,ASDR random walk with drift,NA,NA
+EE,Total,2018,78.326684,Lee-Carter,NA,NA
+EE,Total,2018,78.326684,LE random walk with drift,NA,NA
+EE,Total,2018,78.326684,ASDR random walk with drift,NA,NA
+EE,Total,2019,78.808615,Lee-Carter,NA,NA
+EE,Total,2019,78.808615,LE random walk with drift,NA,NA
+EE,Total,2019,78.808615,ASDR random walk with drift,NA,NA
+EE,Total,2020,78.762829,Lee-Carter,79.071531,-0.308703
+EE,Total,2020,78.762829,LE random walk with drift,79.225396,-0.462568
+EE,Total,2020,78.762829,ASDR random walk with drift,79.137471,-0.374642
+EE,Total,2021,77.129604,Lee-Carter,79.372744,-2.24314
+EE,Total,2021,77.129604,LE random walk with drift,79.642177,-2.512573
+EE,Total,2021,77.129604,ASDR random walk with drift,79.461418,-2.331814
+EE,Total,2022,78.084127,Lee-Carter,79.637177,-1.553051
+EE,Total,2022,78.084127,LE random walk with drift,80.058958,-1.974832
+EE,Total,2022,78.084127,ASDR random walk with drift,79.778973,-1.694847
+EE,Total,2023,78.980223,Lee-Carter,79.899548,-0.919325
+EE,Total,2023,78.980223,LE random walk with drift,80.475739,-1.495516
+EE,Total,2023,78.980223,ASDR random walk with drift,80.090324,-1.110101
+EE,Total,2024,79.476953,Lee-Carter,80.187677,-0.710723
+EE,Total,2024,79.476953,LE random walk with drift,80.89252,-1.415567
+EE,Total,2024,79.476953,ASDR random walk with drift,80.395647,-0.918694
+ES,Total,2000,79.422956,Lee-Carter,NA,NA
+ES,Total,2000,79.422956,LE random walk with drift,NA,NA
+ES,Total,2000,79.422956,ASDR random walk with drift,NA,NA
+ES,Total,2001,79.748998,Lee-Carter,NA,NA
+ES,Total,2001,79.748998,LE random walk with drift,NA,NA
+ES,Total,2001,79.748998,ASDR random walk with drift,NA,NA
+ES,Total,2002,79.834913,Lee-Carter,NA,NA
+ES,Total,2002,79.834913,LE random walk with drift,NA,NA
+ES,Total,2002,79.834913,ASDR random walk with drift,NA,NA
+ES,Total,2003,79.762356,Lee-Carter,NA,NA
+ES,Total,2003,79.762356,LE random walk with drift,NA,NA
+ES,Total,2003,79.762356,ASDR random walk with drift,NA,NA
+ES,Total,2004,80.342116,Lee-Carter,NA,NA
+ES,Total,2004,80.342116,LE random walk with drift,NA,NA
+ES,Total,2004,80.342116,ASDR random walk with drift,NA,NA
+ES,Total,2005,80.327453,Lee-Carter,NA,NA
+ES,Total,2005,80.327453,LE random walk with drift,NA,NA
+ES,Total,2005,80.327453,ASDR random walk with drift,NA,NA
+ES,Total,2006,80.978413,Lee-Carter,NA,NA
+ES,Total,2006,80.978413,LE random walk with drift,NA,NA
+ES,Total,2006,80.978413,ASDR random walk with drift,NA,NA
+ES,Total,2007,80.987358,Lee-Carter,NA,NA
+ES,Total,2007,80.987358,LE random walk with drift,NA,NA
+ES,Total,2007,80.987358,ASDR random walk with drift,NA,NA
+ES,Total,2008,81.299047,Lee-Carter,NA,NA
+ES,Total,2008,81.299047,LE random walk with drift,NA,NA
+ES,Total,2008,81.299047,ASDR random walk with drift,NA,NA
+ES,Total,2009,81.642696,Lee-Carter,NA,NA
+ES,Total,2009,81.642696,LE random walk with drift,NA,NA
+ES,Total,2009,81.642696,ASDR random walk with drift,NA,NA
+ES,Total,2010,82.025141,Lee-Carter,NA,NA
+ES,Total,2010,82.025141,LE random walk with drift,NA,NA
+ES,Total,2010,82.025141,ASDR random walk with drift,NA,NA
+ES,Total,2011,82.192761,Lee-Carter,NA,NA
+ES,Total,2011,82.192761,LE random walk with drift,NA,NA
+ES,Total,2011,82.192761,ASDR random walk with drift,NA,NA
+ES,Total,2012,82.207097,Lee-Carter,NA,NA
+ES,Total,2012,82.207097,LE random walk with drift,NA,NA
+ES,Total,2012,82.207097,ASDR random walk with drift,NA,NA
+ES,Total,2013,82.70923,Lee-Carter,NA,NA
+ES,Total,2013,82.70923,LE random walk with drift,NA,NA
+ES,Total,2013,82.70923,ASDR random walk with drift,NA,NA
+ES,Total,2014,82.849313,Lee-Carter,NA,NA
+ES,Total,2014,82.849313,LE random walk with drift,NA,NA
+ES,Total,2014,82.849313,ASDR random walk with drift,NA,NA
+ES,Total,2015,82.618523,Lee-Carter,NA,NA
+ES,Total,2015,82.618523,LE random walk with drift,NA,NA
+ES,Total,2015,82.618523,ASDR random walk with drift,NA,NA
+ES,Total,2016,83.014748,Lee-Carter,NA,NA
+ES,Total,2016,83.014748,LE random walk with drift,NA,NA
+ES,Total,2016,83.014748,ASDR random walk with drift,NA,NA
+ES,Total,2017,83.004058,Lee-Carter,NA,NA
+ES,Total,2017,83.004058,LE random walk with drift,NA,NA
+ES,Total,2017,83.004058,ASDR random walk with drift,NA,NA
+ES,Total,2018,83.109057,Lee-Carter,NA,NA
+ES,Total,2018,83.109057,LE random walk with drift,NA,NA
+ES,Total,2018,83.109057,ASDR random walk with drift,NA,NA
+ES,Total,2019,83.494834,Lee-Carter,NA,NA
+ES,Total,2019,83.494834,LE random walk with drift,NA,NA
+ES,Total,2019,83.494834,ASDR random walk with drift,NA,NA
+ES,Total,2020,82.236835,Lee-Carter,83.674756,-1.437921
+ES,Total,2020,82.236835,LE random walk with drift,83.709143,-1.472308
+ES,Total,2020,82.236835,ASDR random walk with drift,83.685175,-1.44834
+ES,Total,2021,82.988427,Lee-Carter,83.839876,-0.851449
+ES,Total,2021,82.988427,LE random walk with drift,83.923452,-0.935025
+ES,Total,2021,82.988427,ASDR random walk with drift,83.87346,-0.885033
+ES,Total,2022,83.043854,Lee-Carter,84.003048,-0.959194
+ES,Total,2022,83.043854,LE random walk with drift,84.137762,-1.093907
+ES,Total,2022,83.043854,ASDR random walk with drift,84.059671,-1.015817
+ES,Total,2023,83.765874,Lee-Carter,84.144804,-0.37893
+ES,Total,2023,83.765874,LE random walk with drift,84.352071,-0.586197
+ES,Total,2023,83.765874,ASDR random walk with drift,84.24384,-0.477966
+ES,Total,2024,84.023882,Lee-Carter,84.290332,-0.266451
+ES,Total,2024,84.023882,LE random walk with drift,84.566381,-0.542499
+ES,Total,2024,84.023882,ASDR random walk with drift,84.425997,-0.402115
+FI,Total,2000,77.669081,Lee-Carter,NA,NA
+FI,Total,2000,77.669081,LE random walk with drift,NA,NA
+FI,Total,2000,77.669081,ASDR random walk with drift,NA,NA
+FI,Total,2001,78.13934,Lee-Carter,NA,NA
+FI,Total,2001,78.13934,LE random walk with drift,NA,NA
+FI,Total,2001,78.13934,ASDR random walk with drift,NA,NA
+FI,Total,2002,78.263124,Lee-Carter,NA,NA
+FI,Total,2002,78.263124,LE random walk with drift,NA,NA
+FI,Total,2002,78.263124,ASDR random walk with drift,NA,NA
+FI,Total,2003,78.519437,Lee-Carter,NA,NA
+FI,Total,2003,78.519437,LE random walk with drift,NA,NA
+FI,Total,2003,78.519437,ASDR random walk with drift,NA,NA
+FI,Total,2004,78.833619,Lee-Carter,NA,NA
+FI,Total,2004,78.833619,LE random walk with drift,NA,NA
+FI,Total,2004,78.833619,ASDR random walk with drift,NA,NA
+FI,Total,2005,78.973566,Lee-Carter,NA,NA
+FI,Total,2005,78.973566,LE random walk with drift,NA,NA
+FI,Total,2005,78.973566,ASDR random walk with drift,NA,NA
+FI,Total,2006,79.362407,Lee-Carter,NA,NA
+FI,Total,2006,79.362407,LE random walk with drift,NA,NA
+FI,Total,2006,79.362407,ASDR random walk with drift,NA,NA
+FI,Total,2007,79.379683,Lee-Carter,NA,NA
+FI,Total,2007,79.379683,LE random walk with drift,NA,NA
+FI,Total,2007,79.379683,ASDR random walk with drift,NA,NA
+FI,Total,2008,79.693781,Lee-Carter,NA,NA
+FI,Total,2008,79.693781,LE random walk with drift,NA,NA
+FI,Total,2008,79.693781,ASDR random walk with drift,NA,NA
+FI,Total,2009,79.823078,Lee-Carter,NA,NA
+FI,Total,2009,79.823078,LE random walk with drift,NA,NA
+FI,Total,2009,79.823078,ASDR random walk with drift,NA,NA
+FI,Total,2010,80.005962,Lee-Carter,NA,NA
+FI,Total,2010,80.005962,LE random walk with drift,NA,NA
+FI,Total,2010,80.005962,ASDR random walk with drift,NA,NA
+FI,Total,2011,80.391145,Lee-Carter,NA,NA
+FI,Total,2011,80.391145,LE random walk with drift,NA,NA
+FI,Total,2011,80.391145,ASDR random walk with drift,NA,NA
+FI,Total,2012,80.494626,Lee-Carter,NA,NA
+FI,Total,2012,80.494626,LE random walk with drift,NA,NA
+FI,Total,2012,80.494626,ASDR random walk with drift,NA,NA
+FI,Total,2013,80.866937,Lee-Carter,NA,NA
+FI,Total,2013,80.866937,LE random walk with drift,NA,NA
+FI,Total,2013,80.866937,ASDR random walk with drift,NA,NA
+FI,Total,2014,81.054668,Lee-Carter,NA,NA
+FI,Total,2014,81.054668,LE random walk with drift,NA,NA
+FI,Total,2014,81.054668,ASDR random walk with drift,NA,NA
+FI,Total,2015,81.36404,Lee-Carter,NA,NA
+FI,Total,2015,81.36404,LE random walk with drift,NA,NA
+FI,Total,2015,81.36404,ASDR random walk with drift,NA,NA
+FI,Total,2016,81.299183,Lee-Carter,NA,NA
+FI,Total,2016,81.299183,LE random walk with drift,NA,NA
+FI,Total,2016,81.299183,ASDR random walk with drift,NA,NA
+FI,Total,2017,81.494347,Lee-Carter,NA,NA
+FI,Total,2017,81.494347,LE random walk with drift,NA,NA
+FI,Total,2017,81.494347,ASDR random walk with drift,NA,NA
+FI,Total,2018,81.625334,Lee-Carter,NA,NA
+FI,Total,2018,81.625334,LE random walk with drift,NA,NA
+FI,Total,2018,81.625334,ASDR random walk with drift,NA,NA
+FI,Total,2019,81.867648,Lee-Carter,NA,NA
+FI,Total,2019,81.867648,LE random walk with drift,NA,NA
+FI,Total,2019,81.867648,ASDR random walk with drift,NA,NA
+FI,Total,2020,81.81574,Lee-Carter,82.176143,-0.360403
+FI,Total,2020,81.81574,LE random walk with drift,82.088626,-0.272886
+FI,Total,2020,81.81574,ASDR random walk with drift,82.072549,-0.256809
+FI,Total,2021,81.806104,Lee-Carter,82.379352,-0.573249
+FI,Total,2021,81.806104,LE random walk with drift,82.309603,-0.503499
+FI,Total,2021,81.806104,ASDR random walk with drift,82.276233,-0.470129
+FI,Total,2022,81.194043,Lee-Carter,82.578913,-1.38487
+FI,Total,2022,81.194043,LE random walk with drift,82.53058,-1.336537
+FI,Total,2022,81.194043,ASDR random walk with drift,82.478359,-1.284315
+FI,Total,2023,81.560934,Lee-Carter,82.78005,-1.219116
+FI,Total,2023,81.560934,LE random walk with drift,82.751557,-1.190624
+FI,Total,2023,81.560934,ASDR random walk with drift,82.678927,-1.117993
+FI,Total,2024,82.243769,Lee-Carter,82.970678,-0.726909
+FI,Total,2024,82.243769,LE random walk with drift,82.972535,-0.728766
+FI,Total,2024,82.243769,ASDR random walk with drift,82.87794,-0.634171
+FR,Total,2000,79.087811,Lee-Carter,NA,NA
+FR,Total,2000,79.087811,LE random walk with drift,NA,NA
+FR,Total,2000,79.087811,ASDR random walk with drift,NA,NA
+FR,Total,2001,79.24815,Lee-Carter,NA,NA
+FR,Total,2001,79.24815,LE random walk with drift,NA,NA
+FR,Total,2001,79.24815,ASDR random walk with drift,NA,NA
+FR,Total,2002,79.423651,Lee-Carter,NA,NA
+FR,Total,2002,79.423651,LE random walk with drift,NA,NA
+FR,Total,2002,79.423651,ASDR random walk with drift,NA,NA
+FR,Total,2003,79.412158,Lee-Carter,NA,NA
+FR,Total,2003,79.412158,LE random walk with drift,NA,NA
+FR,Total,2003,79.412158,ASDR random walk with drift,NA,NA
+FR,Total,2004,80.354452,Lee-Carter,NA,NA
+FR,Total,2004,80.354452,LE random walk with drift,NA,NA
+FR,Total,2004,80.354452,ASDR random walk with drift,NA,NA
+FR,Total,2005,80.368519,Lee-Carter,NA,NA
+FR,Total,2005,80.368519,LE random walk with drift,NA,NA
+FR,Total,2005,80.368519,ASDR random walk with drift,NA,NA
+FR,Total,2006,80.77895,Lee-Carter,NA,NA
+FR,Total,2006,80.77895,LE random walk with drift,NA,NA
+FR,Total,2006,80.77895,ASDR random walk with drift,NA,NA
+FR,Total,2007,80.981806,Lee-Carter,NA,NA
+FR,Total,2007,80.981806,LE random walk with drift,NA,NA
+FR,Total,2007,80.981806,ASDR random walk with drift,NA,NA
+FR,Total,2008,81.053825,Lee-Carter,NA,NA
+FR,Total,2008,81.053825,LE random walk with drift,NA,NA
+FR,Total,2008,81.053825,ASDR random walk with drift,NA,NA
+FR,Total,2009,81.189178,Lee-Carter,NA,NA
+FR,Total,2009,81.189178,LE random walk with drift,NA,NA
+FR,Total,2009,81.189178,ASDR random walk with drift,NA,NA
+FR,Total,2010,81.435057,Lee-Carter,NA,NA
+FR,Total,2010,81.435057,LE random walk with drift,NA,NA
+FR,Total,2010,81.435057,ASDR random walk with drift,NA,NA
+FR,Total,2011,81.798129,Lee-Carter,NA,NA
+FR,Total,2011,81.798129,LE random walk with drift,NA,NA
+FR,Total,2011,81.798129,ASDR random walk with drift,NA,NA
+FR,Total,2012,81.728137,Lee-Carter,NA,NA
+FR,Total,2012,81.728137,LE random walk with drift,NA,NA
+FR,Total,2012,81.728137,ASDR random walk with drift,NA,NA
+FR,Total,2013,81.959445,Lee-Carter,NA,NA
+FR,Total,2013,81.959445,LE random walk with drift,NA,NA
+FR,Total,2013,81.959445,ASDR random walk with drift,NA,NA
+FR,Total,2014,82.431424,Lee-Carter,NA,NA
+FR,Total,2014,82.431424,LE random walk with drift,NA,NA
+FR,Total,2014,82.431424,ASDR random walk with drift,NA,NA
+FR,Total,2015,82.147942,Lee-Carter,NA,NA
+FR,Total,2015,82.147942,LE random walk with drift,NA,NA
+FR,Total,2015,82.147942,ASDR random walk with drift,NA,NA
+FR,Total,2016,82.405822,Lee-Carter,NA,NA
+FR,Total,2016,82.405822,LE random walk with drift,NA,NA
+FR,Total,2016,82.405822,ASDR random walk with drift,NA,NA
+FR,Total,2017,82.44886,Lee-Carter,NA,NA
+FR,Total,2017,82.44886,LE random walk with drift,NA,NA
+FR,Total,2017,82.44886,ASDR random walk with drift,NA,NA
+FR,Total,2018,82.573505,Lee-Carter,NA,NA
+FR,Total,2018,82.573505,LE random walk with drift,NA,NA
+FR,Total,2018,82.573505,ASDR random walk with drift,NA,NA
+FR,Total,2019,82.745491,Lee-Carter,NA,NA
+FR,Total,2019,82.745491,LE random walk with drift,NA,NA
+FR,Total,2019,82.745491,ASDR random walk with drift,NA,NA
+FR,Total,2020,82.208661,Lee-Carter,82.889307,-0.680647
+FR,Total,2020,82.208661,LE random walk with drift,82.938001,-0.72934
+FR,Total,2020,82.208661,ASDR random walk with drift,82.924662,-0.716001
+FR,Total,2021,82.319611,Lee-Carter,83.03581,-0.716199
+FR,Total,2021,82.319611,LE random walk with drift,83.13051,-0.8109
+FR,Total,2021,82.319611,ASDR random walk with drift,83.102583,-0.782972
+FR,Total,2022,82.301332,Lee-Carter,83.181445,-0.880113
+FR,Total,2022,82.301332,LE random walk with drift,83.32302,-1.021688
+FR,Total,2022,82.301332,ASDR random walk with drift,83.279222,-0.97789
+FR,Total,2023,82.890799,Lee-Carter,83.308699,-0.4179
+FR,Total,2023,82.890799,LE random walk with drift,83.515529,-0.62473
+FR,Total,2023,82.890799,ASDR random walk with drift,83.454583,-0.563784
+FR,Total,2024,83.064463,Lee-Carter,83.438095,-0.373632
+FR,Total,2024,83.064463,LE random walk with drift,83.708039,-0.643576
+FR,Total,2024,83.064463,ASDR random walk with drift,83.628672,-0.564209
+GB-EAW,Total,2000,NA,Lee-Carter,NA,NA
+GB-EAW,Total,2000,NA,LE random walk with drift,NA,NA
+GB-EAW,Total,2000,NA,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2001,NA,Lee-Carter,NA,NA
+GB-EAW,Total,2001,NA,LE random walk with drift,NA,NA
+GB-EAW,Total,2001,NA,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2002,NA,Lee-Carter,NA,NA
+GB-EAW,Total,2002,NA,LE random walk with drift,NA,NA
+GB-EAW,Total,2002,NA,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2003,NA,Lee-Carter,NA,NA
+GB-EAW,Total,2003,NA,LE random walk with drift,NA,NA
+GB-EAW,Total,2003,NA,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2004,NA,Lee-Carter,NA,NA
+GB-EAW,Total,2004,NA,LE random walk with drift,NA,NA
+GB-EAW,Total,2004,NA,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2005,NA,Lee-Carter,NA,NA
+GB-EAW,Total,2005,NA,LE random walk with drift,NA,NA
+GB-EAW,Total,2005,NA,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2006,NA,Lee-Carter,NA,NA
+GB-EAW,Total,2006,NA,LE random walk with drift,NA,NA
+GB-EAW,Total,2006,NA,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2007,NA,Lee-Carter,NA,NA
+GB-EAW,Total,2007,NA,LE random walk with drift,NA,NA
+GB-EAW,Total,2007,NA,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2008,NA,Lee-Carter,NA,NA
+GB-EAW,Total,2008,NA,LE random walk with drift,NA,NA
+GB-EAW,Total,2008,NA,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2009,NA,Lee-Carter,NA,NA
+GB-EAW,Total,2009,NA,LE random walk with drift,NA,NA
+GB-EAW,Total,2009,NA,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2010,80.612771,Lee-Carter,NA,NA
+GB-EAW,Total,2010,80.612771,LE random walk with drift,NA,NA
+GB-EAW,Total,2010,80.612771,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2011,81.012351,Lee-Carter,NA,NA
+GB-EAW,Total,2011,81.012351,LE random walk with drift,NA,NA
+GB-EAW,Total,2011,81.012351,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2012,81.061221,Lee-Carter,NA,NA
+GB-EAW,Total,2012,81.061221,LE random walk with drift,NA,NA
+GB-EAW,Total,2012,81.061221,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2013,81.104802,Lee-Carter,NA,NA
+GB-EAW,Total,2013,81.104802,LE random walk with drift,NA,NA
+GB-EAW,Total,2013,81.104802,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2014,81.329985,Lee-Carter,NA,NA
+GB-EAW,Total,2014,81.329985,LE random walk with drift,NA,NA
+GB-EAW,Total,2014,81.329985,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2015,81.095095,Lee-Carter,NA,NA
+GB-EAW,Total,2015,81.095095,LE random walk with drift,NA,NA
+GB-EAW,Total,2015,81.095095,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2016,81.235298,Lee-Carter,NA,NA
+GB-EAW,Total,2016,81.235298,LE random walk with drift,NA,NA
+GB-EAW,Total,2016,81.235298,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2017,81.323451,Lee-Carter,NA,NA
+GB-EAW,Total,2017,81.323451,LE random walk with drift,NA,NA
+GB-EAW,Total,2017,81.323451,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2018,81.281666,Lee-Carter,NA,NA
+GB-EAW,Total,2018,81.281666,LE random walk with drift,NA,NA
+GB-EAW,Total,2018,81.281666,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2019,81.599974,Lee-Carter,NA,NA
+GB-EAW,Total,2019,81.599974,LE random walk with drift,NA,NA
+GB-EAW,Total,2019,81.599974,ASDR random walk with drift,NA,NA
+GB-EAW,Total,2020,80.539973,Lee-Carter,81.758847,-1.218873
+GB-EAW,Total,2020,80.539973,LE random walk with drift,81.709663,-1.16969
+GB-EAW,Total,2020,80.539973,ASDR random walk with drift,81.706601,-1.166628
+GB-EAW,Total,2021,80.731357,Lee-Carter,81.863219,-1.131862
+GB-EAW,Total,2021,80.731357,LE random walk with drift,81.819352,-1.087995
+GB-EAW,Total,2021,80.731357,ASDR random walk with drift,81.812655,-1.081297
+GB-EAW,Total,2022,81.173023,Lee-Carter,81.969763,-0.79674
+GB-EAW,Total,2022,81.173023,LE random walk with drift,81.929042,-0.756019
+GB-EAW,Total,2022,81.173023,ASDR random walk with drift,81.918101,-0.745078
+GB-EAW,Total,2023,81.260569,Lee-Carter,82.057695,-0.797126
+GB-EAW,Total,2023,81.260569,LE random walk with drift,82.038731,-0.778162
+GB-EAW,Total,2023,81.260569,ASDR random walk with drift,82.02294,-0.762371
+GB-EAW,Total,2024,81.761325,Lee-Carter,82.148449,-0.387124
+GB-EAW,Total,2024,81.761325,LE random walk with drift,82.14842,-0.387095
+GB-EAW,Total,2024,81.761325,ASDR random walk with drift,82.12717,-0.365845
+GB-NIR,Total,2000,77.356438,Lee-Carter,NA,NA
+GB-NIR,Total,2000,77.356438,LE random walk with drift,NA,NA
+GB-NIR,Total,2000,77.356438,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2001,77.847453,Lee-Carter,NA,NA
+GB-NIR,Total,2001,77.847453,LE random walk with drift,NA,NA
+GB-NIR,Total,2001,77.847453,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2002,77.894212,Lee-Carter,NA,NA
+GB-NIR,Total,2002,77.894212,LE random walk with drift,NA,NA
+GB-NIR,Total,2002,77.894212,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2003,78.314527,Lee-Carter,NA,NA
+GB-NIR,Total,2003,78.314527,LE random walk with drift,NA,NA
+GB-NIR,Total,2003,78.314527,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2004,78.434162,Lee-Carter,NA,NA
+GB-NIR,Total,2004,78.434162,LE random walk with drift,NA,NA
+GB-NIR,Total,2004,78.434162,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2005,78.59656,Lee-Carter,NA,NA
+GB-NIR,Total,2005,78.59656,LE random walk with drift,NA,NA
+GB-NIR,Total,2005,78.59656,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2006,78.623766,Lee-Carter,NA,NA
+GB-NIR,Total,2006,78.623766,LE random walk with drift,NA,NA
+GB-NIR,Total,2006,78.623766,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2007,78.831151,Lee-Carter,NA,NA
+GB-NIR,Total,2007,78.831151,LE random walk with drift,NA,NA
+GB-NIR,Total,2007,78.831151,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2008,78.873902,Lee-Carter,NA,NA
+GB-NIR,Total,2008,78.873902,LE random walk with drift,NA,NA
+GB-NIR,Total,2008,78.873902,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2009,79.349511,Lee-Carter,NA,NA
+GB-NIR,Total,2009,79.349511,LE random walk with drift,NA,NA
+GB-NIR,Total,2009,79.349511,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2010,79.449094,Lee-Carter,NA,NA
+GB-NIR,Total,2010,79.449094,LE random walk with drift,NA,NA
+GB-NIR,Total,2010,79.449094,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2011,80.181869,Lee-Carter,NA,NA
+GB-NIR,Total,2011,80.181869,LE random walk with drift,NA,NA
+GB-NIR,Total,2011,80.181869,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2012,80.199603,Lee-Carter,NA,NA
+GB-NIR,Total,2012,80.199603,LE random walk with drift,NA,NA
+GB-NIR,Total,2012,80.199603,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2013,80.222246,Lee-Carter,NA,NA
+GB-NIR,Total,2013,80.222246,LE random walk with drift,NA,NA
+GB-NIR,Total,2013,80.222246,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2014,80.558246,Lee-Carter,NA,NA
+GB-NIR,Total,2014,80.558246,LE random walk with drift,NA,NA
+GB-NIR,Total,2014,80.558246,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2015,80.229878,Lee-Carter,NA,NA
+GB-NIR,Total,2015,80.229878,LE random walk with drift,NA,NA
+GB-NIR,Total,2015,80.229878,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2016,80.559486,Lee-Carter,NA,NA
+GB-NIR,Total,2016,80.559486,LE random walk with drift,NA,NA
+GB-NIR,Total,2016,80.559486,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2017,80.442237,Lee-Carter,NA,NA
+GB-NIR,Total,2017,80.442237,LE random walk with drift,NA,NA
+GB-NIR,Total,2017,80.442237,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2018,80.709173,Lee-Carter,NA,NA
+GB-NIR,Total,2018,80.709173,LE random walk with drift,NA,NA
+GB-NIR,Total,2018,80.709173,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2019,80.936141,Lee-Carter,NA,NA
+GB-NIR,Total,2019,80.936141,LE random walk with drift,NA,NA
+GB-NIR,Total,2019,80.936141,ASDR random walk with drift,NA,NA
+GB-NIR,Total,2020,80.134047,Lee-Carter,81.130653,-0.996606
+GB-NIR,Total,2020,80.134047,LE random walk with drift,81.124547,-0.9905
+GB-NIR,Total,2020,80.134047,ASDR random walk with drift,81.108462,-0.974415
+GB-NIR,Total,2021,80.128385,Lee-Carter,81.271852,-1.143467
+GB-NIR,Total,2021,80.128385,LE random walk with drift,81.312952,-1.184567
+GB-NIR,Total,2021,80.128385,ASDR random walk with drift,81.280534,-1.152149
+GB-NIR,Total,2022,80.788758,Lee-Carter,81.402099,-0.61334
+GB-NIR,Total,2022,80.788758,LE random walk with drift,81.501357,-0.712599
+GB-NIR,Total,2022,80.788758,ASDR random walk with drift,81.451088,-0.662329
+GB-NIR,Total,2023,81.082082,Lee-Carter,81.535925,-0.453843
+GB-NIR,Total,2023,81.082082,LE random walk with drift,81.689763,-0.607681
+GB-NIR,Total,2023,81.082082,ASDR random walk with drift,81.620118,-0.538036
+GB-NIR,Total,2024,80.559919,Lee-Carter,81.65817,-1.098251
+GB-NIR,Total,2024,80.559919,LE random walk with drift,81.878168,-1.318249
+GB-NIR,Total,2024,80.559919,ASDR random walk with drift,81.787623,-1.227704
+GB-SCT,Total,2000,75.960626,Lee-Carter,NA,NA
+GB-SCT,Total,2000,75.960626,LE random walk with drift,NA,NA
+GB-SCT,Total,2000,75.960626,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2001,76.13794,Lee-Carter,NA,NA
+GB-SCT,Total,2001,76.13794,LE random walk with drift,NA,NA
+GB-SCT,Total,2001,76.13794,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2002,76.126856,Lee-Carter,NA,NA
+GB-SCT,Total,2002,76.126856,LE random walk with drift,NA,NA
+GB-SCT,Total,2002,76.126856,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2003,76.337307,Lee-Carter,NA,NA
+GB-SCT,Total,2003,76.337307,LE random walk with drift,NA,NA
+GB-SCT,Total,2003,76.337307,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2004,76.87202,Lee-Carter,NA,NA
+GB-SCT,Total,2004,76.87202,LE random walk with drift,NA,NA
+GB-SCT,Total,2004,76.87202,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2005,77.116059,Lee-Carter,NA,NA
+GB-SCT,Total,2005,77.116059,LE random walk with drift,NA,NA
+GB-SCT,Total,2005,77.116059,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2006,77.341027,Lee-Carter,NA,NA
+GB-SCT,Total,2006,77.341027,LE random walk with drift,NA,NA
+GB-SCT,Total,2006,77.341027,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2007,77.372068,Lee-Carter,NA,NA
+GB-SCT,Total,2007,77.372068,LE random walk with drift,NA,NA
+GB-SCT,Total,2007,77.372068,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2008,77.62993,Lee-Carter,NA,NA
+GB-SCT,Total,2008,77.62993,LE random walk with drift,NA,NA
+GB-SCT,Total,2008,77.62993,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2009,78.254234,Lee-Carter,NA,NA
+GB-SCT,Total,2009,78.254234,LE random walk with drift,NA,NA
+GB-SCT,Total,2009,78.254234,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2010,78.471837,Lee-Carter,NA,NA
+GB-SCT,Total,2010,78.471837,LE random walk with drift,NA,NA
+GB-SCT,Total,2010,78.471837,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2011,78.70081,Lee-Carter,NA,NA
+GB-SCT,Total,2011,78.70081,LE random walk with drift,NA,NA
+GB-SCT,Total,2011,78.70081,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2012,78.815769,Lee-Carter,NA,NA
+GB-SCT,Total,2012,78.815769,LE random walk with drift,NA,NA
+GB-SCT,Total,2012,78.815769,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2013,79.077077,Lee-Carter,NA,NA
+GB-SCT,Total,2013,79.077077,LE random walk with drift,NA,NA
+GB-SCT,Total,2013,79.077077,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2014,79.343723,Lee-Carter,NA,NA
+GB-SCT,Total,2014,79.343723,LE random walk with drift,NA,NA
+GB-SCT,Total,2014,79.343723,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2015,79.030235,Lee-Carter,NA,NA
+GB-SCT,Total,2015,79.030235,LE random walk with drift,NA,NA
+GB-SCT,Total,2015,79.030235,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2016,79.044152,Lee-Carter,NA,NA
+GB-SCT,Total,2016,79.044152,LE random walk with drift,NA,NA
+GB-SCT,Total,2016,79.044152,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2017,79.164696,Lee-Carter,NA,NA
+GB-SCT,Total,2017,79.164696,LE random walk with drift,NA,NA
+GB-SCT,Total,2017,79.164696,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2018,79.068876,Lee-Carter,NA,NA
+GB-SCT,Total,2018,79.068876,LE random walk with drift,NA,NA
+GB-SCT,Total,2018,79.068876,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2019,79.215862,Lee-Carter,NA,NA
+GB-SCT,Total,2019,79.215862,LE random walk with drift,NA,NA
+GB-SCT,Total,2019,79.215862,ASDR random walk with drift,NA,NA
+GB-SCT,Total,2020,78.464206,Lee-Carter,79.380975,-0.916768
+GB-SCT,Total,2020,78.464206,LE random walk with drift,79.38719,-0.922984
+GB-SCT,Total,2020,78.464206,ASDR random walk with drift,79.370565,-0.906359
+GB-SCT,Total,2021,78.478743,Lee-Carter,79.44472,-0.965978
+GB-SCT,Total,2021,78.478743,LE random walk with drift,79.558518,-1.079775
+GB-SCT,Total,2021,78.478743,ASDR random walk with drift,79.52394,-1.045197
+GB-SCT,Total,2022,79.019729,Lee-Carter,79.493374,-0.473646
+GB-SCT,Total,2022,79.019729,LE random walk with drift,79.729846,-0.710118
+GB-SCT,Total,2022,79.019729,ASDR random walk with drift,79.675635,-0.655906
+GB-SCT,Total,2023,79.045174,Lee-Carter,79.544812,-0.499638
+GB-SCT,Total,2023,79.045174,LE random walk with drift,79.901175,-0.856001
+GB-SCT,Total,2023,79.045174,ASDR random walk with drift,79.825647,-0.780473
+GB-SCT,Total,2024,79.60398,Lee-Carter,79.60148,0.0025
+GB-SCT,Total,2024,79.60398,LE random walk with drift,80.072503,-0.468523
+GB-SCT,Total,2024,79.60398,ASDR random walk with drift,79.973974,-0.369994
+GR,Total,2000,78.332806,Lee-Carter,NA,NA
+GR,Total,2000,78.332806,LE random walk with drift,NA,NA
+GR,Total,2000,78.332806,ASDR random walk with drift,NA,NA
+GR,Total,2001,78.772325,Lee-Carter,NA,NA
+GR,Total,2001,78.772325,LE random walk with drift,NA,NA
+GR,Total,2001,78.772325,ASDR random walk with drift,NA,NA
+GR,Total,2002,78.956994,Lee-Carter,NA,NA
+GR,Total,2002,78.956994,LE random walk with drift,NA,NA
+GR,Total,2002,78.956994,ASDR random walk with drift,NA,NA
+GR,Total,2003,79.097165,Lee-Carter,NA,NA
+GR,Total,2003,79.097165,LE random walk with drift,NA,NA
+GR,Total,2003,79.097165,ASDR random walk with drift,NA,NA
+GR,Total,2004,79.255285,Lee-Carter,NA,NA
+GR,Total,2004,79.255285,LE random walk with drift,NA,NA
+GR,Total,2004,79.255285,ASDR random walk with drift,NA,NA
+GR,Total,2005,79.480367,Lee-Carter,NA,NA
+GR,Total,2005,79.480367,LE random walk with drift,NA,NA
+GR,Total,2005,79.480367,ASDR random walk with drift,NA,NA
+GR,Total,2006,79.775382,Lee-Carter,NA,NA
+GR,Total,2006,79.775382,LE random walk with drift,NA,NA
+GR,Total,2006,79.775382,ASDR random walk with drift,NA,NA
+GR,Total,2007,79.618005,Lee-Carter,NA,NA
+GR,Total,2007,79.618005,LE random walk with drift,NA,NA
+GR,Total,2007,79.618005,ASDR random walk with drift,NA,NA
+GR,Total,2008,80.170942,Lee-Carter,NA,NA
+GR,Total,2008,80.170942,LE random walk with drift,NA,NA
+GR,Total,2008,80.170942,ASDR random walk with drift,NA,NA
+GR,Total,2009,80.34161,Lee-Carter,NA,NA
+GR,Total,2009,80.34161,LE random walk with drift,NA,NA
+GR,Total,2009,80.34161,ASDR random walk with drift,NA,NA
+GR,Total,2010,80.596454,Lee-Carter,NA,NA
+GR,Total,2010,80.596454,LE random walk with drift,NA,NA
+GR,Total,2010,80.596454,ASDR random walk with drift,NA,NA
+GR,Total,2011,80.723052,Lee-Carter,NA,NA
+GR,Total,2011,80.723052,LE random walk with drift,NA,NA
+GR,Total,2011,80.723052,ASDR random walk with drift,NA,NA
+GR,Total,2012,80.616828,Lee-Carter,NA,NA
+GR,Total,2012,80.616828,LE random walk with drift,NA,NA
+GR,Total,2012,80.616828,ASDR random walk with drift,NA,NA
+GR,Total,2013,81.19372,Lee-Carter,NA,NA
+GR,Total,2013,81.19372,LE random walk with drift,NA,NA
+GR,Total,2013,81.19372,ASDR random walk with drift,NA,NA
+GR,Total,2014,81.301235,Lee-Carter,NA,NA
+GR,Total,2014,81.301235,LE random walk with drift,NA,NA
+GR,Total,2014,81.301235,ASDR random walk with drift,NA,NA
+GR,Total,2015,80.99872,Lee-Carter,NA,NA
+GR,Total,2015,80.99872,LE random walk with drift,NA,NA
+GR,Total,2015,80.99872,ASDR random walk with drift,NA,NA
+GR,Total,2016,81.254652,Lee-Carter,NA,NA
+GR,Total,2016,81.254652,LE random walk with drift,NA,NA
+GR,Total,2016,81.254652,ASDR random walk with drift,NA,NA
+GR,Total,2017,81.195193,Lee-Carter,NA,NA
+GR,Total,2017,81.195193,LE random walk with drift,NA,NA
+GR,Total,2017,81.195193,ASDR random walk with drift,NA,NA
+GR,Total,2018,81.636488,Lee-Carter,NA,NA
+GR,Total,2018,81.636488,LE random walk with drift,NA,NA
+GR,Total,2018,81.636488,ASDR random walk with drift,NA,NA
+GR,Total,2019,81.497558,Lee-Carter,NA,NA
+GR,Total,2019,81.497558,LE random walk with drift,NA,NA
+GR,Total,2019,81.497558,ASDR random walk with drift,NA,NA
+GR,Total,2020,81.280628,Lee-Carter,81.619131,-0.338503
+GR,Total,2020,81.280628,LE random walk with drift,81.664124,-0.383496
+GR,Total,2020,81.280628,ASDR random walk with drift,81.652454,-0.371826
+GR,Total,2021,80.182203,Lee-Carter,81.722794,-1.540592
+GR,Total,2021,80.182203,LE random walk with drift,81.83069,-1.648487
+GR,Total,2021,80.182203,ASDR random walk with drift,81.806383,-1.62418
+GR,Total,2022,80.787136,Lee-Carter,81.812486,-1.02535
+GR,Total,2022,80.787136,LE random walk with drift,81.997256,-1.21012
+GR,Total,2022,80.787136,ASDR random walk with drift,81.959188,-1.172052
+GR,Total,2023,81.519721,Lee-Carter,81.893999,-0.374278
+GR,Total,2023,81.519721,LE random walk with drift,82.163821,-0.6441
+GR,Total,2023,81.519721,ASDR random walk with drift,82.110872,-0.591151
+GR,Total,2024,81.52914,Lee-Carter,81.983179,-0.454039
+GR,Total,2024,81.52914,LE random walk with drift,82.330387,-0.801247
+GR,Total,2024,81.52914,ASDR random walk with drift,82.26144,-0.7323
+HR,Total,2000,NA,Lee-Carter,NA,NA
+HR,Total,2000,NA,LE random walk with drift,NA,NA
+HR,Total,2000,NA,ASDR random walk with drift,NA,NA
+HR,Total,2001,74.559594,Lee-Carter,NA,NA
+HR,Total,2001,74.559594,LE random walk with drift,NA,NA
+HR,Total,2001,74.559594,ASDR random walk with drift,NA,NA
+HR,Total,2002,74.704076,Lee-Carter,NA,NA
+HR,Total,2002,74.704076,LE random walk with drift,NA,NA
+HR,Total,2002,74.704076,ASDR random walk with drift,NA,NA
+HR,Total,2003,74.618381,Lee-Carter,NA,NA
+HR,Total,2003,74.618381,LE random walk with drift,NA,NA
+HR,Total,2003,74.618381,ASDR random walk with drift,NA,NA
+HR,Total,2004,75.397745,Lee-Carter,NA,NA
+HR,Total,2004,75.397745,LE random walk with drift,NA,NA
+HR,Total,2004,75.397745,ASDR random walk with drift,NA,NA
+HR,Total,2005,75.311191,Lee-Carter,NA,NA
+HR,Total,2005,75.311191,LE random walk with drift,NA,NA
+HR,Total,2005,75.311191,ASDR random walk with drift,NA,NA
+HR,Total,2006,75.867039,Lee-Carter,NA,NA
+HR,Total,2006,75.867039,LE random walk with drift,NA,NA
+HR,Total,2006,75.867039,ASDR random walk with drift,NA,NA
+HR,Total,2007,75.687143,Lee-Carter,NA,NA
+HR,Total,2007,75.687143,LE random walk with drift,NA,NA
+HR,Total,2007,75.687143,ASDR random walk with drift,NA,NA
+HR,Total,2008,75.906143,Lee-Carter,NA,NA
+HR,Total,2008,75.906143,LE random walk with drift,NA,NA
+HR,Total,2008,75.906143,ASDR random walk with drift,NA,NA
+HR,Total,2009,76.186351,Lee-Carter,NA,NA
+HR,Total,2009,76.186351,LE random walk with drift,NA,NA
+HR,Total,2009,76.186351,ASDR random walk with drift,NA,NA
+HR,Total,2010,76.633415,Lee-Carter,NA,NA
+HR,Total,2010,76.633415,LE random walk with drift,NA,NA
+HR,Total,2010,76.633415,ASDR random walk with drift,NA,NA
+HR,Total,2011,77.04292,Lee-Carter,NA,NA
+HR,Total,2011,77.04292,LE random walk with drift,NA,NA
+HR,Total,2011,77.04292,ASDR random walk with drift,NA,NA
+HR,Total,2012,77.21259,Lee-Carter,NA,NA
+HR,Total,2012,77.21259,LE random walk with drift,NA,NA
+HR,Total,2012,77.21259,ASDR random walk with drift,NA,NA
+HR,Total,2013,77.669621,Lee-Carter,NA,NA
+HR,Total,2013,77.669621,LE random walk with drift,NA,NA
+HR,Total,2013,77.669621,ASDR random walk with drift,NA,NA
+HR,Total,2014,77.817421,Lee-Carter,NA,NA
+HR,Total,2014,77.817421,LE random walk with drift,NA,NA
+HR,Total,2014,77.817421,ASDR random walk with drift,NA,NA
+HR,Total,2015,77.433522,Lee-Carter,NA,NA
+HR,Total,2015,77.433522,LE random walk with drift,NA,NA
+HR,Total,2015,77.433522,ASDR random walk with drift,NA,NA
+HR,Total,2016,78.094945,Lee-Carter,NA,NA
+HR,Total,2016,78.094945,LE random walk with drift,NA,NA
+HR,Total,2016,78.094945,ASDR random walk with drift,NA,NA
+HR,Total,2017,77.917574,Lee-Carter,NA,NA
+HR,Total,2017,77.917574,LE random walk with drift,NA,NA
+HR,Total,2017,77.917574,ASDR random walk with drift,NA,NA
+HR,Total,2018,78.131758,Lee-Carter,NA,NA
+HR,Total,2018,78.131758,LE random walk with drift,NA,NA
+HR,Total,2018,78.131758,ASDR random walk with drift,NA,NA
+HR,Total,2019,78.470684,Lee-Carter,NA,NA
+HR,Total,2019,78.470684,LE random walk with drift,NA,NA
+HR,Total,2019,78.470684,ASDR random walk with drift,NA,NA
+HR,Total,2020,77.783843,Lee-Carter,78.659759,-0.875916
+HR,Total,2020,77.783843,LE random walk with drift,78.687967,-0.904125
+HR,Total,2020,77.783843,ASDR random walk with drift,78.666073,-0.882231
+HR,Total,2021,76.876456,Lee-Carter,78.847059,-1.970603
+HR,Total,2021,76.876456,LE random walk with drift,78.90525,-2.028794
+HR,Total,2021,76.876456,ASDR random walk with drift,78.860085,-1.983629
+HR,Total,2022,78.131082,Lee-Carter,79.050897,-0.919815
+HR,Total,2022,78.131082,LE random walk with drift,79.122533,-0.991451
+HR,Total,2022,78.131082,ASDR random walk with drift,79.052089,-0.921008
+HR,Total,2023,79.202884,Lee-Carter,79.278254,-0.075369
+HR,Total,2023,79.202884,LE random walk with drift,79.339816,-0.136931
+HR,Total,2023,79.202884,ASDR random walk with drift,79.242115,-0.039231
+HR,Total,2024,79.465114,Lee-Carter,79.467934,-0.002819
+HR,Total,2024,79.465114,LE random walk with drift,79.557098,-0.091984
+HR,Total,2024,79.465114,ASDR random walk with drift,79.430192,0.034923
+HU,Total,2000,71.763721,Lee-Carter,NA,NA
+HU,Total,2000,71.763721,LE random walk with drift,NA,NA
+HU,Total,2000,71.763721,ASDR random walk with drift,NA,NA
+HU,Total,2001,72.403477,Lee-Carter,NA,NA
+HU,Total,2001,72.403477,LE random walk with drift,NA,NA
+HU,Total,2001,72.403477,ASDR random walk with drift,NA,NA
+HU,Total,2002,72.505546,Lee-Carter,NA,NA
+HU,Total,2002,72.505546,LE random walk with drift,NA,NA
+HU,Total,2002,72.505546,ASDR random walk with drift,NA,NA
+HU,Total,2003,72.504545,Lee-Carter,NA,NA
+HU,Total,2003,72.504545,LE random walk with drift,NA,NA
+HU,Total,2003,72.504545,ASDR random walk with drift,NA,NA
+HU,Total,2004,72.914993,Lee-Carter,NA,NA
+HU,Total,2004,72.914993,LE random walk with drift,NA,NA
+HU,Total,2004,72.914993,ASDR random walk with drift,NA,NA
+HU,Total,2005,72.86567,Lee-Carter,NA,NA
+HU,Total,2005,72.86567,LE random walk with drift,NA,NA
+HU,Total,2005,72.86567,ASDR random walk with drift,NA,NA
+HU,Total,2006,73.350385,Lee-Carter,NA,NA
+HU,Total,2006,73.350385,LE random walk with drift,NA,NA
+HU,Total,2006,73.350385,ASDR random walk with drift,NA,NA
+HU,Total,2007,73.422671,Lee-Carter,NA,NA
+HU,Total,2007,73.422671,LE random walk with drift,NA,NA
+HU,Total,2007,73.422671,ASDR random walk with drift,NA,NA
+HU,Total,2008,73.945383,Lee-Carter,NA,NA
+HU,Total,2008,73.945383,LE random walk with drift,NA,NA
+HU,Total,2008,73.945383,ASDR random walk with drift,NA,NA
+HU,Total,2009,74.182258,Lee-Carter,NA,NA
+HU,Total,2009,74.182258,LE random walk with drift,NA,NA
+HU,Total,2009,74.182258,ASDR random walk with drift,NA,NA
+HU,Total,2010,74.506064,Lee-Carter,NA,NA
+HU,Total,2010,74.506064,LE random walk with drift,NA,NA
+HU,Total,2010,74.506064,ASDR random walk with drift,NA,NA
+HU,Total,2011,74.914328,Lee-Carter,NA,NA
+HU,Total,2011,74.914328,LE random walk with drift,NA,NA
+HU,Total,2011,74.914328,ASDR random walk with drift,NA,NA
+HU,Total,2012,75.184747,Lee-Carter,NA,NA
+HU,Total,2012,75.184747,LE random walk with drift,NA,NA
+HU,Total,2012,75.184747,ASDR random walk with drift,NA,NA
+HU,Total,2013,75.679282,Lee-Carter,NA,NA
+HU,Total,2013,75.679282,LE random walk with drift,NA,NA
+HU,Total,2013,75.679282,ASDR random walk with drift,NA,NA
+HU,Total,2014,75.863964,Lee-Carter,NA,NA
+HU,Total,2014,75.863964,LE random walk with drift,NA,NA
+HU,Total,2014,75.863964,ASDR random walk with drift,NA,NA
+HU,Total,2015,75.657852,Lee-Carter,NA,NA
+HU,Total,2015,75.657852,LE random walk with drift,NA,NA
+HU,Total,2015,75.657852,ASDR random walk with drift,NA,NA
+HU,Total,2016,76.156577,Lee-Carter,NA,NA
+HU,Total,2016,76.156577,LE random walk with drift,NA,NA
+HU,Total,2016,76.156577,ASDR random walk with drift,NA,NA
+HU,Total,2017,76.007756,Lee-Carter,NA,NA
+HU,Total,2017,76.007756,LE random walk with drift,NA,NA
+HU,Total,2017,76.007756,ASDR random walk with drift,NA,NA
+HU,Total,2018,76.208657,Lee-Carter,NA,NA
+HU,Total,2018,76.208657,LE random walk with drift,NA,NA
+HU,Total,2018,76.208657,ASDR random walk with drift,NA,NA
+HU,Total,2019,76.451684,Lee-Carter,NA,NA
+HU,Total,2019,76.451684,LE random walk with drift,NA,NA
+HU,Total,2019,76.451684,ASDR random walk with drift,NA,NA
+HU,Total,2020,75.735642,Lee-Carter,76.665341,-0.929699
+HU,Total,2020,75.735642,LE random walk with drift,76.698419,-0.962777
+HU,Total,2020,75.735642,ASDR random walk with drift,76.656377,-0.920735
+HU,Total,2021,74.243498,Lee-Carter,76.873541,-2.630043
+HU,Total,2021,74.243498,LE random walk with drift,76.945154,-2.701656
+HU,Total,2021,74.243498,ASDR random walk with drift,76.858121,-2.614622
+HU,Total,2022,76.101903,Lee-Carter,77.041539,-0.939636
+HU,Total,2022,76.101903,LE random walk with drift,77.191889,-1.089986
+HU,Total,2022,76.101903,ASDR random walk with drift,77.056782,-0.954879
+HU,Total,2023,77.081639,Lee-Carter,77.204398,-0.12276
+HU,Total,2023,77.081639,LE random walk with drift,77.438624,-0.356985
+HU,Total,2023,77.081639,ASDR random walk with drift,77.252473,-0.170834
+HU,Total,2024,77.322378,Lee-Carter,77.360627,-0.038248
+HU,Total,2024,77.322378,LE random walk with drift,77.685359,-0.36298
+HU,Total,2024,77.322378,ASDR random walk with drift,77.445299,-0.12292
+IL,Total,2000,78.822573,Lee-Carter,NA,NA
+IL,Total,2000,78.822573,LE random walk with drift,NA,NA
+IL,Total,2000,78.822573,ASDR random walk with drift,NA,NA
+IL,Total,2001,79.269944,Lee-Carter,NA,NA
+IL,Total,2001,79.269944,LE random walk with drift,NA,NA
+IL,Total,2001,79.269944,ASDR random walk with drift,NA,NA
+IL,Total,2002,79.292297,Lee-Carter,NA,NA
+IL,Total,2002,79.292297,LE random walk with drift,NA,NA
+IL,Total,2002,79.292297,ASDR random walk with drift,NA,NA
+IL,Total,2003,79.634107,Lee-Carter,NA,NA
+IL,Total,2003,79.634107,LE random walk with drift,NA,NA
+IL,Total,2003,79.634107,ASDR random walk with drift,NA,NA
+IL,Total,2004,80.095109,Lee-Carter,NA,NA
+IL,Total,2004,80.095109,LE random walk with drift,NA,NA
+IL,Total,2004,80.095109,ASDR random walk with drift,NA,NA
+IL,Total,2005,80.200477,Lee-Carter,NA,NA
+IL,Total,2005,80.200477,LE random walk with drift,NA,NA
+IL,Total,2005,80.200477,ASDR random walk with drift,NA,NA
+IL,Total,2006,80.565467,Lee-Carter,NA,NA
+IL,Total,2006,80.565467,LE random walk with drift,NA,NA
+IL,Total,2006,80.565467,ASDR random walk with drift,NA,NA
+IL,Total,2007,80.68702,Lee-Carter,NA,NA
+IL,Total,2007,80.68702,LE random walk with drift,NA,NA
+IL,Total,2007,80.68702,ASDR random walk with drift,NA,NA
+IL,Total,2008,81.027974,Lee-Carter,NA,NA
+IL,Total,2008,81.027974,LE random walk with drift,NA,NA
+IL,Total,2008,81.027974,ASDR random walk with drift,NA,NA
+IL,Total,2009,81.536174,Lee-Carter,NA,NA
+IL,Total,2009,81.536174,LE random walk with drift,NA,NA
+IL,Total,2009,81.536174,ASDR random walk with drift,NA,NA
+IL,Total,2010,81.658228,Lee-Carter,NA,NA
+IL,Total,2010,81.658228,LE random walk with drift,NA,NA
+IL,Total,2010,81.658228,ASDR random walk with drift,NA,NA
+IL,Total,2011,81.70558,Lee-Carter,NA,NA
+IL,Total,2011,81.70558,LE random walk with drift,NA,NA
+IL,Total,2011,81.70558,ASDR random walk with drift,NA,NA
+IL,Total,2012,81.76041,Lee-Carter,NA,NA
+IL,Total,2012,81.76041,LE random walk with drift,NA,NA
+IL,Total,2012,81.76041,ASDR random walk with drift,NA,NA
+IL,Total,2013,82.113395,Lee-Carter,NA,NA
+IL,Total,2013,82.113395,LE random walk with drift,NA,NA
+IL,Total,2013,82.113395,ASDR random walk with drift,NA,NA
+IL,Total,2014,82.269412,Lee-Carter,NA,NA
+IL,Total,2014,82.269412,LE random walk with drift,NA,NA
+IL,Total,2014,82.269412,ASDR random walk with drift,NA,NA
+IL,Total,2015,82.162745,Lee-Carter,NA,NA
+IL,Total,2015,82.162745,LE random walk with drift,NA,NA
+IL,Total,2015,82.162745,ASDR random walk with drift,NA,NA
+IL,Total,2016,82.505514,Lee-Carter,NA,NA
+IL,Total,2016,82.505514,LE random walk with drift,NA,NA
+IL,Total,2016,82.505514,ASDR random walk with drift,NA,NA
+IL,Total,2017,82.465851,Lee-Carter,NA,NA
+IL,Total,2017,82.465851,LE random walk with drift,NA,NA
+IL,Total,2017,82.465851,ASDR random walk with drift,NA,NA
+IL,Total,2018,82.747488,Lee-Carter,NA,NA
+IL,Total,2018,82.747488,LE random walk with drift,NA,NA
+IL,Total,2018,82.747488,ASDR random walk with drift,NA,NA
+IL,Total,2019,82.693267,Lee-Carter,NA,NA
+IL,Total,2019,82.693267,LE random walk with drift,NA,NA
+IL,Total,2019,82.693267,ASDR random walk with drift,NA,NA
+IL,Total,2020,82.425244,Lee-Carter,82.861479,-0.436236
+IL,Total,2020,82.425244,LE random walk with drift,82.896988,-0.471744
+IL,Total,2020,82.425244,ASDR random walk with drift,82.873957,-0.448713
+IL,Total,2021,82.12379,Lee-Carter,82.955342,-0.831552
+IL,Total,2021,82.12379,LE random walk with drift,83.100709,-0.976918
+IL,Total,2021,82.12379,ASDR random walk with drift,83.05262,-0.92883
+IL,Total,2022,82.217859,Lee-Carter,83.056445,-0.838585
+IL,Total,2022,82.217859,LE random walk with drift,83.304429,-1.08657
+IL,Total,2022,82.217859,ASDR random walk with drift,83.229035,-1.011176
+IL,Total,2023,82.580529,Lee-Carter,83.14567,-0.565141
+IL,Total,2023,82.580529,LE random walk with drift,83.50815,-0.927622
+IL,Total,2023,82.580529,ASDR random walk with drift,83.40321,-0.822682
+IL,Total,2024,82.392587,Lee-Carter,83.243598,-0.851011
+IL,Total,2024,82.392587,LE random walk with drift,83.711871,-1.319284
+IL,Total,2024,82.392587,ASDR random walk with drift,83.575156,-1.182569
+IS,Total,2000,79.689758,Lee-Carter,NA,NA
+IS,Total,2000,79.689758,LE random walk with drift,NA,NA
+IS,Total,2000,79.689758,ASDR random walk with drift,NA,NA
+IS,Total,2001,80.684656,Lee-Carter,NA,NA
+IS,Total,2001,80.684656,LE random walk with drift,NA,NA
+IS,Total,2001,80.684656,ASDR random walk with drift,NA,NA
+IS,Total,2002,80.519032,Lee-Carter,NA,NA
+IS,Total,2002,80.519032,LE random walk with drift,NA,NA
+IS,Total,2002,80.519032,ASDR random walk with drift,NA,NA
+IS,Total,2003,81.115803,Lee-Carter,NA,NA
+IS,Total,2003,81.115803,LE random walk with drift,NA,NA
+IS,Total,2003,81.115803,ASDR random walk with drift,NA,NA
+IS,Total,2004,81.024149,Lee-Carter,NA,NA
+IS,Total,2004,81.024149,LE random walk with drift,NA,NA
+IS,Total,2004,81.024149,ASDR random walk with drift,NA,NA
+IS,Total,2005,81.333489,Lee-Carter,NA,NA
+IS,Total,2005,81.333489,LE random walk with drift,NA,NA
+IS,Total,2005,81.333489,ASDR random walk with drift,NA,NA
+IS,Total,2006,81.167693,Lee-Carter,NA,NA
+IS,Total,2006,81.167693,LE random walk with drift,NA,NA
+IS,Total,2006,81.167693,ASDR random walk with drift,NA,NA
+IS,Total,2007,81.316444,Lee-Carter,NA,NA
+IS,Total,2007,81.316444,LE random walk with drift,NA,NA
+IS,Total,2007,81.316444,ASDR random walk with drift,NA,NA
+IS,Total,2008,81.410774,Lee-Carter,NA,NA
+IS,Total,2008,81.410774,LE random walk with drift,NA,NA
+IS,Total,2008,81.410774,ASDR random walk with drift,NA,NA
+IS,Total,2009,81.729238,Lee-Carter,NA,NA
+IS,Total,2009,81.729238,LE random walk with drift,NA,NA
+IS,Total,2009,81.729238,ASDR random walk with drift,NA,NA
+IS,Total,2010,81.83233,Lee-Carter,NA,NA
+IS,Total,2010,81.83233,LE random walk with drift,NA,NA
+IS,Total,2010,81.83233,ASDR random walk with drift,NA,NA
+IS,Total,2011,82.233462,Lee-Carter,NA,NA
+IS,Total,2011,82.233462,LE random walk with drift,NA,NA
+IS,Total,2011,82.233462,ASDR random walk with drift,NA,NA
+IS,Total,2012,82.602909,Lee-Carter,NA,NA
+IS,Total,2012,82.602909,LE random walk with drift,NA,NA
+IS,Total,2012,82.602909,ASDR random walk with drift,NA,NA
+IS,Total,2013,82.012508,Lee-Carter,NA,NA
+IS,Total,2013,82.012508,LE random walk with drift,NA,NA
+IS,Total,2013,82.012508,ASDR random walk with drift,NA,NA
+IS,Total,2014,82.676994,Lee-Carter,NA,NA
+IS,Total,2014,82.676994,LE random walk with drift,NA,NA
+IS,Total,2014,82.676994,ASDR random walk with drift,NA,NA
+IS,Total,2015,82.402272,Lee-Carter,NA,NA
+IS,Total,2015,82.402272,LE random walk with drift,NA,NA
+IS,Total,2015,82.402272,ASDR random walk with drift,NA,NA
+IS,Total,2016,82.096816,Lee-Carter,NA,NA
+IS,Total,2016,82.096816,LE random walk with drift,NA,NA
+IS,Total,2016,82.096816,ASDR random walk with drift,NA,NA
+IS,Total,2017,82.407045,Lee-Carter,NA,NA
+IS,Total,2017,82.407045,LE random walk with drift,NA,NA
+IS,Total,2017,82.407045,ASDR random walk with drift,NA,NA
+IS,Total,2018,82.697185,Lee-Carter,NA,NA
+IS,Total,2018,82.697185,LE random walk with drift,NA,NA
+IS,Total,2018,82.697185,ASDR random walk with drift,NA,NA
+IS,Total,2019,82.916048,Lee-Carter,NA,NA
+IS,Total,2019,82.916048,LE random walk with drift,NA,NA
+IS,Total,2019,82.916048,ASDR random walk with drift,NA,NA
+IS,Total,2020,82.792214,Lee-Carter,82.810698,-0.018484
+IS,Total,2020,82.792214,LE random walk with drift,83.085853,-0.293639
+IS,Total,2020,82.792214,ASDR random walk with drift,83.048809,-0.256595
+IS,Total,2021,82.903141,Lee-Carter,82.884557,0.018584
+IS,Total,2021,82.903141,LE random walk with drift,83.255657,-0.352517
+IS,Total,2021,82.903141,ASDR random walk with drift,83.188715,-0.285575
+IS,Total,2022,82.097165,Lee-Carter,82.956137,-0.858971
+IS,Total,2022,82.097165,LE random walk with drift,83.425462,-1.328297
+IS,Total,2022,82.097165,ASDR random walk with drift,83.326661,-1.229496
+IS,Total,2023,82.371209,Lee-Carter,82.979216,-0.608007
+IS,Total,2023,82.371209,LE random walk with drift,83.595267,-1.224057
+IS,Total,2023,82.371209,ASDR random walk with drift,83.462704,-1.091495
+IS,Total,2024,82.592126,Lee-Carter,83.048568,-0.456442
+IS,Total,2024,82.592126,LE random walk with drift,83.765072,-1.172946
+IS,Total,2024,82.592126,ASDR random walk with drift,83.596895,-1.004769
+IT,Total,2000,NA,Lee-Carter,NA,NA
+IT,Total,2000,NA,LE random walk with drift,NA,NA
+IT,Total,2000,NA,ASDR random walk with drift,NA,NA
+IT,Total,2001,NA,Lee-Carter,NA,NA
+IT,Total,2001,NA,LE random walk with drift,NA,NA
+IT,Total,2001,NA,ASDR random walk with drift,NA,NA
+IT,Total,2002,NA,Lee-Carter,NA,NA
+IT,Total,2002,NA,LE random walk with drift,NA,NA
+IT,Total,2002,NA,ASDR random walk with drift,NA,NA
+IT,Total,2003,NA,Lee-Carter,NA,NA
+IT,Total,2003,NA,LE random walk with drift,NA,NA
+IT,Total,2003,NA,ASDR random walk with drift,NA,NA
+IT,Total,2004,NA,Lee-Carter,NA,NA
+IT,Total,2004,NA,LE random walk with drift,NA,NA
+IT,Total,2004,NA,ASDR random walk with drift,NA,NA
+IT,Total,2005,NA,Lee-Carter,NA,NA
+IT,Total,2005,NA,LE random walk with drift,NA,NA
+IT,Total,2005,NA,ASDR random walk with drift,NA,NA
+IT,Total,2006,NA,Lee-Carter,NA,NA
+IT,Total,2006,NA,LE random walk with drift,NA,NA
+IT,Total,2006,NA,ASDR random walk with drift,NA,NA
+IT,Total,2007,NA,Lee-Carter,NA,NA
+IT,Total,2007,NA,LE random walk with drift,NA,NA
+IT,Total,2007,NA,ASDR random walk with drift,NA,NA
+IT,Total,2008,NA,Lee-Carter,NA,NA
+IT,Total,2008,NA,LE random walk with drift,NA,NA
+IT,Total,2008,NA,ASDR random walk with drift,NA,NA
+IT,Total,2009,NA,Lee-Carter,NA,NA
+IT,Total,2009,NA,LE random walk with drift,NA,NA
+IT,Total,2009,NA,ASDR random walk with drift,NA,NA
+IT,Total,2010,NA,Lee-Carter,NA,NA
+IT,Total,2010,NA,LE random walk with drift,NA,NA
+IT,Total,2010,NA,ASDR random walk with drift,NA,NA
+IT,Total,2011,82.250891,Lee-Carter,NA,NA
+IT,Total,2011,82.250891,LE random walk with drift,NA,NA
+IT,Total,2011,82.250891,ASDR random walk with drift,NA,NA
+IT,Total,2012,82.248064,Lee-Carter,NA,NA
+IT,Total,2012,82.248064,LE random walk with drift,NA,NA
+IT,Total,2012,82.248064,ASDR random walk with drift,NA,NA
+IT,Total,2013,82.651917,Lee-Carter,NA,NA
+IT,Total,2013,82.651917,LE random walk with drift,NA,NA
+IT,Total,2013,82.651917,ASDR random walk with drift,NA,NA
+IT,Total,2014,82.909442,Lee-Carter,NA,NA
+IT,Total,2014,82.909442,LE random walk with drift,NA,NA
+IT,Total,2014,82.909442,ASDR random walk with drift,NA,NA
+IT,Total,2015,82.512603,Lee-Carter,NA,NA
+IT,Total,2015,82.512603,LE random walk with drift,NA,NA
+IT,Total,2015,82.512603,ASDR random walk with drift,NA,NA
+IT,Total,2016,83.049615,Lee-Carter,NA,NA
+IT,Total,2016,83.049615,LE random walk with drift,NA,NA
+IT,Total,2016,83.049615,ASDR random walk with drift,NA,NA
+IT,Total,2017,82.750139,Lee-Carter,NA,NA
+IT,Total,2017,82.750139,LE random walk with drift,NA,NA
+IT,Total,2017,82.750139,ASDR random walk with drift,NA,NA
+IT,Total,2018,83.192943,Lee-Carter,NA,NA
+IT,Total,2018,83.192943,LE random walk with drift,NA,NA
+IT,Total,2018,83.192943,ASDR random walk with drift,NA,NA
+IT,Total,2019,83.351391,Lee-Carter,NA,NA
+IT,Total,2019,83.351391,LE random walk with drift,NA,NA
+IT,Total,2019,83.351391,ASDR random walk with drift,NA,NA
+IT,Total,2020,82.194137,Lee-Carter,83.435646,-1.241509
+IT,Total,2020,82.194137,LE random walk with drift,83.488953,-1.294816
+IT,Total,2020,82.194137,ASDR random walk with drift,83.483595,-1.289458
+IT,Total,2021,82.553914,Lee-Carter,83.593235,-1.039321
+IT,Total,2021,82.553914,LE random walk with drift,83.626516,-1.072602
+IT,Total,2021,82.553914,ASDR random walk with drift,83.614673,-1.060759
+IT,Total,2022,82.703874,Lee-Carter,83.693206,-0.989332
+IT,Total,2022,82.703874,LE random walk with drift,83.764078,-1.060204
+IT,Total,2022,82.703874,ASDR random walk with drift,83.744603,-1.040729
+IT,Total,2023,83.41682,Lee-Carter,83.791648,-0.374828
+IT,Total,2023,83.41682,LE random walk with drift,83.90164,-0.484821
+IT,Total,2023,83.41682,ASDR random walk with drift,83.873393,-0.456573
+IT,Total,2024,83.747427,Lee-Carter,83.888594,-0.141167
+IT,Total,2024,83.747427,LE random walk with drift,84.039203,-0.291776
+IT,Total,2024,83.747427,ASDR random walk with drift,84.00105,-0.253623
+JP,Total,2000,81.215107,Lee-Carter,NA,NA
+JP,Total,2000,81.215107,LE random walk with drift,NA,NA
+JP,Total,2000,81.215107,ASDR random walk with drift,NA,NA
+JP,Total,2001,81.552323,Lee-Carter,NA,NA
+JP,Total,2001,81.552323,LE random walk with drift,NA,NA
+JP,Total,2001,81.552323,ASDR random walk with drift,NA,NA
+JP,Total,2002,81.840647,Lee-Carter,NA,NA
+JP,Total,2002,81.840647,LE random walk with drift,NA,NA
+JP,Total,2002,81.840647,ASDR random walk with drift,NA,NA
+JP,Total,2003,81.906525,Lee-Carter,NA,NA
+JP,Total,2003,81.906525,LE random walk with drift,NA,NA
+JP,Total,2003,81.906525,ASDR random walk with drift,NA,NA
+JP,Total,2004,82.163355,Lee-Carter,NA,NA
+JP,Total,2004,82.163355,LE random walk with drift,NA,NA
+JP,Total,2004,82.163355,ASDR random walk with drift,NA,NA
+JP,Total,2005,82.062216,Lee-Carter,NA,NA
+JP,Total,2005,82.062216,LE random walk with drift,NA,NA
+JP,Total,2005,82.062216,ASDR random walk with drift,NA,NA
+JP,Total,2006,82.427419,Lee-Carter,NA,NA
+JP,Total,2006,82.427419,LE random walk with drift,NA,NA
+JP,Total,2006,82.427419,ASDR random walk with drift,NA,NA
+JP,Total,2007,82.60825,Lee-Carter,NA,NA
+JP,Total,2007,82.60825,LE random walk with drift,NA,NA
+JP,Total,2007,82.60825,ASDR random walk with drift,NA,NA
+JP,Total,2008,82.684648,Lee-Carter,NA,NA
+JP,Total,2008,82.684648,LE random walk with drift,NA,NA
+JP,Total,2008,82.684648,ASDR random walk with drift,NA,NA
+JP,Total,2009,83.034416,Lee-Carter,NA,NA
+JP,Total,2009,83.034416,LE random walk with drift,NA,NA
+JP,Total,2009,83.034416,ASDR random walk with drift,NA,NA
+JP,Total,2010,82.971509,Lee-Carter,NA,NA
+JP,Total,2010,82.971509,LE random walk with drift,NA,NA
+JP,Total,2010,82.971509,ASDR random walk with drift,NA,NA
+JP,Total,2011,82.727932,Lee-Carter,NA,NA
+JP,Total,2011,82.727932,LE random walk with drift,NA,NA
+JP,Total,2011,82.727932,ASDR random walk with drift,NA,NA
+JP,Total,2012,83.224632,Lee-Carter,NA,NA
+JP,Total,2012,83.224632,LE random walk with drift,NA,NA
+JP,Total,2012,83.224632,ASDR random walk with drift,NA,NA
+JP,Total,2013,83.457996,Lee-Carter,NA,NA
+JP,Total,2013,83.457996,LE random walk with drift,NA,NA
+JP,Total,2013,83.457996,ASDR random walk with drift,NA,NA
+JP,Total,2014,83.711291,Lee-Carter,NA,NA
+JP,Total,2014,83.711291,LE random walk with drift,NA,NA
+JP,Total,2014,83.711291,ASDR random walk with drift,NA,NA
+JP,Total,2015,83.947334,Lee-Carter,NA,NA
+JP,Total,2015,83.947334,LE random walk with drift,NA,NA
+JP,Total,2015,83.947334,ASDR random walk with drift,NA,NA
+JP,Total,2016,84.117206,Lee-Carter,NA,NA
+JP,Total,2016,84.117206,LE random walk with drift,NA,NA
+JP,Total,2016,84.117206,ASDR random walk with drift,NA,NA
+JP,Total,2017,84.238906,Lee-Carter,NA,NA
+JP,Total,2017,84.238906,LE random walk with drift,NA,NA
+JP,Total,2017,84.238906,ASDR random walk with drift,NA,NA
+JP,Total,2018,84.358016,Lee-Carter,NA,NA
+JP,Total,2018,84.358016,LE random walk with drift,NA,NA
+JP,Total,2018,84.358016,ASDR random walk with drift,NA,NA
+JP,Total,2019,84.487665,Lee-Carter,NA,NA
+JP,Total,2019,84.487665,LE random walk with drift,NA,NA
+JP,Total,2019,84.487665,ASDR random walk with drift,NA,NA
+JP,Total,2020,84.75103,Lee-Carter,84.677612,0.073419
+JP,Total,2020,84.75103,LE random walk with drift,84.659904,0.091126
+JP,Total,2020,84.75103,ASDR random walk with drift,84.64637,0.104661
+JP,Total,2021,84.614807,Lee-Carter,84.840309,-0.225502
+JP,Total,2021,84.614807,LE random walk with drift,84.832144,-0.217337
+JP,Total,2021,84.614807,ASDR random walk with drift,84.803763,-0.188955
+JP,Total,2022,84.119124,Lee-Carter,85.011017,-0.891892
+JP,Total,2022,84.119124,LE random walk with drift,85.004384,-0.88526
+JP,Total,2022,84.119124,ASDR random walk with drift,84.959834,-0.84071
+JP,Total,2023,84.176171,Lee-Carter,85.191898,-1.015727
+JP,Total,2023,84.176171,LE random walk with drift,85.176624,-1.000453
+JP,Total,2023,84.176171,ASDR random walk with drift,85.114589,-0.938418
+JP,Total,2024,84.16792,Lee-Carter,85.355515,-1.187595
+JP,Total,2024,84.16792,LE random walk with drift,85.348864,-1.180944
+JP,Total,2024,84.16792,ASDR random walk with drift,85.268032,-1.100112
+LT,Total,2000,72.149949,Lee-Carter,NA,NA
+LT,Total,2000,72.149949,LE random walk with drift,NA,NA
+LT,Total,2000,72.149949,ASDR random walk with drift,NA,NA
+LT,Total,2001,71.719941,Lee-Carter,NA,NA
+LT,Total,2001,71.719941,LE random walk with drift,NA,NA
+LT,Total,2001,71.719941,ASDR random walk with drift,NA,NA
+LT,Total,2002,71.847899,Lee-Carter,NA,NA
+LT,Total,2002,71.847899,LE random walk with drift,NA,NA
+LT,Total,2002,71.847899,ASDR random walk with drift,NA,NA
+LT,Total,2003,72.079495,Lee-Carter,NA,NA
+LT,Total,2003,72.079495,LE random walk with drift,NA,NA
+LT,Total,2003,72.079495,ASDR random walk with drift,NA,NA
+LT,Total,2004,72.000949,Lee-Carter,NA,NA
+LT,Total,2004,72.000949,LE random walk with drift,NA,NA
+LT,Total,2004,72.000949,ASDR random walk with drift,NA,NA
+LT,Total,2005,71.242653,Lee-Carter,NA,NA
+LT,Total,2005,71.242653,LE random walk with drift,NA,NA
+LT,Total,2005,71.242653,ASDR random walk with drift,NA,NA
+LT,Total,2006,70.943443,Lee-Carter,NA,NA
+LT,Total,2006,70.943443,LE random walk with drift,NA,NA
+LT,Total,2006,70.943443,ASDR random walk with drift,NA,NA
+LT,Total,2007,70.687342,Lee-Carter,NA,NA
+LT,Total,2007,70.687342,LE random walk with drift,NA,NA
+LT,Total,2007,70.687342,ASDR random walk with drift,NA,NA
+LT,Total,2008,71.688963,Lee-Carter,NA,NA
+LT,Total,2008,71.688963,LE random walk with drift,NA,NA
+LT,Total,2008,71.688963,ASDR random walk with drift,NA,NA
+LT,Total,2009,72.84616,Lee-Carter,NA,NA
+LT,Total,2009,72.84616,LE random walk with drift,NA,NA
+LT,Total,2009,72.84616,ASDR random walk with drift,NA,NA
+LT,Total,2010,73.177491,Lee-Carter,NA,NA
+LT,Total,2010,73.177491,LE random walk with drift,NA,NA
+LT,Total,2010,73.177491,ASDR random walk with drift,NA,NA
+LT,Total,2011,73.613637,Lee-Carter,NA,NA
+LT,Total,2011,73.613637,LE random walk with drift,NA,NA
+LT,Total,2011,73.613637,ASDR random walk with drift,NA,NA
+LT,Total,2012,73.959845,Lee-Carter,NA,NA
+LT,Total,2012,73.959845,LE random walk with drift,NA,NA
+LT,Total,2012,73.959845,ASDR random walk with drift,NA,NA
+LT,Total,2013,74.03394,Lee-Carter,NA,NA
+LT,Total,2013,74.03394,LE random walk with drift,NA,NA
+LT,Total,2013,74.03394,ASDR random walk with drift,NA,NA
+LT,Total,2014,74.617691,Lee-Carter,NA,NA
+LT,Total,2014,74.617691,LE random walk with drift,NA,NA
+LT,Total,2014,74.617691,ASDR random walk with drift,NA,NA
+LT,Total,2015,74.528787,Lee-Carter,NA,NA
+LT,Total,2015,74.528787,LE random walk with drift,NA,NA
+LT,Total,2015,74.528787,ASDR random walk with drift,NA,NA
+LT,Total,2016,74.894758,Lee-Carter,NA,NA
+LT,Total,2016,74.894758,LE random walk with drift,NA,NA
+LT,Total,2016,74.894758,ASDR random walk with drift,NA,NA
+LT,Total,2017,75.77572,Lee-Carter,NA,NA
+LT,Total,2017,75.77572,LE random walk with drift,NA,NA
+LT,Total,2017,75.77572,ASDR random walk with drift,NA,NA
+LT,Total,2018,75.996418,Lee-Carter,NA,NA
+LT,Total,2018,75.996418,LE random walk with drift,NA,NA
+LT,Total,2018,75.996418,ASDR random walk with drift,NA,NA
+LT,Total,2019,76.519694,Lee-Carter,NA,NA
+LT,Total,2019,76.519694,LE random walk with drift,NA,NA
+LT,Total,2019,76.519694,ASDR random walk with drift,NA,NA
+LT,Total,2020,75.232805,Lee-Carter,76.732517,-1.499712
+LT,Total,2020,75.232805,LE random walk with drift,76.749681,-1.516876
+LT,Total,2020,75.232805,ASDR random walk with drift,76.716148,-1.483343
+LT,Total,2021,74.28797,Lee-Carter,77.035667,-2.747697
+LT,Total,2021,74.28797,LE random walk with drift,76.979668,-2.691698
+LT,Total,2021,74.28797,ASDR random walk with drift,76.910638,-2.622668
+LT,Total,2022,75.85494,Lee-Carter,77.339502,-1.484562
+LT,Total,2022,75.85494,LE random walk with drift,77.209654,-1.354714
+LT,Total,2022,75.85494,ASDR random walk with drift,77.102486,-1.247546
+LT,Total,2023,77.445238,Lee-Carter,77.612021,-0.166782
+LT,Total,2023,77.445238,LE random walk with drift,77.439641,0.005598
+LT,Total,2023,77.445238,ASDR random walk with drift,77.291755,0.153483
+LT,Total,2024,77.469631,Lee-Carter,77.888834,-0.419203
+LT,Total,2024,77.469631,LE random walk with drift,77.669627,-0.199996
+LT,Total,2024,77.469631,ASDR random walk with drift,77.478508,-0.008876
+LU,Total,2000,77.697967,Lee-Carter,NA,NA
+LU,Total,2000,77.697967,LE random walk with drift,NA,NA
+LU,Total,2000,77.697967,ASDR random walk with drift,NA,NA
+LU,Total,2001,77.831006,Lee-Carter,NA,NA
+LU,Total,2001,77.831006,LE random walk with drift,NA,NA
+LU,Total,2001,77.831006,ASDR random walk with drift,NA,NA
+LU,Total,2002,77.932273,Lee-Carter,NA,NA
+LU,Total,2002,77.932273,LE random walk with drift,NA,NA
+LU,Total,2002,77.932273,ASDR random walk with drift,NA,NA
+LU,Total,2003,77.752861,Lee-Carter,NA,NA
+LU,Total,2003,77.752861,LE random walk with drift,NA,NA
+LU,Total,2003,77.752861,ASDR random walk with drift,NA,NA
+LU,Total,2004,79.179514,Lee-Carter,NA,NA
+LU,Total,2004,79.179514,LE random walk with drift,NA,NA
+LU,Total,2004,79.179514,ASDR random walk with drift,NA,NA
+LU,Total,2005,79.530021,Lee-Carter,NA,NA
+LU,Total,2005,79.530021,LE random walk with drift,NA,NA
+LU,Total,2005,79.530021,ASDR random walk with drift,NA,NA
+LU,Total,2006,79.356503,Lee-Carter,NA,NA
+LU,Total,2006,79.356503,LE random walk with drift,NA,NA
+LU,Total,2006,79.356503,ASDR random walk with drift,NA,NA
+LU,Total,2007,79.468983,Lee-Carter,NA,NA
+LU,Total,2007,79.468983,LE random walk with drift,NA,NA
+LU,Total,2007,79.468983,ASDR random walk with drift,NA,NA
+LU,Total,2008,80.570979,Lee-Carter,NA,NA
+LU,Total,2008,80.570979,LE random walk with drift,NA,NA
+LU,Total,2008,80.570979,ASDR random walk with drift,NA,NA
+LU,Total,2009,80.70522,Lee-Carter,NA,NA
+LU,Total,2009,80.70522,LE random walk with drift,NA,NA
+LU,Total,2009,80.70522,ASDR random walk with drift,NA,NA
+LU,Total,2010,80.615927,Lee-Carter,NA,NA
+LU,Total,2010,80.615927,LE random walk with drift,NA,NA
+LU,Total,2010,80.615927,ASDR random walk with drift,NA,NA
+LU,Total,2011,80.75629,Lee-Carter,NA,NA
+LU,Total,2011,80.75629,LE random walk with drift,NA,NA
+LU,Total,2011,80.75629,ASDR random walk with drift,NA,NA
+LU,Total,2012,81.142234,Lee-Carter,NA,NA
+LU,Total,2012,81.142234,LE random walk with drift,NA,NA
+LU,Total,2012,81.142234,ASDR random walk with drift,NA,NA
+LU,Total,2013,81.377973,Lee-Carter,NA,NA
+LU,Total,2013,81.377973,LE random walk with drift,NA,NA
+LU,Total,2013,81.377973,ASDR random walk with drift,NA,NA
+LU,Total,2014,81.822809,Lee-Carter,NA,NA
+LU,Total,2014,81.822809,LE random walk with drift,NA,NA
+LU,Total,2014,81.822809,ASDR random walk with drift,NA,NA
+LU,Total,2015,82.018134,Lee-Carter,NA,NA
+LU,Total,2015,82.018134,LE random walk with drift,NA,NA
+LU,Total,2015,82.018134,ASDR random walk with drift,NA,NA
+LU,Total,2016,82.242966,Lee-Carter,NA,NA
+LU,Total,2016,82.242966,LE random walk with drift,NA,NA
+LU,Total,2016,82.242966,ASDR random walk with drift,NA,NA
+LU,Total,2017,81.773864,Lee-Carter,NA,NA
+LU,Total,2017,81.773864,LE random walk with drift,NA,NA
+LU,Total,2017,81.773864,ASDR random walk with drift,NA,NA
+LU,Total,2018,81.947024,Lee-Carter,NA,NA
+LU,Total,2018,81.947024,LE random walk with drift,NA,NA
+LU,Total,2018,81.947024,ASDR random walk with drift,NA,NA
+LU,Total,2019,82.305963,Lee-Carter,NA,NA
+LU,Total,2019,82.305963,LE random walk with drift,NA,NA
+LU,Total,2019,82.305963,ASDR random walk with drift,NA,NA
+LU,Total,2020,81.951091,Lee-Carter,82.598259,-0.647168
+LU,Total,2020,81.951091,LE random walk with drift,82.548489,-0.597397
+LU,Total,2020,81.951091,ASDR random walk with drift,82.510341,-0.55925
+LU,Total,2021,82.450859,Lee-Carter,82.771577,-0.320719
+LU,Total,2021,82.450859,LE random walk with drift,82.791015,-0.340156
+LU,Total,2021,82.450859,ASDR random walk with drift,82.718521,-0.267662
+LU,Total,2022,82.755413,Lee-Carter,82.910115,-0.154702
+LU,Total,2022,82.755413,LE random walk with drift,83.033541,-0.278128
+LU,Total,2022,82.755413,ASDR random walk with drift,82.924042,-0.168629
+LU,Total,2023,83.049494,Lee-Carter,83.019669,0.029826
+LU,Total,2023,83.049494,LE random walk with drift,83.276067,-0.226573
+LU,Total,2023,83.049494,ASDR random walk with drift,83.126955,-0.07746
+LU,Total,2024,83.062026,Lee-Carter,83.167026,-0.105
+LU,Total,2024,83.062026,LE random walk with drift,83.518593,-0.456567
+LU,Total,2024,83.062026,ASDR random walk with drift,83.327308,-0.265281
+LV,Total,2000,70.135076,Lee-Carter,NA,NA
+LV,Total,2000,70.135076,LE random walk with drift,NA,NA
+LV,Total,2000,70.135076,ASDR random walk with drift,NA,NA
+LV,Total,2001,69.867417,Lee-Carter,NA,NA
+LV,Total,2001,69.867417,LE random walk with drift,NA,NA
+LV,Total,2001,69.867417,ASDR random walk with drift,NA,NA
+LV,Total,2002,70.155435,Lee-Carter,NA,NA
+LV,Total,2002,70.155435,LE random walk with drift,NA,NA
+LV,Total,2002,70.155435,ASDR random walk with drift,NA,NA
+LV,Total,2003,70.608333,Lee-Carter,NA,NA
+LV,Total,2003,70.608333,LE random walk with drift,NA,NA
+LV,Total,2003,70.608333,ASDR random walk with drift,NA,NA
+LV,Total,2004,70.904151,Lee-Carter,NA,NA
+LV,Total,2004,70.904151,LE random walk with drift,NA,NA
+LV,Total,2004,70.904151,ASDR random walk with drift,NA,NA
+LV,Total,2005,70.603979,Lee-Carter,NA,NA
+LV,Total,2005,70.603979,LE random walk with drift,NA,NA
+LV,Total,2005,70.603979,ASDR random walk with drift,NA,NA
+LV,Total,2006,70.510884,Lee-Carter,NA,NA
+LV,Total,2006,70.510884,LE random walk with drift,NA,NA
+LV,Total,2006,70.510884,ASDR random walk with drift,NA,NA
+LV,Total,2007,70.775555,Lee-Carter,NA,NA
+LV,Total,2007,70.775555,LE random walk with drift,NA,NA
+LV,Total,2007,70.775555,ASDR random walk with drift,NA,NA
+LV,Total,2008,71.990268,Lee-Carter,NA,NA
+LV,Total,2008,71.990268,LE random walk with drift,NA,NA
+LV,Total,2008,71.990268,ASDR random walk with drift,NA,NA
+LV,Total,2009,72.668562,Lee-Carter,NA,NA
+LV,Total,2009,72.668562,LE random walk with drift,NA,NA
+LV,Total,2009,72.668562,ASDR random walk with drift,NA,NA
+LV,Total,2010,73.014491,Lee-Carter,NA,NA
+LV,Total,2010,73.014491,LE random walk with drift,NA,NA
+LV,Total,2010,73.014491,ASDR random walk with drift,NA,NA
+LV,Total,2011,73.681263,Lee-Carter,NA,NA
+LV,Total,2011,73.681263,LE random walk with drift,NA,NA
+LV,Total,2011,73.681263,ASDR random walk with drift,NA,NA
+LV,Total,2012,73.907048,Lee-Carter,NA,NA
+LV,Total,2012,73.907048,LE random walk with drift,NA,NA
+LV,Total,2012,73.907048,ASDR random walk with drift,NA,NA
+LV,Total,2013,74.132849,Lee-Carter,NA,NA
+LV,Total,2013,74.132849,LE random walk with drift,NA,NA
+LV,Total,2013,74.132849,ASDR random walk with drift,NA,NA
+LV,Total,2014,74.267851,Lee-Carter,NA,NA
+LV,Total,2014,74.267851,LE random walk with drift,NA,NA
+LV,Total,2014,74.267851,ASDR random walk with drift,NA,NA
+LV,Total,2015,74.629051,Lee-Carter,NA,NA
+LV,Total,2015,74.629051,LE random walk with drift,NA,NA
+LV,Total,2015,74.629051,ASDR random walk with drift,NA,NA
+LV,Total,2016,74.734585,Lee-Carter,NA,NA
+LV,Total,2016,74.734585,LE random walk with drift,NA,NA
+LV,Total,2016,74.734585,ASDR random walk with drift,NA,NA
+LV,Total,2017,74.823243,Lee-Carter,NA,NA
+LV,Total,2017,74.823243,LE random walk with drift,NA,NA
+LV,Total,2017,74.823243,ASDR random walk with drift,NA,NA
+LV,Total,2018,74.953662,Lee-Carter,NA,NA
+LV,Total,2018,74.953662,LE random walk with drift,NA,NA
+LV,Total,2018,74.953662,ASDR random walk with drift,NA,NA
+LV,Total,2019,75.633717,Lee-Carter,NA,NA
+LV,Total,2019,75.633717,LE random walk with drift,NA,NA
+LV,Total,2019,75.633717,ASDR random walk with drift,NA,NA
+LV,Total,2020,75.399029,Lee-Carter,75.815855,-0.416826
+LV,Total,2020,75.399029,LE random walk with drift,75.923119,-0.52409
+LV,Total,2020,75.399029,ASDR random walk with drift,75.881649,-0.482619
+LV,Total,2021,73.138889,Lee-Carter,76.090932,-2.952043
+LV,Total,2021,73.138889,LE random walk with drift,76.212521,-3.073633
+LV,Total,2021,73.138889,ASDR random walk with drift,76.12749,-2.988602
+LV,Total,2022,74.496275,Lee-Carter,76.361396,-1.8651199999999999
+LV,Total,2022,74.496275,LE random walk with drift,76.501923,-2.005648
+LV,Total,2022,74.496275,ASDR random walk with drift,76.370157,-1.873881
+LV,Total,2023,75.565575,Lee-Carter,76.621133,-1.055557
+LV,Total,2023,75.565575,LE random walk with drift,76.791326,-1.22575
+LV,Total,2023,75.565575,ASDR random walk with drift,76.60973,-1.044154
+LV,Total,2024,76.441243,Lee-Carter,76.881943,-0.4407
+LV,Total,2024,76.441243,LE random walk with drift,77.080728,-0.639485
+LV,Total,2024,76.441243,ASDR random walk with drift,76.846287,-0.405044
+NL,Total,2000,78.136972,Lee-Carter,NA,NA
+NL,Total,2000,78.136972,LE random walk with drift,NA,NA
+NL,Total,2000,78.136972,ASDR random walk with drift,NA,NA
+NL,Total,2001,78.34077,Lee-Carter,NA,NA
+NL,Total,2001,78.34077,LE random walk with drift,NA,NA
+NL,Total,2001,78.34077,ASDR random walk with drift,NA,NA
+NL,Total,2002,78.415779,Lee-Carter,NA,NA
+NL,Total,2002,78.415779,LE random walk with drift,NA,NA
+NL,Total,2002,78.415779,ASDR random walk with drift,NA,NA
+NL,Total,2003,78.665287,Lee-Carter,NA,NA
+NL,Total,2003,78.665287,LE random walk with drift,NA,NA
+NL,Total,2003,78.665287,ASDR random walk with drift,NA,NA
+NL,Total,2004,79.236032,Lee-Carter,NA,NA
+NL,Total,2004,79.236032,LE random walk with drift,NA,NA
+NL,Total,2004,79.236032,ASDR random walk with drift,NA,NA
+NL,Total,2005,79.493004,Lee-Carter,NA,NA
+NL,Total,2005,79.493004,LE random walk with drift,NA,NA
+NL,Total,2005,79.493004,ASDR random walk with drift,NA,NA
+NL,Total,2006,79.851904,Lee-Carter,NA,NA
+NL,Total,2006,79.851904,LE random walk with drift,NA,NA
+NL,Total,2006,79.851904,ASDR random walk with drift,NA,NA
+NL,Total,2007,80.254461,Lee-Carter,NA,NA
+NL,Total,2007,80.254461,LE random walk with drift,NA,NA
+NL,Total,2007,80.254461,ASDR random walk with drift,NA,NA
+NL,Total,2008,80.388954,Lee-Carter,NA,NA
+NL,Total,2008,80.388954,LE random walk with drift,NA,NA
+NL,Total,2008,80.388954,ASDR random walk with drift,NA,NA
+NL,Total,2009,80.663793,Lee-Carter,NA,NA
+NL,Total,2009,80.663793,LE random walk with drift,NA,NA
+NL,Total,2009,80.663793,ASDR random walk with drift,NA,NA
+NL,Total,2010,80.832822,Lee-Carter,NA,NA
+NL,Total,2010,80.832822,LE random walk with drift,NA,NA
+NL,Total,2010,80.832822,ASDR random walk with drift,NA,NA
+NL,Total,2011,81.111549,Lee-Carter,NA,NA
+NL,Total,2011,81.111549,LE random walk with drift,NA,NA
+NL,Total,2011,81.111549,ASDR random walk with drift,NA,NA
+NL,Total,2012,81.060281,Lee-Carter,NA,NA
+NL,Total,2012,81.060281,LE random walk with drift,NA,NA
+NL,Total,2012,81.060281,ASDR random walk with drift,NA,NA
+NL,Total,2013,81.303118,Lee-Carter,NA,NA
+NL,Total,2013,81.303118,LE random walk with drift,NA,NA
+NL,Total,2013,81.303118,ASDR random walk with drift,NA,NA
+NL,Total,2014,81.658934,Lee-Carter,NA,NA
+NL,Total,2014,81.658934,LE random walk with drift,NA,NA
+NL,Total,2014,81.658934,ASDR random walk with drift,NA,NA
+NL,Total,2015,81.497165,Lee-Carter,NA,NA
+NL,Total,2015,81.497165,LE random walk with drift,NA,NA
+NL,Total,2015,81.497165,ASDR random walk with drift,NA,NA
+NL,Total,2016,81.558402,Lee-Carter,NA,NA
+NL,Total,2016,81.558402,LE random walk with drift,NA,NA
+NL,Total,2016,81.558402,ASDR random walk with drift,NA,NA
+NL,Total,2017,81.743862,Lee-Carter,NA,NA
+NL,Total,2017,81.743862,LE random walk with drift,NA,NA
+NL,Total,2017,81.743862,ASDR random walk with drift,NA,NA
+NL,Total,2018,81.795431,Lee-Carter,NA,NA
+NL,Total,2018,81.795431,LE random walk with drift,NA,NA
+NL,Total,2018,81.795431,ASDR random walk with drift,NA,NA
+NL,Total,2019,82.06409,Lee-Carter,NA,NA
+NL,Total,2019,82.06409,LE random walk with drift,NA,NA
+NL,Total,2019,82.06409,ASDR random walk with drift,NA,NA
+NL,Total,2020,81.39837,Lee-Carter,82.155535,-0.757165
+NL,Total,2020,81.39837,LE random walk with drift,82.270781,-0.872411
+NL,Total,2020,81.39837,ASDR random walk with drift,82.252803,-0.854433
+NL,Total,2021,81.364872,Lee-Carter,82.276898,-0.912026
+NL,Total,2021,81.364872,LE random walk with drift,82.477471,-1.112599
+NL,Total,2021,81.364872,ASDR random walk with drift,82.439829,-1.074957
+NL,Total,2022,81.642919,Lee-Carter,82.408217,-0.765298
+NL,Total,2022,81.642919,LE random walk with drift,82.684161,-1.041243
+NL,Total,2022,81.642919,ASDR random walk with drift,82.625058,-0.982139
+NL,Total,2023,81.855614,Lee-Carter,82.549144,-0.69353
+NL,Total,2023,81.855614,LE random walk with drift,82.890852,-1.035238
+NL,Total,2023,81.855614,ASDR random walk with drift,82.808492,-0.952877
+NL,Total,2024,81.974321,Lee-Carter,82.672356,-0.698034
+NL,Total,2024,81.974321,LE random walk with drift,83.097542,-1.123221
+NL,Total,2024,81.974321,ASDR random walk with drift,82.990132,-1.015811
+NO,Total,2000,78.687684,Lee-Carter,NA,NA
+NO,Total,2000,78.687684,LE random walk with drift,NA,NA
+NO,Total,2000,78.687684,ASDR random walk with drift,NA,NA
+NO,Total,2001,78.881468,Lee-Carter,NA,NA
+NO,Total,2001,78.881468,LE random walk with drift,NA,NA
+NO,Total,2001,78.881468,ASDR random walk with drift,NA,NA
+NO,Total,2002,78.95525,Lee-Carter,NA,NA
+NO,Total,2002,78.95525,LE random walk with drift,NA,NA
+NO,Total,2002,78.95525,ASDR random walk with drift,NA,NA
+NO,Total,2003,79.522912,Lee-Carter,NA,NA
+NO,Total,2003,79.522912,LE random walk with drift,NA,NA
+NO,Total,2003,79.522912,ASDR random walk with drift,NA,NA
+NO,Total,2004,79.963705,Lee-Carter,NA,NA
+NO,Total,2004,79.963705,LE random walk with drift,NA,NA
+NO,Total,2004,79.963705,ASDR random walk with drift,NA,NA
+NO,Total,2005,80.171401,Lee-Carter,NA,NA
+NO,Total,2005,80.171401,LE random walk with drift,NA,NA
+NO,Total,2005,80.171401,ASDR random walk with drift,NA,NA
+NO,Total,2006,80.433976,Lee-Carter,NA,NA
+NO,Total,2006,80.433976,LE random walk with drift,NA,NA
+NO,Total,2006,80.433976,ASDR random walk with drift,NA,NA
+NO,Total,2007,80.492166,Lee-Carter,NA,NA
+NO,Total,2007,80.492166,LE random walk with drift,NA,NA
+NO,Total,2007,80.492166,ASDR random walk with drift,NA,NA
+NO,Total,2008,80.659449,Lee-Carter,NA,NA
+NO,Total,2008,80.659449,LE random walk with drift,NA,NA
+NO,Total,2008,80.659449,ASDR random walk with drift,NA,NA
+NO,Total,2009,80.852492,Lee-Carter,NA,NA
+NO,Total,2009,80.852492,LE random walk with drift,NA,NA
+NO,Total,2009,80.852492,ASDR random walk with drift,NA,NA
+NO,Total,2010,81.023512,Lee-Carter,NA,NA
+NO,Total,2010,81.023512,LE random walk with drift,NA,NA
+NO,Total,2010,81.023512,ASDR random walk with drift,NA,NA
+NO,Total,2011,81.242049,Lee-Carter,NA,NA
+NO,Total,2011,81.242049,LE random walk with drift,NA,NA
+NO,Total,2011,81.242049,ASDR random walk with drift,NA,NA
+NO,Total,2012,81.437673,Lee-Carter,NA,NA
+NO,Total,2012,81.437673,LE random walk with drift,NA,NA
+NO,Total,2012,81.437673,ASDR random walk with drift,NA,NA
+NO,Total,2013,81.649424,Lee-Carter,NA,NA
+NO,Total,2013,81.649424,LE random walk with drift,NA,NA
+NO,Total,2013,81.649424,ASDR random walk with drift,NA,NA
+NO,Total,2014,82.087032,Lee-Carter,NA,NA
+NO,Total,2014,82.087032,LE random walk with drift,NA,NA
+NO,Total,2014,82.087032,ASDR random walk with drift,NA,NA
+NO,Total,2015,82.27786,Lee-Carter,NA,NA
+NO,Total,2015,82.27786,LE random walk with drift,NA,NA
+NO,Total,2015,82.27786,ASDR random walk with drift,NA,NA
+NO,Total,2016,82.417634,Lee-Carter,NA,NA
+NO,Total,2016,82.417634,LE random walk with drift,NA,NA
+NO,Total,2016,82.417634,ASDR random walk with drift,NA,NA
+NO,Total,2017,82.623212,Lee-Carter,NA,NA
+NO,Total,2017,82.623212,LE random walk with drift,NA,NA
+NO,Total,2017,82.623212,ASDR random walk with drift,NA,NA
+NO,Total,2018,82.761673,Lee-Carter,NA,NA
+NO,Total,2018,82.761673,LE random walk with drift,NA,NA
+NO,Total,2018,82.761673,ASDR random walk with drift,NA,NA
+NO,Total,2019,82.954239,Lee-Carter,NA,NA
+NO,Total,2019,82.954239,LE random walk with drift,NA,NA
+NO,Total,2019,82.954239,ASDR random walk with drift,NA,NA
+NO,Total,2020,83.199916,Lee-Carter,83.201704,-0.001787
+NO,Total,2020,83.199916,LE random walk with drift,83.178795,0.021122
+NO,Total,2020,83.199916,ASDR random walk with drift,83.156824,0.043093
+NO,Total,2021,83.169017,Lee-Carter,83.410851,-0.241834
+NO,Total,2021,83.169017,LE random walk with drift,83.40335,-0.234333
+NO,Total,2021,83.169017,ASDR random walk with drift,83.357717,-0.1887
+NO,Total,2022,82.620013,Lee-Carter,83.603853,-0.98384
+NO,Total,2022,82.620013,LE random walk with drift,83.627906,-1.007893
+NO,Total,2022,82.620013,ASDR random walk with drift,83.556559,-0.936546
+NO,Total,2023,83.013478,Lee-Carter,83.795331,-0.781853
+NO,Total,2023,83.013478,LE random walk with drift,83.852461,-0.838983
+NO,Total,2023,83.013478,ASDR random walk with drift,83.753363,-0.739885
+NO,Total,2024,83.188048,Lee-Carter,83.983185,-0.795137
+NO,Total,2024,83.188048,LE random walk with drift,84.077017,-0.888968
+NO,Total,2024,83.188048,ASDR random walk with drift,83.948144,-0.760095
+PL,Total,2000,73.736084,Lee-Carter,NA,NA
+PL,Total,2000,73.736084,LE random walk with drift,NA,NA
+PL,Total,2000,73.736084,ASDR random walk with drift,NA,NA
+PL,Total,2001,74.224635,Lee-Carter,NA,NA
+PL,Total,2001,74.224635,LE random walk with drift,NA,NA
+PL,Total,2001,74.224635,ASDR random walk with drift,NA,NA
+PL,Total,2002,74.587216,Lee-Carter,NA,NA
+PL,Total,2002,74.587216,LE random walk with drift,NA,NA
+PL,Total,2002,74.587216,ASDR random walk with drift,NA,NA
+PL,Total,2003,74.75974,Lee-Carter,NA,NA
+PL,Total,2003,74.75974,LE random walk with drift,NA,NA
+PL,Total,2003,74.75974,ASDR random walk with drift,NA,NA
+PL,Total,2004,74.984427,Lee-Carter,NA,NA
+PL,Total,2004,74.984427,LE random walk with drift,NA,NA
+PL,Total,2004,74.984427,ASDR random walk with drift,NA,NA
+PL,Total,2005,75.100668,Lee-Carter,NA,NA
+PL,Total,2005,75.100668,LE random walk with drift,NA,NA
+PL,Total,2005,75.100668,ASDR random walk with drift,NA,NA
+PL,Total,2006,75.298061,Lee-Carter,NA,NA
+PL,Total,2006,75.298061,LE random walk with drift,NA,NA
+PL,Total,2006,75.298061,ASDR random walk with drift,NA,NA
+PL,Total,2007,75.358051,Lee-Carter,NA,NA
+PL,Total,2007,75.358051,LE random walk with drift,NA,NA
+PL,Total,2007,75.358051,ASDR random walk with drift,NA,NA
+PL,Total,2008,75.627888,Lee-Carter,NA,NA
+PL,Total,2008,75.627888,LE random walk with drift,NA,NA
+PL,Total,2008,75.627888,ASDR random walk with drift,NA,NA
+PL,Total,2009,75.832228,Lee-Carter,NA,NA
+PL,Total,2009,75.832228,LE random walk with drift,NA,NA
+PL,Total,2009,75.832228,ASDR random walk with drift,NA,NA
+PL,Total,2010,76.350703,Lee-Carter,NA,NA
+PL,Total,2010,76.350703,LE random walk with drift,NA,NA
+PL,Total,2010,76.350703,ASDR random walk with drift,NA,NA
+PL,Total,2011,76.687817,Lee-Carter,NA,NA
+PL,Total,2011,76.687817,LE random walk with drift,NA,NA
+PL,Total,2011,76.687817,ASDR random walk with drift,NA,NA
+PL,Total,2012,76.729585,Lee-Carter,NA,NA
+PL,Total,2012,76.729585,LE random walk with drift,NA,NA
+PL,Total,2012,76.729585,ASDR random walk with drift,NA,NA
+PL,Total,2013,76.970057,Lee-Carter,NA,NA
+PL,Total,2013,76.970057,LE random walk with drift,NA,NA
+PL,Total,2013,76.970057,ASDR random walk with drift,NA,NA
+PL,Total,2014,77.555084,Lee-Carter,NA,NA
+PL,Total,2014,77.555084,LE random walk with drift,NA,NA
+PL,Total,2014,77.555084,ASDR random walk with drift,NA,NA
+PL,Total,2015,77.383746,Lee-Carter,NA,NA
+PL,Total,2015,77.383746,LE random walk with drift,NA,NA
+PL,Total,2015,77.383746,ASDR random walk with drift,NA,NA
+PL,Total,2016,77.765845,Lee-Carter,NA,NA
+PL,Total,2016,77.765845,LE random walk with drift,NA,NA
+PL,Total,2016,77.765845,ASDR random walk with drift,NA,NA
+PL,Total,2017,77.671507,Lee-Carter,NA,NA
+PL,Total,2017,77.671507,LE random walk with drift,NA,NA
+PL,Total,2017,77.671507,ASDR random walk with drift,NA,NA
+PL,Total,2018,77.557242,Lee-Carter,NA,NA
+PL,Total,2018,77.557242,LE random walk with drift,NA,NA
+PL,Total,2018,77.557242,ASDR random walk with drift,NA,NA
+PL,Total,2019,77.841194,Lee-Carter,NA,NA
+PL,Total,2019,77.841194,LE random walk with drift,NA,NA
+PL,Total,2019,77.841194,ASDR random walk with drift,NA,NA
+PL,Total,2020,76.481584,Lee-Carter,77.994035,-1.512451
+PL,Total,2020,76.481584,LE random walk with drift,78.057252,-1.575669
+PL,Total,2020,76.481584,ASDR random walk with drift,78.045176,-1.563592
+PL,Total,2021,75.535536,Lee-Carter,78.165997,-2.630461
+PL,Total,2021,75.535536,LE random walk with drift,78.273311,-2.737774
+PL,Total,2021,75.535536,ASDR random walk with drift,78.24814,-2.712603
+PL,Total,2022,77.236957,Lee-Carter,78.340305,-1.103349
+PL,Total,2022,77.236957,LE random walk with drift,78.489369,-1.252413
+PL,Total,2022,77.236957,ASDR random walk with drift,78.450039,-1.213083
+PL,Total,2023,78.371403,Lee-Carter,78.473709,-0.102305
+PL,Total,2023,78.371403,LE random walk with drift,78.705428,-0.334024
+PL,Total,2023,78.371403,ASDR random walk with drift,78.650888,-0.279484
+PL,Total,2024,78.747203,Lee-Carter,78.625087,0.122116
+PL,Total,2024,78.747203,LE random walk with drift,78.921486,-0.174284
+PL,Total,2024,78.747203,ASDR random walk with drift,78.8507,-0.103497
+PT,Total,2000,76.832877,Lee-Carter,NA,NA
+PT,Total,2000,76.832877,LE random walk with drift,NA,NA
+PT,Total,2000,76.832877,ASDR random walk with drift,NA,NA
+PT,Total,2001,77.162484,Lee-Carter,NA,NA
+PT,Total,2001,77.162484,LE random walk with drift,NA,NA
+PT,Total,2001,77.162484,ASDR random walk with drift,NA,NA
+PT,Total,2002,77.388229,Lee-Carter,NA,NA
+PT,Total,2002,77.388229,LE random walk with drift,NA,NA
+PT,Total,2002,77.388229,ASDR random walk with drift,NA,NA
+PT,Total,2003,77.594301,Lee-Carter,NA,NA
+PT,Total,2003,77.594301,LE random walk with drift,NA,NA
+PT,Total,2003,77.594301,ASDR random walk with drift,NA,NA
+PT,Total,2004,78.448789,Lee-Carter,NA,NA
+PT,Total,2004,78.448789,LE random walk with drift,NA,NA
+PT,Total,2004,78.448789,ASDR random walk with drift,NA,NA
+PT,Total,2005,78.331569,Lee-Carter,NA,NA
+PT,Total,2005,78.331569,LE random walk with drift,NA,NA
+PT,Total,2005,78.331569,ASDR random walk with drift,NA,NA
+PT,Total,2006,79.09647,Lee-Carter,NA,NA
+PT,Total,2006,79.09647,LE random walk with drift,NA,NA
+PT,Total,2006,79.09647,ASDR random walk with drift,NA,NA
+PT,Total,2007,79.330675,Lee-Carter,NA,NA
+PT,Total,2007,79.330675,LE random walk with drift,NA,NA
+PT,Total,2007,79.330675,ASDR random walk with drift,NA,NA
+PT,Total,2008,79.624553,Lee-Carter,NA,NA
+PT,Total,2008,79.624553,LE random walk with drift,NA,NA
+PT,Total,2008,79.624553,ASDR random walk with drift,NA,NA
+PT,Total,2009,79.854965000000007,Lee-Carter,NA,NA
+PT,Total,2009,79.854965000000007,LE random walk with drift,NA,NA
+PT,Total,2009,79.854965000000007,ASDR random walk with drift,NA,NA
+PT,Total,2010,80.130847,Lee-Carter,NA,NA
+PT,Total,2010,80.130847,LE random walk with drift,NA,NA
+PT,Total,2010,80.130847,ASDR random walk with drift,NA,NA
+PT,Total,2011,80.604509,Lee-Carter,NA,NA
+PT,Total,2011,80.604509,LE random walk with drift,NA,NA
+PT,Total,2011,80.604509,ASDR random walk with drift,NA,NA
+PT,Total,2012,80.57503,Lee-Carter,NA,NA
+PT,Total,2012,80.57503,LE random walk with drift,NA,NA
+PT,Total,2012,80.57503,ASDR random walk with drift,NA,NA
+PT,Total,2013,80.923768,Lee-Carter,NA,NA
+PT,Total,2013,80.923768,LE random walk with drift,NA,NA
+PT,Total,2013,80.923768,ASDR random walk with drift,NA,NA
+PT,Total,2014,81.343344,Lee-Carter,NA,NA
+PT,Total,2014,81.343344,LE random walk with drift,NA,NA
+PT,Total,2014,81.343344,ASDR random walk with drift,NA,NA
+PT,Total,2015,81.350106,Lee-Carter,NA,NA
+PT,Total,2015,81.350106,LE random walk with drift,NA,NA
+PT,Total,2015,81.350106,ASDR random walk with drift,NA,NA
+PT,Total,2016,81.391395,Lee-Carter,NA,NA
+PT,Total,2016,81.391395,LE random walk with drift,NA,NA
+PT,Total,2016,81.391395,ASDR random walk with drift,NA,NA
+PT,Total,2017,81.702633,Lee-Carter,NA,NA
+PT,Total,2017,81.702633,LE random walk with drift,NA,NA
+PT,Total,2017,81.702633,ASDR random walk with drift,NA,NA
+PT,Total,2018,81.622705,Lee-Carter,NA,NA
+PT,Total,2018,81.622705,LE random walk with drift,NA,NA
+PT,Total,2018,81.622705,ASDR random walk with drift,NA,NA
+PT,Total,2019,81.980202,Lee-Carter,NA,NA
+PT,Total,2019,81.980202,LE random walk with drift,NA,NA
+PT,Total,2019,81.980202,ASDR random walk with drift,NA,NA
+PT,Total,2020,81.386889,Lee-Carter,82.223419,-0.83653
+PT,Total,2020,81.386889,LE random walk with drift,82.251113,-0.864225
+PT,Total,2020,81.386889,ASDR random walk with drift,82.21653,-0.829642
+PT,Total,2021,81.420671,Lee-Carter,82.411029,-0.990359
+PT,Total,2021,81.420671,LE random walk with drift,82.522025,-1.101355
+PT,Total,2021,81.420671,ASDR random walk with drift,82.450151,-1.02948
+PT,Total,2022,81.698774,Lee-Carter,82.608354,-0.90958
+PT,Total,2022,81.698774,LE random walk with drift,82.792937,-1.094163
+PT,Total,2022,81.698774,ASDR random walk with drift,82.680944,-0.98217
+PT,Total,2023,82.283556,Lee-Carter,82.82734,-0.543784
+PT,Total,2023,82.283556,LE random walk with drift,83.063849,-0.780293
+PT,Total,2023,82.283556,ASDR random walk with drift,82.908969,-0.625413
+PT,Total,2024,82.566651,Lee-Carter,83.01357,-0.446919
+PT,Total,2024,82.566651,LE random walk with drift,83.334761,-0.76811
+PT,Total,2024,82.566651,ASDR random walk with drift,83.134281,-0.56763
+SE,Total,2000,79.743757,Lee-Carter,NA,NA
+SE,Total,2000,79.743757,LE random walk with drift,NA,NA
+SE,Total,2000,79.743757,ASDR random walk with drift,NA,NA
+SE,Total,2001,79.839304,Lee-Carter,NA,NA
+SE,Total,2001,79.839304,LE random walk with drift,NA,NA
+SE,Total,2001,79.839304,ASDR random walk with drift,NA,NA
+SE,Total,2002,79.938445,Lee-Carter,NA,NA
+SE,Total,2002,79.938445,LE random walk with drift,NA,NA
+SE,Total,2002,79.938445,ASDR random walk with drift,NA,NA
+SE,Total,2003,80.191462,Lee-Carter,NA,NA
+SE,Total,2003,80.191462,LE random walk with drift,NA,NA
+SE,Total,2003,80.191462,ASDR random walk with drift,NA,NA
+SE,Total,2004,80.557402,Lee-Carter,NA,NA
+SE,Total,2004,80.557402,LE random walk with drift,NA,NA
+SE,Total,2004,80.557402,ASDR random walk with drift,NA,NA
+SE,Total,2005,80.633678,Lee-Carter,NA,NA
+SE,Total,2005,80.633678,LE random walk with drift,NA,NA
+SE,Total,2005,80.633678,ASDR random walk with drift,NA,NA
+SE,Total,2006,80.838406,Lee-Carter,NA,NA
+SE,Total,2006,80.838406,LE random walk with drift,NA,NA
+SE,Total,2006,80.838406,ASDR random walk with drift,NA,NA
+SE,Total,2007,80.977149,Lee-Carter,NA,NA
+SE,Total,2007,80.977149,LE random walk with drift,NA,NA
+SE,Total,2007,80.977149,ASDR random walk with drift,NA,NA
+SE,Total,2008,81.146012,Lee-Carter,NA,NA
+SE,Total,2008,81.146012,LE random walk with drift,NA,NA
+SE,Total,2008,81.146012,ASDR random walk with drift,NA,NA
+SE,Total,2009,81.373084,Lee-Carter,NA,NA
+SE,Total,2009,81.373084,LE random walk with drift,NA,NA
+SE,Total,2009,81.373084,ASDR random walk with drift,NA,NA
+SE,Total,2010,81.535978,Lee-Carter,NA,NA
+SE,Total,2010,81.535978,LE random walk with drift,NA,NA
+SE,Total,2010,81.535978,ASDR random walk with drift,NA,NA
+SE,Total,2011,81.767212,Lee-Carter,NA,NA
+SE,Total,2011,81.767212,LE random walk with drift,NA,NA
+SE,Total,2011,81.767212,ASDR random walk with drift,NA,NA
+SE,Total,2012,81.735382,Lee-Carter,NA,NA
+SE,Total,2012,81.735382,LE random walk with drift,NA,NA
+SE,Total,2012,81.735382,ASDR random walk with drift,NA,NA
+SE,Total,2013,81.937965,Lee-Carter,NA,NA
+SE,Total,2013,81.937965,LE random walk with drift,NA,NA
+SE,Total,2013,81.937965,ASDR random walk with drift,NA,NA
+SE,Total,2014,82.237001,Lee-Carter,NA,NA
+SE,Total,2014,82.237001,LE random walk with drift,NA,NA
+SE,Total,2014,82.237001,ASDR random walk with drift,NA,NA
+SE,Total,2015,82.1922,Lee-Carter,NA,NA
+SE,Total,2015,82.1922,LE random walk with drift,NA,NA
+SE,Total,2015,82.1922,ASDR random walk with drift,NA,NA
+SE,Total,2016,82.349372,Lee-Carter,NA,NA
+SE,Total,2016,82.349372,LE random walk with drift,NA,NA
+SE,Total,2016,82.349372,ASDR random walk with drift,NA,NA
+SE,Total,2017,82.444219,Lee-Carter,NA,NA
+SE,Total,2017,82.444219,LE random walk with drift,NA,NA
+SE,Total,2017,82.444219,ASDR random walk with drift,NA,NA
+SE,Total,2018,82.549053,Lee-Carter,NA,NA
+SE,Total,2018,82.549053,LE random walk with drift,NA,NA
+SE,Total,2018,82.549053,ASDR random walk with drift,NA,NA
+SE,Total,2019,83.06547,Lee-Carter,NA,NA
+SE,Total,2019,83.06547,LE random walk with drift,NA,NA
+SE,Total,2019,83.06547,ASDR random walk with drift,NA,NA
+SE,Total,2020,82.447883,Lee-Carter,83.185511,-0.737628
+SE,Total,2020,82.447883,LE random walk with drift,83.240298,-0.792414
+SE,Total,2020,82.447883,ASDR random walk with drift,83.226805,-0.778921
+SE,Total,2021,83.032247,Lee-Carter,83.351286,-0.319038
+SE,Total,2021,83.032247,LE random walk with drift,83.415125,-0.382877
+SE,Total,2021,83.032247,ASDR random walk with drift,83.387033,-0.354786
+SE,Total,2022,83.068228,Lee-Carter,83.515502,-0.447273
+SE,Total,2022,83.068228,LE random walk with drift,83.589952,-0.521723
+SE,Total,2022,83.068228,ASDR random walk with drift,83.545986,-0.477757
+SE,Total,2023,83.258609,Lee-Carter,83.663695,-0.405086
+SE,Total,2023,83.258609,LE random walk with drift,83.764779,-0.50617
+SE,Total,2023,83.258609,ASDR random walk with drift,83.703668,-0.44506
+SE,Total,2024,83.843461,Lee-Carter,83.81596,0.027501
+SE,Total,2024,83.843461,LE random walk with drift,83.939606,-0.096145
+SE,Total,2024,83.843461,ASDR random walk with drift,83.860089,-0.016628
+SI,Total,2000,76.02002,Lee-Carter,NA,NA
+SI,Total,2000,76.02002,LE random walk with drift,NA,NA
+SI,Total,2000,76.02002,ASDR random walk with drift,NA,NA
+SI,Total,2001,76.279759,Lee-Carter,NA,NA
+SI,Total,2001,76.279759,LE random walk with drift,NA,NA
+SI,Total,2001,76.279759,ASDR random walk with drift,NA,NA
+SI,Total,2002,76.539919,Lee-Carter,NA,NA
+SI,Total,2002,76.539919,LE random walk with drift,NA,NA
+SI,Total,2002,76.539919,ASDR random walk with drift,NA,NA
+SI,Total,2003,76.411297,Lee-Carter,NA,NA
+SI,Total,2003,76.411297,LE random walk with drift,NA,NA
+SI,Total,2003,76.411297,ASDR random walk with drift,NA,NA
+SI,Total,2004,77.203956,Lee-Carter,NA,NA
+SI,Total,2004,77.203956,LE random walk with drift,NA,NA
+SI,Total,2004,77.203956,ASDR random walk with drift,NA,NA
+SI,Total,2005,77.433346,Lee-Carter,NA,NA
+SI,Total,2005,77.433346,LE random walk with drift,NA,NA
+SI,Total,2005,77.433346,ASDR random walk with drift,NA,NA
+SI,Total,2006,78.109244,Lee-Carter,NA,NA
+SI,Total,2006,78.109244,LE random walk with drift,NA,NA
+SI,Total,2006,78.109244,ASDR random walk with drift,NA,NA
+SI,Total,2007,78.208709,Lee-Carter,NA,NA
+SI,Total,2007,78.208709,LE random walk with drift,NA,NA
+SI,Total,2007,78.208709,ASDR random walk with drift,NA,NA
+SI,Total,2008,78.881158,Lee-Carter,NA,NA
+SI,Total,2008,78.881158,LE random walk with drift,NA,NA
+SI,Total,2008,78.881158,ASDR random walk with drift,NA,NA
+SI,Total,2009,79.063691,Lee-Carter,NA,NA
+SI,Total,2009,79.063691,LE random walk with drift,NA,NA
+SI,Total,2009,79.063691,ASDR random walk with drift,NA,NA
+SI,Total,2010,79.496121,Lee-Carter,NA,NA
+SI,Total,2010,79.496121,LE random walk with drift,NA,NA
+SI,Total,2010,79.496121,ASDR random walk with drift,NA,NA
+SI,Total,2011,79.799311,Lee-Carter,NA,NA
+SI,Total,2011,79.799311,LE random walk with drift,NA,NA
+SI,Total,2011,79.799311,ASDR random walk with drift,NA,NA
+SI,Total,2012,79.995883,Lee-Carter,NA,NA
+SI,Total,2012,79.995883,LE random walk with drift,NA,NA
+SI,Total,2012,79.995883,ASDR random walk with drift,NA,NA
+SI,Total,2013,80.102536,Lee-Carter,NA,NA
+SI,Total,2013,80.102536,LE random walk with drift,NA,NA
+SI,Total,2013,80.102536,ASDR random walk with drift,NA,NA
+SI,Total,2014,80.913361,Lee-Carter,NA,NA
+SI,Total,2014,80.913361,LE random walk with drift,NA,NA
+SI,Total,2014,80.913361,ASDR random walk with drift,NA,NA
+SI,Total,2015,80.607334,Lee-Carter,NA,NA
+SI,Total,2015,80.607334,LE random walk with drift,NA,NA
+SI,Total,2015,80.607334,ASDR random walk with drift,NA,NA
+SI,Total,2016,80.945301,Lee-Carter,NA,NA
+SI,Total,2016,80.945301,LE random walk with drift,NA,NA
+SI,Total,2016,80.945301,ASDR random walk with drift,NA,NA
+SI,Total,2017,80.927604,Lee-Carter,NA,NA
+SI,Total,2017,80.927604,LE random walk with drift,NA,NA
+SI,Total,2017,80.927604,ASDR random walk with drift,NA,NA
+SI,Total,2018,81.192765,Lee-Carter,NA,NA
+SI,Total,2018,81.192765,LE random walk with drift,NA,NA
+SI,Total,2018,81.192765,ASDR random walk with drift,NA,NA
+SI,Total,2019,81.340634,Lee-Carter,NA,NA
+SI,Total,2019,81.340634,LE random walk with drift,NA,NA
+SI,Total,2019,81.340634,ASDR random walk with drift,NA,NA
+SI,Total,2020,80.369686,Lee-Carter,81.563342,-1.193656
+SI,Total,2020,80.369686,LE random walk with drift,81.620666,-1.25098
+SI,Total,2020,80.369686,ASDR random walk with drift,81.583379,-1.213693
+SI,Total,2021,80.602021,Lee-Carter,81.771057,-1.169036
+SI,Total,2021,80.602021,LE random walk with drift,81.900699,-1.298678
+SI,Total,2021,80.602021,ASDR random walk with drift,81.824048,-1.222027
+SI,Total,2022,81.294395,Lee-Carter,81.983659,-0.689264
+SI,Total,2022,81.294395,LE random walk with drift,82.180731,-0.886336
+SI,Total,2022,81.294395,ASDR random walk with drift,82.061466,-0.767072
+SI,Total,2023,81.945236,Lee-Carter,82.153793,-0.208556
+SI,Total,2023,81.945236,LE random walk with drift,82.460763,-0.515527
+SI,Total,2023,81.945236,ASDR random walk with drift,82.295674,-0.350438
+SI,Total,2024,82.342207,Lee-Carter,82.344592,-0.002385
+SI,Total,2024,82.342207,LE random walk with drift,82.740796,-0.398589
+SI,Total,2024,82.342207,ASDR random walk with drift,82.52671,-0.184503
+SK,Total,2000,73.142548,Lee-Carter,NA,NA
+SK,Total,2000,73.142548,LE random walk with drift,NA,NA
+SK,Total,2000,73.142548,ASDR random walk with drift,NA,NA
+SK,Total,2001,73.573584,Lee-Carter,NA,NA
+SK,Total,2001,73.573584,LE random walk with drift,NA,NA
+SK,Total,2001,73.573584,ASDR random walk with drift,NA,NA
+SK,Total,2002,73.759208,Lee-Carter,NA,NA
+SK,Total,2002,73.759208,LE random walk with drift,NA,NA
+SK,Total,2002,73.759208,ASDR random walk with drift,NA,NA
+SK,Total,2003,73.810586,Lee-Carter,NA,NA
+SK,Total,2003,73.810586,LE random walk with drift,NA,NA
+SK,Total,2003,73.810586,ASDR random walk with drift,NA,NA
+SK,Total,2004,74.203284,Lee-Carter,NA,NA
+SK,Total,2004,74.203284,LE random walk with drift,NA,NA
+SK,Total,2004,74.203284,ASDR random walk with drift,NA,NA
+SK,Total,2005,74.132928,Lee-Carter,NA,NA
+SK,Total,2005,74.132928,LE random walk with drift,NA,NA
+SK,Total,2005,74.132928,ASDR random walk with drift,NA,NA
+SK,Total,2006,74.389495,Lee-Carter,NA,NA
+SK,Total,2006,74.389495,LE random walk with drift,NA,NA
+SK,Total,2006,74.389495,ASDR random walk with drift,NA,NA
+SK,Total,2007,74.46482,Lee-Carter,NA,NA
+SK,Total,2007,74.46482,LE random walk with drift,NA,NA
+SK,Total,2007,74.46482,ASDR random walk with drift,NA,NA
+SK,Total,2008,74.808837,Lee-Carter,NA,NA
+SK,Total,2008,74.808837,LE random walk with drift,NA,NA
+SK,Total,2008,74.808837,ASDR random walk with drift,NA,NA
+SK,Total,2009,75.162189,Lee-Carter,NA,NA
+SK,Total,2009,75.162189,LE random walk with drift,NA,NA
+SK,Total,2009,75.162189,ASDR random walk with drift,NA,NA
+SK,Total,2010,75.444745,Lee-Carter,NA,NA
+SK,Total,2010,75.444745,LE random walk with drift,NA,NA
+SK,Total,2010,75.444745,ASDR random walk with drift,NA,NA
+SK,Total,2011,75.957223,Lee-Carter,NA,NA
+SK,Total,2011,75.957223,LE random walk with drift,NA,NA
+SK,Total,2011,75.957223,ASDR random walk with drift,NA,NA
+SK,Total,2012,76.107971,Lee-Carter,NA,NA
+SK,Total,2012,76.107971,LE random walk with drift,NA,NA
+SK,Total,2012,76.107971,ASDR random walk with drift,NA,NA
+SK,Total,2013,76.441652,Lee-Carter,NA,NA
+SK,Total,2013,76.441652,LE random walk with drift,NA,NA
+SK,Total,2013,76.441652,ASDR random walk with drift,NA,NA
+SK,Total,2014,76.78895,Lee-Carter,NA,NA
+SK,Total,2014,76.78895,LE random walk with drift,NA,NA
+SK,Total,2014,76.78895,ASDR random walk with drift,NA,NA
+SK,Total,2015,76.562664,Lee-Carter,NA,NA
+SK,Total,2015,76.562664,LE random walk with drift,NA,NA
+SK,Total,2015,76.562664,ASDR random walk with drift,NA,NA
+SK,Total,2016,77.117778,Lee-Carter,NA,NA
+SK,Total,2016,77.117778,LE random walk with drift,NA,NA
+SK,Total,2016,77.117778,ASDR random walk with drift,NA,NA
+SK,Total,2017,77.120258,Lee-Carter,NA,NA
+SK,Total,2017,77.120258,LE random walk with drift,NA,NA
+SK,Total,2017,77.120258,ASDR random walk with drift,NA,NA
+SK,Total,2018,77.14656,Lee-Carter,NA,NA
+SK,Total,2018,77.14656,LE random walk with drift,NA,NA
+SK,Total,2018,77.14656,ASDR random walk with drift,NA,NA
+SK,Total,2019,77.542704,Lee-Carter,NA,NA
+SK,Total,2019,77.542704,LE random walk with drift,NA,NA
+SK,Total,2019,77.542704,ASDR random walk with drift,NA,NA
+SK,Total,2020,76.849962,Lee-Carter,77.780387,-0.930425
+SK,Total,2020,76.849962,LE random walk with drift,77.774291,-0.924329
+SK,Total,2020,76.849962,ASDR random walk with drift,77.759851,-0.909889
+SK,Total,2021,74.597718,Lee-Carter,77.986525,-3.388807
+SK,Total,2021,74.597718,LE random walk with drift,78.005878,-3.40816
+SK,Total,2021,74.597718,ASDR random walk with drift,77.976116,-3.378397
+SK,Total,2022,76.951307,Lee-Carter,78.200074,-1.248767
+SK,Total,2022,76.951307,LE random walk with drift,78.237466,-1.286159
+SK,Total,2022,76.951307,ASDR random walk with drift,78.190908,-1.239601
+SK,Total,2023,78.042585,Lee-Carter,78.421119,-0.378534
+SK,Total,2023,78.042585,LE random walk with drift,78.469053,-0.426467
+SK,Total,2023,78.042585,ASDR random walk with drift,78.404219,-0.361633
+SK,Total,2024,78.377248,Lee-Carter,78.628952,-0.251705
+SK,Total,2024,78.377248,LE random walk with drift,78.70064,-0.323392
+SK,Total,2024,78.377248,ASDR random walk with drift,78.616038,-0.23879
+TW,Total,2000,76.059269,Lee-Carter,NA,NA
+TW,Total,2000,76.059269,LE random walk with drift,NA,NA
+TW,Total,2000,76.059269,ASDR random walk with drift,NA,NA
+TW,Total,2001,76.373829,Lee-Carter,NA,NA
+TW,Total,2001,76.373829,LE random walk with drift,NA,NA
+TW,Total,2001,76.373829,ASDR random walk with drift,NA,NA
+TW,Total,2002,76.798945,Lee-Carter,NA,NA
+TW,Total,2002,76.798945,LE random walk with drift,NA,NA
+TW,Total,2002,76.798945,ASDR random walk with drift,NA,NA
+TW,Total,2003,77.003185,Lee-Carter,NA,NA
+TW,Total,2003,77.003185,LE random walk with drift,NA,NA
+TW,Total,2003,77.003185,ASDR random walk with drift,NA,NA
+TW,Total,2004,77.098777,Lee-Carter,NA,NA
+TW,Total,2004,77.098777,LE random walk with drift,NA,NA
+TW,Total,2004,77.098777,ASDR random walk with drift,NA,NA
+TW,Total,2005,77.102591,Lee-Carter,NA,NA
+TW,Total,2005,77.102591,LE random walk with drift,NA,NA
+TW,Total,2005,77.102591,ASDR random walk with drift,NA,NA
+TW,Total,2006,77.816806,Lee-Carter,NA,NA
+TW,Total,2006,77.816806,LE random walk with drift,NA,NA
+TW,Total,2006,77.816806,ASDR random walk with drift,NA,NA
+TW,Total,2007,78.019422,Lee-Carter,NA,NA
+TW,Total,2007,78.019422,LE random walk with drift,NA,NA
+TW,Total,2007,78.019422,ASDR random walk with drift,NA,NA
+TW,Total,2008,78.23273,Lee-Carter,NA,NA
+TW,Total,2008,78.23273,LE random walk with drift,NA,NA
+TW,Total,2008,78.23273,ASDR random walk with drift,NA,NA
+TW,Total,2009,78.706244,Lee-Carter,NA,NA
+TW,Total,2009,78.706244,LE random walk with drift,NA,NA
+TW,Total,2009,78.706244,ASDR random walk with drift,NA,NA
+TW,Total,2010,79.044421,Lee-Carter,NA,NA
+TW,Total,2010,79.044421,LE random walk with drift,NA,NA
+TW,Total,2010,79.044421,ASDR random walk with drift,NA,NA
+TW,Total,2011,78.867798,Lee-Carter,NA,NA
+TW,Total,2011,78.867798,LE random walk with drift,NA,NA
+TW,Total,2011,78.867798,ASDR random walk with drift,NA,NA
+TW,Total,2012,79.202603,Lee-Carter,NA,NA
+TW,Total,2012,79.202603,LE random walk with drift,NA,NA
+TW,Total,2012,79.202603,ASDR random walk with drift,NA,NA
+TW,Total,2013,79.663892,Lee-Carter,NA,NA
+TW,Total,2013,79.663892,LE random walk with drift,NA,NA
+TW,Total,2013,79.663892,ASDR random walk with drift,NA,NA
+TW,Total,2014,79.537642,Lee-Carter,NA,NA
+TW,Total,2014,79.537642,LE random walk with drift,NA,NA
+TW,Total,2014,79.537642,ASDR random walk with drift,NA,NA
+TW,Total,2015,79.880703,Lee-Carter,NA,NA
+TW,Total,2015,79.880703,LE random walk with drift,NA,NA
+TW,Total,2015,79.880703,ASDR random walk with drift,NA,NA
+TW,Total,2016,79.695205,Lee-Carter,NA,NA
+TW,Total,2016,79.695205,LE random walk with drift,NA,NA
+TW,Total,2016,79.695205,ASDR random walk with drift,NA,NA
+TW,Total,2017,80.130131,Lee-Carter,NA,NA
+TW,Total,2017,80.130131,LE random walk with drift,NA,NA
+TW,Total,2017,80.130131,ASDR random walk with drift,NA,NA
+TW,Total,2018,80.412198,Lee-Carter,NA,NA
+TW,Total,2018,80.412198,LE random walk with drift,NA,NA
+TW,Total,2018,80.412198,ASDR random walk with drift,NA,NA
+TW,Total,2019,80.61419,Lee-Carter,NA,NA
+TW,Total,2019,80.61419,LE random walk with drift,NA,NA
+TW,Total,2019,80.61419,ASDR random walk with drift,NA,NA
+TW,Total,2020,81.144526,Lee-Carter,80.775076,0.36945
+TW,Total,2020,81.144526,LE random walk with drift,80.853923,0.290603
+TW,Total,2020,81.144526,ASDR random walk with drift,80.842916,0.30161
+TW,Total,2021,80.726245,Lee-Carter,80.941399,-0.215154
+TW,Total,2021,80.726245,LE random walk with drift,81.093656,-0.36741
+TW,Total,2021,80.726245,ASDR random walk with drift,81.071374,-0.345129
+TW,Total,2022,79.823121,Lee-Carter,81.093811,-1.27069
+TW,Total,2022,79.823121,LE random walk with drift,81.333388,-1.510267
+TW,Total,2022,79.823121,ASDR random walk with drift,81.299466,-1.476345
+TW,Total,2023,80.133066,Lee-Carter,81.268468,-1.135402
+TW,Total,2023,80.133066,LE random walk with drift,81.573121,-1.440055
+TW,Total,2023,80.133066,ASDR random walk with drift,81.527302,-1.394236
+TW,Total,2024,80.568131,Lee-Carter,81.418827,-0.850696
+TW,Total,2024,80.568131,LE random walk with drift,81.812854,-1.244723
+TW,Total,2024,80.568131,ASDR random walk with drift,81.754997,-1.186867
+US,Total,2000,76.787738,Lee-Carter,NA,NA
+US,Total,2000,76.787738,LE random walk with drift,NA,NA
+US,Total,2000,76.787738,ASDR random walk with drift,NA,NA
+US,Total,2001,76.900775,Lee-Carter,NA,NA
+US,Total,2001,76.900775,LE random walk with drift,NA,NA
+US,Total,2001,76.900775,ASDR random walk with drift,NA,NA
+US,Total,2002,76.966869,Lee-Carter,NA,NA
+US,Total,2002,76.966869,LE random walk with drift,NA,NA
+US,Total,2002,76.966869,ASDR random walk with drift,NA,NA
+US,Total,2003,77.115252,Lee-Carter,NA,NA
+US,Total,2003,77.115252,LE random walk with drift,NA,NA
+US,Total,2003,77.115252,ASDR random walk with drift,NA,NA
+US,Total,2004,77.518679,Lee-Carter,NA,NA
+US,Total,2004,77.518679,LE random walk with drift,NA,NA
+US,Total,2004,77.518679,ASDR random walk with drift,NA,NA
+US,Total,2005,77.509103,Lee-Carter,NA,NA
+US,Total,2005,77.509103,LE random walk with drift,NA,NA
+US,Total,2005,77.509103,ASDR random walk with drift,NA,NA
+US,Total,2006,77.780636,Lee-Carter,NA,NA
+US,Total,2006,77.780636,LE random walk with drift,NA,NA
+US,Total,2006,77.780636,ASDR random walk with drift,NA,NA
+US,Total,2007,78.035405,Lee-Carter,NA,NA
+US,Total,2007,78.035405,LE random walk with drift,NA,NA
+US,Total,2007,78.035405,ASDR random walk with drift,NA,NA
+US,Total,2008,78.120609,Lee-Carter,NA,NA
+US,Total,2008,78.120609,LE random walk with drift,NA,NA
+US,Total,2008,78.120609,ASDR random walk with drift,NA,NA
+US,Total,2009,78.473922,Lee-Carter,NA,NA
+US,Total,2009,78.473922,LE random walk with drift,NA,NA
+US,Total,2009,78.473922,ASDR random walk with drift,NA,NA
+US,Total,2010,78.671736,Lee-Carter,NA,NA
+US,Total,2010,78.671736,LE random walk with drift,NA,NA
+US,Total,2010,78.671736,ASDR random walk with drift,NA,NA
+US,Total,2011,78.714356,Lee-Carter,NA,NA
+US,Total,2011,78.714356,LE random walk with drift,NA,NA
+US,Total,2011,78.714356,ASDR random walk with drift,NA,NA
+US,Total,2012,78.829535,Lee-Carter,NA,NA
+US,Total,2012,78.829535,LE random walk with drift,NA,NA
+US,Total,2012,78.829535,ASDR random walk with drift,NA,NA
+US,Total,2013,78.830843,Lee-Carter,NA,NA
+US,Total,2013,78.830843,LE random walk with drift,NA,NA
+US,Total,2013,78.830843,ASDR random walk with drift,NA,NA
+US,Total,2014,78.901039,Lee-Carter,NA,NA
+US,Total,2014,78.901039,LE random walk with drift,NA,NA
+US,Total,2014,78.901039,ASDR random walk with drift,NA,NA
+US,Total,2015,78.743741,Lee-Carter,NA,NA
+US,Total,2015,78.743741,LE random walk with drift,NA,NA
+US,Total,2015,78.743741,ASDR random walk with drift,NA,NA
+US,Total,2016,78.710765,Lee-Carter,NA,NA
+US,Total,2016,78.710765,LE random walk with drift,NA,NA
+US,Total,2016,78.710765,ASDR random walk with drift,NA,NA
+US,Total,2017,78.676845,Lee-Carter,NA,NA
+US,Total,2017,78.676845,LE random walk with drift,NA,NA
+US,Total,2017,78.676845,ASDR random walk with drift,NA,NA
+US,Total,2018,78.82781,Lee-Carter,NA,NA
+US,Total,2018,78.82781,LE random walk with drift,NA,NA
+US,Total,2018,78.82781,ASDR random walk with drift,NA,NA
+US,Total,2019,78.959626,Lee-Carter,NA,NA
+US,Total,2019,78.959626,LE random walk with drift,NA,NA
+US,Total,2019,78.959626,ASDR random walk with drift,NA,NA
+US,Total,2020,77.027766,Lee-Carter,78.836338,-1.808572
+US,Total,2020,77.027766,LE random walk with drift,79.073936,-2.046169
+US,Total,2020,77.027766,ASDR random walk with drift,79.06971,-2.041944
+US,Total,2021,76.423485,Lee-Carter,78.842991,-2.419506
+US,Total,2021,76.423485,LE random walk with drift,79.188245,-2.764761
+US,Total,2021,76.423485,ASDR random walk with drift,79.179328,-2.755843
+US,Total,2022,77.525771,Lee-Carter,78.849425,-1.323653
+US,Total,2022,77.525771,LE random walk with drift,79.302555,-1.776784
+US,Total,2022,77.525771,ASDR random walk with drift,79.288463,-1.762692
+US,Total,2023,78.523187,Lee-Carter,78.851867,-0.32868000000000003
+US,Total,2023,78.523187,LE random walk with drift,79.416865,-0.893678
+US,Total,2023,78.523187,ASDR random walk with drift,79.397109,-0.873922
+US,Total,2024,79.130843,Lee-Carter,78.851163,0.27968
+US,Total,2024,79.130843,LE random walk with drift,79.531175,-0.400332
+US,Total,2024,79.130843,ASDR random walk with drift,79.505258,-0.374414

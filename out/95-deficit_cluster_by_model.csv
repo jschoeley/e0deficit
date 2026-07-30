@@ -1,0 +1,511 @@
+region_iso,sex,year,model,e0_actual,e0_expected,e0_deficit,orig_cluster_assignment
+AT,Total,2020,Lee-Carter,81.377077,82.064847,-0.68777,D
+AT,Total,2020,LE random walk with drift,81.377077,82.145433,-0.768356,D
+AT,Total,2020,ASDR random walk with drift,81.377077,82.127817,-0.75074,D
+AT,Total,2021,Lee-Carter,81.296849,82.199613,-0.902765,D
+AT,Total,2021,LE random walk with drift,81.296849,82.34011,-1.043262,D
+AT,Total,2021,ASDR random walk with drift,81.296849,82.303555,-1.006707,D
+AT,Total,2022,Lee-Carter,81.449812,82.350072,-0.90026,D
+AT,Total,2022,LE random walk with drift,81.449812,82.534788,-1.084975,D
+AT,Total,2022,ASDR random walk with drift,81.449812,82.47771,-1.027898,D
+AT,Total,2023,Lee-Carter,81.874584,82.479308,-0.604724,D
+AT,Total,2023,LE random walk with drift,81.874584,82.729465,-0.854881,D
+AT,Total,2023,ASDR random walk with drift,81.874584,82.650299,-0.775715,D
+AT,Total,2024,Lee-Carter,82.120401,82.624287,-0.503887,D
+AT,Total,2024,LE random walk with drift,82.120401,82.924143,-0.803742,D
+AT,Total,2024,ASDR random walk with drift,82.120401,82.821338,-0.700937,D
+BE,Total,2020,Lee-Carter,80.772108,82.013079,-1.240971,A
+BE,Total,2020,LE random walk with drift,80.772108,82.024613,-1.252505,A
+BE,Total,2020,ASDR random walk with drift,80.772108,82.005435,-1.233327,A
+BE,Total,2021,Lee-Carter,81.626694,82.182684,-0.555989,A
+BE,Total,2021,LE random walk with drift,81.626694,82.237077,-0.610382,A
+BE,Total,2021,ASDR random walk with drift,81.626694,82.197115,-0.570421,A
+BE,Total,2022,Lee-Carter,81.678527,82.364049,-0.685523,A
+BE,Total,2022,LE random walk with drift,81.678527,82.44954,-0.771013,A
+BE,Total,2022,ASDR random walk with drift,81.678527,82.387017,-0.70849,A
+BE,Total,2023,Lee-Carter,82.081437,82.558353,-0.476916,A
+BE,Total,2023,LE random walk with drift,82.081437,82.662003,-0.580566,A
+BE,Total,2023,ASDR random walk with drift,82.081437,82.575153,-0.493716,A
+BE,Total,2024,Lee-Carter,82.286528,82.738216,-0.451688,A
+BE,Total,2024,LE random walk with drift,82.286528,82.874466,-0.587938,A
+BE,Total,2024,ASDR random walk with drift,82.286528,82.761535,-0.475007,A
+BG,Total,2020,Lee-Carter,73.598922,75.175179,-1.576257,B
+BG,Total,2020,LE random walk with drift,73.598922,75.270345,-1.671423,B
+BG,Total,2020,ASDR random walk with drift,73.598922,75.254645,-1.655723,B
+BG,Total,2021,Lee-Carter,71.40488,75.314973,-3.910093,B
+BG,Total,2021,LE random walk with drift,71.40488,75.455948,-4.051068,B
+BG,Total,2021,ASDR random walk with drift,71.40488,75.423599,-4.018719,B
+BG,Total,2022,Lee-Carter,74.306815,75.428228,-1.121413,B
+BG,Total,2022,LE random walk with drift,74.306815,75.641551,-1.334736,B
+BG,Total,2022,ASDR random walk with drift,74.306815,75.591391,-1.284577,B
+BG,Total,2023,Lee-Carter,75.922121,75.565506,0.356615,B
+BG,Total,2023,LE random walk with drift,75.922121,75.827154,0.094966,B
+BG,Total,2023,ASDR random walk with drift,75.922121,75.758055,0.164065,B
+BG,Total,2024,Lee-Carter,76.078399,75.686148,0.392251,B
+BG,Total,2024,LE random walk with drift,76.078399,76.012758,0.065641,B
+BG,Total,2024,ASDR random walk with drift,76.078399,75.923623,0.154776,B
+CH,Total,2020,Lee-Carter,83.082462,83.964277,-0.881815,A
+CH,Total,2020,LE random walk with drift,83.082462,84.010993,-0.928531,A
+CH,Total,2020,ASDR random walk with drift,83.082462,83.987255,-0.904793,A
+CH,Total,2021,Lee-Carter,83.666577,84.122526,-0.455949,A
+CH,Total,2021,LE random walk with drift,83.666577,84.219453,-0.552876,A
+CH,Total,2021,ASDR random walk with drift,83.666577,84.170115,-0.503538,A
+CH,Total,2022,Lee-Carter,83.546425,84.274429,-0.728004,A
+CH,Total,2022,LE random walk with drift,83.546425,84.427913,-0.881488,A
+CH,Total,2022,ASDR random walk with drift,83.546425,84.35087,-0.804445,A
+CH,Total,2023,Lee-Carter,84.084352,84.451675,-0.367323,A
+CH,Total,2023,LE random walk with drift,84.084352,84.636373,-0.552021,A
+CH,Total,2023,ASDR random walk with drift,84.084352,84.529546,-0.445194,A
+CH,Total,2024,Lee-Carter,84.238367,84.594584,-0.356218,A
+CH,Total,2024,LE random walk with drift,84.238367,84.844833,-0.606466,A
+CH,Total,2024,ASDR random walk with drift,84.238367,84.706169,-0.467802,A
+CL,Total,2020,Lee-Carter,78.829051,80.107478,-1.278427,B
+CL,Total,2020,LE random walk with drift,78.829051,80.080991,-1.251939,B
+CL,Total,2020,ASDR random walk with drift,78.829051,80.062698,-1.233647,B
+CL,Total,2021,Lee-Carter,78.160238,80.282097,-2.121858,B
+CL,Total,2021,LE random walk with drift,78.160238,80.245257,-2.085019,B
+CL,Total,2021,ASDR random walk with drift,78.160238,80.207257,-2.047019,B
+CL,Total,2022,Lee-Carter,78.623562,80.447219,-1.823657,B
+CL,Total,2022,LE random walk with drift,78.623562,80.409524,-1.785962,B
+CL,Total,2022,ASDR random walk with drift,78.623562,80.350315,-1.726753,B
+CL,Total,2023,Lee-Carter,80.118792,80.607059,-0.488268,B
+CL,Total,2023,LE random walk with drift,80.118792,80.573791,-0.454999,B
+CL,Total,2023,ASDR random walk with drift,80.118792,80.49192,-0.373129,B
+CL,Total,2024,Lee-Carter,80.107142,80.756994,-0.649852,B
+CL,Total,2024,LE random walk with drift,80.107142,80.738057,-0.630915,B
+CL,Total,2024,ASDR random walk with drift,80.107142,80.632121,-0.524979,B
+CZ,Total,2020,Lee-Carter,78.235856,79.406411,-1.170555,B
+CZ,Total,2020,LE random walk with drift,78.235856,79.404216,-1.16836,B
+CZ,Total,2020,ASDR random walk with drift,78.235856,79.395666,-1.15981,B
+CZ,Total,2021,Lee-Carter,77.234356,79.604385,-2.370029,B
+CZ,Total,2021,LE random walk with drift,77.234356,79.620428,-2.386071,B
+CZ,Total,2021,ASDR random walk with drift,77.234356,79.602484,-2.368128,B
+CZ,Total,2022,Lee-Carter,79.032643,79.761049,-0.728406,B
+CZ,Total,2022,LE random walk with drift,79.032643,79.836639,-0.803996,B
+CZ,Total,2022,ASDR random walk with drift,79.032643,79.80818,-0.775536,B
+CZ,Total,2023,Lee-Carter,79.878033,79.912735,-0.034701,B
+CZ,Total,2023,LE random walk with drift,79.878033,80.052851,-0.174817,B
+CZ,Total,2023,ASDR random walk with drift,79.878033,80.012751,-0.134718,B
+CZ,Total,2024,Lee-Carter,80.103923,80.062732,0.041191,B
+CZ,Total,2024,LE random walk with drift,80.103923,80.269062,-0.165139,B
+CZ,Total,2024,ASDR random walk with drift,80.103923,80.216196,-0.112273,B
+DE,Total,2020,Lee-Carter,81.018687,81.308787,-0.2901,D
+DE,Total,2020,LE random walk with drift,81.018687,81.373463,-0.354775,D
+DE,Total,2020,ASDR random walk with drift,81.018687,81.360057,-0.34137,D
+DE,Total,2021,Lee-Carter,80.807689,81.442345,-0.634656,D
+DE,Total,2021,LE random walk with drift,80.807689,81.538788,-0.731099,D
+DE,Total,2021,ASDR random walk with drift,80.807689,81.510745,-0.703056,D
+DE,Total,2022,Lee-Carter,80.725015,81.553687,-0.828672,D
+DE,Total,2022,LE random walk with drift,80.725015,81.704114,-0.979099,D
+DE,Total,2022,ASDR random walk with drift,80.725015,81.660192,-0.935177,D
+DE,Total,2023,Lee-Carter,81.301285,81.692562,-0.391277,D
+DE,Total,2023,LE random walk with drift,81.301285,81.86944,-0.568155,D
+DE,Total,2023,ASDR random walk with drift,81.301285,81.808409,-0.507124,D
+DE,Total,2024,Lee-Carter,81.622482,81.818452,-0.195969,D
+DE,Total,2024,LE random walk with drift,81.622482,82.034766,-0.412283,D
+DE,Total,2024,ASDR random walk with drift,81.622482,81.955405,-0.332923,D
+DK,Total,2020,Lee-Carter,81.560227,81.623629,-0.063402,C
+DK,Total,2020,LE random walk with drift,81.560227,81.687102,-0.126875,C
+DK,Total,2020,ASDR random walk with drift,81.560227,81.656091,-0.095865,C
+DK,Total,2021,Lee-Carter,81.439855,81.842901,-0.403046,C
+DK,Total,2021,LE random walk with drift,81.439855,81.930287,-0.490431,C
+DK,Total,2021,ASDR random walk with drift,81.439855,81.865698,-0.425843,C
+DK,Total,2022,Lee-Carter,81.307504,82.056538,-0.749034,C
+DK,Total,2022,LE random walk with drift,81.307504,82.173472,-0.865967,C
+DK,Total,2022,ASDR random walk with drift,81.307504,82.072467,-0.764962,C
+DK,Total,2023,Lee-Carter,81.675922,82.269896,-0.593974,C
+DK,Total,2023,LE random walk with drift,81.675922,82.416656,-0.740734,C
+DK,Total,2023,ASDR random walk with drift,81.675922,82.276427,-0.600505,C
+DK,Total,2024,Lee-Carter,82.04492,82.469832,-0.424912,C
+DK,Total,2024,LE random walk with drift,82.04492,82.659841,-0.614921,C
+DK,Total,2024,ASDR random walk with drift,82.04492,82.47761,-0.43269,C
+EE,Total,2020,Lee-Carter,78.762829,79.071531,-0.308703,B
+EE,Total,2020,LE random walk with drift,78.762829,79.225396,-0.462568,B
+EE,Total,2020,ASDR random walk with drift,78.762829,79.137471,-0.374642,B
+EE,Total,2021,Lee-Carter,77.129604,79.372744,-2.24314,B
+EE,Total,2021,LE random walk with drift,77.129604,79.642177,-2.512573,B
+EE,Total,2021,ASDR random walk with drift,77.129604,79.461418,-2.331814,B
+EE,Total,2022,Lee-Carter,78.084127,79.637177,-1.553051,B
+EE,Total,2022,LE random walk with drift,78.084127,80.058958,-1.974832,B
+EE,Total,2022,ASDR random walk with drift,78.084127,79.778973,-1.694847,B
+EE,Total,2023,Lee-Carter,78.980223,79.899548,-0.919325,B
+EE,Total,2023,LE random walk with drift,78.980223,80.475739,-1.495516,B
+EE,Total,2023,ASDR random walk with drift,78.980223,80.090324,-1.110101,B
+EE,Total,2024,Lee-Carter,79.476953,80.187677,-0.710723,B
+EE,Total,2024,LE random walk with drift,79.476953,80.89252,-1.415567,B
+EE,Total,2024,ASDR random walk with drift,79.476953,80.395647,-0.918694,B
+ES,Total,2020,Lee-Carter,82.236835,83.674756,-1.437921,A
+ES,Total,2020,LE random walk with drift,82.236835,83.709143,-1.472308,A
+ES,Total,2020,ASDR random walk with drift,82.236835,83.685175,-1.44834,A
+ES,Total,2021,Lee-Carter,82.988427,83.839876,-0.851449,A
+ES,Total,2021,LE random walk with drift,82.988427,83.923452,-0.935025,A
+ES,Total,2021,ASDR random walk with drift,82.988427,83.87346,-0.885033,A
+ES,Total,2022,Lee-Carter,83.043854,84.003048,-0.959194,A
+ES,Total,2022,LE random walk with drift,83.043854,84.137762,-1.093907,A
+ES,Total,2022,ASDR random walk with drift,83.043854,84.059671,-1.015817,A
+ES,Total,2023,Lee-Carter,83.765874,84.144804,-0.37893,A
+ES,Total,2023,LE random walk with drift,83.765874,84.352071,-0.586197,A
+ES,Total,2023,ASDR random walk with drift,83.765874,84.24384,-0.477966,A
+ES,Total,2024,Lee-Carter,84.023882,84.290332,-0.266451,A
+ES,Total,2024,LE random walk with drift,84.023882,84.566381,-0.542499,A
+ES,Total,2024,ASDR random walk with drift,84.023882,84.425997,-0.402115,A
+FI,Total,2020,Lee-Carter,81.81574,82.176143,-0.360403,C
+FI,Total,2020,LE random walk with drift,81.81574,82.088626,-0.272886,C
+FI,Total,2020,ASDR random walk with drift,81.81574,82.072549,-0.256809,C
+FI,Total,2021,Lee-Carter,81.806104,82.379352,-0.573249,C
+FI,Total,2021,LE random walk with drift,81.806104,82.309603,-0.503499,C
+FI,Total,2021,ASDR random walk with drift,81.806104,82.276233,-0.470129,C
+FI,Total,2022,Lee-Carter,81.194043,82.578913,-1.38487,C
+FI,Total,2022,LE random walk with drift,81.194043,82.53058,-1.336537,C
+FI,Total,2022,ASDR random walk with drift,81.194043,82.478359,-1.284315,C
+FI,Total,2023,Lee-Carter,81.560934,82.78005,-1.219116,C
+FI,Total,2023,LE random walk with drift,81.560934,82.751557,-1.190624,C
+FI,Total,2023,ASDR random walk with drift,81.560934,82.678927,-1.117993,C
+FI,Total,2024,Lee-Carter,82.243769,82.970678,-0.726909,C
+FI,Total,2024,LE random walk with drift,82.243769,82.972535,-0.728766,C
+FI,Total,2024,ASDR random walk with drift,82.243769,82.87794,-0.634171,C
+FR,Total,2020,Lee-Carter,82.208661,82.889307,-0.680647,D
+FR,Total,2020,LE random walk with drift,82.208661,82.938001,-0.72934,D
+FR,Total,2020,ASDR random walk with drift,82.208661,82.924662,-0.716001,D
+FR,Total,2021,Lee-Carter,82.319611,83.03581,-0.716199,D
+FR,Total,2021,LE random walk with drift,82.319611,83.13051,-0.8109,D
+FR,Total,2021,ASDR random walk with drift,82.319611,83.102583,-0.782972,D
+FR,Total,2022,Lee-Carter,82.301332,83.181445,-0.880113,D
+FR,Total,2022,LE random walk with drift,82.301332,83.32302,-1.021688,D
+FR,Total,2022,ASDR random walk with drift,82.301332,83.279222,-0.97789,D
+FR,Total,2023,Lee-Carter,82.890799,83.308699,-0.4179,D
+FR,Total,2023,LE random walk with drift,82.890799,83.515529,-0.62473,D
+FR,Total,2023,ASDR random walk with drift,82.890799,83.454583,-0.563784,D
+FR,Total,2024,Lee-Carter,83.064463,83.438095,-0.373632,D
+FR,Total,2024,LE random walk with drift,83.064463,83.708039,-0.643576,D
+FR,Total,2024,ASDR random walk with drift,83.064463,83.628672,-0.564209,D
+GB-EAW,Total,2020,Lee-Carter,80.539973,81.758847,-1.218873,A
+GB-EAW,Total,2020,LE random walk with drift,80.539973,81.709663,-1.16969,A
+GB-EAW,Total,2020,ASDR random walk with drift,80.539973,81.706601,-1.166628,A
+GB-EAW,Total,2021,Lee-Carter,80.731357,81.863219,-1.131862,A
+GB-EAW,Total,2021,LE random walk with drift,80.731357,81.819352,-1.087995,A
+GB-EAW,Total,2021,ASDR random walk with drift,80.731357,81.812655,-1.081297,A
+GB-EAW,Total,2022,Lee-Carter,81.173023,81.969763,-0.79674,A
+GB-EAW,Total,2022,LE random walk with drift,81.173023,81.929042,-0.756019,A
+GB-EAW,Total,2022,ASDR random walk with drift,81.173023,81.918101,-0.745078,A
+GB-EAW,Total,2023,Lee-Carter,81.260569,82.057695,-0.797126,A
+GB-EAW,Total,2023,LE random walk with drift,81.260569,82.038731,-0.778162,A
+GB-EAW,Total,2023,ASDR random walk with drift,81.260569,82.02294,-0.762371,A
+GB-EAW,Total,2024,Lee-Carter,81.761325,82.148449,-0.387124,A
+GB-EAW,Total,2024,LE random walk with drift,81.761325,82.14842,-0.387095,A
+GB-EAW,Total,2024,ASDR random walk with drift,81.761325,82.12717,-0.365845,A
+GB-NIR,Total,2020,Lee-Carter,80.134047,81.130653,-0.996606,D
+GB-NIR,Total,2020,LE random walk with drift,80.134047,81.124547,-0.9905,D
+GB-NIR,Total,2020,ASDR random walk with drift,80.134047,81.108462,-0.974415,D
+GB-NIR,Total,2021,Lee-Carter,80.128385,81.271852,-1.143467,D
+GB-NIR,Total,2021,LE random walk with drift,80.128385,81.312952,-1.184567,D
+GB-NIR,Total,2021,ASDR random walk with drift,80.128385,81.280534,-1.152149,D
+GB-NIR,Total,2022,Lee-Carter,80.788758,81.402099,-0.61334,D
+GB-NIR,Total,2022,LE random walk with drift,80.788758,81.501357,-0.712599,D
+GB-NIR,Total,2022,ASDR random walk with drift,80.788758,81.451088,-0.662329,D
+GB-NIR,Total,2023,Lee-Carter,81.082082,81.535925,-0.453843,D
+GB-NIR,Total,2023,LE random walk with drift,81.082082,81.689763,-0.607681,D
+GB-NIR,Total,2023,ASDR random walk with drift,81.082082,81.620118,-0.538036,D
+GB-NIR,Total,2024,Lee-Carter,80.559919,81.65817,-1.098251,D
+GB-NIR,Total,2024,LE random walk with drift,80.559919,81.878168,-1.318249,D
+GB-NIR,Total,2024,ASDR random walk with drift,80.559919,81.787623,-1.227704,D
+GB-SCT,Total,2020,Lee-Carter,78.464206,79.380975,-0.916768,A
+GB-SCT,Total,2020,LE random walk with drift,78.464206,79.38719,-0.922984,A
+GB-SCT,Total,2020,ASDR random walk with drift,78.464206,79.370565,-0.906359,A
+GB-SCT,Total,2021,Lee-Carter,78.478743,79.44472,-0.965978,A
+GB-SCT,Total,2021,LE random walk with drift,78.478743,79.558518,-1.079775,A
+GB-SCT,Total,2021,ASDR random walk with drift,78.478743,79.52394,-1.045197,A
+GB-SCT,Total,2022,Lee-Carter,79.019729,79.493374,-0.473646,A
+GB-SCT,Total,2022,LE random walk with drift,79.019729,79.729846,-0.710118,A
+GB-SCT,Total,2022,ASDR random walk with drift,79.019729,79.675635,-0.655906,A
+GB-SCT,Total,2023,Lee-Carter,79.045174,79.544812,-0.499638,A
+GB-SCT,Total,2023,LE random walk with drift,79.045174,79.901175,-0.856001,A
+GB-SCT,Total,2023,ASDR random walk with drift,79.045174,79.825647,-0.780473,A
+GB-SCT,Total,2024,Lee-Carter,79.60398,79.60148,0.0025,A
+GB-SCT,Total,2024,LE random walk with drift,79.60398,80.072503,-0.468523,A
+GB-SCT,Total,2024,ASDR random walk with drift,79.60398,79.973974,-0.369994,A
+GR,Total,2020,Lee-Carter,81.280628,81.619131,-0.338503,B
+GR,Total,2020,LE random walk with drift,81.280628,81.664124,-0.383496,B
+GR,Total,2020,ASDR random walk with drift,81.280628,81.652454,-0.371826,B
+GR,Total,2021,Lee-Carter,80.182203,81.722794,-1.540592,B
+GR,Total,2021,LE random walk with drift,80.182203,81.83069,-1.648487,B
+GR,Total,2021,ASDR random walk with drift,80.182203,81.806383,-1.62418,B
+GR,Total,2022,Lee-Carter,80.787136,81.812486,-1.02535,B
+GR,Total,2022,LE random walk with drift,80.787136,81.997256,-1.21012,B
+GR,Total,2022,ASDR random walk with drift,80.787136,81.959188,-1.172052,B
+GR,Total,2023,Lee-Carter,81.519721,81.893999,-0.374278,B
+GR,Total,2023,LE random walk with drift,81.519721,82.163821,-0.6441,B
+GR,Total,2023,ASDR random walk with drift,81.519721,82.110872,-0.591151,B
+GR,Total,2024,Lee-Carter,81.52914,81.983179,-0.454039,B
+GR,Total,2024,LE random walk with drift,81.52914,82.330387,-0.801247,B
+GR,Total,2024,ASDR random walk with drift,81.52914,82.26144,-0.7323,B
+HR,Total,2020,Lee-Carter,77.783843,78.659759,-0.875916,B
+HR,Total,2020,LE random walk with drift,77.783843,78.687967,-0.904125,B
+HR,Total,2020,ASDR random walk with drift,77.783843,78.666073,-0.882231,B
+HR,Total,2021,Lee-Carter,76.876456,78.847059,-1.970603,B
+HR,Total,2021,LE random walk with drift,76.876456,78.90525,-2.028794,B
+HR,Total,2021,ASDR random walk with drift,76.876456,78.860085,-1.983629,B
+HR,Total,2022,Lee-Carter,78.131082,79.050897,-0.919815,B
+HR,Total,2022,LE random walk with drift,78.131082,79.122533,-0.991451,B
+HR,Total,2022,ASDR random walk with drift,78.131082,79.052089,-0.921008,B
+HR,Total,2023,Lee-Carter,79.202884,79.278254,-0.075369,B
+HR,Total,2023,LE random walk with drift,79.202884,79.339816,-0.136931,B
+HR,Total,2023,ASDR random walk with drift,79.202884,79.242115,-0.039231,B
+HR,Total,2024,Lee-Carter,79.465114,79.467934,-0.002819,B
+HR,Total,2024,LE random walk with drift,79.465114,79.557098,-0.091984,B
+HR,Total,2024,ASDR random walk with drift,79.465114,79.430192,0.034923,B
+HU,Total,2020,Lee-Carter,75.735642,76.665341,-0.929699,B
+HU,Total,2020,LE random walk with drift,75.735642,76.698419,-0.962777,B
+HU,Total,2020,ASDR random walk with drift,75.735642,76.656377,-0.920735,B
+HU,Total,2021,Lee-Carter,74.243498,76.873541,-2.630043,B
+HU,Total,2021,LE random walk with drift,74.243498,76.945154,-2.701656,B
+HU,Total,2021,ASDR random walk with drift,74.243498,76.858121,-2.614622,B
+HU,Total,2022,Lee-Carter,76.101903,77.041539,-0.939636,B
+HU,Total,2022,LE random walk with drift,76.101903,77.191889,-1.089986,B
+HU,Total,2022,ASDR random walk with drift,76.101903,77.056782,-0.954879,B
+HU,Total,2023,Lee-Carter,77.081639,77.204398,-0.12276,B
+HU,Total,2023,LE random walk with drift,77.081639,77.438624,-0.356985,B
+HU,Total,2023,ASDR random walk with drift,77.081639,77.252473,-0.170834,B
+HU,Total,2024,Lee-Carter,77.322378,77.360627,-0.038248,B
+HU,Total,2024,LE random walk with drift,77.322378,77.685359,-0.36298,B
+HU,Total,2024,ASDR random walk with drift,77.322378,77.445299,-0.12292,B
+IL,Total,2020,Lee-Carter,82.425244,82.861479,-0.436236,D
+IL,Total,2020,LE random walk with drift,82.425244,82.896988,-0.471744,D
+IL,Total,2020,ASDR random walk with drift,82.425244,82.873957,-0.448713,D
+IL,Total,2021,Lee-Carter,82.12379,82.955342,-0.831552,D
+IL,Total,2021,LE random walk with drift,82.12379,83.100709,-0.976918,D
+IL,Total,2021,ASDR random walk with drift,82.12379,83.05262,-0.92883,D
+IL,Total,2022,Lee-Carter,82.217859,83.056445,-0.838585,D
+IL,Total,2022,LE random walk with drift,82.217859,83.304429,-1.08657,D
+IL,Total,2022,ASDR random walk with drift,82.217859,83.229035,-1.011176,D
+IL,Total,2023,Lee-Carter,82.580529,83.14567,-0.565141,D
+IL,Total,2023,LE random walk with drift,82.580529,83.50815,-0.927622,D
+IL,Total,2023,ASDR random walk with drift,82.580529,83.40321,-0.822682,D
+IL,Total,2024,Lee-Carter,82.392587,83.243598,-0.851011,D
+IL,Total,2024,LE random walk with drift,82.392587,83.711871,-1.319284,D
+IL,Total,2024,ASDR random walk with drift,82.392587,83.575156,-1.182569,D
+IS,Total,2020,Lee-Carter,82.792214,82.810698,-0.018484,C
+IS,Total,2020,LE random walk with drift,82.792214,83.085853,-0.293639,C
+IS,Total,2020,ASDR random walk with drift,82.792214,83.048809,-0.256595,C
+IS,Total,2021,Lee-Carter,82.903141,82.884557,0.018584,C
+IS,Total,2021,LE random walk with drift,82.903141,83.255657,-0.352517,C
+IS,Total,2021,ASDR random walk with drift,82.903141,83.188715,-0.285575,C
+IS,Total,2022,Lee-Carter,82.097165,82.956137,-0.858971,C
+IS,Total,2022,LE random walk with drift,82.097165,83.425462,-1.328297,C
+IS,Total,2022,ASDR random walk with drift,82.097165,83.326661,-1.229496,C
+IS,Total,2023,Lee-Carter,82.371209,82.979216,-0.608007,C
+IS,Total,2023,LE random walk with drift,82.371209,83.595267,-1.224057,C
+IS,Total,2023,ASDR random walk with drift,82.371209,83.462704,-1.091495,C
+IS,Total,2024,Lee-Carter,82.592126,83.048568,-0.456442,C
+IS,Total,2024,LE random walk with drift,82.592126,83.765072,-1.172946,C
+IS,Total,2024,ASDR random walk with drift,82.592126,83.596895,-1.004769,C
+IT,Total,2020,Lee-Carter,82.194137,83.435646,-1.241509,A
+IT,Total,2020,LE random walk with drift,82.194137,83.488953,-1.294816,A
+IT,Total,2020,ASDR random walk with drift,82.194137,83.483595,-1.289458,A
+IT,Total,2021,Lee-Carter,82.553914,83.593235,-1.039321,A
+IT,Total,2021,LE random walk with drift,82.553914,83.626516,-1.072602,A
+IT,Total,2021,ASDR random walk with drift,82.553914,83.614673,-1.060759,A
+IT,Total,2022,Lee-Carter,82.703874,83.693206,-0.989332,A
+IT,Total,2022,LE random walk with drift,82.703874,83.764078,-1.060204,A
+IT,Total,2022,ASDR random walk with drift,82.703874,83.744603,-1.040729,A
+IT,Total,2023,Lee-Carter,83.41682,83.791648,-0.374828,A
+IT,Total,2023,LE random walk with drift,83.41682,83.90164,-0.484821,A
+IT,Total,2023,ASDR random walk with drift,83.41682,83.873393,-0.456573,A
+IT,Total,2024,Lee-Carter,83.747427,83.888594,-0.141167,A
+IT,Total,2024,LE random walk with drift,83.747427,84.039203,-0.291776,A
+IT,Total,2024,ASDR random walk with drift,83.747427,84.00105,-0.253623,A
+JP,Total,2020,Lee-Carter,84.75103,84.677612,0.073419,C
+JP,Total,2020,LE random walk with drift,84.75103,84.659904,0.091126,C
+JP,Total,2020,ASDR random walk with drift,84.75103,84.64637,0.104661,C
+JP,Total,2021,Lee-Carter,84.614807,84.840309,-0.225502,C
+JP,Total,2021,LE random walk with drift,84.614807,84.832144,-0.217337,C
+JP,Total,2021,ASDR random walk with drift,84.614807,84.803763,-0.188955,C
+JP,Total,2022,Lee-Carter,84.119124,85.011017,-0.891892,C
+JP,Total,2022,LE random walk with drift,84.119124,85.004384,-0.88526,C
+JP,Total,2022,ASDR random walk with drift,84.119124,84.959834,-0.84071,C
+JP,Total,2023,Lee-Carter,84.176171,85.191898,-1.015727,C
+JP,Total,2023,LE random walk with drift,84.176171,85.176624,-1.000453,C
+JP,Total,2023,ASDR random walk with drift,84.176171,85.114589,-0.938418,C
+JP,Total,2024,Lee-Carter,84.16792,85.355515,-1.187595,C
+JP,Total,2024,LE random walk with drift,84.16792,85.348864,-1.180944,C
+JP,Total,2024,ASDR random walk with drift,84.16792,85.268032,-1.100112,C
+LT,Total,2020,Lee-Carter,75.232805,76.732517,-1.499712,B
+LT,Total,2020,LE random walk with drift,75.232805,76.749681,-1.516876,B
+LT,Total,2020,ASDR random walk with drift,75.232805,76.716148,-1.483343,B
+LT,Total,2021,Lee-Carter,74.28797,77.035667,-2.747697,B
+LT,Total,2021,LE random walk with drift,74.28797,76.979668,-2.691698,B
+LT,Total,2021,ASDR random walk with drift,74.28797,76.910638,-2.622668,B
+LT,Total,2022,Lee-Carter,75.85494,77.339502,-1.484562,B
+LT,Total,2022,LE random walk with drift,75.85494,77.209654,-1.354714,B
+LT,Total,2022,ASDR random walk with drift,75.85494,77.102486,-1.247546,B
+LT,Total,2023,Lee-Carter,77.445238,77.612021,-0.166782,B
+LT,Total,2023,LE random walk with drift,77.445238,77.439641,0.005598,B
+LT,Total,2023,ASDR random walk with drift,77.445238,77.291755,0.153483,B
+LT,Total,2024,Lee-Carter,77.469631,77.888834,-0.419203,B
+LT,Total,2024,LE random walk with drift,77.469631,77.669627,-0.199996,B
+LT,Total,2024,ASDR random walk with drift,77.469631,77.478508,-0.008876,B
+LU,Total,2020,Lee-Carter,81.951091,82.598259,-0.647168,A
+LU,Total,2020,LE random walk with drift,81.951091,82.548489,-0.597397,A
+LU,Total,2020,ASDR random walk with drift,81.951091,82.510341,-0.55925,A
+LU,Total,2021,Lee-Carter,82.450859,82.771577,-0.320719,A
+LU,Total,2021,LE random walk with drift,82.450859,82.791015,-0.340156,A
+LU,Total,2021,ASDR random walk with drift,82.450859,82.718521,-0.267662,A
+LU,Total,2022,Lee-Carter,82.755413,82.910115,-0.154702,A
+LU,Total,2022,LE random walk with drift,82.755413,83.033541,-0.278128,A
+LU,Total,2022,ASDR random walk with drift,82.755413,82.924042,-0.168629,A
+LU,Total,2023,Lee-Carter,83.049494,83.019669,0.029826,A
+LU,Total,2023,LE random walk with drift,83.049494,83.276067,-0.226573,A
+LU,Total,2023,ASDR random walk with drift,83.049494,83.126955,-0.07746,A
+LU,Total,2024,Lee-Carter,83.062026,83.167026,-0.105,A
+LU,Total,2024,LE random walk with drift,83.062026,83.518593,-0.456567,A
+LU,Total,2024,ASDR random walk with drift,83.062026,83.327308,-0.265281,A
+LV,Total,2020,Lee-Carter,75.399029,75.815855,-0.416826,B
+LV,Total,2020,LE random walk with drift,75.399029,75.923119,-0.52409,B
+LV,Total,2020,ASDR random walk with drift,75.399029,75.881649,-0.482619,B
+LV,Total,2021,Lee-Carter,73.138889,76.090932,-2.952043,B
+LV,Total,2021,LE random walk with drift,73.138889,76.212521,-3.073633,B
+LV,Total,2021,ASDR random walk with drift,73.138889,76.12749,-2.988602,B
+LV,Total,2022,Lee-Carter,74.496275,76.361396,-1.8651199999999999,B
+LV,Total,2022,LE random walk with drift,74.496275,76.501923,-2.005648,B
+LV,Total,2022,ASDR random walk with drift,74.496275,76.370157,-1.873881,B
+LV,Total,2023,Lee-Carter,75.565575,76.621133,-1.055557,B
+LV,Total,2023,LE random walk with drift,75.565575,76.791326,-1.22575,B
+LV,Total,2023,ASDR random walk with drift,75.565575,76.60973,-1.044154,B
+LV,Total,2024,Lee-Carter,76.441243,76.881943,-0.4407,B
+LV,Total,2024,LE random walk with drift,76.441243,77.080728,-0.639485,B
+LV,Total,2024,ASDR random walk with drift,76.441243,76.846287,-0.405044,B
+NL,Total,2020,Lee-Carter,81.39837,82.155535,-0.757165,D
+NL,Total,2020,LE random walk with drift,81.39837,82.270781,-0.872411,D
+NL,Total,2020,ASDR random walk with drift,81.39837,82.252803,-0.854433,D
+NL,Total,2021,Lee-Carter,81.364872,82.276898,-0.912026,D
+NL,Total,2021,LE random walk with drift,81.364872,82.477471,-1.112599,D
+NL,Total,2021,ASDR random walk with drift,81.364872,82.439829,-1.074957,D
+NL,Total,2022,Lee-Carter,81.642919,82.408217,-0.765298,D
+NL,Total,2022,LE random walk with drift,81.642919,82.684161,-1.041243,D
+NL,Total,2022,ASDR random walk with drift,81.642919,82.625058,-0.982139,D
+NL,Total,2023,Lee-Carter,81.855614,82.549144,-0.69353,D
+NL,Total,2023,LE random walk with drift,81.855614,82.890852,-1.035238,D
+NL,Total,2023,ASDR random walk with drift,81.855614,82.808492,-0.952877,D
+NL,Total,2024,Lee-Carter,81.974321,82.672356,-0.698034,D
+NL,Total,2024,LE random walk with drift,81.974321,83.097542,-1.123221,D
+NL,Total,2024,ASDR random walk with drift,81.974321,82.990132,-1.015811,D
+NO,Total,2020,Lee-Carter,83.199916,83.201704,-0.001787,C
+NO,Total,2020,LE random walk with drift,83.199916,83.178795,0.021122,C
+NO,Total,2020,ASDR random walk with drift,83.199916,83.156824,0.043093,C
+NO,Total,2021,Lee-Carter,83.169017,83.410851,-0.241834,C
+NO,Total,2021,LE random walk with drift,83.169017,83.40335,-0.234333,C
+NO,Total,2021,ASDR random walk with drift,83.169017,83.357717,-0.1887,C
+NO,Total,2022,Lee-Carter,82.620013,83.603853,-0.98384,C
+NO,Total,2022,LE random walk with drift,82.620013,83.627906,-1.007893,C
+NO,Total,2022,ASDR random walk with drift,82.620013,83.556559,-0.936546,C
+NO,Total,2023,Lee-Carter,83.013478,83.795331,-0.781853,C
+NO,Total,2023,LE random walk with drift,83.013478,83.852461,-0.838983,C
+NO,Total,2023,ASDR random walk with drift,83.013478,83.753363,-0.739885,C
+NO,Total,2024,Lee-Carter,83.188048,83.983185,-0.795137,C
+NO,Total,2024,LE random walk with drift,83.188048,84.077017,-0.888968,C
+NO,Total,2024,ASDR random walk with drift,83.188048,83.948144,-0.760095,C
+PL,Total,2020,Lee-Carter,76.481584,77.994035,-1.512451,B
+PL,Total,2020,LE random walk with drift,76.481584,78.057252,-1.575669,B
+PL,Total,2020,ASDR random walk with drift,76.481584,78.045176,-1.563592,B
+PL,Total,2021,Lee-Carter,75.535536,78.165997,-2.630461,B
+PL,Total,2021,LE random walk with drift,75.535536,78.273311,-2.737774,B
+PL,Total,2021,ASDR random walk with drift,75.535536,78.24814,-2.712603,B
+PL,Total,2022,Lee-Carter,77.236957,78.340305,-1.103349,B
+PL,Total,2022,LE random walk with drift,77.236957,78.489369,-1.252413,B
+PL,Total,2022,ASDR random walk with drift,77.236957,78.450039,-1.213083,B
+PL,Total,2023,Lee-Carter,78.371403,78.473709,-0.102305,B
+PL,Total,2023,LE random walk with drift,78.371403,78.705428,-0.334024,B
+PL,Total,2023,ASDR random walk with drift,78.371403,78.650888,-0.279484,B
+PL,Total,2024,Lee-Carter,78.747203,78.625087,0.122116,B
+PL,Total,2024,LE random walk with drift,78.747203,78.921486,-0.174284,B
+PL,Total,2024,ASDR random walk with drift,78.747203,78.8507,-0.103497,B
+PT,Total,2020,Lee-Carter,81.386889,82.223419,-0.83653,D
+PT,Total,2020,LE random walk with drift,81.386889,82.251113,-0.864225,D
+PT,Total,2020,ASDR random walk with drift,81.386889,82.21653,-0.829642,D
+PT,Total,2021,Lee-Carter,81.420671,82.411029,-0.990359,D
+PT,Total,2021,LE random walk with drift,81.420671,82.522025,-1.101355,D
+PT,Total,2021,ASDR random walk with drift,81.420671,82.450151,-1.02948,D
+PT,Total,2022,Lee-Carter,81.698774,82.608354,-0.90958,D
+PT,Total,2022,LE random walk with drift,81.698774,82.792937,-1.094163,D
+PT,Total,2022,ASDR random walk with drift,81.698774,82.680944,-0.98217,D
+PT,Total,2023,Lee-Carter,82.283556,82.82734,-0.543784,D
+PT,Total,2023,LE random walk with drift,82.283556,83.063849,-0.780293,D
+PT,Total,2023,ASDR random walk with drift,82.283556,82.908969,-0.625413,D
+PT,Total,2024,Lee-Carter,82.566651,83.01357,-0.446919,D
+PT,Total,2024,LE random walk with drift,82.566651,83.334761,-0.76811,D
+PT,Total,2024,ASDR random walk with drift,82.566651,83.134281,-0.56763,D
+SE,Total,2020,Lee-Carter,82.447883,83.185511,-0.737628,A
+SE,Total,2020,LE random walk with drift,82.447883,83.240298,-0.792414,A
+SE,Total,2020,ASDR random walk with drift,82.447883,83.226805,-0.778921,A
+SE,Total,2021,Lee-Carter,83.032247,83.351286,-0.319038,A
+SE,Total,2021,LE random walk with drift,83.032247,83.415125,-0.382877,A
+SE,Total,2021,ASDR random walk with drift,83.032247,83.387033,-0.354786,A
+SE,Total,2022,Lee-Carter,83.068228,83.515502,-0.447273,A
+SE,Total,2022,LE random walk with drift,83.068228,83.589952,-0.521723,A
+SE,Total,2022,ASDR random walk with drift,83.068228,83.545986,-0.477757,A
+SE,Total,2023,Lee-Carter,83.258609,83.663695,-0.405086,A
+SE,Total,2023,LE random walk with drift,83.258609,83.764779,-0.50617,A
+SE,Total,2023,ASDR random walk with drift,83.258609,83.703668,-0.44506,A
+SE,Total,2024,Lee-Carter,83.843461,83.81596,0.027501,A
+SE,Total,2024,LE random walk with drift,83.843461,83.939606,-0.096145,A
+SE,Total,2024,ASDR random walk with drift,83.843461,83.860089,-0.016628,A
+SI,Total,2020,Lee-Carter,80.369686,81.563342,-1.193656,A
+SI,Total,2020,LE random walk with drift,80.369686,81.620666,-1.25098,A
+SI,Total,2020,ASDR random walk with drift,80.369686,81.583379,-1.213693,A
+SI,Total,2021,Lee-Carter,80.602021,81.771057,-1.169036,A
+SI,Total,2021,LE random walk with drift,80.602021,81.900699,-1.298678,A
+SI,Total,2021,ASDR random walk with drift,80.602021,81.824048,-1.222027,A
+SI,Total,2022,Lee-Carter,81.294395,81.983659,-0.689264,A
+SI,Total,2022,LE random walk with drift,81.294395,82.180731,-0.886336,A
+SI,Total,2022,ASDR random walk with drift,81.294395,82.061466,-0.767072,A
+SI,Total,2023,Lee-Carter,81.945236,82.153793,-0.208556,A
+SI,Total,2023,LE random walk with drift,81.945236,82.460763,-0.515527,A
+SI,Total,2023,ASDR random walk with drift,81.945236,82.295674,-0.350438,A
+SI,Total,2024,Lee-Carter,82.342207,82.344592,-0.002385,A
+SI,Total,2024,LE random walk with drift,82.342207,82.740796,-0.398589,A
+SI,Total,2024,ASDR random walk with drift,82.342207,82.52671,-0.184503,A
+SK,Total,2020,Lee-Carter,76.849962,77.780387,-0.930425,B
+SK,Total,2020,LE random walk with drift,76.849962,77.774291,-0.924329,B
+SK,Total,2020,ASDR random walk with drift,76.849962,77.759851,-0.909889,B
+SK,Total,2021,Lee-Carter,74.597718,77.986525,-3.388807,B
+SK,Total,2021,LE random walk with drift,74.597718,78.005878,-3.40816,B
+SK,Total,2021,ASDR random walk with drift,74.597718,77.976116,-3.378397,B
+SK,Total,2022,Lee-Carter,76.951307,78.200074,-1.248767,B
+SK,Total,2022,LE random walk with drift,76.951307,78.237466,-1.286159,B
+SK,Total,2022,ASDR random walk with drift,76.951307,78.190908,-1.239601,B
+SK,Total,2023,Lee-Carter,78.042585,78.421119,-0.378534,B
+SK,Total,2023,LE random walk with drift,78.042585,78.469053,-0.426467,B
+SK,Total,2023,ASDR random walk with drift,78.042585,78.404219,-0.361633,B
+SK,Total,2024,Lee-Carter,78.377248,78.628952,-0.251705,B
+SK,Total,2024,LE random walk with drift,78.377248,78.70064,-0.323392,B
+SK,Total,2024,ASDR random walk with drift,78.377248,78.616038,-0.23879,B
+TW,Total,2020,Lee-Carter,81.144526,80.775076,0.36945,C
+TW,Total,2020,LE random walk with drift,81.144526,80.853923,0.290603,C
+TW,Total,2020,ASDR random walk with drift,81.144526,80.842916,0.30161,C
+TW,Total,2021,Lee-Carter,80.726245,80.941399,-0.215154,C
+TW,Total,2021,LE random walk with drift,80.726245,81.093656,-0.36741,C
+TW,Total,2021,ASDR random walk with drift,80.726245,81.071374,-0.345129,C
+TW,Total,2022,Lee-Carter,79.823121,81.093811,-1.27069,C
+TW,Total,2022,LE random walk with drift,79.823121,81.333388,-1.510267,C
+TW,Total,2022,ASDR random walk with drift,79.823121,81.299466,-1.476345,C
+TW,Total,2023,Lee-Carter,80.133066,81.268468,-1.135402,C
+TW,Total,2023,LE random walk with drift,80.133066,81.573121,-1.440055,C
+TW,Total,2023,ASDR random walk with drift,80.133066,81.527302,-1.394236,C
+TW,Total,2024,Lee-Carter,80.568131,81.418827,-0.850696,C
+TW,Total,2024,LE random walk with drift,80.568131,81.812854,-1.244723,C
+TW,Total,2024,ASDR random walk with drift,80.568131,81.754997,-1.186867,C
+US,Total,2020,Lee-Carter,77.027766,78.836338,-1.808572,B
+US,Total,2020,LE random walk with drift,77.027766,79.073936,-2.046169,B
+US,Total,2020,ASDR random walk with drift,77.027766,79.06971,-2.041944,B
+US,Total,2021,Lee-Carter,76.423485,78.842991,-2.419506,B
+US,Total,2021,LE random walk with drift,76.423485,79.188245,-2.764761,B
+US,Total,2021,ASDR random walk with drift,76.423485,79.179328,-2.755843,B
+US,Total,2022,Lee-Carter,77.525771,78.849425,-1.323653,B
+US,Total,2022,LE random walk with drift,77.525771,79.302555,-1.776784,B
+US,Total,2022,ASDR random walk with drift,77.525771,79.288463,-1.762692,B
+US,Total,2023,Lee-Carter,78.523187,78.851867,-0.32868000000000003,B
+US,Total,2023,LE random walk with drift,78.523187,79.416865,-0.893678,B
+US,Total,2023,ASDR random walk with drift,78.523187,79.397109,-0.873922,B
+US,Total,2024,Lee-Carter,79.130843,78.851163,0.27968,B
+US,Total,2024,LE random walk with drift,79.130843,79.531175,-0.400332,B
+US,Total,2024,ASDR random walk with drift,79.130843,79.505258,-0.374414,B

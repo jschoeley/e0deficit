@@ -84,8 +84,6 @@ excessmeasures20_24$cnst <- within(list(), {
     c('Highest', rep('', max(breaks_e0deficit_rank)-2), 'Lowest')
 })
 
-
-
 excessmeasures20_24$fig$led_vs_mul <-
   excessmeasures20_24$data |>
   ggplot(aes(x = e0deficit, y = mul)) +

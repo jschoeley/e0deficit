@@ -46,8 +46,10 @@
 !91-e0benchmark.xlsx
 !92-excessmeasures20_24.csv
 !92-excessmeasures20_24.svg
-!95-deficit_clusters.csv
-!95-estimates_since_2000.csv
-!95-lc_estimates_since_2000.csv
-!95-sensitivity_deficit_model_choice.svg
-
+!95-deficit_cluster_by_model.csv
+!95-deficit_cluster_by_model.svg
+!95-deficit_rank_by_model.csv
+!95-deficit_rank_by_model.svg
+!95-estimates_by_model.csv
+!95-expected_by_model.csv
+!95-expected_by_model.svg
