@@ -38,11 +38,13 @@ Jonas Schöley$^{1}$
 $^1$ Max Planck Institute for Demographic Research; Rostock, Germany\par
 \par\medskip}
 
+\tableofcontents
+
 %\end{titlepage}
 
 %--- Text --------------------------------------------------------------
 
-\section*{Summary}
+\section{Summary}
 
 We calculate life tables and associated life expectancies by sex for a selection of 34 countries for the years 2000 through 2024. For the years 2020 through 2024 we calculate counterfactual life expectancies based on the continuation of pre-pandemic mortality trends and derive associated life expectancy deficits -- the difference between actual and counterfactual life expectancy -- as an age standardized and trend adjusted measure of excess mortality.
 
@@ -58,18 +60,20 @@ We perform simulation based uncertainty propagation throughout our analysis via 
 
 The complete analysis workflow is explained in detail in the methods appendix. The analysis script is available from \href{https://github.com/jschoeley/e0deficit}{\texttt{https://github.com/jschoeley/e0deficit}}.
 
-\section*{Data sources\footnote{
+\section{Data}
+
+\subsection{Data sources}
+
+The basis for our analysis are death and population counts by age, year, sex, and country. We source\footnote{
 \href{https://github.com/jschoeley/e0deficit/blob/main/src/12-download_death.R}{\texttt{github.com/jschoeley/e0deficit/blob/main/src/12-download\_death.R}}
 \href{https://github.com/jschoeley/e0deficit/blob/main/src/11-download_population_and_rates.R}{\texttt{github.com/jschoeley/e0deficit/blob/main/src/11-download\_population\_and\_rates.R}}
-}}
-
-The basis for our analysis are death and population counts by age, year, sex, and country. We source the death counts from:
+} the death counts from:
 
 \begin{itemize}
-    \item The Short-term mortality fluctuations (HMD-STMF, \cite{jdanov2021b}) input data base for weekly death counts by age and sex across countries. This is our main source. The data is updated weekly and includes the most recent information on death counts. Using HMD-STMF allows for timely updates of annual life expectancy estimates across countries.
+    \item The Human Mortality Database (HMD, \cite{HMD2025, Barbieri2015}) for annual death counts and exposures by age and sex for those countries for which a complete series is available through 2024.
+    \item The Short-term mortality fluctuations (HMD-STMF, \cite{jdanov2021b}) input data base for weekly death counts by age and sex across countries. The data is updated weekly and includes the most recent information on death counts. We derive annual counts from this source in cases where the HMD does not provide data through 2024.
     \item The UK's Office for National Statistics (ONS, \cite{officefornationalstatistics2025}) annual death counts by age and sex for England and Wales. We use this data for years 2010 through 2019 because the age grouping in the HMD-STMF data for these years is too coarse for reliable life expectancy estimates.
     \item The US Centers for Disease Control and Prevention (CDC, \cite{centersfordiseasecontrolandprevention2025}) for annual death counts by age and sex for the United States. We use this data for years 2000 through 2019 for the US, lacking any HMD-STMF data for these years.
-    \item The Human Mortality Database (HMD, \cite{HMD2025, Barbieri2015}) for annual death counts and exposures for those countries for which a complete series is available through 2024.
 \end{itemize}
 
 Population data form the basis for our person year exposure estimates and are sourced from:
@@ -149,11 +153,11 @@ USA & 2020-2024 & HMD-STMF & WPP-2024 \\
 \label{tab:sources}
 \end{table}
 
-\section*{Data harmonization\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/21-harmonize_death_with_exposures.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/21-harmonize\_death\_with\_exposures.R}}}}
+\subsection{Data harmonization}
 
-\subsection*{Death count age harmonization}
+\subsubsection{Death count age harmonization}
 
-As the HMD-STMF input data is not harmonized in terms of age grouping we perform a model based ungrouping of deaths into single ages for each region-year-sex stratum using the Penalized Composite Link Method (PCLM) \citep{Rizzi2015} implemented in the R package \texttt{ungroup} \citep{Pascariu2018}.
+As the HMD-STMF input data is not harmonized in terms of age grouping we perform\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/21-harmonize_death_with_exposures.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/21-harmonize\_death\_with\_exposures.R}}} a model based ungrouping of deaths into single ages for each region-year-sex stratum using the Penalized Composite Link Method (PCLM) \citep{Rizzi2015} implemented in the R package \texttt{ungroup} \citep{Pascariu2018}.
 
 The original death counts over single year age groups $\mathbf{d}^\mathrm{single}=\left(d_{j=1}, \ldots, d_J\right)^\intercal$ have been grouped (summed) into discrete age bins $\mathbf{d}^\mathrm{grouped}=\left(d_{i=1}, \ldots, d_I\right)^\intercal$ of varying width. We assume the grouped death counts to arise from a Poisson distribution with mean $\mu_i$:
 
@@ -183,7 +187,7 @@ such that $\hat{d_x}$ corresponds to the mode of the Poisson distribution with r
 
 Because the age grouping scheme may vary within a year, the ungrouping is separately applied to each region $\times$ sex $\times$ year $\times$ age pattern combination in the input data. In a final step, the harmonized sub-annual HMD-STMF death counts are summed into annual death counts by age, $\hat{d}_{xy}$.
 
-\subsection*{Exposure time calculation}
+\subsubsection{Exposure time calculation}
 
 We derive person years of exposure by age and year, $E_{xy}$, from the midyear population estimates, $N_{xy}^\mathrm{midyear}$. We choose the HMD midyear population for exposure calculation for those countries where a complete series is available through 2024 and for the regions of UK. Otherwise we choose the World Population Prospects 2024 data which is always complete throughout 2024. To complete HMD exposures for the UK regions we perform a stable population projection based on the most recent HMD population data and 5 year average (2015 through 2019) age specific mortality and fertility rates. Exposures are adjusted for the length of the observation period within a year, taking into account weeks with missing data and leap-weeks.
 
@@ -191,9 +195,9 @@ $$
 E_{xy} = N_{xy}^\mathrm{midyear}n_y^\mathrm{observed-weeks}/52.
 $$
 
-\section*{Bias correction of age specific annual death counts\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/31-rate_bias_correction.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/31-rate\_bias\_correction.R}}}}
+\subsubsection{Bias correction of age specific annual death counts}
 
-The purpose of our bias correction model is to correct any systematic deviations between our age specific mortality rate estimates and the official annual estimates. While the HMD-STMF death counts allow for timely estimates of current mortality they sometimes deviate substantially from official annual estimates due to different population definitions and reporting guidelines in the weekly death reporting compared to the annual reporting. Because these systematic biases are stable in time, they can be estimated and corrected. To that end we estimate a correction factor $\widehat{c}_{xy}$ which, if multiplied with the single age annual death counts, $\widehat{d}_{xy}$, yields the corrected counts:
+The purpose of our bias correction model is to correct any systematic deviations between our age specific mortality rate estimates and the official annual estimates. While the HMD-STMF death counts allow for timely estimates of current mortality they sometimes deviate substantially from official annual estimates due to different population definitions and reporting guidelines in the weekly death reporting compared to the annual reporting. Because these systematic biases are stable in time, they can be estimated and corrected. To that end we estimate\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/31-rate_bias_correction.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/31-rate\_bias\_correction.R}}} a correction factor $\widehat{c}_{xy}$ which, if multiplied with the single age annual death counts, $\widehat{d}_{xy}$, yields the corrected counts:
 
 \begin{equation*}
   \widehat{d}_{xy}^\mathrm{corrected} = \widehat{c}_{xy}\cdot\widehat{d}_{xy}.
@@ -230,9 +234,11 @@ Figures \ref{fig:biascorrection-a} and \ref{fig:biascorrection-b} show the estim
     \label{fig:biascorrection-b}
 \end{figure}
 
-\section*{Counterfactual mortality forecast\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/40-counterfactual_projection.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/40-counterfactual\_projection.R}}}}
+\section{Analysis}
 
-In order to calculate the life expectancy under continuation of pre-pandemic trends we forecast age specific mortality rates over the years 2020-2024 using a Poisson-Lee-Carter model given the data available up to January 2020.
+\subsection{Counterfactual mortality forecast}
+
+In order to calculate the life expectancy under continuation of pre-pandemic trends we forecast\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/40-counterfactual_projection.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/40-counterfactual\_projection.R}}} age specific mortality rates over the years 2020-2024 using a Poisson-Lee-Carter model given the data available up to January 2020.
 
 We fit a Poisson-Lee-Carter model \citep{Lee1992} where death counts at single age $x$ and single year $y$ are distributed
 
@@ -256,9 +262,9 @@ $$
 
 We estimate the variance and mean difference of the estimated year-on-year $\kappa_y$ changes and simulate a corresponding random walk with drift over the years 2020-2024. The resulting forecasts of $\kappa$ are then used to derive a corresponding surface of age-period mortality rates $\mu^\mathrm{expected}_{xy}=\exp\left(\alpha_x + \beta_x\kappa_y\right)$ for forecast horizon $y \in \{2020, 2021, \ldots, 2024\}$. We fit the model using the R library \texttt{StMoMo} \citep{Villegas2015}. Forecast uncertainty is propagated throughout the rest of the analysis via 250 samples of the forecasted $\mu^\mathrm{expected}_{xy}$.
 
-\section*{Life table inference\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/50-estimation_and_inference.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/50-estimation\_and\_inference.R}}}}
+\subsection{Life table inference}
 
-We perform a parametric bootstrap of our life table estimates based on 250 Poisson replicates of actual and expected age specific death counts for any population under consideration (for brevity sex, country, and year indices are omitted in this section).
+We perform a parametric bootstrap of our life table estimates\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/50-estimation_and_inference.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/50-estimation\_and\_inference.R}}} based on 250 Poisson replicates of actual and expected age specific death counts for any population under consideration (for brevity sex, country, and year indices are omitted in this section).
 
 $$
   d_{x}^\mathrm{actual} \sim \mathrm{Poisson}\left( \widehat{d}_{x}^\mathrm{corrected} \right) \\
@@ -336,9 +342,9 @@ Figure \ref{fig:pval} demonstrates the procedure.
     \label{fig:pval}
 \end{figure}
 
-\section*{Clustering of life expectancy deficits\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/51-assign_clusters.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/51-assign\_clusters.R}}}}
+\subsection{Clustering of life expectancy deficits}
 
-We calculate time series of life expectancy deficits, $e_{0,y}^\mathrm{deficit}$, for years 2020 through 2024 by region. These series are then clustered into four groups: A) Early peak (peak deficit in 2020 or 2021 without pronounced worsening in 2021), B) Second wave peak (pronounced peak deficit in 2021), C) Late peak (worsening of deficits starting 2022), and D) Prolonged depression (deficits since 2020 without pronounced peak or trend). To establish robustness, we compare the group assignment under three different clustering procedures.
+We calculate time series of life expectancy deficits, $e_{0,y}^\mathrm{deficit}$, for years 2020 through 2024 by region. These series are then clustered\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/51-assign_clusters.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/51-assign\_clusters.R}}} into four groups: A) Early peak (peak deficit in 2020 or 2021 without pronounced worsening in 2021), B) Second wave peak (pronounced peak deficit in 2021), C) Late peak (worsening of deficits starting 2022), and D) Prolonged depression (deficits since 2020 without pronounced peak or trend). To establish robustness, we compare the group assignment under three different clustering procedures.
 
 \emph{Hierarchical clustering}
 
@@ -397,9 +403,9 @@ US          & B            & B              & B \\\bottomrule
 \caption{\label{tab:cluster}Regional cluster assignments under different clustering procedures.}
 \end{table}
 
-\section*{Age decomposition analysis\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/50-estimation_and_inference.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/50-estimation\_and\_inference.R}}}}
+\subsection{Age decomposition analysis}
 
-We perform the Arriaga decomposition \citep{Arriaga1984} to attribute life expectancy deficits to age specific excess mortality. As the Arriaga decomposition is analytic and can be expressed as a series of simple arithmetic operations it lends itself well to simulation based inference where computation speed is vital. Based on the previously estimated life table quantities we calculate
+We perform the Arriaga decomposition \citep{Arriaga1984} to attribute life expectancy deficits to age specific excess mortality\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/50-estimation_and_inference.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/50-estimation\_and\_inference.R}}}. As the Arriaga decomposition is analytic and can be expressed as a series of simple arithmetic operations it lends itself well to simulation based inference where computation speed is vital. Based on the previously estimated life table quantities we calculate
 
 \begin{align*}
   {}_n\mathrm{DE}_x &= \left({}_nL_{x}^\mathrm{actual} / \ell_{x}^\mathrm{actual} -
@@ -418,7 +424,24 @@ $$
 {}_n\Delta_x^{e_0} = {}_n\mathrm{DE}_x + {}_n\mathrm{IE}_x.
 $$
 
-\section*{Alternative measures of excess mortality\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/92-sensitivity_check_excess_measures.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/92-sensitivity\_check\_excess\_measures.R}}}}
+\section{Robustness and sensitivity}
+
+\subsection{Benchmark tests}
+
+\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/91-benchmark_check_e0.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/91-benchmark\_check\_e0.R}}}
+
+\begin{figure}
+    \centering
+    \includegraphics{91-e0benchmark.pdf}
+    \caption{Comparison of our life expectancy estimates with past estimates by Eurostat and the Human Mortality Database.}
+    \label{fig:benchmark}
+\end{figure}
+
+\clearpage
+
+\subsection{Alternative measures of excess mortality}
+
+\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/92-sensitivity_check_excess_measures.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/92-sensitivity\_check\_excess\_measures.R}}}
 
 In addition to the life expectancy deficit we calculate alternative measures of excess mortality as a sensitivity check.
 
@@ -450,18 +473,7 @@ Figure \ref{fig:excessmeasures} shows a comparison of the three measures with ea
     \label{fig:excessmeasures}
 \end{figure}
 
-\section*{Benchmark tests\footnote{\href{https://github.com/jschoeley/e0deficit/blob/main/src/91-benchmark_check_e0.R}{\texttt{https://github.com/jschoeley/e0deficit/blob/main/src/91-benchmark\_check\_e0.R}}}}
-
-\begin{figure}
-    \centering
-    \includegraphics{91-e0benchmark.pdf}
-    \caption{Comparison of our life expectancy estimates with past estimates by Eurostat and the Human Mortality Database.}
-    \label{fig:benchmark}
-\end{figure}
-
-\clearpage
-
-\section*{Sensitivity of results to choice of fitting period}
+\subsection{Sensitivity of results to choice of fitting period}
 
 As a robustness check we re-calculated key results in our paper under a 10 year fitting period for the counterfactual life expectancy. Key results remain robust under either 10 or 20 years of fitting while the existence of significant life expectancy deficits in 2024 changes for some countries.
 
@@ -498,6 +510,39 @@ The US are uniquely sensitive to the choice of fitting period due to a period of
     \includegraphics{61-e0deficitbyyear_total_10y_fitting_windows.pdf}
     \caption{Annual life expectancy deficits under 10 year Lee-Carter fitting period.}
     \label{fig:annualdeficit10y}
+\end{figure}
+
+\clearpage
+
+\subsection{Sensitivity of results to choice of counterfactual}
+
+The choice of model for producing the counterfactual life expectancy under continuation of pre-pandemic trends influences life expectancy deficit estimates. Here we compare our results under three different counterfactuals a) the Lee-Carter forecasts used in the main text, b) a direct extrapolation of 2019 life expectancy under continuation of the mean annual changes observed over 2000-2019 (LE random walk with drift), and c) a log-linear extrapolation of age specific death rates based on mean annual changes 2000-2019 (ASDR random walk with drift).
+
+Figure \ref{fig:95-expected_by_model} displays the counterfactual life expectancy forecasts under different models. For the majority of locations the results are coherent. In countries where forecasts diverge noticeably, such as Estonia, Iceland, Israel, the Netherlands, Scotland, and the USA, the Lee-Carter model is always the least optimistic one, i.e. it produced lower counterfactual life expectancies compared with the alternative approaches. This tendency of the Lee-Carter model to be conservative in its forecasts makes our findings of life expectancy deficits conservative as well. The deficits we find tend to be even larger under alternative models.
+
+\begin{figure}
+    \centering
+    \includegraphics{95-expected_by_model.pdf}
+    \caption{Comparison of life expectancy forecasts 2020-2024 under three different models.}
+    \label{fig:95-expected_by_model}
+\end{figure}
+
+The country ranking in annual life expectancy deficits is somewhat sensitive to the choice of counterfactual model and becomes more sensitive over time as shown in Figure \ref{fig:95-deficit_rank_by_model}. However, almost all countries are within +/- 5 ranks of their Lee-Carter rank when comparing against the two alternative counterfactuals. Notable exceptions are the U.S. in 2023 and 2024 and Iceland in 2022. These changes in rank under different counterfactual life expectancy trajectories are however consistent with the prediction intervals given by the Lee-Carter method, which also derive from a set of simulated plausible counterfactuals. The prediction intervals around life expectancy deficits are wide enough to reliably identify the top, middle, and bottom groups in cross-country comparisons of life expectancy deficits, but do not allow for the robust identification of exact ranks.
+
+\begin{figure}
+    \centering
+    \includegraphics{95-deficit_rank_by_model.pdf}
+    \caption{Country ranking of annual life expectancy deficits under different counterfactual models. Comparison of the Lee-Carter counterfactual with A) a direct extrapolation of life expectancy under continuation of average annual rate of increase over the time period 2000-2019, and B) a log-linear extrapolation of age specific death rates based on average changes over the time period 2000-2019.}
+    \label{fig:95-deficit_rank_by_model}
+\end{figure}
+
+In Figure \ref{fig:95-deficit_cluster_by_model} we apply the same clustering as in the main text to life expectancy deficits under each counterfactual. Clearly the main cluster features reproduce almost perfectly across the different counterfactuals.
+
+\begin{figure}
+    \centering
+    \includegraphics{95-deficit_cluster_by_model.pdf}
+    \caption{Annual life expectancy deficits and clusters under different counterfactual models.}
+    \label{fig:95-deficit_cluster_by_model}
 \end{figure}
 
 \clearpage
