@@ -158,7 +158,7 @@ e0sensitivity$fig <-
   labs(
     y = 'Period life expectancy in years', x = NULL, color = NULL, fill = NULL,
     title = 'Life expectancy under different calculation methods',
-    subtitle = 'Own estimates with WPP22 exposures (filled dots), with WPP24 exposures (small open circles), and with HMD exposures (large open circles).\nHMD estimates (angled crosses) and Eurostat estimates (straight crosses)'
+    subtitle = 'Unadjusted estimates with WPP22 exposures (filled dots), with WPP24 exposures (small open circles), and with HMD exposures (large open circles).\nHMD estimates (angled crosses) and Eurostat estimates (straight crosses)'
   ) +
   facet_wrap(~region, scales = 'free_y', ncol = 5)
 
