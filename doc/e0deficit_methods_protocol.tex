@@ -563,6 +563,19 @@ US          & B            & B              & B \\\bottomrule
 
 \clearpage
 
+\subsection{Optimal number of clusters}
+
+Figure \ref{fig:51-cluster_diagnostics} contrasts the within cluster sum of squares with the average silhouette width across different cluster counts. The model evaluated is the hierarchical clustering as used in the main text of the paper. Naturally, the within cluster variability decreases with more clusters. However, this comes at the expense of more similar clusters. The silhouette width \citep{Rousseeuw1987} measures the balance between within cluster coherence and between cluster separation. An optimum is reached with four clusters.
+
+\begin{figure}
+    \centering
+    \includegraphics{51-cluster_diagnostics.pdf}
+    \caption{Evaluation of cluster coherence and separation of the hierarchical model over different cluster counts.}
+    \label{fig:51-cluster_diagnostics}
+\end{figure}
+
+\clearpage
+
 %--- Bibliography ------------------------------------------------------
 
 \bibliography{refs.bib}

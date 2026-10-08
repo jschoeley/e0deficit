@@ -6,6 +6,9 @@
 !50-pval.csv
 !51-cluster_concordance_with_visual.csv
 !51-cluster_concordance_with_dtw.csv
+!51-cluster_diagnostics.svg
+!51-cluster_elbow.csv
+!51-cluster_silhouette.csv
 !60-e0deficittypology.csv
 !60-e0deficittypology.svg
 !60-e0deficittypology.svg

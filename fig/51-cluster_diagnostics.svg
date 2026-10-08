@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="481.89pt"
+   height="283.46pt"
+   viewBox="0 0 481.89 283.46"
+   version="1.1"
+   id="svg57"
+   sodipodi:docname="51-cluster_diagnostics.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs57" />
+  <sodipodi:namedview
+     id="namedview57"
+     pagecolor="#ffffff"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="pt"
+     inkscape:zoom="3.0665703"
+     inkscape:cx="321.36879"
+     inkscape:cy="188.97333"
+     inkscape:window-width="3440"
+     inkscape:window-height="1372"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g56" />
+  <g
+     class="svglite"
+     id="g57">
+    <defs
+       id="defs1">
+      <style
+         type="text/css"
+         id="style1"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+    </defs>
+    <rect
+       width="100%"
+       height="100%"
+       style="stroke: none; fill: none;"
+       id="rect1" />
+    <defs
+       id="defs2">
+      <clipPath
+         id="cpMC4wMHw0ODEuODl8MC4wMHwyODMuNDY=">
+        <rect
+           x="0.00"
+           y="0.00"
+           width="481.89"
+           height="283.46"
+           id="rect2" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpMC4wMHw0ODEuODl8MC4wMHwyODMuNDY=)"
+       id="g2" />
+    <defs
+       id="defs3">
+      <clipPath
+         id="cpMjcuNjN8NDQzLjEzfDMuOTl8MjU3LjU3">
+        <rect
+           x="27.63"
+           y="3.99"
+           width="415.50"
+           height="253.58"
+           id="rect3" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpMjcuNjN8NDQzLjEzfDMuOTl8MjU3LjU3)"
+       id="g25">
+      <rect
+         x="27.63"
+         y="3.99"
+         width="415.50"
+         height="253.58"
+         style="stroke-width: 0.78; stroke: none; fill: #F2F2F2;"
+         id="rect4" />
+      <polyline
+         points="27.63,199.10 443.13,199.10 "
+         style="stroke-width: 0.64; stroke: #CCCCCC; stroke-dasharray: 1.00,3.00; stroke-linecap: square;"
+         id="polyline4" />
+      <polyline
+         points="27.63,122.78 443.13,122.78 "
+         style="stroke-width: 0.64; stroke: #CCCCCC; stroke-dasharray: 1.00,3.00; stroke-linecap: square;"
+         id="polyline5" />
+      <polyline
+         points="27.63,46.45 443.13,46.45 "
+         style="stroke-width: 0.64; stroke: #CCCCCC; stroke-dasharray: 1.00,3.00; stroke-linecap: square;"
+         id="polyline6" />
+      <line
+         x1="172.43"
+         y1="257.57"
+         x2="172.43"
+         y2="3.99"
+         style="stroke-width:0.78;stroke:#7F7F7F;stroke-dasharray:0.77999997,2.33999992;stroke-linecap:butt;stroke-dashoffset:0"
+         id="line6" />
+      <polyline
+         points="46.52,15.51 88.49,128.69 130.46,169.79 172.43,194.30 214.40,210.27 256.37,222.00 298.34,230.48 340.31,237.16 382.28,242.09 424.24,246.04 "
+         style="stroke-width: 0.78; stroke: #004B87; stroke-linecap: butt;"
+         id="polyline7" />
+      <circle
+         cx="46.52"
+         cy="15.51"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #004B87; fill: #004B87;"
+         id="circle7" />
+      <circle
+         cx="88.49"
+         cy="128.69"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #004B87; fill: #004B87;"
+         id="circle8" />
+      <circle
+         cx="130.46"
+         cy="169.79"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #004B87; fill: #004B87;"
+         id="circle9" />
+      <circle
+         cx="172.43"
+         cy="194.30"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #004B87; fill: #004B87;"
+         id="circle10" />
+      <circle
+         cx="214.40"
+         cy="210.27"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #004B87; fill: #004B87;"
+         id="circle11" />
+      <circle
+         cx="256.37"
+         cy="222.00"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #004B87; fill: #004B87;"
+         id="circle12" />
+      <circle
+         cx="298.34"
+         cy="230.48"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #004B87; fill: #004B87;"
+         id="circle13" />
+      <circle
+         cx="340.31"
+         cy="237.16"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #004B87; fill: #004B87;"
+         id="circle14" />
+      <circle
+         cx="382.28"
+         cy="242.09"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #004B87; fill: #004B87;"
+         id="circle15" />
+      <circle
+         cx="424.24"
+         cy="246.04"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #004B87; fill: #004B87;"
+         id="circle16" />
+      <polyline
+         points="88.49,50.38 130.46,26.90 172.43,15.51 214.40,146.36 256.37,171.66 298.34,166.61 340.31,216.00 382.28,218.71 424.24,246.04 "
+         style="stroke-width: 0.78; stroke: #C60C30; stroke-linecap: butt;"
+         id="polyline16" />
+      <circle
+         cx="88.49"
+         cy="50.38"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #C60C30; fill: #C60C30;"
+         id="circle17" />
+      <circle
+         cx="130.46"
+         cy="26.90"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #C60C30; fill: #C60C30;"
+         id="circle18" />
+      <circle
+         cx="172.43"
+         cy="15.51"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #C60C30; fill: #C60C30;"
+         id="circle19" />
+      <circle
+         cx="214.40"
+         cy="146.36"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #C60C30; fill: #C60C30;"
+         id="circle20" />
+      <circle
+         cx="256.37"
+         cy="171.66"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #C60C30; fill: #C60C30;"
+         id="circle21" />
+      <circle
+         cx="298.34"
+         cy="166.61"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #C60C30; fill: #C60C30;"
+         id="circle22" />
+      <circle
+         cx="340.31"
+         cy="216.00"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #C60C30; fill: #C60C30;"
+         id="circle23" />
+      <circle
+         cx="382.28"
+         cy="218.71"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #C60C30; fill: #C60C30;"
+         id="circle24" />
+      <circle
+         cx="424.24"
+         cy="246.04"
+         r="1.42"
+         style="stroke-width: 0.52; stroke: #C60C30; fill: #C60C30;"
+         id="circle25" />
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw0ODEuODl8MC4wMHwyODMuNDY=)"
+       id="g56">
+      <text
+         x="22.06"
+         y="201.86"
+         text-anchor="end"
+         style="font-size:8px;fill:#004B87;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text25">20</text>
+      <text
+         x="22.06"
+         y="125.53"
+         text-anchor="end"
+         style="font-size:8px;fill:#004B87;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text26">40</text>
+      <text
+         x="22.06"
+         y="49.20"
+         text-anchor="end"
+         style="font-size:8px;fill:#004B87;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text27">60</text>
+      <polyline
+         points="25.64,199.10 27.63,199.10 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline27" />
+      <polyline
+         points="25.64,122.78 27.63,122.78 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline28" />
+      <polyline
+         points="25.64,46.45 27.63,46.45 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline29" />
+      <polyline
+         points="445.12,196.95 443.13,196.95 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline30" />
+      <polyline
+         points="445.12,132.24 443.13,132.24 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline31" />
+      <polyline
+         points="445.12,67.52 443.13,67.52 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline32" />
+      <text
+         x="468.74"
+         y="199.70"
+         text-anchor="end"
+         style="font-size:8px;fill:#C60C30;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text32">0.325</text>
+      <text
+         x="468.74"
+         y="134.99"
+         text-anchor="end"
+         style="font-size:8px;fill:#C60C30;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text33">0.350</text>
+      <text
+         x="468.74"
+         y="70.28"
+         text-anchor="end"
+         style="font-size:8px;fill:#C60C30;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text34">0.375</text>
+      <text
+         x="216.63338"
+         y="16.330753"
+         text-anchor="end"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';text-align:end;text-anchor:end;white-space:pre;fill:#c60c30"
+         id="text34-7"><tspan
+           style="font-weight:bold"
+           id="tspan57">0.395 @ k=4</tspan></text>
+      <polyline
+         points="27.63,257.57 443.13,257.57 "
+         style="stroke-width: 0.64; stroke-linecap: square;"
+         id="polyline34" />
+      <polyline
+         points="46.52,259.56 46.52,257.57 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline35" />
+      <polyline
+         points="88.49,259.56 88.49,257.57 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline36" />
+      <polyline
+         points="130.46,259.56 130.46,257.57 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline37" />
+      <polyline
+         points="172.43,259.56 172.43,257.57 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline38" />
+      <polyline
+         points="214.40,259.56 214.40,257.57 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline39" />
+      <polyline
+         points="256.37,259.56 256.37,257.57 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline40" />
+      <polyline
+         points="298.34,259.56 298.34,257.57 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline41" />
+      <polyline
+         points="340.31,259.56 340.31,257.57 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline42" />
+      <polyline
+         points="382.28,259.56 382.28,257.57 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline43" />
+      <polyline
+         points="424.24,259.56 424.24,257.57 "
+         style="stroke-width: 0.32; stroke-linecap: square;"
+         id="polyline44" />
+      <text
+         x="46.52"
+         y="268.65"
+         text-anchor="middle"
+         style="font-size:8px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text44">1</text>
+      <text
+         x="88.49"
+         y="268.65"
+         text-anchor="middle"
+         style="font-size:8px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text45">2</text>
+      <text
+         x="130.46"
+         y="268.65"
+         text-anchor="middle"
+         style="font-size:8px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text46">3</text>
+      <text
+         x="172.43"
+         y="268.65"
+         text-anchor="middle"
+         style="font-size:8px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text47">4</text>
+      <text
+         x="214.40"
+         y="268.65"
+         text-anchor="middle"
+         style="font-size:8px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text48">5</text>
+      <text
+         x="256.37"
+         y="268.65"
+         text-anchor="middle"
+         style="font-size:8px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text49">6</text>
+      <text
+         x="298.34"
+         y="268.65"
+         text-anchor="middle"
+         style="font-size:8px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text50">7</text>
+      <text
+         x="340.31"
+         y="268.65"
+         text-anchor="middle"
+         style="font-size:8px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text51">8</text>
+      <text
+         x="382.28"
+         y="268.65"
+         text-anchor="middle"
+         style="font-size:8px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text52">9</text>
+      <text
+         x="424.24"
+         y="268.65"
+         text-anchor="middle"
+         style="font-size:8px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text53">10</text>
+      <text
+         x="443.13"
+         y="277.82"
+         text-anchor="end"
+         style="font-size:8px;font-weight:bold;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text54">Number of clusters</text>
+      <text
+         transform="translate(9.49,3.99) rotate(-90)"
+         text-anchor="end"
+         style="font-size:8px;font-weight:bold;fill:#004B87;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text55">Within-cluster sum of squares</text>
+      <text
+         transform="translate(476.24,3.99) rotate(-90)"
+         text-anchor="end"
+         style="font-size:8px;font-weight:bold;fill:#C60C30;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';font-style:normal;font-stretch:normal;font-variant:normal"
+         id="text56">Average silhouette width</text>
+    </g>
+  </g>
+</svg>

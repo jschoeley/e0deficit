@@ -24,7 +24,10 @@ paths$input <- list(
 paths$output <- list(
   deficit_clusters.csv = './out/51-deficit_clusters.csv',
   cluster_concordance_with_visual.csv = './out/51-cluster_concordance_with_visual.csv',
-  cluster_concordance_with_dtw.csv = './out/51-cluster_concordance_with_dtw.csv'
+  cluster_concordance_with_dtw.csv = './out/51-cluster_concordance_with_dtw.csv',
+  cluster_diagnostics.svg = './out/51-cluster_diagnostics.svg',
+  cluster_elbow.csv = './out/51-cluster_elbow.csv',
+  cluster_silhouette.csv = './out/51-cluster_silhouette.csv'
 )
 
 # global configuration
@@ -41,6 +44,8 @@ cnst <- within(list(), {
   sex = 'Total'
   age = '0'
   seed = 1987
+  elbow_k = 1:10
+  silhouette_k = 2:10
 })
 
 # Functions ---------------------------------------------------------------
@@ -140,11 +145,70 @@ GetClusterFeatures <- function(
   }))
 }
 
+# shared inputs for L2 + Ward clustering
+PrepareClusterSeries <- function(cluster_features) {
+  series <-
+      tslist(select(cluster_features, starts_with('e0_')) |>
+             as.matrix())
+  names(series) <- cluster_features$region_iso
+  return(series)
+}
+
+PreprocessClusterSeries <- function(series) {
+  series <- tslist(lapply(series, function(x) {
+    trajectory_range <- diff(range(x))
+    normalized <- x - mean(x)
+    # avoid division by zero
+    if (trajectory_range > 0) normalized <- normalized / trajectory_range
+    c(normalized, diff(normalized), trajectory_range)
+  }))
+  return(series)
+}
+
+FitTrajectoryClusters <- function(cluster_features) {
+  tsclust(
+    PrepareClusterSeries(cluster_features), k = 4,
+    type = 'hierarchical',
+    preproc = PreprocessClusterSeries,
+    distance = 'L2',
+    control = hierarchical_control(method = "ward.D2"),
+    seed = cnst$seed
+  )
+}
+
+# calculate WSS in the transformed Euclidean space, not on raw deficits
+GetClusterElbow <- function(cluster_features, dtw_fit, k = cnst$elbow_k) {
+  X <- do.call(rbind, PreprocessClusterSeries(PrepareClusterSeries(cluster_features)))
+  tree <- as(dtw_fit, "hclust")
+  bind_rows(lapply(k, function(nclusters) {
+    partition <- cutree(tree, k = nclusters)
+    wss <- sum(vapply(split(seq_len(nrow(X)), partition), function(rows) {
+      members <- X[rows, , drop = FALSE]
+      sum(sweep(members, 2, colMeans(members), "-")^2)
+    }, numeric(1)))
+    tibble(k = nclusters, wss = wss)
+  }))
+}
+
+# silhouettes use unsquared L2 distances on the same transformed inputs
+# they are defined only for 2 <= k <= number of regions - 1
+GetClusterSilhouette <- function(cluster_features, dtw_fit, k = cnst$silhouette_k) {
+  X <- do.call(rbind, PreprocessClusterSeries(PrepareClusterSeries(cluster_features)))
+  tree <- as(dtw_fit, "hclust")
+  distances <- dist(X, method = 'euclidean')
+  bind_rows(lapply(k, function(nclusters) {
+    partition <- cutree(tree, k = nclusters)
+    widths <- cluster::silhouette(partition, distances)
+    tibble(k = nclusters, average_silhouette_width = mean(widths[, 'sil_width']))
+  }))
+}
+
 AssignExDeficitClustersFromFeatures <- function(
     cluster_features,
     fixed_peak_prominence_threshold = 0.2,
     fixed_range_threshold = 0.75,
-    alpha = 0.1
+    alpha = 0.1,
+    dtw_fit = FitTrajectoryClusters(cluster_features)
 ) {
 
   require(dplyr)
@@ -174,29 +238,6 @@ AssignExDeficitClustersFromFeatures <- function(
       )) |>
     select(region_iso, cluster_alpha = cluster)
 
-  # dtw
-  dtw_data <- tslist(
-    cluster_features |>
-    select(starts_with('e0_')) |>
-    as.matrix()
-  ); names(dtw_data) <- cluster_features$region_iso
-  # cluster the time series
-  dtw_fit <-
-    tsclust(
-      dtw_data, k = 4,
-      type = 'hierarchical',
-      preproc = function(series) {
-        tslist(lapply(series, function(x) {
-          trajectory_range <- diff(range(x))
-          normalized <- x - mean(x)
-          normalized <- normalized / trajectory_range
-          c(normalized, diff(normalized), trajectory_range)
-        }))
-      },
-      distance = 'L2',
-      control = hierarchical_control(method = "ward.D2"),
-      seed = cnst$seed
-    )
   # assign cluster labels based on features of cluster average series
   dtw_features <- do.call('rbind',
     lapply(split(cluster_features, dtw_fit@cluster), function (l) {
@@ -257,10 +298,69 @@ cluster_features <-
     age = cnst$age
   )
 
+dtw_fit <- FitTrajectoryClusters(cluster_features)
+
 cluster_assignment <-
-  AssignExDeficitClustersFromFeatures(cluster_features) |>
+  AssignExDeficitClustersFromFeatures(cluster_features, dtw_fit = dtw_fit) |>
   left_join(visual_clusters, by = "region_iso") |>
   relocate(cluster_visual, .after = cluster_dtw)
+
+# Elbow diagnostic for number of clusters ---------------------------------
+
+# cut the same tree at k = 1,...,10; do not change the four-cluster assignment
+cluster_elbow <- GetClusterElbow(cluster_features, dtw_fit)
+
+# Silhouette diagnostic for number of clusters ----------------------------
+
+cluster_silhouette <- GetClusterSilhouette(cluster_features, dtw_fit)
+# in a tie, prefer the smaller number of clusters among those evaluated
+silhouette_best <- cluster_silhouette |>
+  arrange(desc(average_silhouette_width), k) |>
+  slice(1)
+
+silhouette_range <- range(cluster_silhouette$average_silhouette_width)
+wss_range <- range(cluster_elbow$wss)
+silhouette_scale <- if (diff(silhouette_range) > 0 && diff(wss_range) > 0) {
+  diff(wss_range) / diff(silhouette_range)
+} else {
+  1
+}
+silhouette_offset <- wss_range[1] - silhouette_range[1] * silhouette_scale
+
+cluster_diagnostics_plot <-
+  ggplot() +
+  geom_vline(xintercept = 4, linetype = 'dashed', color = 'grey50') +
+  geom_line(data = cluster_elbow, aes(x = k, y = wss, color = 'WSS')) +
+  geom_point(data = cluster_elbow, aes(x = k, y = wss, color = 'WSS')) +
+  geom_line(data = cluster_silhouette,
+            aes(x = k, y = average_silhouette_width * silhouette_scale + silhouette_offset,
+                color = 'Silhouette')) +
+  geom_point(data = cluster_silhouette,
+             aes(x = k, y = average_silhouette_width * silhouette_scale + silhouette_offset,
+                 color = 'Silhouette')) +
+  geom_point(data = silhouette_best,
+             aes(x = k, y = average_silhouette_width * silhouette_scale + silhouette_offset,
+                 color = 'Silhouette'), size = 3, shape = 18) +
+  scale_x_continuous(breaks = sort(unique(c(cnst$elbow_k, cnst$silhouette_k)))) +
+  scale_y_continuous(
+    name = 'Within-cluster sum of squares',
+    sec.axis = sec_axis(~ (. - silhouette_offset) / silhouette_scale,
+                        name = 'Average silhouette width')
+  ) +
+  scale_color_manual(
+    values = c('WSS' = '#004b87', 'Silhouette' = '#c60c30'),
+    name = NULL
+  ) +
+  labs(
+    x = 'Number of clusters',
+  ) +
+  MyGGplotTheme(show_legend = FALSE) +
+  theme(
+    axis.title.y.left = element_text(color = '#004b87'),
+    axis.text.y.left = element_text(color = '#004b87'),
+    axis.title.y.right = element_text(color = '#c60c30'),
+    axis.text.y.right = element_text(color = '#c60c30')
+  )
 
 # Analyse concordance in cluster assignment -------------------------------
 
@@ -292,6 +392,9 @@ deficit_clusters <-
 
 # Export ------------------------------------------------------------------
 
+write_csv(cluster_silhouette, paths$output$cluster_silhouette.csv)
+write_csv(cluster_elbow, paths$output$cluster_elbow.csv)
+ExportSVG(cluster_diagnostics_plot, paths$output$cluster_diagnostics.svg)
 write_csv(deficit_clusters, paths$output$deficit_clusters.csv)
 write_csv(cluster_concordance_with_visual,
           paths$output$cluster_concordance_with_visual.csv)
